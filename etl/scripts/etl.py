@@ -19,7 +19,7 @@ index_df = read_source('index').set_index('sheet')
 # step 1: load all concepts, save to ddf--concepts.csv
 concept_files = index_df[index_df['type'] == 'concepts'].index.values
 concept_dfs = [read_source(x) for x in concept_files]
-concept_df = pd.concat(concept_dfs, ignore_index=True).set_index('concept')
+concept_df = pd.concat(concept_dfs, ignore_index=True)
 
 def check_columns(columns: Iterable):
     set_diff = set(columns) - set(concept_df.index)
@@ -29,7 +29,10 @@ def check_columns(columns: Iterable):
 
 # 1.0 we must have concept and concept_type columns
 if 'concept' not in concept_df.columns or 'concept_type' not in concept_df.columns:
-    raise ValueError('concept or concept_type column must exist in concepts sheets.')
+    print(f'columns: {concept_df.columns}')
+    raise ValueError('concept and concept_type column must exist in concepts sheets.')
+
+concept_df = concept_df.set_index('concept')
 
 # 1.1 ensure all columns are concepts
 concept_columns = concept_df.columns
