@@ -1,3 +1,4 @@
 pandas
 xlrd
 ddf_utils
+openpyxl
