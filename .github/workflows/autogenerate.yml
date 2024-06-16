@@ -1,4 +1,4 @@
-name: Run Python Script on File Change
+name: Run ETL when source file change
 
 on:
   push:
@@ -27,6 +27,8 @@ jobs:
       run: |
         cd etl/scripts
         python etl.py
+        cd ../../
+        ddf create_datapackage --update .
 
     - name: Commit and push changes
       run: |
