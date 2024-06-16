@@ -1,0 +1,33 @@
+concept,concept_type,domain,name,description,drill_up
+geo,entity_domain,,Plats,,
+deso,entity_set,geo,DeSO,,regso
+regso,entity_set,geo,RegSO,,kommun
+kommun,entity_set,geo,Kommun,,laen
+laen,entity_set,geo,Län,,rike
+rike,entity_set,geo,Rike_,,
+name,string,,Namn,,
+deso_type,string,,DeSO type,,
+year,time,,,,
+domain,string,,,,
+description,string,,,,
+drill_up,string,,,,
+m_alder_deso_alla,measure,,Medelålder,,
+m_kvinna_deso_alla,measure,,Andel kvinnor,,
+z_alder_deso_alla_komm,measure,,Medelålder (avvikelse från kommun),Standard deviation,
+z_kvinna_deso_alla_komm,measure,,Andel kvinnor (avvikelse från kommun),Standard deviation,
+m_syssel_deso_20_64,measure,,"Sysselsättning, 20-64 år",,
+z_syssel_deso_20_64_komm,measure,,"Sysselsättning, 20-64 år (avvikelse från kommun)",Standard deviation,
+m_socbid_deso_20_64,measure,,"Ekonomiskt bistånd, 20-64 år",,
+z_socbid_deso_20_64_komm,measure,,"Ekonomiskt bistånd, 20-64 år (avvikelse från kommun)",Standard deviation,
+m_utflyt_deso_alla,measure,,Utflyttning,,
+m_inflyt_deso_alla,measure,,Inflyttning,,
+z_inflyt_deso_alla_komm,measure,,Inflyttning (avvikelse från kommun),Standard deviation,
+z_utflyt_deso_alla_komm,measure,,Utflyttning (avvikelse från kommun),Standard deviation,
+m_efterg_deso_25_64,measure,,"Eftergymnasial utbildning, 25-64",,
+z_efterg_deso_25_64_komm,measure,,"Eftergymnasial utbildning, 25-64 (avvikelse från kommun)",Standard deviation,
+m_invand_deso_alla,measure,,Utrikesfödda,,
+m_invbak_deso_alla,measure,,Utländsk bakgrund,,
+z_invand_deso_alla_komm,measure,,Utlandsfödda (avvikelse från kommun),Standard deviation,
+z_invbak_deso_alla_komm,measure,,Utländsk bakgrund (avvikelse från kommun),Standard deviation,
+m_dispin_deso_20_64,measure,,"Disponibel inkomst, 20-64 år",,
+z_dispin_deso_20_64_komm,measure,,"Disponibel inkomst, 20-64 år (avvikelse från kommun)",Standard deviation,
