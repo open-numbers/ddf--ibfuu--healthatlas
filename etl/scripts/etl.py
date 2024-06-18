@@ -91,6 +91,6 @@ for sheet in datapoint_files.index:
     pkeys_str = '--'.join(pkeys)
     for col in datapoint_df:
         out_file_name = f'ddf--datapoints--{col}--by--{pkeys_str}.csv'
-        datapoint_df[col].to_csv(os.path.join(output_dir, out_file_name))
+        datapoint_df[col].dropna().to_csv(os.path.join(output_dir, out_file_name))
 
 print('ddf dataset created successfully.')
