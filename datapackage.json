@@ -7,7 +7,7 @@
     "description": "",
     "author": "",
     "license": "",
-    "created": "2024-08-09T12:49:28.683257+00:00",
+    "created": "2024-08-12T12:40:09.418539+00:00",
     "resources": [
         {
             "name": "ddf--concepts",
@@ -31,6 +31,9 @@
                     },
                     {
                         "name": "drill_up"
+                    },
+                    {
+                        "name": "tags"
                     }
                 ],
                 "primaryKey": [
@@ -779,6 +782,29 @@
                     "rike"
                 ]
             }
+        },
+        {
+            "name": "ddf--entities--tag",
+            "path": "ddf--entities--tag.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "tag"
+                    },
+                    {
+                        "name": "name"
+                    },
+                    {
+                        "name": "parent"
+                    },
+                    {
+                        "name": "is--tag"
+                    }
+                ],
+                "primaryKey": [
+                    "tag"
+                ]
+            }
         }
     ],
     "ddfSchema": {
@@ -824,6 +850,15 @@
                     "concept"
                 ],
                 "value": "name",
+                "resources": [
+                    "ddf--concepts"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "concept"
+                ],
+                "value": "tags",
                 "resources": [
                     "ddf--concepts"
                 ]
@@ -936,6 +971,15 @@
                 "value": "is--rike",
                 "resources": [
                     "ddf--entities--geo--rike"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "tag"
+                ],
+                "value": "is--tag",
+                "resources": [
+                    "ddf--entities--tag"
                 ]
             },
             {
@@ -1060,6 +1104,24 @@
                 "value": "name",
                 "resources": [
                     "ddf--entities--geo--rike"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "tag"
+                ],
+                "value": "name",
+                "resources": [
+                    "ddf--entities--tag"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "tag"
+                ],
+                "value": "parent",
+                "resources": [
+                    "ddf--entities--tag"
                 ]
             },
             {
