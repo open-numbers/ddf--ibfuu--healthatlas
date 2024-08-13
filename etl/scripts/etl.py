@@ -11,15 +11,20 @@ source_file_path = '../source/boendebarometer.ddf.xlsx'
 output_dir = '../../'
 # source_file_path = os.path.join(os.path.abspath(__file__), '../source/boendebarometer.ddf.xlsx')
 
-def read_source(sheet_name: str):
-    return pd.read_excel(source_file_path, sheet_name=sheet_name, dtype=object)
+def read_source(sheet_name: str, **kwargs):
+    return pd.read_excel(source_file_path, sheet_name=sheet_name, **kwargs)
 
-index_df = read_source('index').set_index('sheet')
+index_df = read_source('index', dtype=str).set_index('sheet')
+
+# prepare a datatype dictionary for correctly infer the datatypes in all sheets
+dictionary_df = read_source('dictionary', dtype=str).set_index('concept')
+string_columns = dictionary_df[dictionary_df['concept_type'] != 'measure']
+dtypes = dict([(x, 'str') for x in string_columns.index.values])
 
 # I will just do very minimum validations in this script.
 # step 1: load all concepts, save to ddf--concepts.csv
 concept_files = index_df[index_df['type'] == 'concepts'].index.values
-concept_dfs = [read_source(x) for x in concept_files]
+concept_dfs = [read_source(x, dtype=str) for x in concept_files]
 concept_df = pd.concat(concept_dfs, ignore_index=True)
 
 def check_columns(columns: Iterable):
@@ -63,7 +68,7 @@ entity_files = index_df[index_df['type'] == 'entities']
 entity_files
 
 for sheet in entity_files.index:
-    entity_df = read_source(sheet)
+    entity_df = read_source(sheet, dtype=str)
     # I will assume that the sheet name is the primary key column.
     # so check if it's a entity_set or entity_domain
     if concept_df.loc[sheet].concept_type == 'entity_domain':
@@ -88,7 +93,7 @@ datapoint_files = index_df[index_df['type'] == 'datapoints']
 datapoint_files
 
 for sheet in datapoint_files.index:
-    datapoint_df = read_source(sheet)
+    datapoint_df = read_source(sheet, dtype=dtypes)
     # auto detect which are primary keys
     pkeys = []
     for col in datapoint_df.columns:
