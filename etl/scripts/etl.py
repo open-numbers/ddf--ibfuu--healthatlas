@@ -3,7 +3,6 @@
 
 from typing import Iterable
 import os
-import json
 import pandas as pd
 
 
@@ -11,15 +10,15 @@ source_file_path = '../source/boendebarometer.ddf.xlsx'
 output_dir = '../../'
 # source_file_path = os.path.join(os.path.abspath(__file__), '../source/boendebarometer.ddf.xlsx')
 
-def read_source(sheet_name: str):
-    return pd.read_excel(source_file_path, sheet_name=sheet_name)
+def read_source(sheet_name: str, **kwargs):
+    return pd.read_excel(source_file_path, sheet_name=sheet_name, **kwargs)
 
 index_df = read_source('index').set_index('sheet')
 
 # I will just do very minimum validations in this script.
 # step 1: load all concepts, save to ddf--concepts.csv
 concept_files = index_df[index_df['type'] == 'concepts'].index.values
-concept_dfs = [read_source(x) for x in concept_files]
+concept_dfs = [read_source(x, dtype=str) for x in concept_files]
 concept_df = pd.concat(concept_dfs, ignore_index=True)
 
 def check_columns(columns: Iterable):
@@ -46,24 +45,16 @@ if not concept_df[concept_df.concept_type == 'entity_set'].empty:
         if pd.isnull(row['domain']):
             raise ValueError(f'domain is empty for entity_set: {c}')
 
-# 1.3 convert drill_up values to json string
-def drill_up_to_json(val: str):
-    if pd.isnull(val):
-        return val
-    lst = val.split(',')
-    return json.dumps(lst)
-
-concept_df['drill_up'] = concept_df['drill_up'].map(drill_up_to_json)
-
 concept_df.to_csv(os.path.join(output_dir, 'ddf--concepts.csv'))
 
+concept_df.loc['deso'].concept_type
 
 # step 2: load all entities
 entity_files = index_df[index_df['type'] == 'entities']
 entity_files
 
 for sheet in entity_files.index:
-    entity_df = read_source(sheet)
+    entity_df = read_source(sheet, dtype=str)
     # I will assume that the sheet name is the primary key column.
     # so check if it's a entity_set or entity_domain
     if concept_df.loc[sheet].concept_type == 'entity_domain':
@@ -88,7 +79,7 @@ datapoint_files = index_df[index_df['type'] == 'datapoints']
 datapoint_files
 
 for sheet in datapoint_files.index:
-    datapoint_df = read_source(sheet)
+    datapoint_df = read_source(sheet, dtype=str)
     # auto detect which are primary keys
     pkeys = []
     for col in datapoint_df.columns:
@@ -100,6 +91,6 @@ for sheet in datapoint_files.index:
     pkeys_str = '--'.join(pkeys)
     for col in datapoint_df:
         out_file_name = f'ddf--datapoints--{col}--by--{pkeys_str}.csv'
-        datapoint_df[col].dropna().to_csv(os.path.join(output_dir, out_file_name))
+        datapoint_df[col].to_csv(os.path.join(output_dir, out_file_name))
 
 print('ddf dataset created successfully.')
