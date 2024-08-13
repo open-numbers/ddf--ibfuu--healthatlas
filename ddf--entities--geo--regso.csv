@@ -1,1214 +1,1214 @@
 regso,name,kommun,laen,rike,is--regso
-0114R001,Bollstanäs,114,1,0,TRUE
-0114R002,Hammarby-Vaxmyra,114,1,0,TRUE
-0114R003,Odenslunda norra-Frestaby-Ekeby,114,1,0,TRUE
-0114R004,Odenslunda södra-Bredden,114,1,0,TRUE
-0114R005,Runby norra,114,1,0,TRUE
-0114R006,Runby södra-Ed,114,1,0,TRUE
-0114R007,Skälby-Brunnby Vik,114,1,0,TRUE
-0114R008,Smedby södra-Älvsunda,114,1,0,TRUE
-0114R009,Upplands Väsby centrum-Smedby norra,114,1,0,TRUE
-0114R010,Upplands Väsby omland,114,1,0,TRUE
-0114R011,Vilunda västra,114,1,0,TRUE
-0114R012,Vilunda östra,114,1,0,TRUE
-0115R001,Karby-Brottby,115,1,0,TRUE
-0115R002,Lindholmen,115,1,0,TRUE
-0115R003,Vallentuna centrala tätort,115,1,0,TRUE
-0115R004,Vallentuna landsbygd,115,1,0,TRUE
-0115R005,Vallentuna södra tätort,115,1,0,TRUE
-0115R006,Vallentuna västra tätort,115,1,0,TRUE
-0115R007,Vallentuna östra tätort,115,1,0,TRUE
-0117R001,Berga,117,1,0,TRUE
-0117R002,Brevik-Lervik-Flaxenvik,117,1,0,TRUE
-0117R003,Hacksta-Centrumområdet,117,1,0,TRUE
-0117R004,Ljusterö-omkringliggande skärgård,117,1,0,TRUE
-0117R005,Margeretelunds centrum,117,1,0,TRUE
-0117R006,Norrgårdshöjden,117,1,0,TRUE
-0117R007,Roslagskulla-Furusundsleden,117,1,0,TRUE
-0117R008,Rydbo,117,1,0,TRUE
-0117R009,Skånsta-Singö,117,1,0,TRUE
-0117R010,Stava-Smedby-Sjökarby,117,1,0,TRUE
-0117R011,Svinninge,117,1,0,TRUE
-0117R012,Söra,117,1,0,TRUE
-0117R013,Tuna,117,1,0,TRUE
-0117R014,Täljö-Runö,117,1,0,TRUE
-0117R015,Österskär,117,1,0,TRUE
-0120R001,Björnkärret-Nyhem,120,1,0,TRUE
-0120R002,Djurö-Vindö,120,1,0,TRUE
-0120R003,Farstalandet-Charlottendal,120,1,0,TRUE
-0120R004,Hagaberg,120,1,0,TRUE
-0120R005,Hemmesta,120,1,0,TRUE
-0120R006,Herrviksnäs-Strömma-Hässelmara,120,1,0,TRUE
-0120R007,Ingarö norr,120,1,0,TRUE
-0120R008,Ingarö söder,120,1,0,TRUE
-0120R009,Kvarnberget-Hästhagen,120,1,0,TRUE
-0120R010,Munkmora-Ösby grind,120,1,0,TRUE
-0120R011,Mörtnäs,120,1,0,TRUE
-0120R012,Norra Värdölandet-Skärgården,120,1,0,TRUE
-0120R013,Ormingelandet,120,1,0,TRUE
-0120R014,Skeppsdalsström,120,1,0,TRUE
-0120R015,Stavsnäs,120,1,0,TRUE
-0120R016,Torsby,120,1,0,TRUE
-0120R017,Älvsala-Skärmarö,120,1,0,TRUE
-0120R018,Ösbydalen-Holmviksskogen,120,1,0,TRUE
-0120R019,Östra Ekedal-Höjdhagen,120,1,0,TRUE
-0123R001,Barkarby västra-Skälby östra,123,1,0,TRUE
-0123R002,Barkarby östra-Veddesta,123,1,0,TRUE
-0123R003,Barkarbystaden norra,123,1,0,TRUE
-0123R004,Bolinder Strand,123,1,0,TRUE
-0123R005,Centrala Jakobsberg,123,1,0,TRUE
-0123R006,Centrala Kallhäll,123,1,0,TRUE
-0123R007,Centrala Söderhöjden,123,1,0,TRUE
-0123R008,Centrala Viksjö norra,123,1,0,TRUE
-0123R009,Centrala Viksjö södra,123,1,0,TRUE
-0123R010,Fjällen-Fastebol,123,1,0,TRUE
-0123R011,Hammaren västra,123,1,0,TRUE
-0123R012,Jakobsberg norra,123,1,0,TRUE
-0123R013,Jakobsberg västra,123,1,0,TRUE
-0123R014,Kolarängen-Villastaden,123,1,0,TRUE
-0123R015,Lädersättra,123,1,0,TRUE
-0123R016,Nibble,123,1,0,TRUE
-0123R017,Nyberg-Hammaren östra,123,1,0,TRUE
-0123R018,Skogstorp,123,1,0,TRUE
-0123R019,Skälby västra,123,1,0,TRUE
-0123R020,Stäket,123,1,0,TRUE
-0123R021,Tallbohov,123,1,0,TRUE
-0123R022,Ulvsättra,123,1,0,TRUE
-0123R023,Vibblaby,123,1,0,TRUE
-0123R024,Viksjö västra,123,1,0,TRUE
-0123R025,Ålsta,123,1,0,TRUE
-0125R001,Adelsö-Munsö-Västra Ekerön,125,1,0,TRUE
-0125R002,Ekebyhov-Träkvista-Väsby,125,1,0,TRUE
-0125R003,Ekerö centrum-Östra Ekerön,125,1,0,TRUE
-0125R004,Färingsö omland,125,1,0,TRUE
-0125R005,Kungsberga-Färentuna-Hilleshög,125,1,0,TRUE
-0125R006,Lovön,125,1,0,TRUE
-0125R007,Stenhamra,125,1,0,TRUE
-0125R008,Sundby-Ekerö sommarstad,125,1,0,TRUE
-0125R009,Södra Färingsö,125,1,0,TRUE
-0125R010,Västra Sandudden-Lundhagen-Skärvik,125,1,0,TRUE
-0125R011,Älvnäs-Brunna-Närlunda,125,1,0,TRUE
-0126R001,Flemingsberg västra,126,1,0,TRUE
-0126R002,Flemingsberg östra,126,1,0,TRUE
-0126R003,Flemingsberg-Kästa,126,1,0,TRUE
-0126R004,Fullersta norra,126,1,0,TRUE
-0126R005,Fullersta södra,126,1,0,TRUE
-0126R006,Gladö-Lissma,126,1,0,TRUE
-0126R007,Glömsta-Loviseberg,126,1,0,TRUE
-0126R008,Högmora-Vidja-Ågesta,126,1,0,TRUE
-0126R009,Kungens Kurva-Kråkvik,126,1,0,TRUE
-0126R010,Länna,126,1,0,TRUE
-0126R011,Segeltorp,126,1,0,TRUE
-0126R012,Sjödalen centrala-norra,126,1,0,TRUE
-0126R013,Sjödalen södra,126,1,0,TRUE
-0126R014,Skogås västra,126,1,0,TRUE
-0126R015,Skogås östra,126,1,0,TRUE
-0126R016,Snättringe,126,1,0,TRUE
-0126R017,Stuvsta,126,1,0,TRUE
-0126R018,Trångsund,126,1,0,TRUE
-0126R019,Trångsund centrala,126,1,0,TRUE
-0126R020,Vårby gård,126,1,0,TRUE
-0126R021,Vårby Haga-Masmo,126,1,0,TRUE
-0126R022,Vårby Udde-Duvberget,126,1,0,TRUE
-0127R001,Albyberget,127,1,0,TRUE
-0127R002,Albydalen,127,1,0,TRUE
-0127R003,Brantbrink-Tullingeskog-Rörmossen,127,1,0,TRUE
-0127R004,Eriksberg-Sturehov,127,1,0,TRUE
-0127R005,Fittja,127,1,0,TRUE
-0127R006,Grödinge,127,1,0,TRUE
-0127R007,Hallunda,127,1,0,TRUE
-0127R008,Kassmyra-Skäcklinge,127,1,0,TRUE
-0127R009,Lanthem-Tullinge centrum-Tullingeberg,127,1,0,TRUE
-0127R010,Norsborg,127,1,0,TRUE
-0127R011,Riksten,127,1,0,TRUE
-0127R012,Slagsta,127,1,0,TRUE
-0127R013,Storvreten,127,1,0,TRUE
-0127R014,Tullinge parkhem,127,1,0,TRUE
-0127R015,Tullinge villastad,127,1,0,TRUE
-0127R016,Tumba centrum-Segersjö-Sandstugan,127,1,0,TRUE
-0127R017,Tuna,127,1,0,TRUE
-0127R018,Uttran-Broäng,127,1,0,TRUE
-0127R019,Vretarna-Hamra,127,1,0,TRUE
-0127R020,Vårsta,127,1,0,TRUE
-0128R001,Rönninge,128,1,0,TRUE
-0128R002,Salem västra,128,1,0,TRUE
-0128R003,Salem östra,128,1,0,TRUE
-0128R004,Salems centrum,128,1,0,TRUE
-0136R001,Brandbergen centrala,136,1,0,TRUE
-0136R002,Brandbergen norra,136,1,0,TRUE
-0136R003,Brandbergen södra,136,1,0,TRUE
-0136R004,Dalarö,136,1,0,TRUE
-0136R005,Gudö,136,1,0,TRUE
-0136R006,Handen centrala,136,1,0,TRUE
-0136R007,Handen södra,136,1,0,TRUE
-0136R008,Handen västra,136,1,0,TRUE
-0136R009,Haninge skärgård-glesbygd,136,1,0,TRUE
-0136R010,Jordbro centrala,136,1,0,TRUE
-0136R011,Jordbro norra,136,1,0,TRUE
-0136R012,Jordbro Södra,136,1,0,TRUE
-0136R013,Muskö,136,1,0,TRUE
-0136R014,Norrby-Vendelsö Gård,136,1,0,TRUE
-0136R015,Söderby,136,1,0,TRUE
-0136R016,Tungelsta centrala,136,1,0,TRUE
-0136R017,Tungelsta norra,136,1,0,TRUE
-0136R018,Vega centrala-Handen norra,136,1,0,TRUE
-0136R019,Vega norra,136,1,0,TRUE
-0136R020,Vega västra,136,1,0,TRUE
-0136R021,Vendelsö västra,136,1,0,TRUE
-0136R022,Vendelsö östra,136,1,0,TRUE
-0136R023,Vendelsömalm västra,136,1,0,TRUE
-0136R024,Vendelsömalm östra,136,1,0,TRUE
-0136R025,Västerhaninge centrala,136,1,0,TRUE
-0136R026,Västerhaninge norra,136,1,0,TRUE
-0136R027,Västerhaninge västra,136,1,0,TRUE
-0136R028,Västerhaninge östra,136,1,0,TRUE
-0138R001,Fornudden-Drevviken,138,1,0,TRUE
-0138R002,Fårdala,138,1,0,TRUE
-0138R003,Granängsringen-Nyboda,138,1,0,TRUE
-0138R004,Hanviken-Skälsätra,138,1,0,TRUE
-0138R005,Krusboda,138,1,0,TRUE
-0138R006,Lindalen,138,1,0,TRUE
-0138R007,Raksta-Brevik,138,1,0,TRUE
-0138R008,Sikvägen,138,1,0,TRUE
-0138R009,Tyresö centrum,138,1,0,TRUE
-0138R010,Tyresö Strand,138,1,0,TRUE
-0138R011,Västra Farmarstigen,138,1,0,TRUE
-0138R012,Västra Trollbäcken,138,1,0,TRUE
-0138R013,Öringe-Kolardammarna,138,1,0,TRUE
-0138R014,Östra Farmarstigen,138,1,0,TRUE
-0139R001,Brunna,139,1,0,TRUE
-0139R002,Centrala Bro,139,1,0,TRUE
-0139R003,Centrala Kungsängen,139,1,0,TRUE
-0139R004,Lillsjön-Sylta-Ålsta,139,1,0,TRUE
-0139R005,Norra Bro,139,1,0,TRUE
-0139R006,Norrboda-Tibble,139,1,0,TRUE
-0139R007,Rosenängarna-Österhagen,139,1,0,TRUE
-0139R008,Södra Bro-Önsta,139,1,0,TRUE
-0139R009,Upplands-Bro norra omland,139,1,0,TRUE
-0139R010,Upplands-Bro södra omland,139,1,0,TRUE
-0140R001,Nykvarn,140,1,0,TRUE
-0140R002,Taxinge,140,1,0,TRUE
-0140R003,Turinge,140,1,0,TRUE
-0160R001,Arninge-Ullna,160,1,0,TRUE
-0160R002,Byle,160,1,0,TRUE
-0160R003,Ella Gård,160,1,0,TRUE
-0160R004,Ella Park,160,1,0,TRUE
-0160R005,Ensta,160,1,0,TRUE
-0160R006,Erikslund,160,1,0,TRUE
-0160R007,Gribby-Kohagen,160,1,0,TRUE
-0160R008,Gribby-Myräng,160,1,0,TRUE
-0160R009,Karlsund,160,1,0,TRUE
-0160R010,Lahäll,160,1,0,TRUE
-0160R011,Midgård,160,1,0,TRUE
-0160R012,Nytorp,160,1,0,TRUE
-0160R013,Näsby Park,160,1,0,TRUE
-0160R014,Näsby Slott,160,1,0,TRUE
-0160R015,Näsbydal,160,1,0,TRUE
-0160R016,Roslags-Näsby,160,1,0,TRUE
-0160R017,Runborg,160,1,0,TRUE
-0160R018,Skarpäng,160,1,0,TRUE
-0160R019,Tibble,160,1,0,TRUE
-0160R020,Täby Centrum,160,1,0,TRUE
-0160R021,Täby Park,160,1,0,TRUE
-0160R022,Vallabrink,160,1,0,TRUE
-0160R023,Vallatorp,160,1,0,TRUE
-0160R024,Viggbyholm,160,1,0,TRUE
-0160R025,Visinge,160,1,0,TRUE
-0160R026,Västra Hägernäs,160,1,0,TRUE
-0160R027,Östra Hägernäs,160,1,0,TRUE
-0162R001,Danderyd centrala västra,162,1,0,TRUE
-0162R002,Danderyd centrala östra,162,1,0,TRUE
-0162R003,Danderyd västra,162,1,0,TRUE
-0162R004,Djursholm norra,162,1,0,TRUE
-0162R005,Djursholm södra,162,1,0,TRUE
-0162R006,Enebyberg,162,1,0,TRUE
-0162R007,Stocksund,162,1,0,TRUE
-0163R001,Bagarby,163,1,0,TRUE
-0163R002,Edsberg,163,1,0,TRUE
-0163R003,Edsviken-Kummelby,163,1,0,TRUE
-0163R004,Eriksberg-Fågelsången,163,1,0,TRUE
-0163R005,Falkberget-Södra Sjöberg,163,1,0,TRUE
-0163R006,Gillbo-Gillberga,163,1,0,TRUE
-0163R007,Helenelunds centrum,163,1,0,TRUE
-0163R008,Häggvik-Klasro,163,1,0,TRUE
-0163R009,Knista,163,1,0,TRUE
-0163R010,Landsnora-Kvarnskogen,163,1,0,TRUE
-0163R011,Norrviken,163,1,0,TRUE
-0163R012,Nytorp-Hersby-Skansen,163,1,0,TRUE
-0163R013,Rotebro centrum,163,1,0,TRUE
-0163R014,Rotsunda,163,1,0,TRUE
-0163R015,Sjöbergs centrum,163,1,0,TRUE
-0163R016,Sollentuna centrum,163,1,0,TRUE
-0163R017,Tegelhagen-Silverdal,163,1,0,TRUE
-0163R018,Töjnan,163,1,0,TRUE
-0163R019,Vaxmora-Väsjön,163,1,0,TRUE
-0163R020,Viby-Järvafältet,163,1,0,TRUE
-0180R001,Abrahamsberg,180,1,0,TRUE
-0180R002,Akalla,180,1,0,TRUE
-0180R003,Alvik,180,1,0,TRUE
-0180R004,Aspudden,180,1,0,TRUE
-0180R005,Bagarmossen,180,1,0,TRUE
-0180R006,Bandhagen,180,1,0,TRUE
-0180R007,Beckomberga,180,1,0,TRUE
-0180R008,Björkhagen,180,1,0,TRUE
-0180R009,Blackeberg,180,1,0,TRUE
-0180R010,Bredäng,180,1,0,TRUE
-0180R011,Bromma kyrka,180,1,0,TRUE
-0180R012,Bromsten,180,1,0,TRUE
-0180R013,Bällsta,180,1,0,TRUE
-0180R014,Djurgården,180,1,0,TRUE
-0180R015,Eneby,180,1,0,TRUE
-0180R016,Engelbrekts kyrka,180,1,0,TRUE
-0180R017,Enskede Gård,180,1,0,TRUE
-0180R018,Enskededalen,180,1,0,TRUE
-0180R019,Enskedefältet,180,1,0,TRUE
-0180R020,Fagersjö,180,1,0,TRUE
-0180R021,Farsta,180,1,0,TRUE
-0180R022,Flysta,180,1,0,TRUE
-0180R023,Fredhäll,180,1,0,TRUE
-0180R024,Fruängen,180,1,0,TRUE
-0180R025,Gamla Enskede,180,1,0,TRUE
-0180R026,Grimsta,180,1,0,TRUE
-0180R027,Gröndal,180,1,0,TRUE
-0180R028,Gubbängen,180,1,0,TRUE
-0180R029,Gustav Vasa,180,1,0,TRUE
-0180R030,Gärdet,180,1,0,TRUE
-0180R031,Hagsätra,180,1,0,TRUE
-0180R032,Hammarbyhöjden,180,1,0,TRUE
-0180R033,Hedvig Eleonora,180,1,0,TRUE
-0180R034,Herrängen,180,1,0,TRUE
-0180R035,Hjorthagen-Värtahamnen,180,1,0,TRUE
-0180R036,Husby,180,1,0,TRUE
-0180R037,Hägersten,180,1,0,TRUE
-0180R038,Hägerstensåsen,180,1,0,TRUE
-0180R039,Hässelby Gård,180,1,0,TRUE
-0180R040,Hässelby Strand,180,1,0,TRUE
-0180R041,Hässelby Villastad,180,1,0,TRUE
-0180R042,Högdalen,180,1,0,TRUE
-0180R043,Höglandet,180,1,0,TRUE
-0180R044,Hökarängen,180,1,0,TRUE
-0180R045,Johanneshov,180,1,0,TRUE
-0180R046,Kista,180,1,0,TRUE
-0180R047,Klara-Jacob,180,1,0,TRUE
-0180R048,Kristineberg,180,1,0,TRUE
-0180R049,Kungsholm,180,1,0,TRUE
-0180R050,Kälvesta,180,1,0,TRUE
-0180R051,Kärrtorp,180,1,0,TRUE
-0180R052,Larsboda,180,1,0,TRUE
-0180R053,Liljeholmen,180,1,0,TRUE
-0180R054,Lilla Essingen,180,1,0,TRUE
-0180R055,Liseberg,180,1,0,TRUE
-0180R056,Långbro,180,1,0,TRUE
-0180R057,Långsjö,180,1,0,TRUE
-0180R058,Mariatorget,180,1,0,TRUE
-0180R059,Marieberg,180,1,0,TRUE
-0180R060,Mariehäll,180,1,0,TRUE
-0180R061,Mellersta Högalid,180,1,0,TRUE
-0180R062,Midsommarkransen,180,1,0,TRUE
-0180R063,Mälarhöjden,180,1,0,TRUE
-0180R064,Nockeby,180,1,0,TRUE
-0180R065,Nockebyhov-Olovslund,180,1,0,TRUE
-0180R066,Norra Adolf Fredrik,180,1,0,TRUE
-0180R067,Norra Högalid,180,1,0,TRUE
-0180R068,Norra Johannes,180,1,0,TRUE
-0180R069,Norra Skarpnäcks Gård,180,1,0,TRUE
-0180R070,Norra Sofia,180,1,0,TRUE
-0180R071,Norra Ängby,180,1,0,TRUE
-0180R072,Nälsta,180,1,0,TRUE
-0180R073,Oscars kyrka,180,1,0,TRUE
-0180R074,Reimersholme-Långholmen,180,1,0,TRUE
-0180R075,Riksby-Åkeshov,180,1,0,TRUE
-0180R076,Rinkeby,180,1,0,TRUE
-0180R077,Råcksta,180,1,0,TRUE
-0180R078,Rågsved,180,1,0,TRUE
-0180R079,Skärholmen,180,1,0,TRUE
-0180R080,Sköndal,180,1,0,TRUE
-0180R081,Smedslätten,180,1,0,TRUE
-0180R082,Solberga,180,1,0,TRUE
-0180R083,Solhem-Lunda,180,1,0,TRUE
-0180R084,Stadshagen,180,1,0,TRUE
-0180R085,Stora Essingen,180,1,0,TRUE
-0180R086,Stora Mossen,180,1,0,TRUE
-0180R087,Storkyrkan,180,1,0,TRUE
-0180R088,Stureby,180,1,0,TRUE
-0180R089,Sundby,180,1,0,TRUE
-0180R090,Svedmyra,180,1,0,TRUE
-0180R091,Sydvästra Skarpnäcks gård-Orhem,180,1,0,TRUE
-0180R092,Sätra,180,1,0,TRUE
-0180R093,Södra Adolf Fredrik,180,1,0,TRUE
-0180R094,Södra Hammarbyhamnen,180,1,0,TRUE
-0180R095,Södra Högalid,180,1,0,TRUE
-0180R096,Södra Johannes,180,1,0,TRUE
-0180R097,Södra Sofia,180,1,0,TRUE
-0180R098,Södra Station,180,1,0,TRUE
-0180R099,Södra Ängby,180,1,0,TRUE
-0180R100,Tallkrogen,180,1,0,TRUE
-0180R101,Tekniska Högskolan,180,1,0,TRUE
-0180R102,Tensta,180,1,0,TRUE
-0180R103,Traneberg,180,1,0,TRUE
-0180R104,Ulvsunda,180,1,0,TRUE
-0180R105,Ulvsunda Industriområde,180,1,0,TRUE
-0180R106,Universitetet,180,1,0,TRUE
-0180R107,Vinsta,180,1,0,TRUE
-0180R108,Vårberg,180,1,0,TRUE
-0180R109,Vällingby,180,1,0,TRUE
-0180R110,Västberga,180,1,0,TRUE
-0180R111,Västertorp,180,1,0,TRUE
-0180R112,Västra Farsta Strand-Farstanäset,180,1,0,TRUE
-0180R113,Västra Katarina,180,1,0,TRUE
-0180R114,Västra Matteus,180,1,0,TRUE
-0180R115,Åkeslund,180,1,0,TRUE
-0180R116,Ålsten,180,1,0,TRUE
-0180R117,Årsta,180,1,0,TRUE
-0180R118,Älvsjö,180,1,0,TRUE
-0180R119,Äppelviken,180,1,0,TRUE
-0180R120,Örby,180,1,0,TRUE
-0180R121,Örby Slott,180,1,0,TRUE
-0180R122,Östberga,180,1,0,TRUE
-0180R123,Östra Farsta Strand,180,1,0,TRUE
-0180R124,Östra Katarina,180,1,0,TRUE
-0180R125,Östra Matteus,180,1,0,TRUE
-0180R126,Östra Sankt Göran,180,1,0,TRUE
-0180R127,Östra Skarpnäcks gård-Flaten-Skrubba,180,1,0,TRUE
-0181R001,Blombacka,181,1,0,TRUE
-0181R002,Brunnsäng,181,1,0,TRUE
-0181R003,Bårsta östra,181,1,0,TRUE
-0181R004,Enhörna-Ekeby,181,1,0,TRUE
-0181R005,Enhörna-Sandviken,181,1,0,TRUE
-0181R006,Fornhöjden,181,1,0,TRUE
-0181R007,Geneta norra-Bårsta västra,181,1,0,TRUE
-0181R008,Geneta södra-Vasa,181,1,0,TRUE
-0181R009,Glasberga,181,1,0,TRUE
-0181R010,Grusåsen norra-Bergvik,181,1,0,TRUE
-0181R011,Grusåsen-Weda-Listonhill,181,1,0,TRUE
-0181R012,Hovsjö,181,1,0,TRUE
-0181R013,Hölö tätort,181,1,0,TRUE
-0181R014,Järna centrum-Järna södra,181,1,0,TRUE
-0181R015,Järna norra-Kallfors,181,1,0,TRUE
-0181R016,Lina-Vattubrinken-Dammkärr,181,1,0,TRUE
-0181R017,Mariekälla,181,1,0,TRUE
-0181R018,Mölnbo tätort,181,1,0,TRUE
-0181R019,Pershagen,181,1,0,TRUE
-0181R020,Ragnhildsborg-Ritorp-Viksberg,181,1,0,TRUE
-0181R021,Ronna centrum-Ronna Park-Västra Ronna,181,1,0,TRUE
-0181R022,Ronna-Karlhov,181,1,0,TRUE
-0181R023,Rosenlund-Hagaberg,181,1,0,TRUE
-0181R024,Saltskog,181,1,0,TRUE
-0181R025,Södertälje-Järna omland,181,1,0,TRUE
-0181R026,Telge-Snäckviken-Torekälla,181,1,0,TRUE
-0181R027,Värdsholmen-Södra,181,1,0,TRUE
-0181R028,Västergård,181,1,0,TRUE
-0181R029,Västra Hölö omland-Vårdinge,181,1,0,TRUE
-0181R030,Östertälje-Gärtuna,181,1,0,TRUE
-0181R031,Östra Hölö omland-Mörkö,181,1,0,TRUE
-0182R001,Alphyddan-Finntorp,182,1,0,TRUE
-0182R002,Björknäs,182,1,0,TRUE
-0182R003,Ektorp-Skuru,182,1,0,TRUE
-0182R004,Fisksätra,182,1,0,TRUE
-0182R005,Kvarnholmen-Henriksdal,182,1,0,TRUE
-0182R006,Nacka centrala,182,1,0,TRUE
-0182R007,Nacka strand-Jarlaberg,182,1,0,TRUE
-0182R008,Nordvästra Boo,182,1,0,TRUE
-0182R009,Nordöstra Boo,182,1,0,TRUE
-0182R010,Orminge,182,1,0,TRUE
-0182R011,Saltsjöbaden,182,1,0,TRUE
-0182R012,Sickla,182,1,0,TRUE
-0182R013,Storängen-Saltsjö Duvnäs,182,1,0,TRUE
-0182R014,Sydöstra Boo,182,1,0,TRUE
-0182R015,Södra Boo,182,1,0,TRUE
-0182R016,Älta-Erstavik,182,1,0,TRUE
-0183R001,Centrala Sundbyberg Västra,183,1,0,TRUE
-0183R002,Centrala Sundbyberg Östra,183,1,0,TRUE
-0183R003,Duvbo-Tulemarken,183,1,0,TRUE
-0183R004,Hallonbergen Västra,183,1,0,TRUE
-0183R005,Hallonbergen Östra,183,1,0,TRUE
-0183R006,Lilla Alby,183,1,0,TRUE
-0183R007,Rissne,183,1,0,TRUE
-0183R008,Stora Ursvik Nordvästra,183,1,0,TRUE
-0183R009,Stora Ursvik Sydvästra,183,1,0,TRUE
-0183R010,Stora Ursvik-Kymlinge-Brotorp,183,1,0,TRUE
-0183R011,Storskogen-Ör,183,1,0,TRUE
-0184R001,Arenastaden,184,1,0,TRUE
-0184R002,Bagartorp-Agnesberg,184,1,0,TRUE
-0184R003,Centrala Huvudsta,184,1,0,TRUE
-0184R004,Filmstaden,184,1,0,TRUE
-0184R005,Frösunda,184,1,0,TRUE
-0184R006,Ingenting,184,1,0,TRUE
-0184R007,Järvastaden,184,1,0,TRUE
-0184R008,Kungshamra,184,1,0,TRUE
-0184R009,Norra Bergshamra,184,1,0,TRUE
-0184R010,Norra Hagalund-Haga norra,184,1,0,TRUE
-0184R011,Norra Hagastaden,184,1,0,TRUE
-0184R012,Norra Råsunda,184,1,0,TRUE
-0184R013,Nya Ulriksdal-Södra Ritorp,184,1,0,TRUE
-0184R014,Råstahem,184,1,0,TRUE
-0184R015,Skytteholm,184,1,0,TRUE
-0184R016,Solna centrum,184,1,0,TRUE
-0184R017,Södra Bergshamra,184,1,0,TRUE
-0184R018,Södra Hagalund,184,1,0,TRUE
-0184R019,Södra Huvudsta,184,1,0,TRUE
-0184R020,Södra Råsunda-Solna Business park,184,1,0,TRUE
-0184R021,Vasalund-Kyrkbacken,184,1,0,TRUE
-0184R022,Västra skogen-Pampas,184,1,0,TRUE
-0186R001,Baggeby-Bodal-Larsberg,186,1,0,TRUE
-0186R002,Bo-Ruboda-Bosön,186,1,0,TRUE
-0186R003,Brevik-Käppala-Gåshaga,186,1,0,TRUE
-0186R004,Dalénum-Skärsätra södra,186,1,0,TRUE
-0186R005,Elfvik-Duvholmen-Stora Höggarn,186,1,0,TRUE
-0186R006,Hersby-Herserud-Islinge södra,186,1,0,TRUE
-0186R007,Högsätra,186,1,0,TRUE
-0186R008,Lidingö centrum-Torsvik,186,1,0,TRUE
-0186R009,Näset,186,1,0,TRUE
-0186R010,Skärsätra norra,186,1,0,TRUE
-0186R011,Sticklinge-Storholmen-Islinge norra,186,1,0,TRUE
-0186R012,Stockby västra-Mosstorp-Bergsätra,186,1,0,TRUE
-0186R013,Stockby östra-Mölna-Ekholmsnäs,186,1,0,TRUE
-0187R001,Edholma-Kullö,187,1,0,TRUE
-0187R002,Resarö västra-Engarn-Storäng,187,1,0,TRUE
-0187R003,Resarö östra,187,1,0,TRUE
-0187R004,Rindö-Skarpö,187,1,0,TRUE
-0187R005,Vaxön mitt,187,1,0,TRUE
-0187R006,Vaxön västra-Bogesund,187,1,0,TRUE
-0187R007,Vaxön östra-Ramsö-Tynningö,187,1,0,TRUE
-0188R001,Bergshamra,188,1,0,TRUE
-0188R002,Frötuna,188,1,0,TRUE
-0188R003,Gransätra-Långgarn,188,1,0,TRUE
-0188R004,Hallstavik tätort,188,1,0,TRUE
-0188R005,Häverö,188,1,0,TRUE
-0188R006,Kvisthamra,188,1,0,TRUE
-0188R007,Lohärad-Estuna,188,1,0,TRUE
-0188R008,Nordrona,188,1,0,TRUE
-0188R009,Norrtälje centrala stad,188,1,0,TRUE
-0188R010,Norrtälje södra stad,188,1,0,TRUE
-0188R011,Norrtälje östra landsbygd,188,1,0,TRUE
-0188R012,Riala-Länna-Rö-Rimbo,188,1,0,TRUE
-0188R013,Rimbo tätort,188,1,0,TRUE
-0188R014,Roslagsbro-Väddö,188,1,0,TRUE
-0188R015,Rådmansö,188,1,0,TRUE
-0188R016,Solbacka-Fågelsången,188,1,0,TRUE
-0188R017,Vigelsjö,188,1,0,TRUE
-0188R018,Vätö-Väddö-Björkö-Arholma,188,1,0,TRUE
-0188R019,Yxlan-Blidö,188,1,0,TRUE
-0188R020,Älmsta,188,1,0,TRUE
-0188R021,Övre Bryggårdsgärdet-Färsna,188,1,0,TRUE
-0191R001,Arenberga-Västra Norrbacka,191,1,0,TRUE
-0191R002,Björkbacka-Tilsjö,191,1,0,TRUE
-0191R003,Broby,191,1,0,TRUE
-0191R004,Centrala Märsta,191,1,0,TRUE
-0191R005,Centrala Valsta,191,1,0,TRUE
-0191R006,Ekilla,191,1,0,TRUE
-0191R007,Malmen-Pilsbo,191,1,0,TRUE
-0191R008,Märsta Östra omland,191,1,0,TRUE
-0191R009,Märstadal,191,1,0,TRUE
-0191R010,Odensala-Arlanda omland,191,1,0,TRUE
-0191R011,Rosersberg,191,1,0,TRUE
-0191R012,Sigtuna centrala,191,1,0,TRUE
-0191R013,Sigtuna norra,191,1,0,TRUE
-0191R014,Sjudargården-Prästängarna,191,1,0,TRUE
-0191R015,Skånela-Steningevik omland,191,1,0,TRUE
-0191R016,Steningehöjden-Ölsta by,191,1,0,TRUE
-0191R017,Sätuna,191,1,0,TRUE
-0191R018,Södra Valsta,191,1,0,TRUE
-0191R019,Til-Munkholmen,191,1,0,TRUE
-0191R020,Tingvalla,191,1,0,TRUE
-0191R021,Västra Valsta,191,1,0,TRUE
-0191R022,Östra Norrbacka,191,1,0,TRUE
-0191R023,Östra Steninge,191,1,0,TRUE
-0191R024,Östra Valsta,191,1,0,TRUE
-0192R001,Nynäshamns nordöstra kommundel,192,1,0,TRUE
-0192R002,Nynäshamns stad-norra,192,1,0,TRUE
-0192R003,Nynäshamns stad-södra,192,1,0,TRUE
-0192R004,Nynäshamns stad-västra,192,1,0,TRUE
-0192R005,Nynäshamns stad-östra,192,1,0,TRUE
-0192R006,Nynäshamns södra kommundel,192,1,0,TRUE
-0192R007,Nynäshamns västra kommundel,192,1,0,TRUE
-0192R008,Ösmo centrala,192,1,0,TRUE
-0305R001,Centrala Bålsta-Mansängen,305,3,0,TRUE
-0305R002,Dyarne-Fånäs-Kalmarsand,305,3,0,TRUE
-0305R003,Håbo landsbygd,305,3,0,TRUE
-0305R004,Norra Ullevi-Södra Ullevi-Åsen,305,3,0,TRUE
-0305R005,Skörby-Gillmarken-Åkerby,305,3,0,TRUE
-0305R006,Slottsskogen-Söderskogen,305,3,0,TRUE
-0305R007,Södra Bålsta-Kalmar landsbygd,305,3,0,TRUE
-0305R008,Västerdalen-Eneby-Väppebyberget,305,3,0,TRUE
-0305R009,Västerhagen-Västerängen,305,3,0,TRUE
-0305R010,Västerskog-Graneberg,305,3,0,TRUE
-0319R001,Skutskär centrala-Skutskär nordvästra,319,3,0,TRUE
-0319R002,Skutskär nordöstra,319,3,0,TRUE
-0319R003,Skutskär södra,319,3,0,TRUE
-0319R004,Älvkarleby,319,3,0,TRUE
-0319R005,Älvkarlebys omland,319,3,0,TRUE
-0330R001,Alsike norra,330,3,0,TRUE
-0330R002,Alsike östra,330,3,0,TRUE
-0330R003,Knivsta centrala,330,3,0,TRUE
-0330R004,Knivsta södra,330,3,0,TRUE
-0330R005,Knivsta västra,330,3,0,TRUE
-0330R006,Knivsta östra,330,3,0,TRUE
-0330R007,Lagga-Långhundra,330,3,0,TRUE
-0330R008,Vassunda,330,3,0,TRUE
-0331R001,Heby omland,331,3,0,TRUE
-0331R002,Heby västra,331,3,0,TRUE
-0331R003,Heby östra,331,3,0,TRUE
-0331R004,Morgongåva tätort,331,3,0,TRUE
-0331R005,Nora-Harbo omland,331,3,0,TRUE
-0331R006,Tärnsjö tätort,331,3,0,TRUE
-0331R007,Vittinge omland,331,3,0,TRUE
-0331R008,Östervåla omland,331,3,0,TRUE
-0331R009,Östervåla tätort,331,3,0,TRUE
-0360R001,Karlholm,360,3,0,TRUE
-0360R002,Mehedeby-Tobo,360,3,0,TRUE
-0360R003,Månkarbo-Vendel,360,3,0,TRUE
-0360R004,Skärplinge-Hållnäs,360,3,0,TRUE
-0360R005,Söderfors,360,3,0,TRUE
-0360R006,Tierp Centrum-Tierp Norra,360,3,0,TRUE
-0360R007,Tierp Södra,360,3,0,TRUE
-0360R008,Västland,360,3,0,TRUE
-0360R009,Örbyhus,360,3,0,TRUE
-0380R001,Bergsbrunna,380,3,0,TRUE
-0380R002,Björklinge,380,3,0,TRUE
-0380R003,Bäcklösa-Ultuna-Södra Ulleråker,380,3,0,TRUE
-0380R004,Bälinge-Lövstalöt,380,3,0,TRUE
-0380R005,Främre Luthagen-Fjärdingen-Glunten,380,3,0,TRUE
-0380R006,Gamla Gottsunda-Vårdsätra-Vreta,380,3,0,TRUE
-0380R007,Gamla Uppsala,380,3,0,TRUE
-0380R008,Gunsta-Marielund-Länna,380,3,0,TRUE
-0380R009,Kungsängen,380,3,0,TRUE
-0380R010,Kvarngärdet,380,3,0,TRUE
-0380R011,Kåbo-Norra Rosendal,380,3,0,TRUE
-0380R012,Lindbacken-Jälla,380,3,0,TRUE
-0380R013,Löten,380,3,0,TRUE
-0380R014,Mellersta Luthagen-Rickomberga,380,3,0,TRUE
-0380R015,Mellersta Sala backe,380,3,0,TRUE
-0380R016,Mellersta Valsätra-Gottsunda centrum-Östra Gottsunda,380,3,0,TRUE
-0380R017,Norby-Norra Valsätra,380,3,0,TRUE
-0380R018,Nordvästra Luthagen-Hällby,380,3,0,TRUE
-0380R019,Norra Luthagen-Börjetull-Husbyborg,380,3,0,TRUE
-0380R020,Norra Sala backe,380,3,0,TRUE
-0380R021,Norra Sävja,380,3,0,TRUE
-0380R022,Norra Ulleråker-Polacksbacken,380,3,0,TRUE
-0380R023,Nyby,380,3,0,TRUE
-0380R024,Nåntuna-Vilan,380,3,0,TRUE
-0380R025,Slavsta-Fyrislund-Danmarksby,380,3,0,TRUE
-0380R026,Sommarro-Kungsgärdet,380,3,0,TRUE
-0380R027,Studentstaden,380,3,0,TRUE
-0380R028,Sunnersta,380,3,0,TRUE
-0380R029,Sydöstra Luthagen,380,3,0,TRUE
-0380R030,Södra Rosendal-Malma gård,380,3,0,TRUE
-0380R031,Södra Sala backe,380,3,0,TRUE
-0380R032,Södra Sävja,380,3,0,TRUE
-0380R033,Södra Valsätra-Norra Gottsunda,380,3,0,TRUE
-0380R034,Uppsala centrum,380,3,0,TRUE
-0380R035,Uppsala inre norra omland,380,3,0,TRUE
-0380R036,Uppsala inre östra omland,380,3,0,TRUE
-0380R037,Uppsala nordvästra omland,380,3,0,TRUE
-0380R038,Uppsala nordöstra centrum-Höganäs,380,3,0,TRUE
-0380R039,Uppsala sydöstra Centrum-Västra Fålhagen,380,3,0,TRUE
-0380R040,Uppsala västra omland,380,3,0,TRUE
-0380R041,Uppsala yttre norra omland,380,3,0,TRUE
-0380R042,Uppsala yttre östra omland,380,3,0,TRUE
-0380R043,Vattholma,380,3,0,TRUE
-0380R044,Vänge,380,3,0,TRUE
-0380R045,Västra Eriksberg-Håga,380,3,0,TRUE
-0380R046,Västra Flogsta,380,3,0,TRUE
-0380R047,Västra Gottsunda,380,3,0,TRUE
-0380R048,Västra Gränby,380,3,0,TRUE
-0380R049,Västra Kapellgärdet,380,3,0,TRUE
-0380R050,Västra Stenhagen,380,3,0,TRUE
-0380R051,Västra Storvreta,380,3,0,TRUE
-0380R052,Västra Svartbäcken-Tuna backar,380,3,0,TRUE
-0380R053,Årsta,380,3,0,TRUE
-0380R054,Östra Eriksberg,380,3,0,TRUE
-0380R055,Östra Flogsta-Ekeby-Berthåga,380,3,0,TRUE
-0380R056,Östra Fålhagen-Boländerna,380,3,0,TRUE
-0380R057,Östra Gränby-Brillinge,380,3,0,TRUE
-0380R058,Östra Kapellgärdet,380,3,0,TRUE
-0380R059,Östra Stenhagen-Kvarnbo,380,3,0,TRUE
-0380R060,Östra Storvreta,380,3,0,TRUE
-0380R061,Östra Svartbäcken-Bärby hage,380,3,0,TRUE
-0381R001,Bergvreten-Gånsta-Åkersberg,381,3,0,TRUE
-0381R002,Bredsand-Haga,381,3,0,TRUE
-0381R003,Enköping centrum-Sankt Ilian,381,3,0,TRUE
-0381R004,Fanna-Korsängen-Älvdansen,381,3,0,TRUE
-0381R005,Fjärdhundra,381,3,0,TRUE
-0381R006,Galgvreten-Västerleden,381,3,0,TRUE
-0381R007,Lagunda,381,3,0,TRUE
-0381R008,Munksundet-Gröngarn,381,3,0,TRUE
-0381R009,Romberga,381,3,0,TRUE
-0381R010,Trögd,381,3,0,TRUE
-0381R011,Åsunda,381,3,0,TRUE
-0382R001,Alunda,382,3,0,TRUE
-0382R002,Alunda omland,382,3,0,TRUE
-0382R003,Gimo,382,3,0,TRUE
-0382R004,Gimo omland,382,3,0,TRUE
-0382R005,Öregrund,382,3,0,TRUE
-0382R006,Öregrund omland,382,3,0,TRUE
-0382R007,Österbybruk,382,3,0,TRUE
-0382R008,Österbybruk omland,382,3,0,TRUE
-0382R009,Östhammar,382,3,0,TRUE
-0382R010,Östhammar omland,382,3,0,TRUE
-0428R001,Baggetorp-Marmorbyn,428,4,0,TRUE
-0428R002,Högsjö-Södra landsbygden,428,4,0,TRUE
-0428R003,Läppe-Österåker,428,4,0,TRUE
-0428R004,Vannala,428,4,0,TRUE
-0428R005,Vingåkers norra tätort,428,4,0,TRUE
-0428R006,Vingåkers södra tätort,428,4,0,TRUE
-0461R001,Gnesta norra,461,4,0,TRUE
-0461R002,Gnesta södra,461,4,0,TRUE
-0461R003,Gnesta västra,461,4,0,TRUE
-0461R004,Laxne-Gåsinge-Dillnäs,461,4,0,TRUE
-0461R005,Stjärnhov-Björnlunda-Hållsta,461,4,0,TRUE
-0480R001,Arnö,480,4,0,TRUE
-0480R002,Bergshammar-Tuna,480,4,0,TRUE
-0480R003,Brandholmen-Rosenkälla,480,4,0,TRUE
-0480R004,Brandkärr,480,4,0,TRUE
-0480R005,Bryngelstorp-Tjuvholmen,480,4,0,TRUE
-0480R006,Harg-Oxbacken,480,4,0,TRUE
-0480R007,Hållet-Blommenhov,480,4,0,TRUE
-0480R008,Högbrunn-Idbäcken,480,4,0,TRUE
-0480R009,Lunda-Kila,480,4,0,TRUE
-0480R010,Nyköping väster-Spelhagen,480,4,0,TRUE
-0480R011,Nyköping öster-Fågelbo,480,4,0,TRUE
-0480R012,Oppeby,480,4,0,TRUE
-0480R013,Runtuna-Ludgo,480,4,0,TRUE
-0480R014,Stenkulla-Malmbryggshagen,480,4,0,TRUE
-0480R015,Stigtomta,480,4,0,TRUE
-0480R016,Svärta,480,4,0,TRUE
-0480R017,Tunaberg,480,4,0,TRUE
-0480R018,Tystberga-Lästringe,480,4,0,TRUE
-0480R019,Vrena-Råby,480,4,0,TRUE
-0480R020,Östra Villastaden-Isaksdal-Ekensberg,480,4,0,TRUE
-0481R001,Oxelösund norra,481,4,0,TRUE
-0481R002,Oxelösund norra omland,481,4,0,TRUE
-0481R003,Oxelösund södra omland,481,4,0,TRUE
-0481R004,Oxelösund västra,481,4,0,TRUE
-0481R005,Oxelösund östra,481,4,0,TRUE
-0482R001,Flens landsbygd norra,482,4,0,TRUE
-0482R002,Flens landsbygd södra,482,4,0,TRUE
-0482R003,Flens landsbygd östra,482,4,0,TRUE
-0482R004,Flensby-Bjurtorp-Öja,482,4,0,TRUE
-0482R005,Hälleforsnäs,482,4,0,TRUE
-0482R006,Malmköping,482,4,0,TRUE
-0482R007,Mellösa-Orrhammar,482,4,0,TRUE
-0482R008,Nybble-Centrum nordväst,482,4,0,TRUE
-0482R009,Orrö-Brogetorp-Centrum nordost,482,4,0,TRUE
-0482R010,Salsta-Centrum södra,482,4,0,TRUE
-0483R001,Forssjö-Björkvik,483,4,0,TRUE
-0483R002,Gersnäs-Lövåsen,483,4,0,TRUE
-0483R003,Julita-Bie,483,4,0,TRUE
-0483R004,Katrineholm centrum-Kerstinboda,483,4,0,TRUE
-0483R005,Katrineholm norra,483,4,0,TRUE
-0483R006,Katrineholm östra,483,4,0,TRUE
-0483R007,Nyhem-Nävertorp,483,4,0,TRUE
-0483R008,Oppunda-Laggarhult,483,4,0,TRUE
-0483R009,Strandsvägsområdet-Skogsborg,483,4,0,TRUE
-0483R010,Valla-Sköldinge-Floda,483,4,0,TRUE
-0483R011,Värmbol-Duveholm,483,4,0,TRUE
-0484R001,Alberga-Lista,484,4,0,TRUE
-0484R002,Eskilstuna centrum,484,4,0,TRUE
-0484R003,Eskilstuna söder,484,4,0,TRUE
-0484R004,Eskilstuna öster,484,4,0,TRUE
-0484R005,Fröslunda-Vilsta,484,4,0,TRUE
-0484R006,Gredby-Lundby-Brottsta-Flacksta,484,4,0,TRUE
-0484R007,Göksten-Krusgården-Edvardslund-Glömsta,484,4,0,TRUE
-0484R008,Hållsta-Bälgviken,484,4,0,TRUE
-0484R009,Hällbybrunn-Folkesta,484,4,0,TRUE
-0484R010,Kvicksund-Tumbo,484,4,0,TRUE
-0484R011,Lagersberg-Råbergstorp,484,4,0,TRUE
-0484R012,Mesta-Borsökna,484,4,0,TRUE
-0484R013,Munktellstaden-Norr-Gamla staden,484,4,0,TRUE
-0484R014,Myrtorp-Västermalm-Brunnsbacken,484,4,0,TRUE
-0484R015,Nyfors centrum-Väster,484,4,0,TRUE
-0484R016,Röksta-Eskilshem-Balsta,484,4,0,TRUE
-0484R017,Skiftinge-Djursta,484,4,0,TRUE
-0484R018,Skiftinge-Ärsta-Sal,484,4,0,TRUE
-0484R019,Skogstorp,484,4,0,TRUE
-0484R020,Skogsängen-Viptorp,484,4,0,TRUE
-0484R021,Snopptorp,484,4,0,TRUE
-0484R022,Solvik-Mälarbaden-Torshälla centrum,484,4,0,TRUE
-0484R023,Stenby,484,4,0,TRUE
-0484R024,Sundbyholm-Kjula-Barva,484,4,0,TRUE
-0484R025,Trumtorp-Odlaren-Hagnestahill,484,4,0,TRUE
-0484R026,Valhalla-Slagsta,484,4,0,TRUE
-0484R027,Västra Nyfors,484,4,0,TRUE
-0484R028,Årby-Vallby,484,4,0,TRUE
-0484R029,Ärla-Hällberga,484,4,0,TRUE
-0484R030,Östra Nyfors,484,4,0,TRUE
-0486R001,Mariefred,486,4,0,TRUE
-0486R002,Mariefred norra,486,4,0,TRUE
-0486R003,Mariefreds södraomland,486,4,0,TRUE
-0486R004,Stallarholmen,486,4,0,TRUE
-0486R005,Strängnäs centrala,486,4,0,TRUE
-0486R006,Strängnäs mälaröar,486,4,0,TRUE
-0486R007,Strängnäs norra,486,4,0,TRUE
-0486R008,Strängnäs omland,486,4,0,TRUE
-0486R009,Strängnäs Stadsskogen,486,4,0,TRUE
-0486R010,Strängnäs södra,486,4,0,TRUE
-0486R011,Strängnäs västra,486,4,0,TRUE
-0486R012,Åkers styckebruk,486,4,0,TRUE
-0488R001,Sund-Lövsta-Åda norra,488,4,0,TRUE
-0488R002,Trosa västra,488,4,0,TRUE
-0488R003,Trosa östra,488,4,0,TRUE
-0488R004,Vagnhärad norra,488,4,0,TRUE
-0488R005,Vagnhärad södra,488,4,0,TRUE
-0488R006,Västerljung,488,4,0,TRUE
-0509R001,Hästholmen-Slätten-Skogsbygden,509,5,0,TRUE
-0509R002,Ödeshög,509,5,0,TRUE
-0512R001,Sund-Norra Vi-Svinhult-Västra Ryd,512,5,0,TRUE
-0512R002,Torpa-Asby,512,5,0,TRUE
-0512R003,Österbymo,512,5,0,TRUE
-0513R001,Kinda norra,513,5,0,TRUE
-0513R002,Kinda västra,513,5,0,TRUE
-0513R003,Kinda östra,513,5,0,TRUE
-0513R004,Kisa västra,513,5,0,TRUE
-0513R005,Kisa östra,513,5,0,TRUE
-0513R006,Rimforsa,513,5,0,TRUE
-0560R001,Boxholm omnejd,560,5,0,TRUE
-0560R002,Boxholm västra,560,5,0,TRUE
-0560R003,Boxholm östra,560,5,0,TRUE
-0561R001,Åtvidaberg centrum nordost,561,5,0,TRUE
-0561R002,Åtvidaberg centrum sydväst,561,5,0,TRUE
-0561R003,Åtvidaberg nord,561,5,0,TRUE
-0561R004,Åtvidaberg syd,561,5,0,TRUE
-0562R001,Dunderbacken-Hårstorp,562,5,0,TRUE
-0562R002,Finspång centrala-Svälthagen,562,5,0,TRUE
-0562R003,Finspång omland,562,5,0,TRUE
-0562R004,Grosvad-Butbro,562,5,0,TRUE
-0562R005,Lotorp-Vistinge,562,5,0,TRUE
-0562R006,Norrmalm-Östermalm,562,5,0,TRUE
-0562R007,Nyhem,562,5,0,TRUE
-0562R008,Storängen,562,5,0,TRUE
-0562R009,Viggestorp-Falla,562,5,0,TRUE
-0563R001,Gryt-Skärgården,563,5,0,TRUE
-0563R002,Ringarum-Gusum,563,5,0,TRUE
-0563R003,Valdemarsviks tätort,563,5,0,TRUE
-0580R001,Berga,580,5,0,TRUE
-0580R002,Domkyrkan-Slottet,580,5,0,TRUE
-0580R003,Ekholmen,580,5,0,TRUE
-0580R004,Ekkällan-Garnisonen,580,5,0,TRUE
-0580R005,Ekängen,580,5,0,TRUE
-0580R006,Gottfridsberg,580,5,0,TRUE
-0580R007,Hackefors,580,5,0,TRUE
-0580R008,Hejdegården,580,5,0,TRUE
-0580R009,Hjulsbro,580,5,0,TRUE
-0580R010,Johannelund,580,5,0,TRUE
-0580R011,Lambohov-Slaka,580,5,0,TRUE
-0580R012,Lilla Torget-Sankt Lars,580,5,0,TRUE
-0580R013,Linghem,580,5,0,TRUE
-0580R014,Ljungsbro-Berg,580,5,0,TRUE
-0580R015,Malmslätt,580,5,0,TRUE
-0580R016,Ramshäll,580,5,0,TRUE
-0580R017,Ryd,580,5,0,TRUE
-0580R018,Skäggetorp-Tornby,580,5,0,TRUE
-0580R019,Sturefors,580,5,0,TRUE
-0580R020,Tallboda,580,5,0,TRUE
-0580R021,Tannefors-Stångebro-Kallerstad,580,5,0,TRUE
-0580R022,Trädgårdsföreningen-Folkungavallen,580,5,0,TRUE
-0580R023,Ullstämma-Haninge,580,5,0,TRUE
-0580R024,Valkebo omland,580,5,0,TRUE
-0580R025,Valla-T1,580,5,0,TRUE
-0580R026,Vasastaden-Hunneberg,580,5,0,TRUE
-0580R027,Vidingsjö,580,5,0,TRUE
-0580R028,Vikingstad-Rappestad,580,5,0,TRUE
-0580R029,Vimanshäll,580,5,0,TRUE
-0580R030,Vreta Kloster omland,580,5,0,TRUE
-0580R031,Vårdnäs omland,580,5,0,TRUE
-0580R032,Åkerbo omland,580,5,0,TRUE
-0581R001,Borgs villastad-Kneippen,581,5,0,TRUE
-0581R002,Djurön-Ljunga-Tingstad,581,5,0,TRUE
-0581R003,Djäknepark-Gustav Adolf,581,5,0,TRUE
-0581R004,Eksund-Öbonäs,581,5,0,TRUE
-0581R005,Eneby centrum-Vidablick-Sandbyhov,581,5,0,TRUE
-0581R006,Gamla Staden-Centrum,581,5,0,TRUE
-0581R007,Generalen,581,5,0,TRUE
-0581R008,Grönhög-Klingsberg,581,5,0,TRUE
-0581R009,Hallberga-Fyrby-Sörby,581,5,0,TRUE
-0581R010,Herstadberg-Händelö-Lagerlunda,581,5,0,TRUE
-0581R011,Kimstad-Norsholm-Skärkind,581,5,0,TRUE
-0581R012,Kolmården,581,5,0,TRUE
-0581R013,Kärrhagen-Kättsätter,581,5,0,TRUE
-0581R014,Lindö-Berga-Marby,581,5,0,TRUE
-0581R015,Navestad-Åselstad,581,5,0,TRUE
-0581R016,Nordvästra Marielund,581,5,0,TRUE
-0581R017,Nordvästra Nordantill,581,5,0,TRUE
-0581R018,Nordvästra Vilbergen,581,5,0,TRUE
-0581R019,Nordöstra Hageby,581,5,0,TRUE
-0581R020,Norra Ektorp,581,5,0,TRUE
-0581R021,Norra Ljura,581,5,0,TRUE
-0581R022,Oxelbergen-Risängen-Sylten,581,5,0,TRUE
-0581R023,Pryssgården-Taborsberg,581,5,0,TRUE
-0581R024,Rambodal,581,5,0,TRUE
-0581R025,Sandtorp-Norra Skarphagen,581,5,0,TRUE
-0581R026,Simonstorp-Graversfors-Landsbygd,581,5,0,TRUE
-0581R027,Skärblacka-Vånga-Landsbygd,581,5,0,TRUE
-0581R028,Smedby-Brånnestad,581,5,0,TRUE
-0581R029,Strömbacken-Berget-Södertull,581,5,0,TRUE
-0581R030,Svärtinge-Loddby-Landsbygd,581,5,0,TRUE
-0581R031,Sydvästra Hageby,581,5,0,TRUE
-0581R032,Sydöstra Marielund,581,5,0,TRUE
-0581R033,Sydöstra Nordantill,581,5,0,TRUE
-0581R034,Sydöstra Vilbergen-Björkalund,581,5,0,TRUE
-0581R035,Såpkullen-Söderstaden-Vasaparken,581,5,0,TRUE
-0581R036,Södra Ektorp,581,5,0,TRUE
-0581R037,Västra Klockaretorpet,581,5,0,TRUE
-0581R038,Åby-Jursla-Landsbygd,581,5,0,TRUE
-0581R039,Östra Haga,581,5,0,TRUE
-0581R040,Östra Vikbolandet,581,5,0,TRUE
-0582R001,Alboga-Bossgård,582,5,0,TRUE
-0582R002,Drothem,582,5,0,TRUE
-0582R003,Mogata-Sankt Anna,582,5,0,TRUE
-0582R004,Skönberga,582,5,0,TRUE
-0582R005,Söderköpings centrum,582,5,0,TRUE
-0582R006,Söderköpings omland-Östra Ryd,582,5,0,TRUE
-0582R007,Västra Husby-Luddingsbo,582,5,0,TRUE
-0583R001,Borensberg,583,5,0,TRUE
-0583R002,Charlottenborg-Ekenäs-Grankulla,583,5,0,TRUE
-0583R003,Ekön-Torvmossen,583,5,0,TRUE
-0583R004,Fornåsa-Österstad-Klockrike,583,5,0,TRUE
-0583R005,Fågelsta-Södra Freberga,583,5,0,TRUE
-0583R006,Gamla stan,583,5,0,TRUE
-0583R007,Motala tätort-övrigt,583,5,0,TRUE
-0583R008,Nykyrka-Tjällmo-Godegård,583,5,0,TRUE
-0583R009,Väster-Södra Varamon-Gustavsvik,583,5,0,TRUE
-0584R001,Centrala Vadstena-Kvissberg,584,5,0,TRUE
-0584R002,Tycklinge,584,5,0,TRUE
-0584R003,Vadstena Innerstaden,584,5,0,TRUE
-0584R004,Vadstena landsbygd,584,5,0,TRUE
-0584R005,Vadstena söder,584,5,0,TRUE
-0586R001,Eldslösa,586,5,0,TRUE
-0586R002,Mantorp tätort,586,5,0,TRUE
-0586R003,Mjölby omnejd-Skänninge omnejd,586,5,0,TRUE
-0586R004,Mjölby östra,586,5,0,TRUE
-0586R005,Ryttarhagen-Högby,586,5,0,TRUE
-0586R006,Skeppsås-Normlösa-Öjebro,586,5,0,TRUE
-0586R007,Skänninge tätort,586,5,0,TRUE
-0586R008,Slomarp-Egeby,586,5,0,TRUE
-0586R009,Svartå strand-Centrum-Albacken,586,5,0,TRUE
-0586R010,Sya-Spångsholm-Veta,586,5,0,TRUE
-0586R011,Sörby-Östra Lundby-Centrum,586,5,0,TRUE
-0586R012,Tunet-Hagaparken,586,5,0,TRUE
-0586R013,Vasa,586,5,0,TRUE
-0586R014,Väderstad-Väderstad omnejd,586,5,0,TRUE
-0586R015,Västra Harg-Östra Tollstad,586,5,0,TRUE
-0586R016,Västra Lundby,586,5,0,TRUE
-0604R001,Aneby nordvästra,604,6,0,TRUE
-0604R002,Aneby västra omland,604,6,0,TRUE
-0604R003,Aneby östra,604,6,0,TRUE
-0604R004,Aneby östra omland,604,6,0,TRUE
-0617R001,Gnosjö landsbygd,617,6,0,TRUE
-0617R002,Gnosjö tätort,617,6,0,TRUE
-0617R003,Hillerstorp tätort,617,6,0,TRUE
-0642R001,Mullsjö tätort nordvästra,642,6,0,TRUE
-0642R002,Mullsjö tätort nordöstra,642,6,0,TRUE
-0642R003,Mullsjö tätort södra,642,6,0,TRUE
-0642R004,Sandhem-Bjurbäck-Utvängstorp,642,6,0,TRUE
-0643R001,Bränninge,643,6,0,TRUE
-0643R002,Habo norra,643,6,0,TRUE
-0643R003,Habo södra,643,6,0,TRUE
-0643R004,Kyrkeryd-Kråkeryd,643,6,0,TRUE
-0643R005,Kärnekulla-Sjogarp,643,6,0,TRUE
-0643R006,Kärr,643,6,0,TRUE
-0643R007,Mölekullen-Centrum,643,6,0,TRUE
-0662R001,Anderstorp nordsydväst,662,6,0,TRUE
-0662R002,Anderstorp östra,662,6,0,TRUE
-0662R003,Broaryd-Gislaved omland,662,6,0,TRUE
-0662R004,Burseryd,662,6,0,TRUE
-0662R005,Gislaved nordväst,662,6,0,TRUE
-0662R006,Gislaved norra,662,6,0,TRUE
-0662R007,Gislaved södra,662,6,0,TRUE
-0662R008,Gislaved östra,662,6,0,TRUE
-0662R009,Hestra,662,6,0,TRUE
-0662R010,Reftele,662,6,0,TRUE
-0662R011,Smålandsstenar västra,662,6,0,TRUE
-0662R012,Smålandsstenar östra,662,6,0,TRUE
-0662R013,Smålandsstenar-Reftele omland,662,6,0,TRUE
-0665R001,Bondstorp-Byarum omland,665,6,0,TRUE
-0665R002,Hok-Svenarum omland,665,6,0,TRUE
-0665R003,Skillingaryd västra,665,6,0,TRUE
-0665R004,Skillingaryd östra,665,6,0,TRUE
-0665R005,Vaggeryd norra,665,6,0,TRUE
-0665R006,Vaggeryd västra,665,6,0,TRUE
-0665R007,Vaggeryd östra,665,6,0,TRUE
-0665R008,Åker-Tofteryd omland,665,6,0,TRUE
-0680R001,Bankeryd,680,6,0,TRUE
-0680R002,Barnarp,680,6,0,TRUE
-0680R003,Barnarps-Tenhults landsbygder,680,6,0,TRUE
-0680R004,Bymarken,680,6,0,TRUE
-0680R005,Bäckalyckan-Västra Torpa,680,6,0,TRUE
-0680R006,Egna Hem-Stensholm,680,6,0,TRUE
-0680R007,Ekhagen,680,6,0,TRUE
-0680R008,Gråbo-Tormenås,680,6,0,TRUE
-0680R009,Gränna,680,6,0,TRUE
-0680R010,Gräshagen-Tokarp,680,6,0,TRUE
-0680R011,Hisingstorp-Dalvik-Skänkeberg,680,6,0,TRUE
-0680R012,Hovslätt,680,6,0,TRUE
-0680R013,Huskvarna centrum,680,6,0,TRUE
-0680R014,Huskvarna söder,680,6,0,TRUE
-0680R015,Järstorp-Bottnaryd-Norra Unnaryd,680,6,0,TRUE
-0680R016,Jönköping centrum Väster,680,6,0,TRUE
-0680R017,Jönköping centrum Öster,680,6,0,TRUE
-0680R018,Kaxholmen,680,6,0,TRUE
-0680R019,Liljeholmen-Västra Rosenlund,680,6,0,TRUE
-0680R020,Ljungarum,680,6,0,TRUE
-0680R021,Norrahammar,680,6,0,TRUE
-0680R022,Norrängen,680,6,0,TRUE
-0680R023,Rosenlund-Vättersnäs,680,6,0,TRUE
-0680R024,Råslätt,680,6,0,TRUE
-0680R025,Samset-Mariebo,680,6,0,TRUE
-0680R026,Skärstad-Lekeryd,680,6,0,TRUE
-0680R027,Söder-Munksjöstaden,680,6,0,TRUE
-0680R028,Södra Munksjön-Kättilstorp,680,6,0,TRUE
-0680R029,Taberg-Månsarp,680,6,0,TRUE
-0680R030,Tenhult,680,6,0,TRUE
-0680R031,Trånghalla-Kortebo,680,6,0,TRUE
-0680R032,Visingsö-Örserum-Ölmstad,680,6,0,TRUE
-0680R033,Österängen,680,6,0,TRUE
-0680R034,Öxnehaga,680,6,0,TRUE
-0680R035,Öxnehaga centrum,680,6,0,TRUE
-0682R001,Bodafors,682,6,0,TRUE
-0682R002,Forserum,682,6,0,TRUE
-0682R003,Handskeryd,682,6,0,TRUE
-0682R004,Ingsberg-Nyhem-Hultet,682,6,0,TRUE
-0682R005,Malmbäck,682,6,0,TRUE
-0682R006,Norrboda-Västra Runneryd,682,6,0,TRUE
-0682R007,Nässjö centrum,682,6,0,TRUE
-0682R008,Nässjö norra landsbygd,682,6,0,TRUE
-0682R009,Nässjö södra landsbygd,682,6,0,TRUE
-0682R010,Nässjö västra landsbygd,682,6,0,TRUE
-0682R011,Södra Åker-Åkershäll-Södergården,682,6,0,TRUE
-0682R012,Åker-Målen,682,6,0,TRUE
-0682R013,Östra Runneryd,682,6,0,TRUE
-0683R001,Bor,683,6,0,TRUE
-0683R002,Bredaryd,683,6,0,TRUE
-0683R003,Centrum-Apladalen,683,6,0,TRUE
-0683R004,Forsheda,683,6,0,TRUE
-0683R005,Gröndal-Norregård,683,6,0,TRUE
-0683R006,Mossle,683,6,0,TRUE
-0683R007,Nylund-Duvelund,683,6,0,TRUE
-0683R008,Rydaholm,683,6,0,TRUE
-0683R009,Trälleborg,683,6,0,TRUE
-0683R010,Vråen-Rörstorp,683,6,0,TRUE
-0683R011,Värnamo sydöstra,683,6,0,TRUE
-0683R012,Värnamo västra,683,6,0,TRUE
-0683R013,Värnamo östra,683,6,0,TRUE
-0684R001,Stockaryd,684,6,0,TRUE
-0684R002,Sävsjö nordöst,684,6,0,TRUE
-0684R003,Sävsjö norra omland,684,6,0,TRUE
-0684R004,Sävsjö sydöst,684,6,0,TRUE
-0684R005,Sävsjö södra omland,684,6,0,TRUE
-0684R006,Sävsjö väst,684,6,0,TRUE
-0684R007,Vrigstad,684,6,0,TRUE
-0685R001,Ekenässjön,685,6,0,TRUE
-0685R002,Holsby-Kvillsfors,685,6,0,TRUE
-0685R003,Korsberga-Nye,685,6,0,TRUE
-0685R004,Landsbro-Myresö,685,6,0,TRUE
-0685R005,Vetlanda-Brunnsgård,685,6,0,TRUE
-0685R006,Vetlanda-Bäckseda,685,6,0,TRUE
-0685R007,Vetlanda-Centrum,685,6,0,TRUE
-0685R008,Vetlanda-Karslund,685,6,0,TRUE
-0685R009,Vetlanda-Mellangården,685,6,0,TRUE
-0685R010,Vetlanda-Tomaslunden,685,6,0,TRUE
-0685R011,Vetlanda-Upplanda,685,6,0,TRUE
-0686R001,Eksjö norra,686,6,0,TRUE
-0686R002,Eksjö södra,686,6,0,TRUE
-0686R003,Eksjö västra,686,6,0,TRUE
-0686R004,Eksjö västra landsbygd,686,6,0,TRUE
-0686R005,Eksjö östra,686,6,0,TRUE
-0686R006,Eksjö östra landsbygd,686,6,0,TRUE
-0686R007,Mariannelund,686,6,0,TRUE
-0687R001,Tranås centrum,687,6,0,TRUE
-0687R002,Tranås västra landsbygd,687,6,0,TRUE
-0687R003,Tranås östra landsbygd,687,6,0,TRUE
-0687R004,Tranås-väster,687,6,0,TRUE
-0687R005,Tranås-öster,687,6,0,TRUE
-0760R001,Klavreström-Norrhult,760,7,0,TRUE
-0760R002,Lenhovda,760,7,0,TRUE
-0760R003,Uppvidinge omland,760,7,0,TRUE
-0760R004,Åseda,760,7,0,TRUE
-0761R001,Hovmantorp,761,7,0,TRUE
-0761R002,Kosta,761,7,0,TRUE
-0761R003,Lessebo centralort,761,7,0,TRUE
-0761R004,Lessebo omland,761,7,0,TRUE
-0763R001,Konga,763,7,0,TRUE
-0763R002,Linneryd-Älmeboda,763,7,0,TRUE
-0763R003,Ryds glesbygd,763,7,0,TRUE
-0763R004,Ryds tätort,763,7,0,TRUE
-0763R005,Tingryds glesbygd-Väckelsång,763,7,0,TRUE
-0763R006,Tingsryds tätort,763,7,0,TRUE
-0763R007,Urshult,763,7,0,TRUE
-0764R001,Alvesta centrum,764,7,0,TRUE
-0764R002,Alvesta nordost,764,7,0,TRUE
-0764R003,Alvesta sydost,764,7,0,TRUE
-0764R004,Alvesta södra,764,7,0,TRUE
-0764R005,Alvesta västra,764,7,0,TRUE
-0764R006,Blädinge,764,7,0,TRUE
-0764R007,Grimslöv,764,7,0,TRUE
-0764R008,Hjortsberga,764,7,0,TRUE
-0764R009,Moheda-Torpsbruk,764,7,0,TRUE
-0764R010,Slätthög,764,7,0,TRUE
-0764R011,Vislanda,764,7,0,TRUE
-0764R012,Västra Torsås,764,7,0,TRUE
-0765R001,Diö-Liatorp,765,7,0,TRUE
-0765R002,Älmhult norra,765,7,0,TRUE
-0765R003,Älmhult sydöstra,765,7,0,TRUE
-0765R004,Älmhult västra,765,7,0,TRUE
-0765R005,Älmhult östra,765,7,0,TRUE
-0765R006,Älmhults omland,765,7,0,TRUE
-0767R001,Markaryds kommuns landsbygd,767,7,0,TRUE
-0767R002,Markaryd-Timsfors,767,7,0,TRUE
-0767R003,Traryd-Strömsnäsbruk,767,7,0,TRUE
-0780R001,Araby-Dalbo-Nydala,780,7,0,TRUE
-0780R002,Braås,780,7,0,TRUE
-0780R003,Gamla norr-Fagrabäck,780,7,0,TRUE
-0780R004,Gemla,780,7,0,TRUE
-0780R005,Hov-Norr,780,7,0,TRUE
-0780R006,Hovshaga,780,7,0,TRUE
-0780R007,Högstorp-Hollstorp,780,7,0,TRUE
-0780R008,Ingelstad,780,7,0,TRUE
-0780R009,Kungsmad-Pilbäcken,780,7,0,TRUE
-0780R010,Lammhult,780,7,0,TRUE
-0780R011,Rottne,780,7,0,TRUE
-0780R012,Sandsbro,780,7,0,TRUE
-0780R013,Stadsnära landsbygd,780,7,0,TRUE
-0780R014,Söder-Bäckaslöv,780,7,0,TRUE
-0780R015,Teleborg,780,7,0,TRUE
-0780R016,Teleborg centrum,780,7,0,TRUE
-0780R017,Universitetsområde,780,7,0,TRUE
-0780R018,Västra mark,780,7,0,TRUE
-0780R019,Växjö centrum-Väster-Spetsamossen,780,7,0,TRUE
-0780R020,Växjö landsbygd,780,7,0,TRUE
-0780R021,Växjö öster,780,7,0,TRUE
-0780R022,Öjaby-Räppe,780,7,0,TRUE
-0780R023,Östra Lugnet-Evedal,780,7,0,TRUE
-0781R001,Angelstad-Bolmen,781,7,0,TRUE
-0781R002,Annelund,781,7,0,TRUE
-0781R003,Ekebacken,781,7,0,TRUE
-0781R004,Hamneda-Kånna,781,7,0,TRUE
-0781R005,Hångers,781,7,0,TRUE
-0781R006,Kungshög,781,7,0,TRUE
-0781R007,Lagan,781,7,0,TRUE
-0781R008,Lidhult-Odensjö-Torpa,781,7,0,TRUE
-0781R009,Ljungby centrum,781,7,0,TRUE
-0781R010,Replösa,781,7,0,TRUE
-0781R011,Ryssby-Agunnaryd,781,7,0,TRUE
-0781R012,Stensberg,781,7,0,TRUE
-0781R013,Vittaryd,781,7,0,TRUE
-0781R014,Ågård-Hjortsberg,781,7,0,TRUE
-0821R001,Fagerhult,821,8,0,TRUE
-0821R002,Högsby,821,8,0,TRUE
-0821R003,Högsby omland,821,8,0,TRUE
-0821R004,Långemåla,821,8,0,TRUE
-0834R001,Bergkvara,834,8,0,TRUE
-0834R002,Gullabo,834,8,0,TRUE
-0834R003,Möre,834,8,0,TRUE
-0834R004,Söderåkra,834,8,0,TRUE
-0834R005,Torsås,834,8,0,TRUE
-0840R001,Algutsrum-Saxnäs-Glömminge,840,8,0,TRUE
-0840R002,Färjestaden centrala,840,8,0,TRUE
-0840R003,Färjestaden norra,840,8,0,TRUE
-0840R004,Färjestaden södra,840,8,0,TRUE
-0840R005,Mörbylånga,840,8,0,TRUE
-0840R006,Mörbylånga omland,840,8,0,TRUE
-0840R007,Skogsby-Torslunda,840,8,0,TRUE
-0860R001,Hultsfreds tätort norra,860,8,0,TRUE
-0860R002,Hultsfreds tätort södra,860,8,0,TRUE
-0860R003,Hultsfreds tätort västra,860,8,0,TRUE
-0860R004,Järnforsen-Målilla-Virserum landsbygd,860,8,0,TRUE
-0860R005,Lönneberga-Silverdalen tätort-landsbygd,860,8,0,TRUE
-0860R006,Målilla-Gårdveda-Rosenfors-Ämmenäs tätort,860,8,0,TRUE
-0860R007,Mörlunda tätort-landsbygd,860,8,0,TRUE
-0860R008,Vena tätort-Vena landsbygd,860,8,0,TRUE
-0860R009,Virserums tätort,860,8,0,TRUE
-0861R001,Blomstermåla,861,8,0,TRUE
-0861R002,Fliseryd omland,861,8,0,TRUE
-0861R003,Mellersta Mönsterås samhälle,861,8,0,TRUE
-0861R004,Mönsterås centrala,861,8,0,TRUE
-0861R005,Mönsterås omland,861,8,0,TRUE
-0861R006,Mönsterås södra samhälle-Oknö,861,8,0,TRUE
-0861R007,Norra-västra Mönsterås samhälle,861,8,0,TRUE
-0861R008,Timmernabben,861,8,0,TRUE
-0861R009,Ålem omland,861,8,0,TRUE
-0861R010,Ålem stationssamhälle,861,8,0,TRUE
-0862R001,Algutsboda-Algutsboda omland,862,8,0,TRUE
-0862R002,Emmaboda norra,862,8,0,TRUE
-0862R003,Emmaboda södra,862,8,0,TRUE
-0862R004,Emmaboda-Lindås,862,8,0,TRUE
-0862R005,Långasjö-Långasjö omland,862,8,0,TRUE
-0862R006,Vissefjärda-Vissefjärda omland,862,8,0,TRUE
-0880R001,Berga,880,8,0,TRUE
-0880R002,Bergavik-Björkenäs,880,8,0,TRUE
-0880R003,Boholmarna-Dunö-Rinkabyholm,880,8,0,TRUE
-0880R004,Djurängen-Funkabo-Oxhagen,880,8,0,TRUE
-0880R005,Getingen-Tallhagen-Västra Norrgård,880,8,0,TRUE
-0880R006,Kalmar centrala-Stensö,880,8,0,TRUE
-0880R007,Kalmar norra kommundelen,880,8,0,TRUE
-0880R008,Kalmar södra kommundelen,880,8,0,TRUE
-0880R009,Kalmar västra kommundelen,880,8,0,TRUE
-0880R010,Krafslösa-Snurrom-Vimpeltorpet,880,8,0,TRUE
-0880R011,Lindsdal,880,8,0,TRUE
-0880R012,Norrliden,880,8,0,TRUE
-0880R013,Påryd,880,8,0,TRUE
-0880R014,Tegelviken-Västra Malmen,880,8,0,TRUE
-0880R015,Västra Smedby,880,8,0,TRUE
-0880R016,Östra Norrgård-Östra Malmen,880,8,0,TRUE
-0880R017,Östra Smedby,880,8,0,TRUE
-0881R001,Alsjöholm-Örsjö,881,8,0,TRUE
-0881R002,Hälleberga-Kristvalla,881,8,0,TRUE
-0881R003,Kråksmåla,881,8,0,TRUE
-0881R004,Kungshall,881,8,0,TRUE
-0881R005,Myrdalen-Idehult-Rismåla,881,8,0,TRUE
-0881R006,Nybro centrum-Paradiset-Åkrahäll,881,8,0,TRUE
-0881R007,Nybro södra-Madesjö,881,8,0,TRUE
-0881R008,Nybros södra omland,881,8,0,TRUE
-0881R009,Orrefors-Flygsfors,881,8,0,TRUE
-0882R001,Bockara-Påskallavik,882,8,0,TRUE
-0882R002,Döderhult-Svalliden,882,8,0,TRUE
-0882R003,Gröndal-Åsa,882,8,0,TRUE
-0882R004,Hummlekärrshult-Mockebo-Saltvik,882,8,0,TRUE
-0882R005,Kristdala-Fårbo-Figeholm,882,8,0,TRUE
-0882R006,Kristineberg-Mysingsö,882,8,0,TRUE
-0882R007,Norrtorn-Orrängen,882,8,0,TRUE
-0882R008,Oskarshamns centrum,882,8,0,TRUE
-0883R001,Ankarsrum,883,8,0,TRUE
-0883R002,Brevik-Gertrudsvik,883,8,0,TRUE
-0883R003,Gamleby,883,8,0,TRUE
-0883R004,Gunnebo,883,8,0,TRUE
-0883R005,Norra Tjust,883,8,0,TRUE
-0883R006,Peru-Arabien,883,8,0,TRUE
-0883R007,Piperskärr-Grantorpet,883,8,0,TRUE
-0883R008,Reginelund-Stenhagen,883,8,0,TRUE
-0883R009,Skogshaga,883,8,0,TRUE
-0883R010,Södermalm-Karstorp,883,8,0,TRUE
-0883R011,Södra Tjust,883,8,0,TRUE
-0883R012,Västervik centrum,883,8,0,TRUE
-0883R013,Västralund-Jenny,883,8,0,TRUE
-0883R014,Örbäcken-Lysingsbadet,883,8,0,TRUE
-0883R015,Östermalm-Johannesdal,883,8,0,TRUE
-0883R016,Överum,883,8,0,TRUE
-0884R001,Storebro,884,8,0,TRUE
-0884R002,Södra Vi,884,8,0,TRUE
-0884R003,Vimmerby norra,884,8,0,TRUE
-0884R004,Vimmerby norra landsbygd,884,8,0,TRUE
-0884R005,Vimmerby sydost,884,8,0,TRUE
-0884R006,Vimmerby sydväst,884,8,0,TRUE
-0884R007,Vimmerby västra landsbygd,884,8,0,TRUE
-0884R008,Vimmerby östra,884,8,0,TRUE
-0884R009,Vimmerby östra landsbygd,884,8,0,TRUE
-0884R010,Vimmerby-Bullerbyn,884,8,0,TRUE
-0885R001,Borgholm norra kommundelen,885,8,0,TRUE
-0885R002,Borgholm södra kommundelen,885,8,0,TRUE
-0885R003,Borgholm-Köpingsvik,885,8,0,TRUE
-0980R001,Bingeby,980,9,0,TRUE
-0980R002,Gotland mellersta,980,9,0,TRUE
-0980R003,Gotland norra,980,9,0,TRUE
-0980R004,Gotland södra,980,9,0,TRUE
-0980R005,Gråbo,980,9,0,TRUE
-0980R006,Hemse,980,9,0,TRUE
-0980R007,Innerstaden-Visby norra,980,9,0,TRUE
-0980R008,Klintehamn,980,9,0,TRUE
-0980R009,Roma,980,9,0,TRUE
-0980R010,Slite,980,9,0,TRUE
-0980R011,Visby omland,980,9,0,TRUE
-0980R012,Visby södra,980,9,0,TRUE
+0114R001,Bollstanäs,0114,01,0,TRUE
+0114R002,Hammarby-Vaxmyra,0114,01,0,TRUE
+0114R003,Odenslunda norra-Frestaby-Ekeby,0114,01,0,TRUE
+0114R004,Odenslunda södra-Bredden,0114,01,0,TRUE
+0114R005,Runby norra,0114,01,0,TRUE
+0114R006,Runby södra-Ed,0114,01,0,TRUE
+0114R007,Skälby-Brunnby Vik,0114,01,0,TRUE
+0114R008,Smedby södra-Älvsunda,0114,01,0,TRUE
+0114R009,Upplands Väsby centrum-Smedby norra,0114,01,0,TRUE
+0114R010,Upplands Väsby omland,0114,01,0,TRUE
+0114R011,Vilunda västra,0114,01,0,TRUE
+0114R012,Vilunda östra,0114,01,0,TRUE
+0115R001,Karby-Brottby,0115,01,0,TRUE
+0115R002,Lindholmen,0115,01,0,TRUE
+0115R003,Vallentuna centrala tätort,0115,01,0,TRUE
+0115R004,Vallentuna landsbygd,0115,01,0,TRUE
+0115R005,Vallentuna södra tätort,0115,01,0,TRUE
+0115R006,Vallentuna västra tätort,0115,01,0,TRUE
+0115R007,Vallentuna östra tätort,0115,01,0,TRUE
+0117R001,Berga,0117,01,0,TRUE
+0117R002,Brevik-Lervik-Flaxenvik,0117,01,0,TRUE
+0117R003,Hacksta-Centrumområdet,0117,01,0,TRUE
+0117R004,Ljusterö-omkringliggande skärgård,0117,01,0,TRUE
+0117R005,Margeretelunds centrum,0117,01,0,TRUE
+0117R006,Norrgårdshöjden,0117,01,0,TRUE
+0117R007,Roslagskulla-Furusundsleden,0117,01,0,TRUE
+0117R008,Rydbo,0117,01,0,TRUE
+0117R009,Skånsta-Singö,0117,01,0,TRUE
+0117R010,Stava-Smedby-Sjökarby,0117,01,0,TRUE
+0117R011,Svinninge,0117,01,0,TRUE
+0117R012,Söra,0117,01,0,TRUE
+0117R013,Tuna,0117,01,0,TRUE
+0117R014,Täljö-Runö,0117,01,0,TRUE
+0117R015,Österskär,0117,01,0,TRUE
+0120R001,Björnkärret-Nyhem,0120,01,0,TRUE
+0120R002,Djurö-Vindö,0120,01,0,TRUE
+0120R003,Farstalandet-Charlottendal,0120,01,0,TRUE
+0120R004,Hagaberg,0120,01,0,TRUE
+0120R005,Hemmesta,0120,01,0,TRUE
+0120R006,Herrviksnäs-Strömma-Hässelmara,0120,01,0,TRUE
+0120R007,Ingarö norr,0120,01,0,TRUE
+0120R008,Ingarö söder,0120,01,0,TRUE
+0120R009,Kvarnberget-Hästhagen,0120,01,0,TRUE
+0120R010,Munkmora-Ösby grind,0120,01,0,TRUE
+0120R011,Mörtnäs,0120,01,0,TRUE
+0120R012,Norra Värdölandet-Skärgården,0120,01,0,TRUE
+0120R013,Ormingelandet,0120,01,0,TRUE
+0120R014,Skeppsdalsström,0120,01,0,TRUE
+0120R015,Stavsnäs,0120,01,0,TRUE
+0120R016,Torsby,0120,01,0,TRUE
+0120R017,Älvsala-Skärmarö,0120,01,0,TRUE
+0120R018,Ösbydalen-Holmviksskogen,0120,01,0,TRUE
+0120R019,Östra Ekedal-Höjdhagen,0120,01,0,TRUE
+0123R001,Barkarby västra-Skälby östra,0123,01,0,TRUE
+0123R002,Barkarby östra-Veddesta,0123,01,0,TRUE
+0123R003,Barkarbystaden norra,0123,01,0,TRUE
+0123R004,Bolinder Strand,0123,01,0,TRUE
+0123R005,Centrala Jakobsberg,0123,01,0,TRUE
+0123R006,Centrala Kallhäll,0123,01,0,TRUE
+0123R007,Centrala Söderhöjden,0123,01,0,TRUE
+0123R008,Centrala Viksjö norra,0123,01,0,TRUE
+0123R009,Centrala Viksjö södra,0123,01,0,TRUE
+0123R010,Fjällen-Fastebol,0123,01,0,TRUE
+0123R011,Hammaren västra,0123,01,0,TRUE
+0123R012,Jakobsberg norra,0123,01,0,TRUE
+0123R013,Jakobsberg västra,0123,01,0,TRUE
+0123R014,Kolarängen-Villastaden,0123,01,0,TRUE
+0123R015,Lädersättra,0123,01,0,TRUE
+0123R016,Nibble,0123,01,0,TRUE
+0123R017,Nyberg-Hammaren östra,0123,01,0,TRUE
+0123R018,Skogstorp,0123,01,0,TRUE
+0123R019,Skälby västra,0123,01,0,TRUE
+0123R020,Stäket,0123,01,0,TRUE
+0123R021,Tallbohov,0123,01,0,TRUE
+0123R022,Ulvsättra,0123,01,0,TRUE
+0123R023,Vibblaby,0123,01,0,TRUE
+0123R024,Viksjö västra,0123,01,0,TRUE
+0123R025,Ålsta,0123,01,0,TRUE
+0125R001,Adelsö-Munsö-Västra Ekerön,0125,01,0,TRUE
+0125R002,Ekebyhov-Träkvista-Väsby,0125,01,0,TRUE
+0125R003,Ekerö centrum-Östra Ekerön,0125,01,0,TRUE
+0125R004,Färingsö omland,0125,01,0,TRUE
+0125R005,Kungsberga-Färentuna-Hilleshög,0125,01,0,TRUE
+0125R006,Lovön,0125,01,0,TRUE
+0125R007,Stenhamra,0125,01,0,TRUE
+0125R008,Sundby-Ekerö sommarstad,0125,01,0,TRUE
+0125R009,Södra Färingsö,0125,01,0,TRUE
+0125R010,Västra Sandudden-Lundhagen-Skärvik,0125,01,0,TRUE
+0125R011,Älvnäs-Brunna-Närlunda,0125,01,0,TRUE
+0126R001,Flemingsberg västra,0126,01,0,TRUE
+0126R002,Flemingsberg östra,0126,01,0,TRUE
+0126R003,Flemingsberg-Kästa,0126,01,0,TRUE
+0126R004,Fullersta norra,0126,01,0,TRUE
+0126R005,Fullersta södra,0126,01,0,TRUE
+0126R006,Gladö-Lissma,0126,01,0,TRUE
+0126R007,Glömsta-Loviseberg,0126,01,0,TRUE
+0126R008,Högmora-Vidja-Ågesta,0126,01,0,TRUE
+0126R009,Kungens Kurva-Kråkvik,0126,01,0,TRUE
+0126R010,Länna,0126,01,0,TRUE
+0126R011,Segeltorp,0126,01,0,TRUE
+0126R012,Sjödalen centrala-norra,0126,01,0,TRUE
+0126R013,Sjödalen södra,0126,01,0,TRUE
+0126R014,Skogås västra,0126,01,0,TRUE
+0126R015,Skogås östra,0126,01,0,TRUE
+0126R016,Snättringe,0126,01,0,TRUE
+0126R017,Stuvsta,0126,01,0,TRUE
+0126R018,Trångsund,0126,01,0,TRUE
+0126R019,Trångsund centrala,0126,01,0,TRUE
+0126R020,Vårby gård,0126,01,0,TRUE
+0126R021,Vårby Haga-Masmo,0126,01,0,TRUE
+0126R022,Vårby Udde-Duvberget,0126,01,0,TRUE
+0127R001,Albyberget,0127,01,0,TRUE
+0127R002,Albydalen,0127,01,0,TRUE
+0127R003,Brantbrink-Tullingeskog-Rörmossen,0127,01,0,TRUE
+0127R004,Eriksberg-Sturehov,0127,01,0,TRUE
+0127R005,Fittja,0127,01,0,TRUE
+0127R006,Grödinge,0127,01,0,TRUE
+0127R007,Hallunda,0127,01,0,TRUE
+0127R008,Kassmyra-Skäcklinge,0127,01,0,TRUE
+0127R009,Lanthem-Tullinge centrum-Tullingeberg,0127,01,0,TRUE
+0127R010,Norsborg,0127,01,0,TRUE
+0127R011,Riksten,0127,01,0,TRUE
+0127R012,Slagsta,0127,01,0,TRUE
+0127R013,Storvreten,0127,01,0,TRUE
+0127R014,Tullinge parkhem,0127,01,0,TRUE
+0127R015,Tullinge villastad,0127,01,0,TRUE
+0127R016,Tumba centrum-Segersjö-Sandstugan,0127,01,0,TRUE
+0127R017,Tuna,0127,01,0,TRUE
+0127R018,Uttran-Broäng,0127,01,0,TRUE
+0127R019,Vretarna-Hamra,0127,01,0,TRUE
+0127R020,Vårsta,0127,01,0,TRUE
+0128R001,Rönninge,0128,01,0,TRUE
+0128R002,Salem västra,0128,01,0,TRUE
+0128R003,Salem östra,0128,01,0,TRUE
+0128R004,Salems centrum,0128,01,0,TRUE
+0136R001,Brandbergen centrala,0136,01,0,TRUE
+0136R002,Brandbergen norra,0136,01,0,TRUE
+0136R003,Brandbergen södra,0136,01,0,TRUE
+0136R004,Dalarö,0136,01,0,TRUE
+0136R005,Gudö,0136,01,0,TRUE
+0136R006,Handen centrala,0136,01,0,TRUE
+0136R007,Handen södra,0136,01,0,TRUE
+0136R008,Handen västra,0136,01,0,TRUE
+0136R009,Haninge skärgård-glesbygd,0136,01,0,TRUE
+0136R010,Jordbro centrala,0136,01,0,TRUE
+0136R011,Jordbro norra,0136,01,0,TRUE
+0136R012,Jordbro Södra,0136,01,0,TRUE
+0136R013,Muskö,0136,01,0,TRUE
+0136R014,Norrby-Vendelsö Gård,0136,01,0,TRUE
+0136R015,Söderby,0136,01,0,TRUE
+0136R016,Tungelsta centrala,0136,01,0,TRUE
+0136R017,Tungelsta norra,0136,01,0,TRUE
+0136R018,Vega centrala-Handen norra,0136,01,0,TRUE
+0136R019,Vega norra,0136,01,0,TRUE
+0136R020,Vega västra,0136,01,0,TRUE
+0136R021,Vendelsö västra,0136,01,0,TRUE
+0136R022,Vendelsö östra,0136,01,0,TRUE
+0136R023,Vendelsömalm västra,0136,01,0,TRUE
+0136R024,Vendelsömalm östra,0136,01,0,TRUE
+0136R025,Västerhaninge centrala,0136,01,0,TRUE
+0136R026,Västerhaninge norra,0136,01,0,TRUE
+0136R027,Västerhaninge västra,0136,01,0,TRUE
+0136R028,Västerhaninge östra,0136,01,0,TRUE
+0138R001,Fornudden-Drevviken,0138,01,0,TRUE
+0138R002,Fårdala,0138,01,0,TRUE
+0138R003,Granängsringen-Nyboda,0138,01,0,TRUE
+0138R004,Hanviken-Skälsätra,0138,01,0,TRUE
+0138R005,Krusboda,0138,01,0,TRUE
+0138R006,Lindalen,0138,01,0,TRUE
+0138R007,Raksta-Brevik,0138,01,0,TRUE
+0138R008,Sikvägen,0138,01,0,TRUE
+0138R009,Tyresö centrum,0138,01,0,TRUE
+0138R010,Tyresö Strand,0138,01,0,TRUE
+0138R011,Västra Farmarstigen,0138,01,0,TRUE
+0138R012,Västra Trollbäcken,0138,01,0,TRUE
+0138R013,Öringe-Kolardammarna,0138,01,0,TRUE
+0138R014,Östra Farmarstigen,0138,01,0,TRUE
+0139R001,Brunna,0139,01,0,TRUE
+0139R002,Centrala Bro,0139,01,0,TRUE
+0139R003,Centrala Kungsängen,0139,01,0,TRUE
+0139R004,Lillsjön-Sylta-Ålsta,0139,01,0,TRUE
+0139R005,Norra Bro,0139,01,0,TRUE
+0139R006,Norrboda-Tibble,0139,01,0,TRUE
+0139R007,Rosenängarna-Österhagen,0139,01,0,TRUE
+0139R008,Södra Bro-Önsta,0139,01,0,TRUE
+0139R009,Upplands-Bro norra omland,0139,01,0,TRUE
+0139R010,Upplands-Bro södra omland,0139,01,0,TRUE
+0140R001,Nykvarn,0140,01,0,TRUE
+0140R002,Taxinge,0140,01,0,TRUE
+0140R003,Turinge,0140,01,0,TRUE
+0160R001,Arninge-Ullna,0160,01,0,TRUE
+0160R002,Byle,0160,01,0,TRUE
+0160R003,Ella Gård,0160,01,0,TRUE
+0160R004,Ella Park,0160,01,0,TRUE
+0160R005,Ensta,0160,01,0,TRUE
+0160R006,Erikslund,0160,01,0,TRUE
+0160R007,Gribby-Kohagen,0160,01,0,TRUE
+0160R008,Gribby-Myräng,0160,01,0,TRUE
+0160R009,Karlsund,0160,01,0,TRUE
+0160R010,Lahäll,0160,01,0,TRUE
+0160R011,Midgård,0160,01,0,TRUE
+0160R012,Nytorp,0160,01,0,TRUE
+0160R013,Näsby Park,0160,01,0,TRUE
+0160R014,Näsby Slott,0160,01,0,TRUE
+0160R015,Näsbydal,0160,01,0,TRUE
+0160R016,Roslags-Näsby,0160,01,0,TRUE
+0160R017,Runborg,0160,01,0,TRUE
+0160R018,Skarpäng,0160,01,0,TRUE
+0160R019,Tibble,0160,01,0,TRUE
+0160R020,Täby Centrum,0160,01,0,TRUE
+0160R021,Täby Park,0160,01,0,TRUE
+0160R022,Vallabrink,0160,01,0,TRUE
+0160R023,Vallatorp,0160,01,0,TRUE
+0160R024,Viggbyholm,0160,01,0,TRUE
+0160R025,Visinge,0160,01,0,TRUE
+0160R026,Västra Hägernäs,0160,01,0,TRUE
+0160R027,Östra Hägernäs,0160,01,0,TRUE
+0162R001,Danderyd centrala västra,0162,01,0,TRUE
+0162R002,Danderyd centrala östra,0162,01,0,TRUE
+0162R003,Danderyd västra,0162,01,0,TRUE
+0162R004,Djursholm norra,0162,01,0,TRUE
+0162R005,Djursholm södra,0162,01,0,TRUE
+0162R006,Enebyberg,0162,01,0,TRUE
+0162R007,Stocksund,0162,01,0,TRUE
+0163R001,Bagarby,0163,01,0,TRUE
+0163R002,Edsberg,0163,01,0,TRUE
+0163R003,Edsviken-Kummelby,0163,01,0,TRUE
+0163R004,Eriksberg-Fågelsången,0163,01,0,TRUE
+0163R005,Falkberget-Södra Sjöberg,0163,01,0,TRUE
+0163R006,Gillbo-Gillberga,0163,01,0,TRUE
+0163R007,Helenelunds centrum,0163,01,0,TRUE
+0163R008,Häggvik-Klasro,0163,01,0,TRUE
+0163R009,Knista,0163,01,0,TRUE
+0163R010,Landsnora-Kvarnskogen,0163,01,0,TRUE
+0163R011,Norrviken,0163,01,0,TRUE
+0163R012,Nytorp-Hersby-Skansen,0163,01,0,TRUE
+0163R013,Rotebro centrum,0163,01,0,TRUE
+0163R014,Rotsunda,0163,01,0,TRUE
+0163R015,Sjöbergs centrum,0163,01,0,TRUE
+0163R016,Sollentuna centrum,0163,01,0,TRUE
+0163R017,Tegelhagen-Silverdal,0163,01,0,TRUE
+0163R018,Töjnan,0163,01,0,TRUE
+0163R019,Vaxmora-Väsjön,0163,01,0,TRUE
+0163R020,Viby-Järvafältet,0163,01,0,TRUE
+0180R001,Abrahamsberg,0180,01,0,TRUE
+0180R002,Akalla,0180,01,0,TRUE
+0180R003,Alvik,0180,01,0,TRUE
+0180R004,Aspudden,0180,01,0,TRUE
+0180R005,Bagarmossen,0180,01,0,TRUE
+0180R006,Bandhagen,0180,01,0,TRUE
+0180R007,Beckomberga,0180,01,0,TRUE
+0180R008,Björkhagen,0180,01,0,TRUE
+0180R009,Blackeberg,0180,01,0,TRUE
+0180R010,Bredäng,0180,01,0,TRUE
+0180R011,Bromma kyrka,0180,01,0,TRUE
+0180R012,Bromsten,0180,01,0,TRUE
+0180R013,Bällsta,0180,01,0,TRUE
+0180R014,Djurgården,0180,01,0,TRUE
+0180R015,Eneby,0180,01,0,TRUE
+0180R016,Engelbrekts kyrka,0180,01,0,TRUE
+0180R017,Enskede Gård,0180,01,0,TRUE
+0180R018,Enskededalen,0180,01,0,TRUE
+0180R019,Enskedefältet,0180,01,0,TRUE
+0180R020,Fagersjö,0180,01,0,TRUE
+0180R021,Farsta,0180,01,0,TRUE
+0180R022,Flysta,0180,01,0,TRUE
+0180R023,Fredhäll,0180,01,0,TRUE
+0180R024,Fruängen,0180,01,0,TRUE
+0180R025,Gamla Enskede,0180,01,0,TRUE
+0180R026,Grimsta,0180,01,0,TRUE
+0180R027,Gröndal,0180,01,0,TRUE
+0180R028,Gubbängen,0180,01,0,TRUE
+0180R029,Gustav Vasa,0180,01,0,TRUE
+0180R030,Gärdet,0180,01,0,TRUE
+0180R031,Hagsätra,0180,01,0,TRUE
+0180R032,Hammarbyhöjden,0180,01,0,TRUE
+0180R033,Hedvig Eleonora,0180,01,0,TRUE
+0180R034,Herrängen,0180,01,0,TRUE
+0180R035,Hjorthagen-Värtahamnen,0180,01,0,TRUE
+0180R036,Husby,0180,01,0,TRUE
+0180R037,Hägersten,0180,01,0,TRUE
+0180R038,Hägerstensåsen,0180,01,0,TRUE
+0180R039,Hässelby Gård,0180,01,0,TRUE
+0180R040,Hässelby Strand,0180,01,0,TRUE
+0180R041,Hässelby Villastad,0180,01,0,TRUE
+0180R042,Högdalen,0180,01,0,TRUE
+0180R043,Höglandet,0180,01,0,TRUE
+0180R044,Hökarängen,0180,01,0,TRUE
+0180R045,Johanneshov,0180,01,0,TRUE
+0180R046,Kista,0180,01,0,TRUE
+0180R047,Klara-Jacob,0180,01,0,TRUE
+0180R048,Kristineberg,0180,01,0,TRUE
+0180R049,Kungsholm,0180,01,0,TRUE
+0180R050,Kälvesta,0180,01,0,TRUE
+0180R051,Kärrtorp,0180,01,0,TRUE
+0180R052,Larsboda,0180,01,0,TRUE
+0180R053,Liljeholmen,0180,01,0,TRUE
+0180R054,Lilla Essingen,0180,01,0,TRUE
+0180R055,Liseberg,0180,01,0,TRUE
+0180R056,Långbro,0180,01,0,TRUE
+0180R057,Långsjö,0180,01,0,TRUE
+0180R058,Mariatorget,0180,01,0,TRUE
+0180R059,Marieberg,0180,01,0,TRUE
+0180R060,Mariehäll,0180,01,0,TRUE
+0180R061,Mellersta Högalid,0180,01,0,TRUE
+0180R062,Midsommarkransen,0180,01,0,TRUE
+0180R063,Mälarhöjden,0180,01,0,TRUE
+0180R064,Nockeby,0180,01,0,TRUE
+0180R065,Nockebyhov-Olovslund,0180,01,0,TRUE
+0180R066,Norra Adolf Fredrik,0180,01,0,TRUE
+0180R067,Norra Högalid,0180,01,0,TRUE
+0180R068,Norra Johannes,0180,01,0,TRUE
+0180R069,Norra Skarpnäcks Gård,0180,01,0,TRUE
+0180R070,Norra Sofia,0180,01,0,TRUE
+0180R071,Norra Ängby,0180,01,0,TRUE
+0180R072,Nälsta,0180,01,0,TRUE
+0180R073,Oscars kyrka,0180,01,0,TRUE
+0180R074,Reimersholme-Långholmen,0180,01,0,TRUE
+0180R075,Riksby-Åkeshov,0180,01,0,TRUE
+0180R076,Rinkeby,0180,01,0,TRUE
+0180R077,Råcksta,0180,01,0,TRUE
+0180R078,Rågsved,0180,01,0,TRUE
+0180R079,Skärholmen,0180,01,0,TRUE
+0180R080,Sköndal,0180,01,0,TRUE
+0180R081,Smedslätten,0180,01,0,TRUE
+0180R082,Solberga,0180,01,0,TRUE
+0180R083,Solhem-Lunda,0180,01,0,TRUE
+0180R084,Stadshagen,0180,01,0,TRUE
+0180R085,Stora Essingen,0180,01,0,TRUE
+0180R086,Stora Mossen,0180,01,0,TRUE
+0180R087,Storkyrkan,0180,01,0,TRUE
+0180R088,Stureby,0180,01,0,TRUE
+0180R089,Sundby,0180,01,0,TRUE
+0180R090,Svedmyra,0180,01,0,TRUE
+0180R091,Sydvästra Skarpnäcks gård-Orhem,0180,01,0,TRUE
+0180R092,Sätra,0180,01,0,TRUE
+0180R093,Södra Adolf Fredrik,0180,01,0,TRUE
+0180R094,Södra Hammarbyhamnen,0180,01,0,TRUE
+0180R095,Södra Högalid,0180,01,0,TRUE
+0180R096,Södra Johannes,0180,01,0,TRUE
+0180R097,Södra Sofia,0180,01,0,TRUE
+0180R098,Södra Station,0180,01,0,TRUE
+0180R099,Södra Ängby,0180,01,0,TRUE
+0180R100,Tallkrogen,0180,01,0,TRUE
+0180R101,Tekniska Högskolan,0180,01,0,TRUE
+0180R102,Tensta,0180,01,0,TRUE
+0180R103,Traneberg,0180,01,0,TRUE
+0180R104,Ulvsunda,0180,01,0,TRUE
+0180R105,Ulvsunda Industriområde,0180,01,0,TRUE
+0180R106,Universitetet,0180,01,0,TRUE
+0180R107,Vinsta,0180,01,0,TRUE
+0180R108,Vårberg,0180,01,0,TRUE
+0180R109,Vällingby,0180,01,0,TRUE
+0180R110,Västberga,0180,01,0,TRUE
+0180R111,Västertorp,0180,01,0,TRUE
+0180R112,Västra Farsta Strand-Farstanäset,0180,01,0,TRUE
+0180R113,Västra Katarina,0180,01,0,TRUE
+0180R114,Västra Matteus,0180,01,0,TRUE
+0180R115,Åkeslund,0180,01,0,TRUE
+0180R116,Ålsten,0180,01,0,TRUE
+0180R117,Årsta,0180,01,0,TRUE
+0180R118,Älvsjö,0180,01,0,TRUE
+0180R119,Äppelviken,0180,01,0,TRUE
+0180R120,Örby,0180,01,0,TRUE
+0180R121,Örby Slott,0180,01,0,TRUE
+0180R122,Östberga,0180,01,0,TRUE
+0180R123,Östra Farsta Strand,0180,01,0,TRUE
+0180R124,Östra Katarina,0180,01,0,TRUE
+0180R125,Östra Matteus,0180,01,0,TRUE
+0180R126,Östra Sankt Göran,0180,01,0,TRUE
+0180R127,Östra Skarpnäcks gård-Flaten-Skrubba,0180,01,0,TRUE
+0181R001,Blombacka,0181,01,0,TRUE
+0181R002,Brunnsäng,0181,01,0,TRUE
+0181R003,Bårsta östra,0181,01,0,TRUE
+0181R004,Enhörna-Ekeby,0181,01,0,TRUE
+0181R005,Enhörna-Sandviken,0181,01,0,TRUE
+0181R006,Fornhöjden,0181,01,0,TRUE
+0181R007,Geneta norra-Bårsta västra,0181,01,0,TRUE
+0181R008,Geneta södra-Vasa,0181,01,0,TRUE
+0181R009,Glasberga,0181,01,0,TRUE
+0181R010,Grusåsen norra-Bergvik,0181,01,0,TRUE
+0181R011,Grusåsen-Weda-Listonhill,0181,01,0,TRUE
+0181R012,Hovsjö,0181,01,0,TRUE
+0181R013,Hölö tätort,0181,01,0,TRUE
+0181R014,Järna centrum-Järna södra,0181,01,0,TRUE
+0181R015,Järna norra-Kallfors,0181,01,0,TRUE
+0181R016,Lina-Vattubrinken-Dammkärr,0181,01,0,TRUE
+0181R017,Mariekälla,0181,01,0,TRUE
+0181R018,Mölnbo tätort,0181,01,0,TRUE
+0181R019,Pershagen,0181,01,0,TRUE
+0181R020,Ragnhildsborg-Ritorp-Viksberg,0181,01,0,TRUE
+0181R021,Ronna centrum-Ronna Park-Västra Ronna,0181,01,0,TRUE
+0181R022,Ronna-Karlhov,0181,01,0,TRUE
+0181R023,Rosenlund-Hagaberg,0181,01,0,TRUE
+0181R024,Saltskog,0181,01,0,TRUE
+0181R025,Södertälje-Järna omland,0181,01,0,TRUE
+0181R026,Telge-Snäckviken-Torekälla,0181,01,0,TRUE
+0181R027,Värdsholmen-Södra,0181,01,0,TRUE
+0181R028,Västergård,0181,01,0,TRUE
+0181R029,Västra Hölö omland-Vårdinge,0181,01,0,TRUE
+0181R030,Östertälje-Gärtuna,0181,01,0,TRUE
+0181R031,Östra Hölö omland-Mörkö,0181,01,0,TRUE
+0182R001,Alphyddan-Finntorp,0182,01,0,TRUE
+0182R002,Björknäs,0182,01,0,TRUE
+0182R003,Ektorp-Skuru,0182,01,0,TRUE
+0182R004,Fisksätra,0182,01,0,TRUE
+0182R005,Kvarnholmen-Henriksdal,0182,01,0,TRUE
+0182R006,Nacka centrala,0182,01,0,TRUE
+0182R007,Nacka strand-Jarlaberg,0182,01,0,TRUE
+0182R008,Nordvästra Boo,0182,01,0,TRUE
+0182R009,Nordöstra Boo,0182,01,0,TRUE
+0182R010,Orminge,0182,01,0,TRUE
+0182R011,Saltsjöbaden,0182,01,0,TRUE
+0182R012,Sickla,0182,01,0,TRUE
+0182R013,Storängen-Saltsjö Duvnäs,0182,01,0,TRUE
+0182R014,Sydöstra Boo,0182,01,0,TRUE
+0182R015,Södra Boo,0182,01,0,TRUE
+0182R016,Älta-Erstavik,0182,01,0,TRUE
+0183R001,Centrala Sundbyberg Västra,0183,01,0,TRUE
+0183R002,Centrala Sundbyberg Östra,0183,01,0,TRUE
+0183R003,Duvbo-Tulemarken,0183,01,0,TRUE
+0183R004,Hallonbergen Västra,0183,01,0,TRUE
+0183R005,Hallonbergen Östra,0183,01,0,TRUE
+0183R006,Lilla Alby,0183,01,0,TRUE
+0183R007,Rissne,0183,01,0,TRUE
+0183R008,Stora Ursvik Nordvästra,0183,01,0,TRUE
+0183R009,Stora Ursvik Sydvästra,0183,01,0,TRUE
+0183R010,Stora Ursvik-Kymlinge-Brotorp,0183,01,0,TRUE
+0183R011,Storskogen-Ör,0183,01,0,TRUE
+0184R001,Arenastaden,0184,01,0,TRUE
+0184R002,Bagartorp-Agnesberg,0184,01,0,TRUE
+0184R003,Centrala Huvudsta,0184,01,0,TRUE
+0184R004,Filmstaden,0184,01,0,TRUE
+0184R005,Frösunda,0184,01,0,TRUE
+0184R006,Ingenting,0184,01,0,TRUE
+0184R007,Järvastaden,0184,01,0,TRUE
+0184R008,Kungshamra,0184,01,0,TRUE
+0184R009,Norra Bergshamra,0184,01,0,TRUE
+0184R010,Norra Hagalund-Haga norra,0184,01,0,TRUE
+0184R011,Norra Hagastaden,0184,01,0,TRUE
+0184R012,Norra Råsunda,0184,01,0,TRUE
+0184R013,Nya Ulriksdal-Södra Ritorp,0184,01,0,TRUE
+0184R014,Råstahem,0184,01,0,TRUE
+0184R015,Skytteholm,0184,01,0,TRUE
+0184R016,Solna centrum,0184,01,0,TRUE
+0184R017,Södra Bergshamra,0184,01,0,TRUE
+0184R018,Södra Hagalund,0184,01,0,TRUE
+0184R019,Södra Huvudsta,0184,01,0,TRUE
+0184R020,Södra Råsunda-Solna Business park,0184,01,0,TRUE
+0184R021,Vasalund-Kyrkbacken,0184,01,0,TRUE
+0184R022,Västra skogen-Pampas,0184,01,0,TRUE
+0186R001,Baggeby-Bodal-Larsberg,0186,01,0,TRUE
+0186R002,Bo-Ruboda-Bosön,0186,01,0,TRUE
+0186R003,Brevik-Käppala-Gåshaga,0186,01,0,TRUE
+0186R004,Dalénum-Skärsätra södra,0186,01,0,TRUE
+0186R005,Elfvik-Duvholmen-Stora Höggarn,0186,01,0,TRUE
+0186R006,Hersby-Herserud-Islinge södra,0186,01,0,TRUE
+0186R007,Högsätra,0186,01,0,TRUE
+0186R008,Lidingö centrum-Torsvik,0186,01,0,TRUE
+0186R009,Näset,0186,01,0,TRUE
+0186R010,Skärsätra norra,0186,01,0,TRUE
+0186R011,Sticklinge-Storholmen-Islinge norra,0186,01,0,TRUE
+0186R012,Stockby västra-Mosstorp-Bergsätra,0186,01,0,TRUE
+0186R013,Stockby östra-Mölna-Ekholmsnäs,0186,01,0,TRUE
+0187R001,Edholma-Kullö,0187,01,0,TRUE
+0187R002,Resarö västra-Engarn-Storäng,0187,01,0,TRUE
+0187R003,Resarö östra,0187,01,0,TRUE
+0187R004,Rindö-Skarpö,0187,01,0,TRUE
+0187R005,Vaxön mitt,0187,01,0,TRUE
+0187R006,Vaxön västra-Bogesund,0187,01,0,TRUE
+0187R007,Vaxön östra-Ramsö-Tynningö,0187,01,0,TRUE
+0188R001,Bergshamra,0188,01,0,TRUE
+0188R002,Frötuna,0188,01,0,TRUE
+0188R003,Gransätra-Långgarn,0188,01,0,TRUE
+0188R004,Hallstavik tätort,0188,01,0,TRUE
+0188R005,Häverö,0188,01,0,TRUE
+0188R006,Kvisthamra,0188,01,0,TRUE
+0188R007,Lohärad-Estuna,0188,01,0,TRUE
+0188R008,Nordrona,0188,01,0,TRUE
+0188R009,Norrtälje centrala stad,0188,01,0,TRUE
+0188R010,Norrtälje södra stad,0188,01,0,TRUE
+0188R011,Norrtälje östra landsbygd,0188,01,0,TRUE
+0188R012,Riala-Länna-Rö-Rimbo,0188,01,0,TRUE
+0188R013,Rimbo tätort,0188,01,0,TRUE
+0188R014,Roslagsbro-Väddö,0188,01,0,TRUE
+0188R015,Rådmansö,0188,01,0,TRUE
+0188R016,Solbacka-Fågelsången,0188,01,0,TRUE
+0188R017,Vigelsjö,0188,01,0,TRUE
+0188R018,Vätö-Väddö-Björkö-Arholma,0188,01,0,TRUE
+0188R019,Yxlan-Blidö,0188,01,0,TRUE
+0188R020,Älmsta,0188,01,0,TRUE
+0188R021,Övre Bryggårdsgärdet-Färsna,0188,01,0,TRUE
+0191R001,Arenberga-Västra Norrbacka,0191,01,0,TRUE
+0191R002,Björkbacka-Tilsjö,0191,01,0,TRUE
+0191R003,Broby,0191,01,0,TRUE
+0191R004,Centrala Märsta,0191,01,0,TRUE
+0191R005,Centrala Valsta,0191,01,0,TRUE
+0191R006,Ekilla,0191,01,0,TRUE
+0191R007,Malmen-Pilsbo,0191,01,0,TRUE
+0191R008,Märsta Östra omland,0191,01,0,TRUE
+0191R009,Märstadal,0191,01,0,TRUE
+0191R010,Odensala-Arlanda omland,0191,01,0,TRUE
+0191R011,Rosersberg,0191,01,0,TRUE
+0191R012,Sigtuna centrala,0191,01,0,TRUE
+0191R013,Sigtuna norra,0191,01,0,TRUE
+0191R014,Sjudargården-Prästängarna,0191,01,0,TRUE
+0191R015,Skånela-Steningevik omland,0191,01,0,TRUE
+0191R016,Steningehöjden-Ölsta by,0191,01,0,TRUE
+0191R017,Sätuna,0191,01,0,TRUE
+0191R018,Södra Valsta,0191,01,0,TRUE
+0191R019,Til-Munkholmen,0191,01,0,TRUE
+0191R020,Tingvalla,0191,01,0,TRUE
+0191R021,Västra Valsta,0191,01,0,TRUE
+0191R022,Östra Norrbacka,0191,01,0,TRUE
+0191R023,Östra Steninge,0191,01,0,TRUE
+0191R024,Östra Valsta,0191,01,0,TRUE
+0192R001,Nynäshamns nordöstra kommundel,0192,01,0,TRUE
+0192R002,Nynäshamns stad-norra,0192,01,0,TRUE
+0192R003,Nynäshamns stad-södra,0192,01,0,TRUE
+0192R004,Nynäshamns stad-västra,0192,01,0,TRUE
+0192R005,Nynäshamns stad-östra,0192,01,0,TRUE
+0192R006,Nynäshamns södra kommundel,0192,01,0,TRUE
+0192R007,Nynäshamns västra kommundel,0192,01,0,TRUE
+0192R008,Ösmo centrala,0192,01,0,TRUE
+0305R001,Centrala Bålsta-Mansängen,0305,03,0,TRUE
+0305R002,Dyarne-Fånäs-Kalmarsand,0305,03,0,TRUE
+0305R003,Håbo landsbygd,0305,03,0,TRUE
+0305R004,Norra Ullevi-Södra Ullevi-Åsen,0305,03,0,TRUE
+0305R005,Skörby-Gillmarken-Åkerby,0305,03,0,TRUE
+0305R006,Slottsskogen-Söderskogen,0305,03,0,TRUE
+0305R007,Södra Bålsta-Kalmar landsbygd,0305,03,0,TRUE
+0305R008,Västerdalen-Eneby-Väppebyberget,0305,03,0,TRUE
+0305R009,Västerhagen-Västerängen,0305,03,0,TRUE
+0305R010,Västerskog-Graneberg,0305,03,0,TRUE
+0319R001,Skutskär centrala-Skutskär nordvästra,0319,03,0,TRUE
+0319R002,Skutskär nordöstra,0319,03,0,TRUE
+0319R003,Skutskär södra,0319,03,0,TRUE
+0319R004,Älvkarleby,0319,03,0,TRUE
+0319R005,Älvkarlebys omland,0319,03,0,TRUE
+0330R001,Alsike norra,0330,03,0,TRUE
+0330R002,Alsike östra,0330,03,0,TRUE
+0330R003,Knivsta centrala,0330,03,0,TRUE
+0330R004,Knivsta södra,0330,03,0,TRUE
+0330R005,Knivsta västra,0330,03,0,TRUE
+0330R006,Knivsta östra,0330,03,0,TRUE
+0330R007,Lagga-Långhundra,0330,03,0,TRUE
+0330R008,Vassunda,0330,03,0,TRUE
+0331R001,Heby omland,0331,03,0,TRUE
+0331R002,Heby västra,0331,03,0,TRUE
+0331R003,Heby östra,0331,03,0,TRUE
+0331R004,Morgongåva tätort,0331,03,0,TRUE
+0331R005,Nora-Harbo omland,0331,03,0,TRUE
+0331R006,Tärnsjö tätort,0331,03,0,TRUE
+0331R007,Vittinge omland,0331,03,0,TRUE
+0331R008,Östervåla omland,0331,03,0,TRUE
+0331R009,Östervåla tätort,0331,03,0,TRUE
+0360R001,Karlholm,0360,03,0,TRUE
+0360R002,Mehedeby-Tobo,0360,03,0,TRUE
+0360R003,Månkarbo-Vendel,0360,03,0,TRUE
+0360R004,Skärplinge-Hållnäs,0360,03,0,TRUE
+0360R005,Söderfors,0360,03,0,TRUE
+0360R006,Tierp Centrum-Tierp Norra,0360,03,0,TRUE
+0360R007,Tierp Södra,0360,03,0,TRUE
+0360R008,Västland,0360,03,0,TRUE
+0360R009,Örbyhus,0360,03,0,TRUE
+0380R001,Bergsbrunna,0380,03,0,TRUE
+0380R002,Björklinge,0380,03,0,TRUE
+0380R003,Bäcklösa-Ultuna-Södra Ulleråker,0380,03,0,TRUE
+0380R004,Bälinge-Lövstalöt,0380,03,0,TRUE
+0380R005,Främre Luthagen-Fjärdingen-Glunten,0380,03,0,TRUE
+0380R006,Gamla Gottsunda-Vårdsätra-Vreta,0380,03,0,TRUE
+0380R007,Gamla Uppsala,0380,03,0,TRUE
+0380R008,Gunsta-Marielund-Länna,0380,03,0,TRUE
+0380R009,Kungsängen,0380,03,0,TRUE
+0380R010,Kvarngärdet,0380,03,0,TRUE
+0380R011,Kåbo-Norra Rosendal,0380,03,0,TRUE
+0380R012,Lindbacken-Jälla,0380,03,0,TRUE
+0380R013,Löten,0380,03,0,TRUE
+0380R014,Mellersta Luthagen-Rickomberga,0380,03,0,TRUE
+0380R015,Mellersta Sala backe,0380,03,0,TRUE
+0380R016,Mellersta Valsätra-Gottsunda centrum-Östra Gottsunda,0380,03,0,TRUE
+0380R017,Norby-Norra Valsätra,0380,03,0,TRUE
+0380R018,Nordvästra Luthagen-Hällby,0380,03,0,TRUE
+0380R019,Norra Luthagen-Börjetull-Husbyborg,0380,03,0,TRUE
+0380R020,Norra Sala backe,0380,03,0,TRUE
+0380R021,Norra Sävja,0380,03,0,TRUE
+0380R022,Norra Ulleråker-Polacksbacken,0380,03,0,TRUE
+0380R023,Nyby,0380,03,0,TRUE
+0380R024,Nåntuna-Vilan,0380,03,0,TRUE
+0380R025,Slavsta-Fyrislund-Danmarksby,0380,03,0,TRUE
+0380R026,Sommarro-Kungsgärdet,0380,03,0,TRUE
+0380R027,Studentstaden,0380,03,0,TRUE
+0380R028,Sunnersta,0380,03,0,TRUE
+0380R029,Sydöstra Luthagen,0380,03,0,TRUE
+0380R030,Södra Rosendal-Malma gård,0380,03,0,TRUE
+0380R031,Södra Sala backe,0380,03,0,TRUE
+0380R032,Södra Sävja,0380,03,0,TRUE
+0380R033,Södra Valsätra-Norra Gottsunda,0380,03,0,TRUE
+0380R034,Uppsala centrum,0380,03,0,TRUE
+0380R035,Uppsala inre norra omland,0380,03,0,TRUE
+0380R036,Uppsala inre östra omland,0380,03,0,TRUE
+0380R037,Uppsala nordvästra omland,0380,03,0,TRUE
+0380R038,Uppsala nordöstra centrum-Höganäs,0380,03,0,TRUE
+0380R039,Uppsala sydöstra Centrum-Västra Fålhagen,0380,03,0,TRUE
+0380R040,Uppsala västra omland,0380,03,0,TRUE
+0380R041,Uppsala yttre norra omland,0380,03,0,TRUE
+0380R042,Uppsala yttre östra omland,0380,03,0,TRUE
+0380R043,Vattholma,0380,03,0,TRUE
+0380R044,Vänge,0380,03,0,TRUE
+0380R045,Västra Eriksberg-Håga,0380,03,0,TRUE
+0380R046,Västra Flogsta,0380,03,0,TRUE
+0380R047,Västra Gottsunda,0380,03,0,TRUE
+0380R048,Västra Gränby,0380,03,0,TRUE
+0380R049,Västra Kapellgärdet,0380,03,0,TRUE
+0380R050,Västra Stenhagen,0380,03,0,TRUE
+0380R051,Västra Storvreta,0380,03,0,TRUE
+0380R052,Västra Svartbäcken-Tuna backar,0380,03,0,TRUE
+0380R053,Årsta,0380,03,0,TRUE
+0380R054,Östra Eriksberg,0380,03,0,TRUE
+0380R055,Östra Flogsta-Ekeby-Berthåga,0380,03,0,TRUE
+0380R056,Östra Fålhagen-Boländerna,0380,03,0,TRUE
+0380R057,Östra Gränby-Brillinge,0380,03,0,TRUE
+0380R058,Östra Kapellgärdet,0380,03,0,TRUE
+0380R059,Östra Stenhagen-Kvarnbo,0380,03,0,TRUE
+0380R060,Östra Storvreta,0380,03,0,TRUE
+0380R061,Östra Svartbäcken-Bärby hage,0380,03,0,TRUE
+0381R001,Bergvreten-Gånsta-Åkersberg,0381,03,0,TRUE
+0381R002,Bredsand-Haga,0381,03,0,TRUE
+0381R003,Enköping centrum-Sankt Ilian,0381,03,0,TRUE
+0381R004,Fanna-Korsängen-Älvdansen,0381,03,0,TRUE
+0381R005,Fjärdhundra,0381,03,0,TRUE
+0381R006,Galgvreten-Västerleden,0381,03,0,TRUE
+0381R007,Lagunda,0381,03,0,TRUE
+0381R008,Munksundet-Gröngarn,0381,03,0,TRUE
+0381R009,Romberga,0381,03,0,TRUE
+0381R010,Trögd,0381,03,0,TRUE
+0381R011,Åsunda,0381,03,0,TRUE
+0382R001,Alunda,0382,03,0,TRUE
+0382R002,Alunda omland,0382,03,0,TRUE
+0382R003,Gimo,0382,03,0,TRUE
+0382R004,Gimo omland,0382,03,0,TRUE
+0382R005,Öregrund,0382,03,0,TRUE
+0382R006,Öregrund omland,0382,03,0,TRUE
+0382R007,Österbybruk,0382,03,0,TRUE
+0382R008,Österbybruk omland,0382,03,0,TRUE
+0382R009,Östhammar,0382,03,0,TRUE
+0382R010,Östhammar omland,0382,03,0,TRUE
+0428R001,Baggetorp-Marmorbyn,0428,04,0,TRUE
+0428R002,Högsjö-Södra landsbygden,0428,04,0,TRUE
+0428R003,Läppe-Österåker,0428,04,0,TRUE
+0428R004,Vannala,0428,04,0,TRUE
+0428R005,Vingåkers norra tätort,0428,04,0,TRUE
+0428R006,Vingåkers södra tätort,0428,04,0,TRUE
+0461R001,Gnesta norra,0461,04,0,TRUE
+0461R002,Gnesta södra,0461,04,0,TRUE
+0461R003,Gnesta västra,0461,04,0,TRUE
+0461R004,Laxne-Gåsinge-Dillnäs,0461,04,0,TRUE
+0461R005,Stjärnhov-Björnlunda-Hållsta,0461,04,0,TRUE
+0480R001,Arnö,0480,04,0,TRUE
+0480R002,Bergshammar-Tuna,0480,04,0,TRUE
+0480R003,Brandholmen-Rosenkälla,0480,04,0,TRUE
+0480R004,Brandkärr,0480,04,0,TRUE
+0480R005,Bryngelstorp-Tjuvholmen,0480,04,0,TRUE
+0480R006,Harg-Oxbacken,0480,04,0,TRUE
+0480R007,Hållet-Blommenhov,0480,04,0,TRUE
+0480R008,Högbrunn-Idbäcken,0480,04,0,TRUE
+0480R009,Lunda-Kila,0480,04,0,TRUE
+0480R010,Nyköping väster-Spelhagen,0480,04,0,TRUE
+0480R011,Nyköping öster-Fågelbo,0480,04,0,TRUE
+0480R012,Oppeby,0480,04,0,TRUE
+0480R013,Runtuna-Ludgo,0480,04,0,TRUE
+0480R014,Stenkulla-Malmbryggshagen,0480,04,0,TRUE
+0480R015,Stigtomta,0480,04,0,TRUE
+0480R016,Svärta,0480,04,0,TRUE
+0480R017,Tunaberg,0480,04,0,TRUE
+0480R018,Tystberga-Lästringe,0480,04,0,TRUE
+0480R019,Vrena-Råby,0480,04,0,TRUE
+0480R020,Östra Villastaden-Isaksdal-Ekensberg,0480,04,0,TRUE
+0481R001,Oxelösund norra,0481,04,0,TRUE
+0481R002,Oxelösund norra omland,0481,04,0,TRUE
+0481R003,Oxelösund södra omland,0481,04,0,TRUE
+0481R004,Oxelösund västra,0481,04,0,TRUE
+0481R005,Oxelösund östra,0481,04,0,TRUE
+0482R001,Flens landsbygd norra,0482,04,0,TRUE
+0482R002,Flens landsbygd södra,0482,04,0,TRUE
+0482R003,Flens landsbygd östra,0482,04,0,TRUE
+0482R004,Flensby-Bjurtorp-Öja,0482,04,0,TRUE
+0482R005,Hälleforsnäs,0482,04,0,TRUE
+0482R006,Malmköping,0482,04,0,TRUE
+0482R007,Mellösa-Orrhammar,0482,04,0,TRUE
+0482R008,Nybble-Centrum nordväst,0482,04,0,TRUE
+0482R009,Orrö-Brogetorp-Centrum nordost,0482,04,0,TRUE
+0482R010,Salsta-Centrum södra,0482,04,0,TRUE
+0483R001,Forssjö-Björkvik,0483,04,0,TRUE
+0483R002,Gersnäs-Lövåsen,0483,04,0,TRUE
+0483R003,Julita-Bie,0483,04,0,TRUE
+0483R004,Katrineholm centrum-Kerstinboda,0483,04,0,TRUE
+0483R005,Katrineholm norra,0483,04,0,TRUE
+0483R006,Katrineholm östra,0483,04,0,TRUE
+0483R007,Nyhem-Nävertorp,0483,04,0,TRUE
+0483R008,Oppunda-Laggarhult,0483,04,0,TRUE
+0483R009,Strandsvägsområdet-Skogsborg,0483,04,0,TRUE
+0483R010,Valla-Sköldinge-Floda,0483,04,0,TRUE
+0483R011,Värmbol-Duveholm,0483,04,0,TRUE
+0484R001,Alberga-Lista,0484,04,0,TRUE
+0484R002,Eskilstuna centrum,0484,04,0,TRUE
+0484R003,Eskilstuna söder,0484,04,0,TRUE
+0484R004,Eskilstuna öster,0484,04,0,TRUE
+0484R005,Fröslunda-Vilsta,0484,04,0,TRUE
+0484R006,Gredby-Lundby-Brottsta-Flacksta,0484,04,0,TRUE
+0484R007,Göksten-Krusgården-Edvardslund-Glömsta,0484,04,0,TRUE
+0484R008,Hållsta-Bälgviken,0484,04,0,TRUE
+0484R009,Hällbybrunn-Folkesta,0484,04,0,TRUE
+0484R010,Kvicksund-Tumbo,0484,04,0,TRUE
+0484R011,Lagersberg-Råbergstorp,0484,04,0,TRUE
+0484R012,Mesta-Borsökna,0484,04,0,TRUE
+0484R013,Munktellstaden-Norr-Gamla staden,0484,04,0,TRUE
+0484R014,Myrtorp-Västermalm-Brunnsbacken,0484,04,0,TRUE
+0484R015,Nyfors centrum-Väster,0484,04,0,TRUE
+0484R016,Röksta-Eskilshem-Balsta,0484,04,0,TRUE
+0484R017,Skiftinge-Djursta,0484,04,0,TRUE
+0484R018,Skiftinge-Ärsta-Sal,0484,04,0,TRUE
+0484R019,Skogstorp,0484,04,0,TRUE
+0484R020,Skogsängen-Viptorp,0484,04,0,TRUE
+0484R021,Snopptorp,0484,04,0,TRUE
+0484R022,Solvik-Mälarbaden-Torshälla centrum,0484,04,0,TRUE
+0484R023,Stenby,0484,04,0,TRUE
+0484R024,Sundbyholm-Kjula-Barva,0484,04,0,TRUE
+0484R025,Trumtorp-Odlaren-Hagnestahill,0484,04,0,TRUE
+0484R026,Valhalla-Slagsta,0484,04,0,TRUE
+0484R027,Västra Nyfors,0484,04,0,TRUE
+0484R028,Årby-Vallby,0484,04,0,TRUE
+0484R029,Ärla-Hällberga,0484,04,0,TRUE
+0484R030,Östra Nyfors,0484,04,0,TRUE
+0486R001,Mariefred,0486,04,0,TRUE
+0486R002,Mariefred norra,0486,04,0,TRUE
+0486R003,Mariefreds södraomland,0486,04,0,TRUE
+0486R004,Stallarholmen,0486,04,0,TRUE
+0486R005,Strängnäs centrala,0486,04,0,TRUE
+0486R006,Strängnäs mälaröar,0486,04,0,TRUE
+0486R007,Strängnäs norra,0486,04,0,TRUE
+0486R008,Strängnäs omland,0486,04,0,TRUE
+0486R009,Strängnäs Stadsskogen,0486,04,0,TRUE
+0486R010,Strängnäs södra,0486,04,0,TRUE
+0486R011,Strängnäs västra,0486,04,0,TRUE
+0486R012,Åkers styckebruk,0486,04,0,TRUE
+0488R001,Sund-Lövsta-Åda norra,0488,04,0,TRUE
+0488R002,Trosa västra,0488,04,0,TRUE
+0488R003,Trosa östra,0488,04,0,TRUE
+0488R004,Vagnhärad norra,0488,04,0,TRUE
+0488R005,Vagnhärad södra,0488,04,0,TRUE
+0488R006,Västerljung,0488,04,0,TRUE
+0509R001,Hästholmen-Slätten-Skogsbygden,0509,05,0,TRUE
+0509R002,Ödeshög,0509,05,0,TRUE
+0512R001,Sund-Norra Vi-Svinhult-Västra Ryd,0512,05,0,TRUE
+0512R002,Torpa-Asby,0512,05,0,TRUE
+0512R003,Österbymo,0512,05,0,TRUE
+0513R001,Kinda norra,0513,05,0,TRUE
+0513R002,Kinda västra,0513,05,0,TRUE
+0513R003,Kinda östra,0513,05,0,TRUE
+0513R004,Kisa västra,0513,05,0,TRUE
+0513R005,Kisa östra,0513,05,0,TRUE
+0513R006,Rimforsa,0513,05,0,TRUE
+0560R001,Boxholm omnejd,0560,05,0,TRUE
+0560R002,Boxholm västra,0560,05,0,TRUE
+0560R003,Boxholm östra,0560,05,0,TRUE
+0561R001,Åtvidaberg centrum nordost,0561,05,0,TRUE
+0561R002,Åtvidaberg centrum sydväst,0561,05,0,TRUE
+0561R003,Åtvidaberg nord,0561,05,0,TRUE
+0561R004,Åtvidaberg syd,0561,05,0,TRUE
+0562R001,Dunderbacken-Hårstorp,0562,05,0,TRUE
+0562R002,Finspång centrala-Svälthagen,0562,05,0,TRUE
+0562R003,Finspång omland,0562,05,0,TRUE
+0562R004,Grosvad-Butbro,0562,05,0,TRUE
+0562R005,Lotorp-Vistinge,0562,05,0,TRUE
+0562R006,Norrmalm-Östermalm,0562,05,0,TRUE
+0562R007,Nyhem,0562,05,0,TRUE
+0562R008,Storängen,0562,05,0,TRUE
+0562R009,Viggestorp-Falla,0562,05,0,TRUE
+0563R001,Gryt-Skärgården,0563,05,0,TRUE
+0563R002,Ringarum-Gusum,0563,05,0,TRUE
+0563R003,Valdemarsviks tätort,0563,05,0,TRUE
+0580R001,Berga,0580,05,0,TRUE
+0580R002,Domkyrkan-Slottet,0580,05,0,TRUE
+0580R003,Ekholmen,0580,05,0,TRUE
+0580R004,Ekkällan-Garnisonen,0580,05,0,TRUE
+0580R005,Ekängen,0580,05,0,TRUE
+0580R006,Gottfridsberg,0580,05,0,TRUE
+0580R007,Hackefors,0580,05,0,TRUE
+0580R008,Hejdegården,0580,05,0,TRUE
+0580R009,Hjulsbro,0580,05,0,TRUE
+0580R010,Johannelund,0580,05,0,TRUE
+0580R011,Lambohov-Slaka,0580,05,0,TRUE
+0580R012,Lilla Torget-Sankt Lars,0580,05,0,TRUE
+0580R013,Linghem,0580,05,0,TRUE
+0580R014,Ljungsbro-Berg,0580,05,0,TRUE
+0580R015,Malmslätt,0580,05,0,TRUE
+0580R016,Ramshäll,0580,05,0,TRUE
+0580R017,Ryd,0580,05,0,TRUE
+0580R018,Skäggetorp-Tornby,0580,05,0,TRUE
+0580R019,Sturefors,0580,05,0,TRUE
+0580R020,Tallboda,0580,05,0,TRUE
+0580R021,Tannefors-Stångebro-Kallerstad,0580,05,0,TRUE
+0580R022,Trädgårdsföreningen-Folkungavallen,0580,05,0,TRUE
+0580R023,Ullstämma-Haninge,0580,05,0,TRUE
+0580R024,Valkebo omland,0580,05,0,TRUE
+0580R025,Valla-T1,0580,05,0,TRUE
+0580R026,Vasastaden-Hunneberg,0580,05,0,TRUE
+0580R027,Vidingsjö,0580,05,0,TRUE
+0580R028,Vikingstad-Rappestad,0580,05,0,TRUE
+0580R029,Vimanshäll,0580,05,0,TRUE
+0580R030,Vreta Kloster omland,0580,05,0,TRUE
+0580R031,Vårdnäs omland,0580,05,0,TRUE
+0580R032,Åkerbo omland,0580,05,0,TRUE
+0581R001,Borgs villastad-Kneippen,0581,05,0,TRUE
+0581R002,Djurön-Ljunga-Tingstad,0581,05,0,TRUE
+0581R003,Djäknepark-Gustav Adolf,0581,05,0,TRUE
+0581R004,Eksund-Öbonäs,0581,05,0,TRUE
+0581R005,Eneby centrum-Vidablick-Sandbyhov,0581,05,0,TRUE
+0581R006,Gamla Staden-Centrum,0581,05,0,TRUE
+0581R007,Generalen,0581,05,0,TRUE
+0581R008,Grönhög-Klingsberg,0581,05,0,TRUE
+0581R009,Hallberga-Fyrby-Sörby,0581,05,0,TRUE
+0581R010,Herstadberg-Händelö-Lagerlunda,0581,05,0,TRUE
+0581R011,Kimstad-Norsholm-Skärkind,0581,05,0,TRUE
+0581R012,Kolmården,0581,05,0,TRUE
+0581R013,Kärrhagen-Kättsätter,0581,05,0,TRUE
+0581R014,Lindö-Berga-Marby,0581,05,0,TRUE
+0581R015,Navestad-Åselstad,0581,05,0,TRUE
+0581R016,Nordvästra Marielund,0581,05,0,TRUE
+0581R017,Nordvästra Nordantill,0581,05,0,TRUE
+0581R018,Nordvästra Vilbergen,0581,05,0,TRUE
+0581R019,Nordöstra Hageby,0581,05,0,TRUE
+0581R020,Norra Ektorp,0581,05,0,TRUE
+0581R021,Norra Ljura,0581,05,0,TRUE
+0581R022,Oxelbergen-Risängen-Sylten,0581,05,0,TRUE
+0581R023,Pryssgården-Taborsberg,0581,05,0,TRUE
+0581R024,Rambodal,0581,05,0,TRUE
+0581R025,Sandtorp-Norra Skarphagen,0581,05,0,TRUE
+0581R026,Simonstorp-Graversfors-Landsbygd,0581,05,0,TRUE
+0581R027,Skärblacka-Vånga-Landsbygd,0581,05,0,TRUE
+0581R028,Smedby-Brånnestad,0581,05,0,TRUE
+0581R029,Strömbacken-Berget-Södertull,0581,05,0,TRUE
+0581R030,Svärtinge-Loddby-Landsbygd,0581,05,0,TRUE
+0581R031,Sydvästra Hageby,0581,05,0,TRUE
+0581R032,Sydöstra Marielund,0581,05,0,TRUE
+0581R033,Sydöstra Nordantill,0581,05,0,TRUE
+0581R034,Sydöstra Vilbergen-Björkalund,0581,05,0,TRUE
+0581R035,Såpkullen-Söderstaden-Vasaparken,0581,05,0,TRUE
+0581R036,Södra Ektorp,0581,05,0,TRUE
+0581R037,Västra Klockaretorpet,0581,05,0,TRUE
+0581R038,Åby-Jursla-Landsbygd,0581,05,0,TRUE
+0581R039,Östra Haga,0581,05,0,TRUE
+0581R040,Östra Vikbolandet,0581,05,0,TRUE
+0582R001,Alboga-Bossgård,0582,05,0,TRUE
+0582R002,Drothem,0582,05,0,TRUE
+0582R003,Mogata-Sankt Anna,0582,05,0,TRUE
+0582R004,Skönberga,0582,05,0,TRUE
+0582R005,Söderköpings centrum,0582,05,0,TRUE
+0582R006,Söderköpings omland-Östra Ryd,0582,05,0,TRUE
+0582R007,Västra Husby-Luddingsbo,0582,05,0,TRUE
+0583R001,Borensberg,0583,05,0,TRUE
+0583R002,Charlottenborg-Ekenäs-Grankulla,0583,05,0,TRUE
+0583R003,Ekön-Torvmossen,0583,05,0,TRUE
+0583R004,Fornåsa-Österstad-Klockrike,0583,05,0,TRUE
+0583R005,Fågelsta-Södra Freberga,0583,05,0,TRUE
+0583R006,Gamla stan,0583,05,0,TRUE
+0583R007,Motala tätort-övrigt,0583,05,0,TRUE
+0583R008,Nykyrka-Tjällmo-Godegård,0583,05,0,TRUE
+0583R009,Väster-Södra Varamon-Gustavsvik,0583,05,0,TRUE
+0584R001,Centrala Vadstena-Kvissberg,0584,05,0,TRUE
+0584R002,Tycklinge,0584,05,0,TRUE
+0584R003,Vadstena Innerstaden,0584,05,0,TRUE
+0584R004,Vadstena landsbygd,0584,05,0,TRUE
+0584R005,Vadstena söder,0584,05,0,TRUE
+0586R001,Eldslösa,0586,05,0,TRUE
+0586R002,Mantorp tätort,0586,05,0,TRUE
+0586R003,Mjölby omnejd-Skänninge omnejd,0586,05,0,TRUE
+0586R004,Mjölby östra,0586,05,0,TRUE
+0586R005,Ryttarhagen-Högby,0586,05,0,TRUE
+0586R006,Skeppsås-Normlösa-Öjebro,0586,05,0,TRUE
+0586R007,Skänninge tätort,0586,05,0,TRUE
+0586R008,Slomarp-Egeby,0586,05,0,TRUE
+0586R009,Svartå strand-Centrum-Albacken,0586,05,0,TRUE
+0586R010,Sya-Spångsholm-Veta,0586,05,0,TRUE
+0586R011,Sörby-Östra Lundby-Centrum,0586,05,0,TRUE
+0586R012,Tunet-Hagaparken,0586,05,0,TRUE
+0586R013,Vasa,0586,05,0,TRUE
+0586R014,Väderstad-Väderstad omnejd,0586,05,0,TRUE
+0586R015,Västra Harg-Östra Tollstad,0586,05,0,TRUE
+0586R016,Västra Lundby,0586,05,0,TRUE
+0604R001,Aneby nordvästra,0604,06,0,TRUE
+0604R002,Aneby västra omland,0604,06,0,TRUE
+0604R003,Aneby östra,0604,06,0,TRUE
+0604R004,Aneby östra omland,0604,06,0,TRUE
+0617R001,Gnosjö landsbygd,0617,06,0,TRUE
+0617R002,Gnosjö tätort,0617,06,0,TRUE
+0617R003,Hillerstorp tätort,0617,06,0,TRUE
+0642R001,Mullsjö tätort nordvästra,0642,06,0,TRUE
+0642R002,Mullsjö tätort nordöstra,0642,06,0,TRUE
+0642R003,Mullsjö tätort södra,0642,06,0,TRUE
+0642R004,Sandhem-Bjurbäck-Utvängstorp,0642,06,0,TRUE
+0643R001,Bränninge,0643,06,0,TRUE
+0643R002,Habo norra,0643,06,0,TRUE
+0643R003,Habo södra,0643,06,0,TRUE
+0643R004,Kyrkeryd-Kråkeryd,0643,06,0,TRUE
+0643R005,Kärnekulla-Sjogarp,0643,06,0,TRUE
+0643R006,Kärr,0643,06,0,TRUE
+0643R007,Mölekullen-Centrum,0643,06,0,TRUE
+0662R001,Anderstorp nordsydväst,0662,06,0,TRUE
+0662R002,Anderstorp östra,0662,06,0,TRUE
+0662R003,Broaryd-Gislaved omland,0662,06,0,TRUE
+0662R004,Burseryd,0662,06,0,TRUE
+0662R005,Gislaved nordväst,0662,06,0,TRUE
+0662R006,Gislaved norra,0662,06,0,TRUE
+0662R007,Gislaved södra,0662,06,0,TRUE
+0662R008,Gislaved östra,0662,06,0,TRUE
+0662R009,Hestra,0662,06,0,TRUE
+0662R010,Reftele,0662,06,0,TRUE
+0662R011,Smålandsstenar västra,0662,06,0,TRUE
+0662R012,Smålandsstenar östra,0662,06,0,TRUE
+0662R013,Smålandsstenar-Reftele omland,0662,06,0,TRUE
+0665R001,Bondstorp-Byarum omland,0665,06,0,TRUE
+0665R002,Hok-Svenarum omland,0665,06,0,TRUE
+0665R003,Skillingaryd västra,0665,06,0,TRUE
+0665R004,Skillingaryd östra,0665,06,0,TRUE
+0665R005,Vaggeryd norra,0665,06,0,TRUE
+0665R006,Vaggeryd västra,0665,06,0,TRUE
+0665R007,Vaggeryd östra,0665,06,0,TRUE
+0665R008,Åker-Tofteryd omland,0665,06,0,TRUE
+0680R001,Bankeryd,0680,06,0,TRUE
+0680R002,Barnarp,0680,06,0,TRUE
+0680R003,Barnarps-Tenhults landsbygder,0680,06,0,TRUE
+0680R004,Bymarken,0680,06,0,TRUE
+0680R005,Bäckalyckan-Västra Torpa,0680,06,0,TRUE
+0680R006,Egna Hem-Stensholm,0680,06,0,TRUE
+0680R007,Ekhagen,0680,06,0,TRUE
+0680R008,Gråbo-Tormenås,0680,06,0,TRUE
+0680R009,Gränna,0680,06,0,TRUE
+0680R010,Gräshagen-Tokarp,0680,06,0,TRUE
+0680R011,Hisingstorp-Dalvik-Skänkeberg,0680,06,0,TRUE
+0680R012,Hovslätt,0680,06,0,TRUE
+0680R013,Huskvarna centrum,0680,06,0,TRUE
+0680R014,Huskvarna söder,0680,06,0,TRUE
+0680R015,Järstorp-Bottnaryd-Norra Unnaryd,0680,06,0,TRUE
+0680R016,Jönköping centrum Väster,0680,06,0,TRUE
+0680R017,Jönköping centrum Öster,0680,06,0,TRUE
+0680R018,Kaxholmen,0680,06,0,TRUE
+0680R019,Liljeholmen-Västra Rosenlund,0680,06,0,TRUE
+0680R020,Ljungarum,0680,06,0,TRUE
+0680R021,Norrahammar,0680,06,0,TRUE
+0680R022,Norrängen,0680,06,0,TRUE
+0680R023,Rosenlund-Vättersnäs,0680,06,0,TRUE
+0680R024,Råslätt,0680,06,0,TRUE
+0680R025,Samset-Mariebo,0680,06,0,TRUE
+0680R026,Skärstad-Lekeryd,0680,06,0,TRUE
+0680R027,Söder-Munksjöstaden,0680,06,0,TRUE
+0680R028,Södra Munksjön-Kättilstorp,0680,06,0,TRUE
+0680R029,Taberg-Månsarp,0680,06,0,TRUE
+0680R030,Tenhult,0680,06,0,TRUE
+0680R031,Trånghalla-Kortebo,0680,06,0,TRUE
+0680R032,Visingsö-Örserum-Ölmstad,0680,06,0,TRUE
+0680R033,Österängen,0680,06,0,TRUE
+0680R034,Öxnehaga,0680,06,0,TRUE
+0680R035,Öxnehaga centrum,0680,06,0,TRUE
+0682R001,Bodafors,0682,06,0,TRUE
+0682R002,Forserum,0682,06,0,TRUE
+0682R003,Handskeryd,0682,06,0,TRUE
+0682R004,Ingsberg-Nyhem-Hultet,0682,06,0,TRUE
+0682R005,Malmbäck,0682,06,0,TRUE
+0682R006,Norrboda-Västra Runneryd,0682,06,0,TRUE
+0682R007,Nässjö centrum,0682,06,0,TRUE
+0682R008,Nässjö norra landsbygd,0682,06,0,TRUE
+0682R009,Nässjö södra landsbygd,0682,06,0,TRUE
+0682R010,Nässjö västra landsbygd,0682,06,0,TRUE
+0682R011,Södra Åker-Åkershäll-Södergården,0682,06,0,TRUE
+0682R012,Åker-Målen,0682,06,0,TRUE
+0682R013,Östra Runneryd,0682,06,0,TRUE
+0683R001,Bor,0683,06,0,TRUE
+0683R002,Bredaryd,0683,06,0,TRUE
+0683R003,Centrum-Apladalen,0683,06,0,TRUE
+0683R004,Forsheda,0683,06,0,TRUE
+0683R005,Gröndal-Norregård,0683,06,0,TRUE
+0683R006,Mossle,0683,06,0,TRUE
+0683R007,Nylund-Duvelund,0683,06,0,TRUE
+0683R008,Rydaholm,0683,06,0,TRUE
+0683R009,Trälleborg,0683,06,0,TRUE
+0683R010,Vråen-Rörstorp,0683,06,0,TRUE
+0683R011,Värnamo sydöstra,0683,06,0,TRUE
+0683R012,Värnamo västra,0683,06,0,TRUE
+0683R013,Värnamo östra,0683,06,0,TRUE
+0684R001,Stockaryd,0684,06,0,TRUE
+0684R002,Sävsjö nordöst,0684,06,0,TRUE
+0684R003,Sävsjö norra omland,0684,06,0,TRUE
+0684R004,Sävsjö sydöst,0684,06,0,TRUE
+0684R005,Sävsjö södra omland,0684,06,0,TRUE
+0684R006,Sävsjö väst,0684,06,0,TRUE
+0684R007,Vrigstad,0684,06,0,TRUE
+0685R001,Ekenässjön,0685,06,0,TRUE
+0685R002,Holsby-Kvillsfors,0685,06,0,TRUE
+0685R003,Korsberga-Nye,0685,06,0,TRUE
+0685R004,Landsbro-Myresö,0685,06,0,TRUE
+0685R005,Vetlanda-Brunnsgård,0685,06,0,TRUE
+0685R006,Vetlanda-Bäckseda,0685,06,0,TRUE
+0685R007,Vetlanda-Centrum,0685,06,0,TRUE
+0685R008,Vetlanda-Karslund,0685,06,0,TRUE
+0685R009,Vetlanda-Mellangården,0685,06,0,TRUE
+0685R010,Vetlanda-Tomaslunden,0685,06,0,TRUE
+0685R011,Vetlanda-Upplanda,0685,06,0,TRUE
+0686R001,Eksjö norra,0686,06,0,TRUE
+0686R002,Eksjö södra,0686,06,0,TRUE
+0686R003,Eksjö västra,0686,06,0,TRUE
+0686R004,Eksjö västra landsbygd,0686,06,0,TRUE
+0686R005,Eksjö östra,0686,06,0,TRUE
+0686R006,Eksjö östra landsbygd,0686,06,0,TRUE
+0686R007,Mariannelund,0686,06,0,TRUE
+0687R001,Tranås centrum,0687,06,0,TRUE
+0687R002,Tranås västra landsbygd,0687,06,0,TRUE
+0687R003,Tranås östra landsbygd,0687,06,0,TRUE
+0687R004,Tranås-väster,0687,06,0,TRUE
+0687R005,Tranås-öster,0687,06,0,TRUE
+0760R001,Klavreström-Norrhult,0760,07,0,TRUE
+0760R002,Lenhovda,0760,07,0,TRUE
+0760R003,Uppvidinge omland,0760,07,0,TRUE
+0760R004,Åseda,0760,07,0,TRUE
+0761R001,Hovmantorp,0761,07,0,TRUE
+0761R002,Kosta,0761,07,0,TRUE
+0761R003,Lessebo centralort,0761,07,0,TRUE
+0761R004,Lessebo omland,0761,07,0,TRUE
+0763R001,Konga,0763,07,0,TRUE
+0763R002,Linneryd-Älmeboda,0763,07,0,TRUE
+0763R003,Ryds glesbygd,0763,07,0,TRUE
+0763R004,Ryds tätort,0763,07,0,TRUE
+0763R005,Tingryds glesbygd-Väckelsång,0763,07,0,TRUE
+0763R006,Tingsryds tätort,0763,07,0,TRUE
+0763R007,Urshult,0763,07,0,TRUE
+0764R001,Alvesta centrum,0764,07,0,TRUE
+0764R002,Alvesta nordost,0764,07,0,TRUE
+0764R003,Alvesta sydost,0764,07,0,TRUE
+0764R004,Alvesta södra,0764,07,0,TRUE
+0764R005,Alvesta västra,0764,07,0,TRUE
+0764R006,Blädinge,0764,07,0,TRUE
+0764R007,Grimslöv,0764,07,0,TRUE
+0764R008,Hjortsberga,0764,07,0,TRUE
+0764R009,Moheda-Torpsbruk,0764,07,0,TRUE
+0764R010,Slätthög,0764,07,0,TRUE
+0764R011,Vislanda,0764,07,0,TRUE
+0764R012,Västra Torsås,0764,07,0,TRUE
+0765R001,Diö-Liatorp,0765,07,0,TRUE
+0765R002,Älmhult norra,0765,07,0,TRUE
+0765R003,Älmhult sydöstra,0765,07,0,TRUE
+0765R004,Älmhult västra,0765,07,0,TRUE
+0765R005,Älmhult östra,0765,07,0,TRUE
+0765R006,Älmhults omland,0765,07,0,TRUE
+0767R001,Markaryds kommuns landsbygd,0767,07,0,TRUE
+0767R002,Markaryd-Timsfors,0767,07,0,TRUE
+0767R003,Traryd-Strömsnäsbruk,0767,07,0,TRUE
+0780R001,Araby-Dalbo-Nydala,0780,07,0,TRUE
+0780R002,Braås,0780,07,0,TRUE
+0780R003,Gamla norr-Fagrabäck,0780,07,0,TRUE
+0780R004,Gemla,0780,07,0,TRUE
+0780R005,Hov-Norr,0780,07,0,TRUE
+0780R006,Hovshaga,0780,07,0,TRUE
+0780R007,Högstorp-Hollstorp,0780,07,0,TRUE
+0780R008,Ingelstad,0780,07,0,TRUE
+0780R009,Kungsmad-Pilbäcken,0780,07,0,TRUE
+0780R010,Lammhult,0780,07,0,TRUE
+0780R011,Rottne,0780,07,0,TRUE
+0780R012,Sandsbro,0780,07,0,TRUE
+0780R013,Stadsnära landsbygd,0780,07,0,TRUE
+0780R014,Söder-Bäckaslöv,0780,07,0,TRUE
+0780R015,Teleborg,0780,07,0,TRUE
+0780R016,Teleborg centrum,0780,07,0,TRUE
+0780R017,Universitetsområde,0780,07,0,TRUE
+0780R018,Västra mark,0780,07,0,TRUE
+0780R019,Växjö centrum-Väster-Spetsamossen,0780,07,0,TRUE
+0780R020,Växjö landsbygd,0780,07,0,TRUE
+0780R021,Växjö öster,0780,07,0,TRUE
+0780R022,Öjaby-Räppe,0780,07,0,TRUE
+0780R023,Östra Lugnet-Evedal,0780,07,0,TRUE
+0781R001,Angelstad-Bolmen,0781,07,0,TRUE
+0781R002,Annelund,0781,07,0,TRUE
+0781R003,Ekebacken,0781,07,0,TRUE
+0781R004,Hamneda-Kånna,0781,07,0,TRUE
+0781R005,Hångers,0781,07,0,TRUE
+0781R006,Kungshög,0781,07,0,TRUE
+0781R007,Lagan,0781,07,0,TRUE
+0781R008,Lidhult-Odensjö-Torpa,0781,07,0,TRUE
+0781R009,Ljungby centrum,0781,07,0,TRUE
+0781R010,Replösa,0781,07,0,TRUE
+0781R011,Ryssby-Agunnaryd,0781,07,0,TRUE
+0781R012,Stensberg,0781,07,0,TRUE
+0781R013,Vittaryd,0781,07,0,TRUE
+0781R014,Ågård-Hjortsberg,0781,07,0,TRUE
+0821R001,Fagerhult,0821,08,0,TRUE
+0821R002,Högsby,0821,08,0,TRUE
+0821R003,Högsby omland,0821,08,0,TRUE
+0821R004,Långemåla,0821,08,0,TRUE
+0834R001,Bergkvara,0834,08,0,TRUE
+0834R002,Gullabo,0834,08,0,TRUE
+0834R003,Möre,0834,08,0,TRUE
+0834R004,Söderåkra,0834,08,0,TRUE
+0834R005,Torsås,0834,08,0,TRUE
+0840R001,Algutsrum-Saxnäs-Glömminge,0840,08,0,TRUE
+0840R002,Färjestaden centrala,0840,08,0,TRUE
+0840R003,Färjestaden norra,0840,08,0,TRUE
+0840R004,Färjestaden södra,0840,08,0,TRUE
+0840R005,Mörbylånga,0840,08,0,TRUE
+0840R006,Mörbylånga omland,0840,08,0,TRUE
+0840R007,Skogsby-Torslunda,0840,08,0,TRUE
+0860R001,Hultsfreds tätort norra,0860,08,0,TRUE
+0860R002,Hultsfreds tätort södra,0860,08,0,TRUE
+0860R003,Hultsfreds tätort västra,0860,08,0,TRUE
+0860R004,Järnforsen-Målilla-Virserum landsbygd,0860,08,0,TRUE
+0860R005,Lönneberga-Silverdalen tätort-landsbygd,0860,08,0,TRUE
+0860R006,Målilla-Gårdveda-Rosenfors-Ämmenäs tätort,0860,08,0,TRUE
+0860R007,Mörlunda tätort-landsbygd,0860,08,0,TRUE
+0860R008,Vena tätort-Vena landsbygd,0860,08,0,TRUE
+0860R009,Virserums tätort,0860,08,0,TRUE
+0861R001,Blomstermåla,0861,08,0,TRUE
+0861R002,Fliseryd omland,0861,08,0,TRUE
+0861R003,Mellersta Mönsterås samhälle,0861,08,0,TRUE
+0861R004,Mönsterås centrala,0861,08,0,TRUE
+0861R005,Mönsterås omland,0861,08,0,TRUE
+0861R006,Mönsterås södra samhälle-Oknö,0861,08,0,TRUE
+0861R007,Norra-västra Mönsterås samhälle,0861,08,0,TRUE
+0861R008,Timmernabben,0861,08,0,TRUE
+0861R009,Ålem omland,0861,08,0,TRUE
+0861R010,Ålem stationssamhälle,0861,08,0,TRUE
+0862R001,Algutsboda-Algutsboda omland,0862,08,0,TRUE
+0862R002,Emmaboda norra,0862,08,0,TRUE
+0862R003,Emmaboda södra,0862,08,0,TRUE
+0862R004,Emmaboda-Lindås,0862,08,0,TRUE
+0862R005,Långasjö-Långasjö omland,0862,08,0,TRUE
+0862R006,Vissefjärda-Vissefjärda omland,0862,08,0,TRUE
+0880R001,Berga,0880,08,0,TRUE
+0880R002,Bergavik-Björkenäs,0880,08,0,TRUE
+0880R003,Boholmarna-Dunö-Rinkabyholm,0880,08,0,TRUE
+0880R004,Djurängen-Funkabo-Oxhagen,0880,08,0,TRUE
+0880R005,Getingen-Tallhagen-Västra Norrgård,0880,08,0,TRUE
+0880R006,Kalmar centrala-Stensö,0880,08,0,TRUE
+0880R007,Kalmar norra kommundelen,0880,08,0,TRUE
+0880R008,Kalmar södra kommundelen,0880,08,0,TRUE
+0880R009,Kalmar västra kommundelen,0880,08,0,TRUE
+0880R010,Krafslösa-Snurrom-Vimpeltorpet,0880,08,0,TRUE
+0880R011,Lindsdal,0880,08,0,TRUE
+0880R012,Norrliden,0880,08,0,TRUE
+0880R013,Påryd,0880,08,0,TRUE
+0880R014,Tegelviken-Västra Malmen,0880,08,0,TRUE
+0880R015,Västra Smedby,0880,08,0,TRUE
+0880R016,Östra Norrgård-Östra Malmen,0880,08,0,TRUE
+0880R017,Östra Smedby,0880,08,0,TRUE
+0881R001,Alsjöholm-Örsjö,0881,08,0,TRUE
+0881R002,Hälleberga-Kristvalla,0881,08,0,TRUE
+0881R003,Kråksmåla,0881,08,0,TRUE
+0881R004,Kungshall,0881,08,0,TRUE
+0881R005,Myrdalen-Idehult-Rismåla,0881,08,0,TRUE
+0881R006,Nybro centrum-Paradiset-Åkrahäll,0881,08,0,TRUE
+0881R007,Nybro södra-Madesjö,0881,08,0,TRUE
+0881R008,Nybros södra omland,0881,08,0,TRUE
+0881R009,Orrefors-Flygsfors,0881,08,0,TRUE
+0882R001,Bockara-Påskallavik,0882,08,0,TRUE
+0882R002,Döderhult-Svalliden,0882,08,0,TRUE
+0882R003,Gröndal-Åsa,0882,08,0,TRUE
+0882R004,Hummlekärrshult-Mockebo-Saltvik,0882,08,0,TRUE
+0882R005,Kristdala-Fårbo-Figeholm,0882,08,0,TRUE
+0882R006,Kristineberg-Mysingsö,0882,08,0,TRUE
+0882R007,Norrtorn-Orrängen,0882,08,0,TRUE
+0882R008,Oskarshamns centrum,0882,08,0,TRUE
+0883R001,Ankarsrum,0883,08,0,TRUE
+0883R002,Brevik-Gertrudsvik,0883,08,0,TRUE
+0883R003,Gamleby,0883,08,0,TRUE
+0883R004,Gunnebo,0883,08,0,TRUE
+0883R005,Norra Tjust,0883,08,0,TRUE
+0883R006,Peru-Arabien,0883,08,0,TRUE
+0883R007,Piperskärr-Grantorpet,0883,08,0,TRUE
+0883R008,Reginelund-Stenhagen,0883,08,0,TRUE
+0883R009,Skogshaga,0883,08,0,TRUE
+0883R010,Södermalm-Karstorp,0883,08,0,TRUE
+0883R011,Södra Tjust,0883,08,0,TRUE
+0883R012,Västervik centrum,0883,08,0,TRUE
+0883R013,Västralund-Jenny,0883,08,0,TRUE
+0883R014,Örbäcken-Lysingsbadet,0883,08,0,TRUE
+0883R015,Östermalm-Johannesdal,0883,08,0,TRUE
+0883R016,Överum,0883,08,0,TRUE
+0884R001,Storebro,0884,08,0,TRUE
+0884R002,Södra Vi,0884,08,0,TRUE
+0884R003,Vimmerby norra,0884,08,0,TRUE
+0884R004,Vimmerby norra landsbygd,0884,08,0,TRUE
+0884R005,Vimmerby sydost,0884,08,0,TRUE
+0884R006,Vimmerby sydväst,0884,08,0,TRUE
+0884R007,Vimmerby västra landsbygd,0884,08,0,TRUE
+0884R008,Vimmerby östra,0884,08,0,TRUE
+0884R009,Vimmerby östra landsbygd,0884,08,0,TRUE
+0884R010,Vimmerby-Bullerbyn,0884,08,0,TRUE
+0885R001,Borgholm norra kommundelen,0885,08,0,TRUE
+0885R002,Borgholm södra kommundelen,0885,08,0,TRUE
+0885R003,Borgholm-Köpingsvik,0885,08,0,TRUE
+0980R001,Bingeby,0980,09,0,TRUE
+0980R002,Gotland mellersta,0980,09,0,TRUE
+0980R003,Gotland norra,0980,09,0,TRUE
+0980R004,Gotland södra,0980,09,0,TRUE
+0980R005,Gråbo,0980,09,0,TRUE
+0980R006,Hemse,0980,09,0,TRUE
+0980R007,Innerstaden-Visby norra,0980,09,0,TRUE
+0980R008,Klintehamn,0980,09,0,TRUE
+0980R009,Roma,0980,09,0,TRUE
+0980R010,Slite,0980,09,0,TRUE
+0980R011,Visby omland,0980,09,0,TRUE
+0980R012,Visby södra,0980,09,0,TRUE
 1060R001,Jämshög-Jämshög närområde,1060,10,0,TRUE
 1060R002,Kyrkhult-Kyrkhult närområde,1060,10,0,TRUE
 1060R003,Olofström sydöstra-Gränum,1060,10,0,TRUE

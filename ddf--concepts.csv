@@ -32,7 +32,7 @@ m_invand_deso_alla,measure,,Utrikesfödda,,,ibf_deso
 m_invbak_deso_alla,measure,,Utländsk bakgrund,,,ibf_deso
 z_invand_deso_alla_komm,measure,,Utrikesfödda (avvikelse från kommun),Standard deviation,,ibf_deso_sd
 z_invbak_deso_alla_komm,measure,,Utländsk bakgrund (avvikelse från kommun),Standard deviation,,ibf_deso_sd
-m_dispin_deso_20_64,measure,,"Disponibel inkomst, 20-64 år",,,ibf_deso
+m_dispin_deso_20_64,measure,,"Disponibel inkomst, 20-64 år.",,,ibf_deso
 z_dispin_deso_20_64_komm,measure,,"Disponibel inkomst, 20-64 år (avvikelse från kommun)",Standard deviation,,ibf_deso_sd
 antal_komm_20_64,measure,,"Antal boende (20-64 år, kommun)",,,ibf_komm
 m_alder_komm_alla,measure,,Genomsnittsålder (kommun),,,ibf_komm
