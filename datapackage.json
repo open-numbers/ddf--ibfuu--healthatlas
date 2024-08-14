@@ -7,7 +7,7 @@
     "description": "",
     "author": "",
     "license": "",
-    "created": "2024-08-13T02:50:56.302595+00:00",
+    "created": "2024-08-14T10:57:53.840390+00:00",
     "resources": [
         {
             "name": "ddf--concepts",
@@ -665,7 +665,7 @@
                         "name": "kommun"
                     },
                     {
-                        "name": "laen"
+                        "name": "region"
                     },
                     {
                         "name": "rike"
@@ -697,7 +697,7 @@
                         "name": "name"
                     },
                     {
-                        "name": "laen"
+                        "name": "region"
                     },
                     {
                         "name": "rike"
@@ -712,12 +712,12 @@
             }
         },
         {
-            "name": "ddf--entities--geo--laen",
-            "path": "ddf--entities--geo--laen.csv",
+            "name": "ddf--entities--geo--region",
+            "path": "ddf--entities--geo--region.csv",
             "schema": {
                 "fields": [
                     {
-                        "name": "laen"
+                        "name": "region"
                     },
                     {
                         "name": "name"
@@ -726,11 +726,11 @@
                         "name": "rike"
                     },
                     {
-                        "name": "is--laen"
+                        "name": "is--region"
                     }
                 ],
                 "primaryKey": [
-                    "laen"
+                    "region"
                 ]
             }
         },
@@ -749,7 +749,7 @@
                         "name": "kommun"
                     },
                     {
-                        "name": "laen"
+                        "name": "region"
                     },
                     {
                         "name": "rike"
@@ -923,18 +923,18 @@
                 "primaryKey": [
                     "geo"
                 ],
-                "value": "is--laen",
+                "value": "is--region",
                 "resources": [
-                    "ddf--entities--geo--laen"
+                    "ddf--entities--geo--region"
                 ]
             },
             {
                 "primaryKey": [
-                    "laen"
+                    "region"
                 ],
-                "value": "is--laen",
+                "value": "is--region",
                 "resources": [
-                    "ddf--entities--geo--laen"
+                    "ddf--entities--geo--region"
                 ]
             },
             {
@@ -1014,44 +1014,6 @@
                 "primaryKey": [
                     "deso"
                 ],
-                "value": "laen",
-                "resources": [
-                    "ddf--entities--geo--deso"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "geo"
-                ],
-                "value": "laen",
-                "resources": [
-                    "ddf--entities--geo--deso",
-                    "ddf--entities--geo--kommun",
-                    "ddf--entities--geo--regso"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "kommun"
-                ],
-                "value": "laen",
-                "resources": [
-                    "ddf--entities--geo--kommun"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "regso"
-                ],
-                "value": "laen",
-                "resources": [
-                    "ddf--entities--geo--regso"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "deso"
-                ],
                 "value": "name",
                 "resources": [
                     "ddf--entities--geo--deso"
@@ -1065,7 +1027,7 @@
                 "resources": [
                     "ddf--entities--geo--deso",
                     "ddf--entities--geo--kommun",
-                    "ddf--entities--geo--laen",
+                    "ddf--entities--geo--region",
                     "ddf--entities--geo--regso",
                     "ddf--entities--geo--rike"
                 ]
@@ -1081,11 +1043,11 @@
             },
             {
                 "primaryKey": [
-                    "laen"
+                    "region"
                 ],
                 "value": "name",
                 "resources": [
-                    "ddf--entities--geo--laen"
+                    "ddf--entities--geo--region"
                 ]
             },
             {
@@ -1128,6 +1090,44 @@
                 "primaryKey": [
                     "deso"
                 ],
+                "value": "region",
+                "resources": [
+                    "ddf--entities--geo--deso"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geo"
+                ],
+                "value": "region",
+                "resources": [
+                    "ddf--entities--geo--deso",
+                    "ddf--entities--geo--kommun",
+                    "ddf--entities--geo--regso"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "kommun"
+                ],
+                "value": "region",
+                "resources": [
+                    "ddf--entities--geo--kommun"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "regso"
+                ],
+                "value": "region",
+                "resources": [
+                    "ddf--entities--geo--regso"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "deso"
+                ],
                 "value": "regso",
                 "resources": [
                     "ddf--entities--geo--deso"
@@ -1159,7 +1159,7 @@
                 "resources": [
                     "ddf--entities--geo--deso",
                     "ddf--entities--geo--kommun",
-                    "ddf--entities--geo--laen",
+                    "ddf--entities--geo--region",
                     "ddf--entities--geo--regso"
                 ]
             },
@@ -1174,11 +1174,11 @@
             },
             {
                 "primaryKey": [
-                    "laen"
+                    "region"
                 ],
                 "value": "rike",
                 "resources": [
-                    "ddf--entities--geo--laen"
+                    "ddf--entities--geo--region"
                 ]
             },
             {

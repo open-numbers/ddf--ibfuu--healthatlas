@@ -1,0 +1,22 @@
+region,name,rike,is--region
+01,Region Stockholm,0,TRUE
+03,Region Uppsala,0,TRUE
+04,Region Sörmland,0,TRUE
+05,Region Östergötland,0,TRUE
+06,Region Jönköpings län,0,TRUE
+07,Region Kronoberg,0,TRUE
+08,Region Kalmar,0,TRUE
+09,Region Gotland,0,TRUE
+10,Region Blekinge,0,TRUE
+12,Region Skåne,0,TRUE
+13,Region Halland,0,TRUE
+14,Västra Götalandsregionen,0,TRUE
+17,Region Värmland,0,TRUE
+18,Region Örebro län,0,TRUE
+19,Region Västmanland,0,TRUE
+20,Region Dalarna,0,TRUE
+21,Region Gävleborg,0,TRUE
+22,Region Västernorrland,0,TRUE
+23,Region Jämtland Härjedalen,0,TRUE
+24,Region Västerbotten,0,TRUE
+25,Region Norrbotten,0,TRUE
