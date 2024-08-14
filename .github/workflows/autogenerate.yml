@@ -25,6 +25,7 @@ jobs:
 
     - name: Run Python script
       run: |
+        ddf cleanup ddf .
         cd etl/scripts
         python etl.py
         cd ../../
