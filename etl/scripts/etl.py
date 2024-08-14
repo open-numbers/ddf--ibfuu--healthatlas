@@ -78,8 +78,8 @@ for sheet in entity_files.index:
         out_file_name = f'ddf--entities--{domain}--{sheet}.csv'
     else:
         raise ValueError(f'{sheet} is not an entity domain or entity set, but it is used as primary key in entity sheets.')
-    # add 'is--' column
-    if f'is--{sheet}' not in entity_df.columns:
+    # add 'is--' column for entity_sets
+    if concept_df.loc[sheet, 'concept_type'] == 'entity_set' and f'is--{sheet}' not in entity_df.columns:
         entity_df[f'is--{sheet}'] = 'TRUE'
     # then check every columns are concepts
     columns_to_check = filter(lambda x: not x.startswith('is--'), entity_df.columns)
