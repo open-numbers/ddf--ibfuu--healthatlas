@@ -1,4 +1,4 @@
-tag,name,parent,is--tag
-ibf_deso,IBF Deso data,,TRUE
-ibf_komm,IBF Kommun data,,TRUE
-ibf_deso_sd,Avvikelse,ibf_deso,TRUE
+tag,name,parent
+ibf_deso,IBF Deso data,
+ibf_komm,IBF Kommun data,
+ibf_deso_sd,Avvikelse,ibf_deso
