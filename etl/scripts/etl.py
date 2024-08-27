@@ -51,14 +51,15 @@ if not concept_df[concept_df.concept_type == 'entity_set'].empty:
         if pd.isnull(row['domain']):
             raise ValueError(f'domain is empty for entity_set: {c}')
 
-# 1.3 convert drill_up values to json string
-def drill_up_to_json(val: str):
+# 1.3 convert drill_up and scales values to json string
+def string_list_to_json(val: str):
     if pd.isnull(val):
         return val
     lst = val.split(',')
     return json.dumps(lst)
 
-concept_df['drill_up'] = concept_df['drill_up'].map(drill_up_to_json)
+concept_df['drill_up'] = concept_df['drill_up'].map(string_list_to_json)
+concept_df['scales'] = concept_df['scales'].map(string_list_to_json)
 
 concept_df.to_csv(os.path.join(output_dir, 'ddf--concepts.csv'))
 
