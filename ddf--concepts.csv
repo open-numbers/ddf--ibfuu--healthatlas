@@ -15,6 +15,7 @@ tags,string,,,,,,
 tag,entity_domain,,,,,,
 parent,string,,,,,,
 scales,string,,,,,,
+week,time,,Vecka (2021),,,,
 m_alder_deso_alla,measure,,Medelålder,,,,ibf_deso
 m_kvinna_deso_alla,measure,,Andel kvinnor,,,,ibf_deso
 z_alder_deso_alla_komm,measure,,Medelålder (avvikelse från kommun),Standard deviation,,,ibf_deso_sd
@@ -44,3 +45,4 @@ m_dispin_komm_20_64,measure,,"Disponibel inkomst (20-64 år, kommun)",,,"[""log"
 m_syssel_komm_20_64,measure,,"Sysselsättningsstatus (20-64 år, kommun)",,,,ibf_komm
 m_socbid_komm_20_64,measure,,"Ekonomiskt bistånd (20-64 år, kommun)",,,,ibf_komm
 m_studin_komm_20_35,measure,,"Studiebidrag (20-35 år, kommun)",,,,ibf_komm
+andel_vaccinerade,measure,,Andel vaccinerade (20+ år),Första dosen mot covid-19,,,ibf_deso
