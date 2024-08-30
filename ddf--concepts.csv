@@ -15,7 +15,6 @@ tags,string,,,,,,
 tag,entity_domain,,,,,,
 parent,string,,,,,,
 scales,string,,,,,,
-week,time,,Vecka (2021),,,,
 m_alder_deso_alla,measure,,Medelålder,,,,ibf_deso
 m_kvinna_deso_alla,measure,,Andel kvinnor,,,,ibf_deso
 z_alder_deso_alla_komm,measure,,Medelålder (avvikelse från kommun),Standard deviation,,,ibf_deso_sd
