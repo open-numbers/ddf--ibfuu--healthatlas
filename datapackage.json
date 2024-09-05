@@ -7,7 +7,7 @@
     "description": "",
     "author": "",
     "license": "",
-    "created": "2024-08-30T22:05:23.985017+00:00",
+    "created": "2024-09-05T11:42:07.441936+00:00",
     "resources": [
         {
             "name": "ddf--concepts",
@@ -45,15 +45,15 @@
             }
         },
         {
-            "name": "ddf--datapoints--andel_vaccinerade--by--deso--year",
-            "path": "ddf--datapoints--andel_vaccinerade--by--deso--year.csv",
+            "name": "ddf--datapoints--andel_vaccinerade--by--deso--week",
+            "path": "ddf--datapoints--andel_vaccinerade--by--deso--week.csv",
             "schema": {
                 "fields": [
                     {
                         "name": "deso"
                     },
                     {
-                        "name": "year"
+                        "name": "week"
                     },
                     {
                         "name": "andel_vaccinerade"
@@ -61,7 +61,7 @@
                 ],
                 "primaryKey": [
                     "deso",
-                    "year"
+                    "week"
                 ]
             }
         },
@@ -1216,21 +1216,21 @@
             {
                 "primaryKey": [
                     "deso",
-                    "year"
+                    "week"
                 ],
                 "value": "andel_vaccinerade",
                 "resources": [
-                    "ddf--datapoints--andel_vaccinerade--by--deso--year"
+                    "ddf--datapoints--andel_vaccinerade--by--deso--week"
                 ]
             },
             {
                 "primaryKey": [
                     "geo",
-                    "year"
+                    "week"
                 ],
                 "value": "andel_vaccinerade",
                 "resources": [
-                    "ddf--datapoints--andel_vaccinerade--by--deso--year"
+                    "ddf--datapoints--andel_vaccinerade--by--deso--week"
                 ]
             },
             {
