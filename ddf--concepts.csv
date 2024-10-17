@@ -17,31 +17,18 @@ parent,string,,,,,,
 scales,string,,,,,,
 m_alder_deso_alla,measure,,Medelålder,,,,ibf_deso
 m_kvinna_deso_alla,measure,,Andel kvinnor,,,,ibf_deso
-z_alder_deso_alla_komm,measure,,Medelålder (avvikelse från kommun),Standard deviation,,,ibf_deso_sd
-z_kvinna_deso_alla_komm,measure,,Andel kvinnor (avvikelse från kommun),Standard deviation,,,ibf_deso_sd
-m_syssel_deso_20_64,measure,,Sysselsättning,20-64 år,,,ibf_deso
-z_syssel_deso_20_64_komm,measure,,Sysselsättning (avvikelse från kommun),"20-64 år, Standard deviation",,,ibf_deso_sd
-m_socbid_deso_20_64,measure,,Ekonomiskt bistånd,20-64 år,,,ibf_deso
-z_socbid_deso_20_64_komm,measure,,Ekonomiskt bistånd (avvikelse från kommun),"20-64 år, Standard deviation",,,ibf_deso_sd
-m_utflyt_deso_alla,measure,,Utflyttning,,,,ibf_deso
-m_inflyt_deso_alla,measure,,Inflyttning,,,,ibf_deso
-z_inflyt_deso_alla_komm,measure,,Inflyttning (avvikelse från kommun),Standard deviation,,,ibf_deso_sd
-z_utflyt_deso_alla_komm,measure,,Utflyttning (avvikelse från kommun),Standard deviation,,,ibf_deso_sd
 m_efterg_deso_25_64,measure,,Eftergymnasial utbildning,25-64,,,ibf_deso
-z_efterg_deso_25_64_komm,measure,,Eftergymnasial utbildning (avvikelse från kommun),"25-64, Standard deviation",,,ibf_deso_sd
 m_invand_deso_alla,measure,,Utrikesfödda,,,,ibf_deso
 m_invbak_deso_alla,measure,,Utländsk bakgrund,,,,ibf_deso
-z_invand_deso_alla_komm,measure,,Utrikesfödda (avvikelse från kommun),Standard deviation,,,ibf_deso_sd
-z_invbak_deso_alla_komm,measure,,Utländsk bakgrund (avvikelse från kommun),Standard deviation,,,ibf_deso_sd
 m_dispin_deso_20_64,measure,,Disponibel inkomst,20-64 år,,"[""log"", "" linear""]",ibf_deso
-z_dispin_deso_20_64_komm,measure,,Disponibel inkomst (avvikelse från kommun),"20-64 år, Standard deviation",,,ibf_deso_sd
-antal_komm_20_64,measure,,"Antal boende (20-64 år, kommun)",,,,ibf_komm
-m_alder_komm_alla,measure,,Genomsnittsålder (kommun),,,,ibf_komm
-m_kvinna_komm_alla,measure,,Andel kvinnor (kommun),,,,ibf_komm
-m_invand_komm_alla,measure,,Andel utrikesfödda (kommun),,,,ibf_komm
-m_invbak_komm_alla,measure,,Andel utländsk bakgrund (kommun),,,,ibf_komm
-m_dispin_komm_20_64,measure,,"Disponibel inkomst (20-64 år, kommun)",,,"[""log"", "" linear""]",ibf_komm
-m_syssel_komm_20_64,measure,,"Sysselsättningsstatus (20-64 år, kommun)",,,,ibf_komm
-m_socbid_komm_20_64,measure,,"Ekonomiskt bistånd (20-64 år, kommun)",,,,ibf_komm
-m_studin_komm_20_35,measure,,"Studiebidrag (20-35 år, kommun)",,,,ibf_komm
-andel_vaccinerade,measure,,Andel vaccinerade (20+ år),Första dosen mot covid-19,,,ibf_deso
+antal_komm_20_64,measure,,Antal boende,"20-64 år, kommun",,,ibf_komm
+m_alder_komm_alla,measure,,Genomsnittsålder,Kommun,,,ibf_komm
+m_kvinna_komm_alla,measure,,Andel kvinnor,Kommun,,,ibf_komm
+m_invand_komm_alla,measure,,Andel utrikesfödda,Kommun,,,ibf_komm
+m_invbak_komm_alla,measure,,Andel utländsk bakgrund,Kommun,,,ibf_komm
+m_dispin_komm_20_64,measure,,Disponibel inkomst,"20-64 år, kommun",,"[""log"", "" linear""]",ibf_komm
+m_syssel_komm_20_64,measure,,Sysselsättningsstatus,"20-64 år, kommun",,,ibf_komm
+m_socbid_komm_20_64,measure,,Ekonomiskt bistånd,"20-64 år, kommun",,,ibf_komm
+m_studin_komm_20_35,measure,,Studiebidrag,"20-35 år, kommun",,,ibf_komm
+andel_vaccinerade,measure,,Andel vaccinerade,"20+ år, första dosen mot covid-19",,,ibf_deso
+antal_alla,measure,,Antal boende,,,,ibf_deso

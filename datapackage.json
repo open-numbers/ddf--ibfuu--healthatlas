@@ -7,7 +7,7 @@
     "description": "",
     "author": "",
     "license": "",
-    "created": "2024-10-17T13:03:20.406858+00:00",
+    "created": "2024-10-17T13:21:43.623003+00:00",
     "resources": [
         {
             "name": "ddf--concepts",
@@ -57,6 +57,27 @@
                     },
                     {
                         "name": "andel_vaccinerade"
+                    }
+                ],
+                "primaryKey": [
+                    "deso",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--antal_alla--by--deso--year",
+            "path": "ddf--datapoints--antal_alla--by--deso--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "deso"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "antal_alla"
                     }
                 ],
                 "primaryKey": [
@@ -192,27 +213,6 @@
             }
         },
         {
-            "name": "ddf--datapoints--m_inflyt_deso_alla--by--deso--year",
-            "path": "ddf--datapoints--m_inflyt_deso_alla--by--deso--year.csv",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "deso"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "m_inflyt_deso_alla"
-                    }
-                ],
-                "primaryKey": [
-                    "deso",
-                    "year"
-                ]
-            }
-        },
-        {
             "name": "ddf--datapoints--m_invand_deso_alla--by--deso--year",
             "path": "ddf--datapoints--m_invand_deso_alla--by--deso--year.csv",
             "schema": {
@@ -339,27 +339,6 @@
             }
         },
         {
-            "name": "ddf--datapoints--m_socbid_deso_20_64--by--deso--year",
-            "path": "ddf--datapoints--m_socbid_deso_20_64--by--deso--year.csv",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "deso"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "m_socbid_deso_20_64"
-                    }
-                ],
-                "primaryKey": [
-                    "deso",
-                    "year"
-                ]
-            }
-        },
-        {
             "name": "ddf--datapoints--m_socbid_komm_20_64--by--kommun--year",
             "path": "ddf--datapoints--m_socbid_komm_20_64--by--kommun--year.csv",
             "schema": {
@@ -402,27 +381,6 @@
             }
         },
         {
-            "name": "ddf--datapoints--m_syssel_deso_20_64--by--deso--year",
-            "path": "ddf--datapoints--m_syssel_deso_20_64--by--deso--year.csv",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "deso"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "m_syssel_deso_20_64"
-                    }
-                ],
-                "primaryKey": [
-                    "deso",
-                    "year"
-                ]
-            }
-        },
-        {
             "name": "ddf--datapoints--m_syssel_komm_20_64--by--kommun--year",
             "path": "ddf--datapoints--m_syssel_komm_20_64--by--kommun--year.csv",
             "schema": {
@@ -439,237 +397,6 @@
                 ],
                 "primaryKey": [
                     "kommun",
-                    "year"
-                ]
-            }
-        },
-        {
-            "name": "ddf--datapoints--m_utflyt_deso_alla--by--deso--year",
-            "path": "ddf--datapoints--m_utflyt_deso_alla--by--deso--year.csv",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "deso"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "m_utflyt_deso_alla"
-                    }
-                ],
-                "primaryKey": [
-                    "deso",
-                    "year"
-                ]
-            }
-        },
-        {
-            "name": "ddf--datapoints--z_alder_deso_alla_komm--by--deso--year",
-            "path": "ddf--datapoints--z_alder_deso_alla_komm--by--deso--year.csv",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "deso"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "z_alder_deso_alla_komm"
-                    }
-                ],
-                "primaryKey": [
-                    "deso",
-                    "year"
-                ]
-            }
-        },
-        {
-            "name": "ddf--datapoints--z_dispin_deso_20_64_komm--by--deso--year",
-            "path": "ddf--datapoints--z_dispin_deso_20_64_komm--by--deso--year.csv",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "deso"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "z_dispin_deso_20_64_komm"
-                    }
-                ],
-                "primaryKey": [
-                    "deso",
-                    "year"
-                ]
-            }
-        },
-        {
-            "name": "ddf--datapoints--z_efterg_deso_25_64_komm--by--deso--year",
-            "path": "ddf--datapoints--z_efterg_deso_25_64_komm--by--deso--year.csv",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "deso"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "z_efterg_deso_25_64_komm"
-                    }
-                ],
-                "primaryKey": [
-                    "deso",
-                    "year"
-                ]
-            }
-        },
-        {
-            "name": "ddf--datapoints--z_inflyt_deso_alla_komm--by--deso--year",
-            "path": "ddf--datapoints--z_inflyt_deso_alla_komm--by--deso--year.csv",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "deso"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "z_inflyt_deso_alla_komm"
-                    }
-                ],
-                "primaryKey": [
-                    "deso",
-                    "year"
-                ]
-            }
-        },
-        {
-            "name": "ddf--datapoints--z_invand_deso_alla_komm--by--deso--year",
-            "path": "ddf--datapoints--z_invand_deso_alla_komm--by--deso--year.csv",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "deso"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "z_invand_deso_alla_komm"
-                    }
-                ],
-                "primaryKey": [
-                    "deso",
-                    "year"
-                ]
-            }
-        },
-        {
-            "name": "ddf--datapoints--z_invbak_deso_alla_komm--by--deso--year",
-            "path": "ddf--datapoints--z_invbak_deso_alla_komm--by--deso--year.csv",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "deso"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "z_invbak_deso_alla_komm"
-                    }
-                ],
-                "primaryKey": [
-                    "deso",
-                    "year"
-                ]
-            }
-        },
-        {
-            "name": "ddf--datapoints--z_kvinna_deso_alla_komm--by--deso--year",
-            "path": "ddf--datapoints--z_kvinna_deso_alla_komm--by--deso--year.csv",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "deso"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "z_kvinna_deso_alla_komm"
-                    }
-                ],
-                "primaryKey": [
-                    "deso",
-                    "year"
-                ]
-            }
-        },
-        {
-            "name": "ddf--datapoints--z_socbid_deso_20_64_komm--by--deso--year",
-            "path": "ddf--datapoints--z_socbid_deso_20_64_komm--by--deso--year.csv",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "deso"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "z_socbid_deso_20_64_komm"
-                    }
-                ],
-                "primaryKey": [
-                    "deso",
-                    "year"
-                ]
-            }
-        },
-        {
-            "name": "ddf--datapoints--z_syssel_deso_20_64_komm--by--deso--year",
-            "path": "ddf--datapoints--z_syssel_deso_20_64_komm--by--deso--year.csv",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "deso"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "z_syssel_deso_20_64_komm"
-                    }
-                ],
-                "primaryKey": [
-                    "deso",
-                    "year"
-                ]
-            }
-        },
-        {
-            "name": "ddf--datapoints--z_utflyt_deso_alla_komm--by--deso--year",
-            "path": "ddf--datapoints--z_utflyt_deso_alla_komm--by--deso--year.csv",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "deso"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "z_utflyt_deso_alla_komm"
-                    }
-                ],
-                "primaryKey": [
-                    "deso",
                     "year"
                 ]
             }
@@ -1235,6 +962,26 @@
             },
             {
                 "primaryKey": [
+                    "deso",
+                    "year"
+                ],
+                "value": "antal_alla",
+                "resources": [
+                    "ddf--datapoints--antal_alla--by--deso--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geo",
+                    "year"
+                ],
+                "value": "antal_alla",
+                "resources": [
+                    "ddf--datapoints--antal_alla--by--deso--year"
+                ]
+            },
+            {
+                "primaryKey": [
                     "geo",
                     "year"
                 ],
@@ -1351,26 +1098,6 @@
                 "value": "m_efterg_deso_25_64",
                 "resources": [
                     "ddf--datapoints--m_efterg_deso_25_64--by--deso--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "deso",
-                    "year"
-                ],
-                "value": "m_inflyt_deso_alla",
-                "resources": [
-                    "ddf--datapoints--m_inflyt_deso_alla--by--deso--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "geo",
-                    "year"
-                ],
-                "value": "m_inflyt_deso_alla",
-                "resources": [
-                    "ddf--datapoints--m_inflyt_deso_alla--by--deso--year"
                 ]
             },
             {
@@ -1495,26 +1222,6 @@
             },
             {
                 "primaryKey": [
-                    "deso",
-                    "year"
-                ],
-                "value": "m_socbid_deso_20_64",
-                "resources": [
-                    "ddf--datapoints--m_socbid_deso_20_64--by--deso--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "geo",
-                    "year"
-                ],
-                "value": "m_socbid_deso_20_64",
-                "resources": [
-                    "ddf--datapoints--m_socbid_deso_20_64--by--deso--year"
-                ]
-            },
-            {
-                "primaryKey": [
                     "geo",
                     "year"
                 ],
@@ -1555,26 +1262,6 @@
             },
             {
                 "primaryKey": [
-                    "deso",
-                    "year"
-                ],
-                "value": "m_syssel_deso_20_64",
-                "resources": [
-                    "ddf--datapoints--m_syssel_deso_20_64--by--deso--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "geo",
-                    "year"
-                ],
-                "value": "m_syssel_deso_20_64",
-                "resources": [
-                    "ddf--datapoints--m_syssel_deso_20_64--by--deso--year"
-                ]
-            },
-            {
-                "primaryKey": [
                     "geo",
                     "year"
                 ],
@@ -1591,226 +1278,6 @@
                 "value": "m_syssel_komm_20_64",
                 "resources": [
                     "ddf--datapoints--m_syssel_komm_20_64--by--kommun--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "deso",
-                    "year"
-                ],
-                "value": "m_utflyt_deso_alla",
-                "resources": [
-                    "ddf--datapoints--m_utflyt_deso_alla--by--deso--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "geo",
-                    "year"
-                ],
-                "value": "m_utflyt_deso_alla",
-                "resources": [
-                    "ddf--datapoints--m_utflyt_deso_alla--by--deso--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "deso",
-                    "year"
-                ],
-                "value": "z_alder_deso_alla_komm",
-                "resources": [
-                    "ddf--datapoints--z_alder_deso_alla_komm--by--deso--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "geo",
-                    "year"
-                ],
-                "value": "z_alder_deso_alla_komm",
-                "resources": [
-                    "ddf--datapoints--z_alder_deso_alla_komm--by--deso--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "deso",
-                    "year"
-                ],
-                "value": "z_dispin_deso_20_64_komm",
-                "resources": [
-                    "ddf--datapoints--z_dispin_deso_20_64_komm--by--deso--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "geo",
-                    "year"
-                ],
-                "value": "z_dispin_deso_20_64_komm",
-                "resources": [
-                    "ddf--datapoints--z_dispin_deso_20_64_komm--by--deso--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "deso",
-                    "year"
-                ],
-                "value": "z_efterg_deso_25_64_komm",
-                "resources": [
-                    "ddf--datapoints--z_efterg_deso_25_64_komm--by--deso--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "geo",
-                    "year"
-                ],
-                "value": "z_efterg_deso_25_64_komm",
-                "resources": [
-                    "ddf--datapoints--z_efterg_deso_25_64_komm--by--deso--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "deso",
-                    "year"
-                ],
-                "value": "z_inflyt_deso_alla_komm",
-                "resources": [
-                    "ddf--datapoints--z_inflyt_deso_alla_komm--by--deso--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "geo",
-                    "year"
-                ],
-                "value": "z_inflyt_deso_alla_komm",
-                "resources": [
-                    "ddf--datapoints--z_inflyt_deso_alla_komm--by--deso--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "deso",
-                    "year"
-                ],
-                "value": "z_invand_deso_alla_komm",
-                "resources": [
-                    "ddf--datapoints--z_invand_deso_alla_komm--by--deso--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "geo",
-                    "year"
-                ],
-                "value": "z_invand_deso_alla_komm",
-                "resources": [
-                    "ddf--datapoints--z_invand_deso_alla_komm--by--deso--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "deso",
-                    "year"
-                ],
-                "value": "z_invbak_deso_alla_komm",
-                "resources": [
-                    "ddf--datapoints--z_invbak_deso_alla_komm--by--deso--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "geo",
-                    "year"
-                ],
-                "value": "z_invbak_deso_alla_komm",
-                "resources": [
-                    "ddf--datapoints--z_invbak_deso_alla_komm--by--deso--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "deso",
-                    "year"
-                ],
-                "value": "z_kvinna_deso_alla_komm",
-                "resources": [
-                    "ddf--datapoints--z_kvinna_deso_alla_komm--by--deso--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "geo",
-                    "year"
-                ],
-                "value": "z_kvinna_deso_alla_komm",
-                "resources": [
-                    "ddf--datapoints--z_kvinna_deso_alla_komm--by--deso--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "deso",
-                    "year"
-                ],
-                "value": "z_socbid_deso_20_64_komm",
-                "resources": [
-                    "ddf--datapoints--z_socbid_deso_20_64_komm--by--deso--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "geo",
-                    "year"
-                ],
-                "value": "z_socbid_deso_20_64_komm",
-                "resources": [
-                    "ddf--datapoints--z_socbid_deso_20_64_komm--by--deso--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "deso",
-                    "year"
-                ],
-                "value": "z_syssel_deso_20_64_komm",
-                "resources": [
-                    "ddf--datapoints--z_syssel_deso_20_64_komm--by--deso--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "geo",
-                    "year"
-                ],
-                "value": "z_syssel_deso_20_64_komm",
-                "resources": [
-                    "ddf--datapoints--z_syssel_deso_20_64_komm--by--deso--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "deso",
-                    "year"
-                ],
-                "value": "z_utflyt_deso_alla_komm",
-                "resources": [
-                    "ddf--datapoints--z_utflyt_deso_alla_komm--by--deso--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "geo",
-                    "year"
-                ],
-                "value": "z_utflyt_deso_alla_komm",
-                "resources": [
-                    "ddf--datapoints--z_utflyt_deso_alla_komm--by--deso--year"
                 ]
             }
         ],
