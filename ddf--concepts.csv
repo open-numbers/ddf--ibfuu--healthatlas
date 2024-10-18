@@ -6,7 +6,7 @@ kommun,entity_set,geo,Kommun,,"[""region""]",,
 region,entity_set,geo,Region,,"[""rike""]",,
 rike,entity_set,geo,Rike,,,,
 name,string,,Namn,,,,
-deso_type,string,,DeSO type,,,,
+deso_type,string,,Områdestyp,,,,
 year,time,,År,,,,
 domain,string,,,,,,
 description,string,,,,,,
@@ -17,7 +17,11 @@ parent,string,,,,,,
 scales,string,,,,,,
 m_alder_deso_alla,measure,,Medelålder,,,,ibf_deso
 m_kvinna_deso_alla,measure,,Andel kvinnor,,,,ibf_deso
-m_efterg_deso_25_64,measure,,Eftergymnasial utbildning,25-64,,,ibf_deso
+m_syssel_deso_20_64,measure,,Sysselsättning,20-64 år,,,ibf_deso
+m_socbid_deso_20_64,measure,,Ekonomiskt bistånd,20-64 år,,,ibf_deso
+m_utflyt_deso_alla,measure,,Utflyttning,,,,ibf_deso
+m_inflyt_deso_alla,measure,,Inflyttning,,,,ibf_deso
+m_efterg_deso_25_64,measure,,Eftergymnasial utbildning,25-64 år,,,ibf_deso
 m_invand_deso_alla,measure,,Utrikesfödda,,,,ibf_deso
 m_invbak_deso_alla,measure,,Utländsk bakgrund,,,,ibf_deso
 m_dispin_deso_20_64,measure,,Disponibel inkomst,20-64 år,,"[""log"", "" linear""]",ibf_deso
@@ -31,4 +35,4 @@ m_syssel_komm_20_64,measure,,Sysselsättningsstatus,"20-64 år, kommun",,,ibf_ko
 m_socbid_komm_20_64,measure,,Ekonomiskt bistånd,"20-64 år, kommun",,,ibf_komm
 m_studin_komm_20_35,measure,,Studiebidrag,"20-35 år, kommun",,,ibf_komm
 andel_vaccinerade,measure,,Andel vaccinerade,"20+ år, första dosen mot covid-19",,,ibf_deso
-antal_alla,measure,,Antal boende,,,,ibf_deso
+antal_boende_deso,measure,,Antal boende,,,,ibf_deso

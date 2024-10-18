@@ -7,7 +7,7 @@
     "description": "",
     "author": "",
     "license": "",
-    "created": "2024-10-17T13:21:43.623003+00:00",
+    "created": "2024-10-18T09:24:17.619803+00:00",
     "resources": [
         {
             "name": "ddf--concepts",
@@ -66,8 +66,8 @@
             }
         },
         {
-            "name": "ddf--datapoints--antal_alla--by--deso--year",
-            "path": "ddf--datapoints--antal_alla--by--deso--year.csv",
+            "name": "ddf--datapoints--antal_boende_deso--by--deso--year",
+            "path": "ddf--datapoints--antal_boende_deso--by--deso--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -77,7 +77,7 @@
                         "name": "year"
                     },
                     {
-                        "name": "antal_alla"
+                        "name": "antal_boende_deso"
                     }
                 ],
                 "primaryKey": [
@@ -965,9 +965,9 @@
                     "deso",
                     "year"
                 ],
-                "value": "antal_alla",
+                "value": "antal_boende_deso",
                 "resources": [
-                    "ddf--datapoints--antal_alla--by--deso--year"
+                    "ddf--datapoints--antal_boende_deso--by--deso--year"
                 ]
             },
             {
@@ -975,9 +975,9 @@
                     "geo",
                     "year"
                 ],
-                "value": "antal_alla",
+                "value": "antal_boende_deso",
                 "resources": [
-                    "ddf--datapoints--antal_alla--by--deso--year"
+                    "ddf--datapoints--antal_boende_deso--by--deso--year"
                 ]
             },
             {
