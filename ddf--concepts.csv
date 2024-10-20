@@ -35,4 +35,4 @@ m_syssel_komm_20_64,measure,,Sysselsättningsstatus,"20-64 år, kommun",,,ibf_ko
 m_socbid_komm_20_64,measure,,Ekonomiskt bistånd,"20-64 år, kommun",,,ibf_komm
 m_studin_komm_20_35,measure,,Studiebidrag,"20-35 år, kommun",,,ibf_komm
 andel_vaccinerade,measure,,Andel vaccinerade,"20+ år, första dosen mot covid-19",,,ibf_deso
-antal_alla_deso,measure,,Antal boende,,,,ibf_deso
+antal_boende_deso,measure,,Antal boende,,,,ibf_deso
