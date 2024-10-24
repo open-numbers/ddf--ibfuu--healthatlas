@@ -2,3 +2,4 @@ tag,name,parent
 ibf_deso,DeSO,
 ibf_komm,Kommun,
 ibf_rank,Ranking,ibf_deso
+ibf_median,Median,ibf_deso

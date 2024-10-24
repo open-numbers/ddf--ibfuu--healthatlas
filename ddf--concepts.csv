@@ -36,4 +36,5 @@ m_socbid_komm_20_64,measure,,Ekonomiskt bistånd,"20-64 år, kommun",,,ibf_komm
 m_studin_komm_20_35,measure,,Studiebidrag,"20-35 år, kommun",,,ibf_komm
 andel_vaccinerade,measure,,Andel vaccinerade,"20+ år, första dosen mot covid-19",,,ibf_deso
 antal_boende_deso,measure,,Antal boende,,,,ibf_deso
-r_dispink_20_64,measure,,Disponibel inkomst,"20-64 år, rank",,,ibf_rank
+r_dispink_20_64,measure,,Disponibel inkomst (rank),"20-64 år, rank",,,ibf_rank
+md_dispin_deso_20_64,measure,,Disponibel inkomst (median),"20-64 år, median",,,ibf_median
