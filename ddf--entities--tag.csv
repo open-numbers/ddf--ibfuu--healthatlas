@@ -1,3 +1,4 @@
 tag,name,parent
 ibf_deso,DeSO,
 ibf_komm,Kommun,
+ibf_rank,DeSO-ranking,ibf_deso

@@ -7,7 +7,7 @@
     "description": "",
     "author": "",
     "license": "",
-    "created": "2024-10-20T09:22:56.932363+00:00",
+    "created": "2024-10-24T12:42:39.477235+00:00",
     "resources": [
         {
             "name": "ddf--concepts",
@@ -397,6 +397,27 @@
                 ],
                 "primaryKey": [
                     "kommun",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--r_dispink_20_64--by--deso--year",
+            "path": "ddf--datapoints--r_dispink_20_64--by--deso--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "deso"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "r_dispink_20_64"
+                    }
+                ],
+                "primaryKey": [
+                    "deso",
                     "year"
                 ]
             }
@@ -1278,6 +1299,26 @@
                 "value": "m_syssel_komm_20_64",
                 "resources": [
                     "ddf--datapoints--m_syssel_komm_20_64--by--kommun--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "deso",
+                    "year"
+                ],
+                "value": "r_dispink_20_64",
+                "resources": [
+                    "ddf--datapoints--r_dispink_20_64--by--deso--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geo",
+                    "year"
+                ],
+                "value": "r_dispink_20_64",
+                "resources": [
+                    "ddf--datapoints--r_dispink_20_64--by--deso--year"
                 ]
             }
         ],
