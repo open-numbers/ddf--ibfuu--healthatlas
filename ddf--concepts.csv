@@ -21,20 +21,20 @@ m_syssel_deso_20_64,measure,,Sysselsättning,Andel sysselsatta individer mellan 
 m_socbid_deso_20_64,measure,,Ekonomiskt bistånd,Andel individer med ekonomiskt bistånd mellan 20-64 år i området.,,,ibf_deso
 m_utflyt_deso_alla,measure,,Utflyttning,Andel individer som flyttat från området under året.,,,ibf_deso
 m_inflyt_deso_alla,measure,,Inflyttning,Andel individer som flyttat in i området under året.,,,ibf_deso
-m_efterg_deso_25_64,measure,,Eftergymnasial utbildning,Andel individer mellan 25-64 år med eftergymnasial utbildning.,,,ibf_deso
+m_efterg_deso_25_64,measure,,Eftergymnasial utbildning,Andel individer mellan 25-64 år med eftergymnasial utbildning i området.,,,ibf_deso
 m_invand_deso_alla,measure,,Utrikesfödda,Andel utrikesfödda individer i området.,,,ibf_deso
 m_invbak_deso_alla,measure,,Utländsk bakgrund,Andel med utländsk bakgrund i området. Definierat som född i annat land eller med minst en utrikesfödd förälder.,,,ibf_deso
 m_dispin_deso_20_64,measure,,Disponibel inkomst,"Genomsnittlig disponibel inkomst (i tusentals kronor) för individer mellan 20-64 år i området. Disponibel inkomst är inkomst efter skatter och transfereringar.,",,"[""log"", "" linear""]",ibf_deso
-antal_komm_20_64,measure,,Antal boende,Antal boende mellan 20-64 år i kommunen.,,,ibf_komm
-m_alder_komm_alla,measure,,Genomsnittsålder,Genomsnittsålder i kommunen.,,,ibf_komm
-m_kvinna_komm_alla,measure,,Andel kvinnor,Andel kvinnor i kommunen.,,,ibf_komm
-m_invand_komm_alla,measure,,Andel utrikesfödda,Andel utrikesfödda i kommunen.,,,ibf_komm
-m_invbak_komm_alla,measure,,Andel utländsk bakgrund,Andel med utländsk bakgrund i kommunen. Definierat som född i annat land eller med minst en utrikesfödd förälder.,,,ibf_komm
-m_dispin_komm_20_64,measure,,Disponibel inkomst,"Genomsnittlig disponibel inkomst (i tusentals kronor) för individer mellan 20-64 år i kommunen. Disponibel inkomst är inkomst efter skatter och transfereringar.,",,"[""log"", "" linear""]",ibf_komm
-m_syssel_komm_20_64,measure,,Sysselsättningsstatus,Andel sysselsatta individer mellan 20-64 år i kommunen. Mätt som sysselsatt i november.,,,ibf_komm
-m_socbid_komm_20_64,measure,,Ekonomiskt bistånd,Andel individer med ekonomiskt bistånd mellan 20-64 år i kommunen.,,,ibf_komm
-m_studin_komm_20_35,measure,,Studiebidrag,Andel individer mellan 20-35 år med studiebidrag i kommunen.,,,ibf_komm
+antal_kommun_alla,measure,,Antal boende,Antal boende i kommunen.,,,ibf_komm
+m_alder_kommun_alla,measure,,Genomsnittsålder,Genomsnittsålder i kommunen.,,,ibf_komm
+m_kvinna_kommun_alla,measure,,Andel kvinnor,Andel kvinnor i kommunen.,,,ibf_komm
+m_invand_kommun_alla,measure,,Andel utrikesfödda,Andel utrikesfödda i kommunen.,,,ibf_komm
+m_invbak_kommun_alla,measure,,Andel utländsk bakgrund,Andel med utländsk bakgrund i kommunen. Definierat som född i annat land eller med minst en utrikesfödd förälder.,,,ibf_komm
+m_dispin_kommun_20_64,measure,,Disponibel inkomst,"Genomsnittlig disponibel inkomst (i tusentals kronor) för individer mellan 20-64 år i kommunen. Disponibel inkomst är inkomst efter skatter och transfereringar.,",,"[""log"", "" linear""]",ibf_komm
+m_efterg_kommun_25_64,measure,,Eftergymnasial utbildning,Andel individer mellan 25-64 år med eftergymnasial utbildning i kommunen.,,,ibf_komm
+md_dispin_kommun_20_64,measure,,Disponibel inkomst (median),Medianvärdet i disponibel inkomst för individer mellan 20-64 år i kommunen.,,,ibf_komm
+r_dispink_kommun_20_64,measure,,Disponibel inkomst (rank),Kommunens ranking i disponibel inkomst för individer mellan 20-64 år.,,,ibf_komm
 andel_vaccinerade,measure,,Andel vaccinerade,"Andel individer 20+ år som fått första dosen mot covid-19. Denna variabel är ett test och redovisas på veckonivå år 2021, enbart för Stockholm stad. Fungerar ej i kombination med andra variabler. För att se denna: välj univariat karta, zooma in på Stockholm och starta animationen. Efter denna variabel har använts behöver verktyget laddas om.)",,,ibf_vaccin
 antal_boende_deso,measure,,Antal boende,Antal boende i området.,,,ibf_deso
-r_dispink_20_64,measure,,Disponibel inkomst (rank),Områdets ranking i disponibel inkomst för individer mellan 20-64 år.,,,ibf_rank
+r_dispink_deso_20_64,measure,,Disponibel inkomst (rank),Områdets ranking i disponibel inkomst för individer mellan 20-64 år.,,,ibf_rank
 md_dispin_deso_20_64,measure,,Disponibel inkomst (median),Medianvärdet i disponibel inkomst för individer mellan 20-64 år för området.,,,ibf_median

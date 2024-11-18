@@ -7,7 +7,7 @@
     "description": "",
     "author": "",
     "license": "",
-    "created": "2024-11-18T10:26:50.638390+00:00",
+    "created": "2024-11-18T15:13:15.062460+00:00",
     "resources": [
         {
             "name": "ddf--concepts",
@@ -87,8 +87,8 @@
             }
         },
         {
-            "name": "ddf--datapoints--antal_komm_20_64--by--kommun--year",
-            "path": "ddf--datapoints--antal_komm_20_64--by--kommun--year.csv",
+            "name": "ddf--datapoints--antal_kommun_alla--by--kommun--year",
+            "path": "ddf--datapoints--antal_kommun_alla--by--kommun--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -98,7 +98,7 @@
                         "name": "year"
                     },
                     {
-                        "name": "antal_komm_20_64"
+                        "name": "antal_kommun_alla"
                     }
                 ],
                 "primaryKey": [
@@ -129,8 +129,8 @@
             }
         },
         {
-            "name": "ddf--datapoints--m_alder_komm_alla--by--kommun--year",
-            "path": "ddf--datapoints--m_alder_komm_alla--by--kommun--year.csv",
+            "name": "ddf--datapoints--m_alder_kommun_alla--by--kommun--year",
+            "path": "ddf--datapoints--m_alder_kommun_alla--by--kommun--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -140,7 +140,7 @@
                         "name": "year"
                     },
                     {
-                        "name": "m_alder_komm_alla"
+                        "name": "m_alder_kommun_alla"
                     }
                 ],
                 "primaryKey": [
@@ -171,8 +171,8 @@
             }
         },
         {
-            "name": "ddf--datapoints--m_dispin_komm_20_64--by--kommun--year",
-            "path": "ddf--datapoints--m_dispin_komm_20_64--by--kommun--year.csv",
+            "name": "ddf--datapoints--m_dispin_kommun_20_64--by--kommun--year",
+            "path": "ddf--datapoints--m_dispin_kommun_20_64--by--kommun--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -182,7 +182,7 @@
                         "name": "year"
                     },
                     {
-                        "name": "m_dispin_komm_20_64"
+                        "name": "m_dispin_kommun_20_64"
                     }
                 ],
                 "primaryKey": [
@@ -213,6 +213,27 @@
             }
         },
         {
+            "name": "ddf--datapoints--m_efterg_kommun_25_64--by--kommun--year",
+            "path": "ddf--datapoints--m_efterg_kommun_25_64--by--kommun--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "kommun"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "m_efterg_kommun_25_64"
+                    }
+                ],
+                "primaryKey": [
+                    "kommun",
+                    "year"
+                ]
+            }
+        },
+        {
             "name": "ddf--datapoints--m_invand_deso_alla--by--deso--year",
             "path": "ddf--datapoints--m_invand_deso_alla--by--deso--year.csv",
             "schema": {
@@ -234,8 +255,8 @@
             }
         },
         {
-            "name": "ddf--datapoints--m_invand_komm_alla--by--kommun--year",
-            "path": "ddf--datapoints--m_invand_komm_alla--by--kommun--year.csv",
+            "name": "ddf--datapoints--m_invand_kommun_alla--by--kommun--year",
+            "path": "ddf--datapoints--m_invand_kommun_alla--by--kommun--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -245,7 +266,7 @@
                         "name": "year"
                     },
                     {
-                        "name": "m_invand_komm_alla"
+                        "name": "m_invand_kommun_alla"
                     }
                 ],
                 "primaryKey": [
@@ -276,8 +297,8 @@
             }
         },
         {
-            "name": "ddf--datapoints--m_invbak_komm_alla--by--kommun--year",
-            "path": "ddf--datapoints--m_invbak_komm_alla--by--kommun--year.csv",
+            "name": "ddf--datapoints--m_invbak_kommun_alla--by--kommun--year",
+            "path": "ddf--datapoints--m_invbak_kommun_alla--by--kommun--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -287,7 +308,7 @@
                         "name": "year"
                     },
                     {
-                        "name": "m_invbak_komm_alla"
+                        "name": "m_invbak_kommun_alla"
                     }
                 ],
                 "primaryKey": [
@@ -318,8 +339,8 @@
             }
         },
         {
-            "name": "ddf--datapoints--m_kvinna_komm_alla--by--kommun--year",
-            "path": "ddf--datapoints--m_kvinna_komm_alla--by--kommun--year.csv",
+            "name": "ddf--datapoints--m_kvinna_kommun_alla--by--kommun--year",
+            "path": "ddf--datapoints--m_kvinna_kommun_alla--by--kommun--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -329,70 +350,7 @@
                         "name": "year"
                     },
                     {
-                        "name": "m_kvinna_komm_alla"
-                    }
-                ],
-                "primaryKey": [
-                    "kommun",
-                    "year"
-                ]
-            }
-        },
-        {
-            "name": "ddf--datapoints--m_socbid_komm_20_64--by--kommun--year",
-            "path": "ddf--datapoints--m_socbid_komm_20_64--by--kommun--year.csv",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "kommun"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "m_socbid_komm_20_64"
-                    }
-                ],
-                "primaryKey": [
-                    "kommun",
-                    "year"
-                ]
-            }
-        },
-        {
-            "name": "ddf--datapoints--m_studin_komm_20_35--by--kommun--year",
-            "path": "ddf--datapoints--m_studin_komm_20_35--by--kommun--year.csv",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "kommun"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "m_studin_komm_20_35"
-                    }
-                ],
-                "primaryKey": [
-                    "kommun",
-                    "year"
-                ]
-            }
-        },
-        {
-            "name": "ddf--datapoints--m_syssel_komm_20_64--by--kommun--year",
-            "path": "ddf--datapoints--m_syssel_komm_20_64--by--kommun--year.csv",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "kommun"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "m_syssel_komm_20_64"
+                        "name": "m_kvinna_kommun_alla"
                     }
                 ],
                 "primaryKey": [
@@ -423,8 +381,29 @@
             }
         },
         {
-            "name": "ddf--datapoints--r_dispink_20_64--by--deso--year",
-            "path": "ddf--datapoints--r_dispink_20_64--by--deso--year.csv",
+            "name": "ddf--datapoints--md_dispin_kommun_20_64--by--kommun--year",
+            "path": "ddf--datapoints--md_dispin_kommun_20_64--by--kommun--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "kommun"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "md_dispin_kommun_20_64"
+                    }
+                ],
+                "primaryKey": [
+                    "kommun",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--r_dispink_deso_20_64--by--deso--year",
+            "path": "ddf--datapoints--r_dispink_deso_20_64--by--deso--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -434,11 +413,32 @@
                         "name": "year"
                     },
                     {
-                        "name": "r_dispink_20_64"
+                        "name": "r_dispink_deso_20_64"
                     }
                 ],
                 "primaryKey": [
                     "deso",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--r_dispink_kommun_20_64--by--kommun--year",
+            "path": "ddf--datapoints--r_dispink_kommun_20_64--by--kommun--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "kommun"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "r_dispink_kommun_20_64"
+                    }
+                ],
+                "primaryKey": [
+                    "kommun",
                     "year"
                 ]
             }
@@ -1027,9 +1027,9 @@
                     "geo",
                     "year"
                 ],
-                "value": "antal_komm_20_64",
+                "value": "antal_kommun_alla",
                 "resources": [
-                    "ddf--datapoints--antal_komm_20_64--by--kommun--year"
+                    "ddf--datapoints--antal_kommun_alla--by--kommun--year"
                 ]
             },
             {
@@ -1037,9 +1037,9 @@
                     "kommun",
                     "year"
                 ],
-                "value": "antal_komm_20_64",
+                "value": "antal_kommun_alla",
                 "resources": [
-                    "ddf--datapoints--antal_komm_20_64--by--kommun--year"
+                    "ddf--datapoints--antal_kommun_alla--by--kommun--year"
                 ]
             },
             {
@@ -1067,9 +1067,9 @@
                     "geo",
                     "year"
                 ],
-                "value": "m_alder_komm_alla",
+                "value": "m_alder_kommun_alla",
                 "resources": [
-                    "ddf--datapoints--m_alder_komm_alla--by--kommun--year"
+                    "ddf--datapoints--m_alder_kommun_alla--by--kommun--year"
                 ]
             },
             {
@@ -1077,9 +1077,9 @@
                     "kommun",
                     "year"
                 ],
-                "value": "m_alder_komm_alla",
+                "value": "m_alder_kommun_alla",
                 "resources": [
-                    "ddf--datapoints--m_alder_komm_alla--by--kommun--year"
+                    "ddf--datapoints--m_alder_kommun_alla--by--kommun--year"
                 ]
             },
             {
@@ -1107,9 +1107,9 @@
                     "geo",
                     "year"
                 ],
-                "value": "m_dispin_komm_20_64",
+                "value": "m_dispin_kommun_20_64",
                 "resources": [
-                    "ddf--datapoints--m_dispin_komm_20_64--by--kommun--year"
+                    "ddf--datapoints--m_dispin_kommun_20_64--by--kommun--year"
                 ]
             },
             {
@@ -1117,9 +1117,9 @@
                     "kommun",
                     "year"
                 ],
-                "value": "m_dispin_komm_20_64",
+                "value": "m_dispin_kommun_20_64",
                 "resources": [
-                    "ddf--datapoints--m_dispin_komm_20_64--by--kommun--year"
+                    "ddf--datapoints--m_dispin_kommun_20_64--by--kommun--year"
                 ]
             },
             {
@@ -1140,6 +1140,26 @@
                 "value": "m_efterg_deso_25_64",
                 "resources": [
                     "ddf--datapoints--m_efterg_deso_25_64--by--deso--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geo",
+                    "year"
+                ],
+                "value": "m_efterg_kommun_25_64",
+                "resources": [
+                    "ddf--datapoints--m_efterg_kommun_25_64--by--kommun--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "kommun",
+                    "year"
+                ],
+                "value": "m_efterg_kommun_25_64",
+                "resources": [
+                    "ddf--datapoints--m_efterg_kommun_25_64--by--kommun--year"
                 ]
             },
             {
@@ -1167,9 +1187,9 @@
                     "geo",
                     "year"
                 ],
-                "value": "m_invand_komm_alla",
+                "value": "m_invand_kommun_alla",
                 "resources": [
-                    "ddf--datapoints--m_invand_komm_alla--by--kommun--year"
+                    "ddf--datapoints--m_invand_kommun_alla--by--kommun--year"
                 ]
             },
             {
@@ -1177,9 +1197,9 @@
                     "kommun",
                     "year"
                 ],
-                "value": "m_invand_komm_alla",
+                "value": "m_invand_kommun_alla",
                 "resources": [
-                    "ddf--datapoints--m_invand_komm_alla--by--kommun--year"
+                    "ddf--datapoints--m_invand_kommun_alla--by--kommun--year"
                 ]
             },
             {
@@ -1207,9 +1227,9 @@
                     "geo",
                     "year"
                 ],
-                "value": "m_invbak_komm_alla",
+                "value": "m_invbak_kommun_alla",
                 "resources": [
-                    "ddf--datapoints--m_invbak_komm_alla--by--kommun--year"
+                    "ddf--datapoints--m_invbak_kommun_alla--by--kommun--year"
                 ]
             },
             {
@@ -1217,9 +1237,9 @@
                     "kommun",
                     "year"
                 ],
-                "value": "m_invbak_komm_alla",
+                "value": "m_invbak_kommun_alla",
                 "resources": [
-                    "ddf--datapoints--m_invbak_komm_alla--by--kommun--year"
+                    "ddf--datapoints--m_invbak_kommun_alla--by--kommun--year"
                 ]
             },
             {
@@ -1247,9 +1267,9 @@
                     "geo",
                     "year"
                 ],
-                "value": "m_kvinna_komm_alla",
+                "value": "m_kvinna_kommun_alla",
                 "resources": [
-                    "ddf--datapoints--m_kvinna_komm_alla--by--kommun--year"
+                    "ddf--datapoints--m_kvinna_kommun_alla--by--kommun--year"
                 ]
             },
             {
@@ -1257,69 +1277,9 @@
                     "kommun",
                     "year"
                 ],
-                "value": "m_kvinna_komm_alla",
+                "value": "m_kvinna_kommun_alla",
                 "resources": [
-                    "ddf--datapoints--m_kvinna_komm_alla--by--kommun--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "geo",
-                    "year"
-                ],
-                "value": "m_socbid_komm_20_64",
-                "resources": [
-                    "ddf--datapoints--m_socbid_komm_20_64--by--kommun--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "kommun",
-                    "year"
-                ],
-                "value": "m_socbid_komm_20_64",
-                "resources": [
-                    "ddf--datapoints--m_socbid_komm_20_64--by--kommun--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "geo",
-                    "year"
-                ],
-                "value": "m_studin_komm_20_35",
-                "resources": [
-                    "ddf--datapoints--m_studin_komm_20_35--by--kommun--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "kommun",
-                    "year"
-                ],
-                "value": "m_studin_komm_20_35",
-                "resources": [
-                    "ddf--datapoints--m_studin_komm_20_35--by--kommun--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "geo",
-                    "year"
-                ],
-                "value": "m_syssel_komm_20_64",
-                "resources": [
-                    "ddf--datapoints--m_syssel_komm_20_64--by--kommun--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "kommun",
-                    "year"
-                ],
-                "value": "m_syssel_komm_20_64",
-                "resources": [
-                    "ddf--datapoints--m_syssel_komm_20_64--by--kommun--year"
+                    "ddf--datapoints--m_kvinna_kommun_alla--by--kommun--year"
                 ]
             },
             {
@@ -1344,12 +1304,32 @@
             },
             {
                 "primaryKey": [
+                    "geo",
+                    "year"
+                ],
+                "value": "md_dispin_kommun_20_64",
+                "resources": [
+                    "ddf--datapoints--md_dispin_kommun_20_64--by--kommun--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "kommun",
+                    "year"
+                ],
+                "value": "md_dispin_kommun_20_64",
+                "resources": [
+                    "ddf--datapoints--md_dispin_kommun_20_64--by--kommun--year"
+                ]
+            },
+            {
+                "primaryKey": [
                     "deso",
                     "year"
                 ],
-                "value": "r_dispink_20_64",
+                "value": "r_dispink_deso_20_64",
                 "resources": [
-                    "ddf--datapoints--r_dispink_20_64--by--deso--year"
+                    "ddf--datapoints--r_dispink_deso_20_64--by--deso--year"
                 ]
             },
             {
@@ -1357,9 +1337,29 @@
                     "geo",
                     "year"
                 ],
-                "value": "r_dispink_20_64",
+                "value": "r_dispink_deso_20_64",
                 "resources": [
-                    "ddf--datapoints--r_dispink_20_64--by--deso--year"
+                    "ddf--datapoints--r_dispink_deso_20_64--by--deso--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geo",
+                    "year"
+                ],
+                "value": "r_dispink_kommun_20_64",
+                "resources": [
+                    "ddf--datapoints--r_dispink_kommun_20_64--by--kommun--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "kommun",
+                    "year"
+                ],
+                "value": "r_dispink_kommun_20_64",
+                "resources": [
+                    "ddf--datapoints--r_dispink_kommun_20_64--by--kommun--year"
                 ]
             }
         ],
