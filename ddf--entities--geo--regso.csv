@@ -1436,97 +1436,97 @@ regso,name,kommun,region,rike,is--regso
 1278R007,Västra Karup-Hov,1278,12,0,TRUE
 1278R008,Östra Förslöv,1278,12,0,TRUE
 1278R009,Östra Karup-Hemmeslöv,1278,12,0,TRUE
-1280R001,RegSO-Almvik norr-Lindängen norr,1280,12,0,TRUE
-1280R002,RegSO-Almvik syd-Lindängen syd,1280,12,0,TRUE
-1280R003,RegSO-Annelund-Lönngården,1280,12,0,TRUE
-1280R004,RegSO-Annetorp-Kalkbrottet,1280,12,0,TRUE
-1280R005,RegSO-Augustenborg,1280,12,0,TRUE
-1280R006,RegSO-Bellevuegården väst,1280,12,0,TRUE
-1280R007,RegSO-Bellevuegården öst,1280,12,0,TRUE
-1280R008,RegSO-Bellevue-Nya Bellevue,1280,12,0,TRUE
-1280R009,RegSO-Bunkeflostrand syd,1280,12,0,TRUE
-1280R010,RegSO-Bunkeflostrand väst,1280,12,0,TRUE
-1280R011,RegSO-Bunkeflostrand öst,1280,12,0,TRUE
-1280R012,RegSO-Dammfri,1280,12,0,TRUE
-1280R013,RegSO-Davidshall-Lugnet,1280,12,0,TRUE
-1280R014,RegSO-Djupadal-Rosenvång,1280,12,0,TRUE
-1280R015,RegSO-Elinelund-Djupadal,1280,12,0,TRUE
-1280R016,RegSO-Emilstorp-Östra kyrkogården-Apelgården,1280,12,0,TRUE
-1280R017,RegSO-Eriksfält,1280,12,0,TRUE
-1280R018,RegSO-Fortuna hemgården-Kvarnby-Södra Sallerup,1280,12,0,TRUE
-1280R019,RegSO-Fosieby-Kastanjegården,1280,12,0,TRUE
-1280R020,RegSO-Fågelbacken,1280,12,0,TRUE
-1280R021,RegSO-Gamla Limhamn,1280,12,0,TRUE
-1280R022,RegSO-Gamla staden öst,1280,12,0,TRUE
-1280R023,RegSO-Gullvik,1280,12,0,TRUE
-1280R024,RegSO-Gullviksborg-Hermodsdal syd,1280,12,0,TRUE
-1280R025,RegSO-Hamnen-Stortorget,1280,12,0,TRUE
-1280R026,RegSO-Heleneholm-Almhög,1280,12,0,TRUE
-1280R027,RegSO-Hermodsdal-Gullviksborg,1280,12,0,TRUE
-1280R028,RegSO-Herrgården norr,1280,12,0,TRUE
-1280R029,RegSO-Hindby,1280,12,0,TRUE
-1280R030,RegSO-Holma,1280,12,0,TRUE
-1280R031,RegSO-Holma-Kroksbäck,1280,12,0,TRUE
-1280R032,RegSO-Hyllievång norr,1280,12,0,TRUE
-1280R033,RegSO-Hyllievång syd,1280,12,0,TRUE
-1280R034,RegSO-Håkanstorp-Bulltofta-Valdemarsro,1280,12,0,TRUE
-1280R035,RegSO-Hästhagen-Kronprinsen,1280,12,0,TRUE
-1280R036,RegSO-Jägersro öst-Stenkällan,1280,12,0,TRUE
-1280R037,RegSO-Jägersro-Almgården-Höja väst,1280,12,0,TRUE
-1280R038,RegSO-Kirseberg syd,1280,12,0,TRUE
-1280R039,RegSO-Kirsebergsstaden-Rostorp,1280,12,0,TRUE
-1280R040,RegSO-Kroksbäck väst,1280,12,0,TRUE
-1280R041,RegSO-Kronborg-Pildammsparken-Teatern,1280,12,0,TRUE
-1280R042,RegSO-Kryddgården,1280,12,0,TRUE
-1280R043,RegSO-Kulladal,1280,12,0,TRUE
-1280R044,RegSO-Limhamns hamnområde,1280,12,0,TRUE
-1280R045,RegSO-Lindängen,1280,12,0,TRUE
-1280R046,RegSO-Lorensborg,1280,12,0,TRUE
-1280R047,RegSO-Malmöhus,1280,12,0,TRUE
-1280R048,RegSO-Mellanheden-Solbacken,1280,12,0,TRUE
-1280R049,RegSO-Möllevången,1280,12,0,TRUE
-1280R050,RegSO-Möllevången syd,1280,12,0,TRUE
-1280R051,RegSO-Möllevången väst,1280,12,0,TRUE
-1280R052,RegSO-Möllevången öst,1280,12,0,TRUE
-1280R053,RegSO-Nydala norr,1280,12,0,TRUE
-1280R054,RegSO-Oxie norr,1280,12,0,TRUE
-1280R055,RegSO-Oxie syd,1280,12,0,TRUE
-1280R056,RegSO-Persborg-Törnrosen,1280,12,0,TRUE
-1280R057,RegSO-Ribersborg,1280,12,0,TRUE
-1280R058,RegSO-Riseberga,1280,12,0,TRUE
-1280R059,RegSO-Rådmansvången,1280,12,0,TRUE
-1280R060,RegSO-Rönneholm,1280,12,0,TRUE
-1280R061,RegSO-Rörsjöstaden,1280,12,0,TRUE
-1280R062,RegSO-Sege väst,1280,12,0,TRUE
-1280R063,RegSO-Sege öst,1280,12,0,TRUE
-1280R064,RegSO-Sibbarp,1280,12,0,TRUE
-1280R065,RegSO-Slussen,1280,12,0,TRUE
-1280R066,RegSO-Sofielund norr,1280,12,0,TRUE
-1280R067,RegSO-Sorgenfri norr,1280,12,0,TRUE
-1280R068,RegSO-Stadion-Borgmästaregården,1280,12,0,TRUE
-1280R069,RegSO-Svågertorp-Lindeborg,1280,12,0,TRUE
-1280R070,RegSO-Söderkulla,1280,12,0,TRUE
-1280R071,RegSO-Södervärn-Allmänna sjukhuset-Flensburg,1280,12,0,TRUE
-1280R072,RegSO-Södra Sofielund,1280,12,0,TRUE
-1280R073,RegSO-Tygelsjö by omland,1280,12,0,TRUE
-1280R074,RegSO-Videdal,1280,12,0,TRUE
-1280R075,RegSO-Vintrie-Skumparp,1280,12,0,TRUE
-1280R076,RegSO-Virentofta-Östra Skrävlinge-Toftanäs,1280,12,0,TRUE
-1280R077,RegSO-Värnhem-Västra Sorgenfri,1280,12,0,TRUE
-1280R078,RegSO-Västervång-Fridhem,1280,12,0,TRUE
-1280R079,RegSO-Västra hamnen nordväst,1280,12,0,TRUE
-1280R080,RegSO-Västra hamnen norr,1280,12,0,TRUE
-1280R081,RegSO-Västra hamnen sydöst,1280,12,0,TRUE
-1280R082,RegSO-Västra hamnen väst,1280,12,0,TRUE
-1280R083,RegSO-Västra Kattarp,1280,12,0,TRUE
-1280R084,RegSO-Västra Sorgenfri öst,1280,12,0,TRUE
-1280R085,RegSO-Ärtholmen-Södertorp-Gröndal,1280,12,0,TRUE
-1280R086,RegSO-Ön norr,1280,12,0,TRUE
-1280R087,RegSO-Örtagården norr,1280,12,0,TRUE
-1280R088,RegSO-Örtagården syd-Herrgården syd,1280,12,0,TRUE
-1280R089,RegSO-Östervärn-Ellstorp,1280,12,0,TRUE
-1280R090,RegSO-Östra Sorgenfri norr,1280,12,0,TRUE
-1280R091,RegSO-Östra Sorgenfri syd,1280,12,0,TRUE
+1280R001,Almvik norr-Lindängen norr,1280,12,0,TRUE
+1280R002,Almvik syd-Lindängen syd,1280,12,0,TRUE
+1280R003,Annelund-Lönngården,1280,12,0,TRUE
+1280R004,Annetorp-Kalkbrottet,1280,12,0,TRUE
+1280R005,Augustenborg,1280,12,0,TRUE
+1280R006,Bellevuegården väst,1280,12,0,TRUE
+1280R007,Bellevuegården öst,1280,12,0,TRUE
+1280R008,Bellevue-Nya Bellevue,1280,12,0,TRUE
+1280R009,Bunkeflostrand syd,1280,12,0,TRUE
+1280R010,Bunkeflostrand väst,1280,12,0,TRUE
+1280R011,Bunkeflostrand öst,1280,12,0,TRUE
+1280R012,Dammfri,1280,12,0,TRUE
+1280R013,Davidshall-Lugnet,1280,12,0,TRUE
+1280R014,Djupadal-Rosenvång,1280,12,0,TRUE
+1280R015,Elinelund-Djupadal,1280,12,0,TRUE
+1280R016,Emilstorp-Östra kyrkogården-Apelgården,1280,12,0,TRUE
+1280R017,Eriksfält,1280,12,0,TRUE
+1280R018,Fortuna hemgården-Kvarnby-Södra Sallerup,1280,12,0,TRUE
+1280R019,Fosieby-Kastanjegården,1280,12,0,TRUE
+1280R020,Fågelbacken,1280,12,0,TRUE
+1280R021,Gamla Limhamn,1280,12,0,TRUE
+1280R022,Gamla staden öst,1280,12,0,TRUE
+1280R023,Gullvik,1280,12,0,TRUE
+1280R024,Gullviksborg-Hermodsdal syd,1280,12,0,TRUE
+1280R025,Hamnen-Stortorget,1280,12,0,TRUE
+1280R026,Heleneholm-Almhög,1280,12,0,TRUE
+1280R027,Hermodsdal-Gullviksborg,1280,12,0,TRUE
+1280R028,Herrgården norr,1280,12,0,TRUE
+1280R029,Hindby,1280,12,0,TRUE
+1280R030,Holma,1280,12,0,TRUE
+1280R031,Holma-Kroksbäck,1280,12,0,TRUE
+1280R032,Hyllievång norr,1280,12,0,TRUE
+1280R033,Hyllievång syd,1280,12,0,TRUE
+1280R034,Håkanstorp-Bulltofta-Valdemarsro,1280,12,0,TRUE
+1280R035,Hästhagen-Kronprinsen,1280,12,0,TRUE
+1280R036,Jägersro öst-Stenkällan,1280,12,0,TRUE
+1280R037,Jägersro-Almgården-Höja väst,1280,12,0,TRUE
+1280R038,Kirseberg syd,1280,12,0,TRUE
+1280R039,Kirsebergsstaden-Rostorp,1280,12,0,TRUE
+1280R040,Kroksbäck väst,1280,12,0,TRUE
+1280R041,Kronborg-Pildammsparken-Teatern,1280,12,0,TRUE
+1280R042,Kryddgården,1280,12,0,TRUE
+1280R043,Kulladal,1280,12,0,TRUE
+1280R044,Limhamns hamnområde,1280,12,0,TRUE
+1280R045,Lindängen,1280,12,0,TRUE
+1280R046,Lorensborg,1280,12,0,TRUE
+1280R047,Malmöhus,1280,12,0,TRUE
+1280R048,Mellanheden-Solbacken,1280,12,0,TRUE
+1280R049,Möllevången,1280,12,0,TRUE
+1280R050,Möllevången syd,1280,12,0,TRUE
+1280R051,Möllevången väst,1280,12,0,TRUE
+1280R052,Möllevången öst,1280,12,0,TRUE
+1280R053,Nydala norr,1280,12,0,TRUE
+1280R054,Oxie norr,1280,12,0,TRUE
+1280R055,Oxie syd,1280,12,0,TRUE
+1280R056,Persborg-Törnrosen,1280,12,0,TRUE
+1280R057,Ribersborg,1280,12,0,TRUE
+1280R058,Riseberga,1280,12,0,TRUE
+1280R059,Rådmansvången,1280,12,0,TRUE
+1280R060,Rönneholm,1280,12,0,TRUE
+1280R061,Rörsjöstaden,1280,12,0,TRUE
+1280R062,Sege väst,1280,12,0,TRUE
+1280R063,Sege öst,1280,12,0,TRUE
+1280R064,Sibbarp,1280,12,0,TRUE
+1280R065,Slussen,1280,12,0,TRUE
+1280R066,Sofielund norr,1280,12,0,TRUE
+1280R067,Sorgenfri norr,1280,12,0,TRUE
+1280R068,Stadion-Borgmästaregården,1280,12,0,TRUE
+1280R069,Svågertorp-Lindeborg,1280,12,0,TRUE
+1280R070,Söderkulla,1280,12,0,TRUE
+1280R071,Södervärn-Allmänna sjukhuset-Flensburg,1280,12,0,TRUE
+1280R072,Södra Sofielund,1280,12,0,TRUE
+1280R073,Tygelsjö by omland,1280,12,0,TRUE
+1280R074,Videdal,1280,12,0,TRUE
+1280R075,Vintrie-Skumparp,1280,12,0,TRUE
+1280R076,Virentofta-Östra Skrävlinge-Toftanäs,1280,12,0,TRUE
+1280R077,Värnhem-Västra Sorgenfri,1280,12,0,TRUE
+1280R078,Västervång-Fridhem,1280,12,0,TRUE
+1280R079,Västra hamnen nordväst,1280,12,0,TRUE
+1280R080,Västra hamnen norr,1280,12,0,TRUE
+1280R081,Västra hamnen sydöst,1280,12,0,TRUE
+1280R082,Västra hamnen väst,1280,12,0,TRUE
+1280R083,Västra Kattarp,1280,12,0,TRUE
+1280R084,Västra Sorgenfri öst,1280,12,0,TRUE
+1280R085,Ärtholmen-Södertorp-Gröndal,1280,12,0,TRUE
+1280R086,Ön norr,1280,12,0,TRUE
+1280R087,Örtagården norr,1280,12,0,TRUE
+1280R088,Örtagården syd-Herrgården syd,1280,12,0,TRUE
+1280R089,Östervärn-Ellstorp,1280,12,0,TRUE
+1280R090,Östra Sorgenfri norr,1280,12,0,TRUE
+1280R091,Östra Sorgenfri syd,1280,12,0,TRUE
 1281R001,Annehem,1281,12,0,TRUE
 1281R002,Arenan-Klostergården,1281,12,0,TRUE
 1281R003,Brunnshög-Östra Torn,1281,12,0,TRUE
