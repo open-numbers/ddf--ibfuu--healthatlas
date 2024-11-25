@@ -18,26 +18,26 @@ scales,string,,,,,,,,,
 name_short,string,,,,,,,,,
 name_catalog,string,,,,,,,,,
 format,string,,,,,,,,,
-m_alder_deso_alla,measure,,Medelålder (DeSO),Medelålder i området.,,Medelålder,,,ibf_deso,
-m_kvinna_deso_alla,measure,,Kvinnor (DeSO),Andel kvinnor i området.,,Kvinnor,,,ibf_deso,share
-m_syssel_deso_20_64,measure,,"Sysselsättning (DeSO, 20-64 år)",Andel sysselsatta mellan 20-64 år i området. Definierat som sysselsatt i november.,,Sysselsättning,,,ibf_deso,share
-m_socbid_deso_20_64,measure,,"Ekonomiskt bistånd (DeSO, 20-64 år)",Andel med ekonomiskt bistånd mellan 20-64 år i området.,,Ekonomiskt bistånd,,,ibf_deso,share
-m_utflyt_deso_alla,measure,,Utflyttning (DeSO),Andel av individerna som flyttat från området under året.,,Utflyttning,,,ibf_deso,share
-m_inflyt_deso_alla,measure,,Inflyttning (DeSO),Andel av individerna som flyttat in i området under året.,,Inflyttning,,,ibf_deso,share
-m_efterg_deso_25_64,measure,,"Eftergymnasial utbildning (DeSO, 25-64 år)",Andel mellan 25-64 år med eftergymnasial utbildning i området.,,Eftergymnasial utbildning ,,,ibf_deso,share
-m_invand_deso_alla,measure,,Utrikesfödda (DeSO),Andel utrikesfödda i området.,,Utrikesfödda,,,ibf_deso,share
-m_invbak_deso_alla,measure,,Utländsk bakgrund (DeSO),Andel med utländsk bakgrund i området. Definierat som utrikesfödd eller med minst en utrikesfödd förälder.,,Utländsk bakgrund,,,ibf_deso,share
+m_alder_deso_alla,measure,,Medelålder (DeSO),Medelålder i området.,,Medelålder,Medelålder,,ibf_deso,
+m_kvinna_deso_alla,measure,,Kvinnor (DeSO),Andel kvinnor i området.,,Kvinnor,Kvinnor,,ibf_deso,share
+m_syssel_deso_20_64,measure,,"Sysselsättning (DeSO, 20-64 år)",Andel sysselsatta mellan 20-64 år i området. Definierat som sysselsatt i november.,,Sysselsättning,Sysselsättning,,ibf_deso,share
+m_socbid_deso_20_64,measure,,"Ekonomiskt bistånd (DeSO, 20-64 år)",Andel med ekonomiskt bistånd mellan 20-64 år i området.,,Ekonomiskt bistånd,Ekonomiskt bistånd,,ibf_deso,share
+m_utflyt_deso_alla,measure,,Utflyttning (DeSO),Andel av individerna som flyttat från området under året.,,Utflyttning,Utflyttning,,ibf_deso,share
+m_inflyt_deso_alla,measure,,Inflyttning (DeSO),Andel av individerna som flyttat in i området under året.,,Inflyttning,Inflyttning,,ibf_deso,share
+m_efterg_deso_25_64,measure,,"Eftergymnasial utbildning (DeSO, 25-64 år)",Andel mellan 25-64 år med eftergymnasial utbildning i området.,,Eftergymnasial utbildning ,Eftergymnasial utbildning,,ibf_deso,share
+m_invand_deso_alla,measure,,Utrikesfödda (DeSO),Andel utrikesfödda i området.,,Utrikesfödda,Utrikesfödda,,ibf_deso,share
+m_invbak_deso_alla,measure,,Utländsk bakgrund (DeSO),Andel med utländsk bakgrund i området. Definierat som utrikesfödd eller med minst en utrikesfödd förälder.,,Utländsk bakgrund,Utländsk bakgrund,,ibf_deso,share
 m_dispin_deso_20_64,measure,,"Disponibel årsinkomst (DeSO, i 1000 SEK, 20-64 år)",Genomsnittlig disponibel årsinkomst i tusentals kronor för individer mellan 20-64 år i området. Disponibel inkomst definieras som inkomst efter skatter och transfereringar.,,Disponibel årsinkomst ,Inkomst,"[""log"", "" linear""]",ibf_deso,
-antal_kommun_alla,measure,,Antal boende (Kommun),Antal boende i kommunen.,,Antal boende,,,ibf_komm,
-m_alder_kommun_alla,measure,,Medelålder (Kommun),Medelålder i kommunen.,,Medelålder,,,ibf_komm,
-m_kvinna_kommun_alla,measure,,Kvinnor (Kommun),Andel kvinnor i kommunen.,,Kvinnor,,,ibf_komm,share
-m_invand_kommun_alla,measure,,Utrikesfödda (Kommun),Andel utrikesfödda i kommunen.,,Utrikesfödda,,,ibf_komm,share
-m_invbak_kommun_alla,measure,,Utländsk bakgrund (Kommun),Andel med utländsk bakgrund i kommunen. Definierat som utrikesfödd eller med minst en utrikesfödd förälder.,,Utländsk bakgrund,,,ibf_komm,share
+antal_kommun_alla,measure,,Antal boende (Kommun),Antal boende i kommunen.,,Antal boende,Antal boende,,ibf_komm,
+m_alder_kommun_alla,measure,,Medelålder (Kommun),Medelålder i kommunen.,,Medelålder,Medelålder,,ibf_komm,
+m_kvinna_kommun_alla,measure,,Kvinnor (Kommun),Andel kvinnor i kommunen.,,Kvinnor,Kvinnor,,ibf_komm,share
+m_invand_kommun_alla,measure,,Utrikesfödda (Kommun),Andel utrikesfödda i kommunen.,,Utrikesfödda,Utrikesfödda,,ibf_komm,share
+m_invbak_kommun_alla,measure,,Utländsk bakgrund (Kommun),Andel med utländsk bakgrund i kommunen. Definierat som utrikesfödd eller med minst en utrikesfödd förälder.,,Utländsk bakgrund,Utländsk bakgrund,,ibf_komm,share
 m_dispin_kommun_20_64,measure,,"Disponibel årsinkomst (Kommun, i 1000 SEK, 20-64 år)",Genomsnittlig disponibel årsinkomst i tusentals kronor för individer mellan 20-64 år i kommunen. Disponibel inkomst definieras som inkomst efter skatter och transfereringar.,,Disponibel årsinkomst ,Inkomst,"[""log"", "" linear""]",ibf_komm,
-m_efterg_kommun_25_64,measure,,Eftergymnasial utbildning (Kommun),Andel mellan 25-64 år med eftergymnasial utbildning i kommunen.,,Eftergymnasial utbildning ,,,ibf_komm,share
-md_dispin_kommun_20_64,measure,,"Disponibel årsinkomst (Kommun, median, i 1000 SEK, 20-64 år)",Medianvärdet i disponibel årsinkomst i tusentals kronor för individer mellan 20-64 år i kommunen.,,Disponibel årsinkomst,Inkomst,,ibf_komm,
-r_dispink_kommun_20_64,measure,,"Disponibel årsinkomst (Kommun, rank, 20-64 år)",Kommunens ranking i disponibel årsinkomst för individer mellan 20-64 år.,,Disponibel årsinkomst,Inkomst,,ibf_komm,
-andel_vaccinerade,measure,,"Andel vaccinerade (Stockholm, år 2021, 20+ år)","Andel individer 20+ år som fått första dosen mot covid-19. Denna variabel är ett test och redovisas på veckonivå år 2021, enbart för Stockholm stad. FUNGERAR EJ I KOMBINATION MED ANDRA VARIABLER. För att se denna: välj univariat karta, zooma in på Stockholm och starta animationen. Efter denna variabel har använts behöver verktyget laddas om.)",,Andel vaccinerade,,,ibf_vaccin,share
-antal_boende_deso,measure,,Antal boende (DeSO),Antal boende i området.,,Antal boende,,,ibf_deso,
-r_dispink_deso_20_64,measure,,"Disponibel årsinkomst (DeSO, rank, 20-64 år)",Områdets ranking i disponibel årsinkomst för individer mellan 20-64 år.,,Disponibel årsinkomst,Inkomst,,ibf_rank,
-md_dispin_deso_20_64,measure,,"Disponibel årsinkomst (DeSO, median, i 1000 SEK, 20-64 år)",Medianvärdet i disponibel årsinkomst i tusentals kronor för individer mellan 20-64 år i området.,,Disponibel årsinkomst,Inkomst,,ibf_median,
+m_efterg_kommun_25_64,measure,,Eftergymnasial utbildning (Kommun),Andel mellan 25-64 år med eftergymnasial utbildning i kommunen.,,Eftergymnasial utbildning ,Eftergymnasial utbildning,,ibf_komm,share
+md_dispin_kommun_20_64,measure,,"Disponibel årsinkomst (Kommun, median, i 1000 SEK, 20-64 år)",Medianvärdet i disponibel årsinkomst i tusentals kronor för individer mellan 20-64 år i kommunen.,,Disponibel årsinkomst,Inkomst (median),,ibf_komm,
+r_dispink_kommun_20_64,measure,,"Disponibel årsinkomst (Kommun, rank, 20-64 år)",Kommunens ranking i disponibel årsinkomst för individer mellan 20-64 år.,,Disponibel årsinkomst,Inkomst (rank),,ibf_komm,
+andel_vaccinerade,measure,,"Andel vaccinerade (Stockholm, år 2021, 20+ år)","Andel individer 20+ år som fått första dosen mot covid-19. Denna variabel är ett test och redovisas på veckonivå år 2021, enbart för Stockholm stad. FUNGERAR EJ I KOMBINATION MED ANDRA VARIABLER. För att se denna: välj univariat karta, zooma in på Stockholm och starta animationen. Efter denna variabel har använts behöver verktyget laddas om.)",,Andel vaccinerade,Andel vaccinerade,,ibf_vaccin,share
+antal_boende_deso,measure,,Antal boende (DeSO),Antal boende i området.,,Antal boende,Antal boende,,ibf_deso,
+r_dispink_deso_20_64,measure,,"Disponibel årsinkomst (DeSO, rank, 20-64 år)",Områdets ranking i disponibel årsinkomst för individer mellan 20-64 år.,,Disponibel årsinkomst,Inkomst (rank),,ibf_rank,
+md_dispin_deso_20_64,measure,,"Disponibel årsinkomst (DeSO, median, i 1000 SEK, 20-64 år)",Medianvärdet i disponibel årsinkomst i tusentals kronor för individer mellan 20-64 år i området.,,Disponibel årsinkomst,Inkomst (median),,ibf_median,
