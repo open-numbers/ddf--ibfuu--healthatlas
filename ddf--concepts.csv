@@ -1,5 +1,5 @@
 concept,concept_type,domain,name,description,drill_up,color,name_short,name_catalog,scales,tags,format
-geo,entity_domain,,Alla landsdelar,,,,,,,,
+geo,entity_domain,,Alla områden,,,,,,,,
 deso,entity_set,geo,DeSO,Demografiska statistikområden (DeSO) är en rikstäckande indelning som följer läns- och kommungränserna och som delar in Sverige i 5 984 områden.,"[""regso""]",,,,,,
 regso,entity_set,geo,RegSO,Regionala statistikområden (RegSO) delar in Sverige i 3 363 områden.,"[""kommun""]",,,,,,
 kommun,entity_set,geo,Kommun,Kommunnivå.,"[""region""]",,,,,,
