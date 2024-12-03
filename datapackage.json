@@ -7,7 +7,7 @@
     "description": "",
     "author": "",
     "license": "",
-    "created": "2024-12-03T22:19:25.163835+00:00",
+    "created": "2024-12-03T22:34:17.936700+00:00",
     "resources": [
         {
             "name": "ddf--concepts",
@@ -31,6 +31,9 @@
                     },
                     {
                         "name": "drill_up"
+                    },
+                    {
+                        "name": "color"
                     },
                     {
                         "name": "name_short"
@@ -608,6 +611,15 @@
     ],
     "ddfSchema": {
         "concepts": [
+            {
+                "primaryKey": [
+                    "concept"
+                ],
+                "value": "color",
+                "resources": [
+                    "ddf--concepts"
+                ]
+            },
             {
                 "primaryKey": [
                     "concept"
