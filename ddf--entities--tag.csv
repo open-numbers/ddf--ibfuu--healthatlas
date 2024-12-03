@@ -1,6 +1,5 @@
 tag,name,parent
-ibf_deso,DeSO,
-ibf_komm,Kommun,
-ibf_rank,Ranking,ibf_deso
-ibf_median,Median,ibf_deso
-ibf_vaccin,Covidvaccin,ibf_deso
+ibf,DeSO,
+ibf_rank,Ranking,ibf
+ibf_median,Median,ibf
+ibf_vaccin,Covidvaccin,ibf
