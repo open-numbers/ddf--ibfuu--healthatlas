@@ -4872,6 +4872,8 @@ deso,name,kommun,region,rike,deso_type,regso,is--deso
 1882C1010,Askersund stad (1882C1010),1882,18,0,Centrum,1882R005,TRUE
 1882C1020,Askersund stad (1882C1020),1882,18,0,Centrum,1882R005,TRUE
 1882C1030,Askersund stad (1882C1030),1882,18,0,Centrum,1882R005,TRUE
+1883A0010,Karlskoga omland (1883A0010),1883,18,0,Omland,1883R002,TRUE
+1883A0020,Karlskoga omland (1883A0020),1883,18,0,Omland,1883R002,TRUE
 1883A0030,Karlskoga omland (1883A0030),1883,18,0,Omland,1883R002,TRUE
 1883C1010,Karlskoga västra tätort (1883C1010),1883,18,0,Centrum,1883R003,TRUE
 1883C1020,Karlskoga västra tätort (1883C1020),1883,18,0,Centrum,1883R003,TRUE
