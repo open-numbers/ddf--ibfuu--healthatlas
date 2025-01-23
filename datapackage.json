@@ -7,7 +7,7 @@
     "description": "",
     "author": "",
     "license": "",
-    "created": "2024-12-03T22:42:37.277401+00:00",
+    "created": "2025-01-23T15:00:47.749947+00:00",
     "resources": [
         {
             "name": "ddf--concepts",
@@ -115,6 +115,48 @@
                 ],
                 "primaryKey": [
                     "kommun",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--college_coef--by--regso--year",
+            "path": "ddf--datapoints--college_coef--by--regso--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "regso"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "college_coef"
+                    }
+                ],
+                "primaryKey": [
+                    "regso",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--high_school_coef--by--regso--year",
+            "path": "ddf--datapoints--high_school_coef--by--regso--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "regso"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "high_school_coef"
+                    }
+                ],
+                "primaryKey": [
+                    "regso",
                     "year"
                 ]
             }
@@ -451,6 +493,27 @@
                 ],
                 "primaryKey": [
                     "kommun",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--vocational_coef--by--regso--year",
+            "path": "ddf--datapoints--vocational_coef--by--regso--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "regso"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "vocational_coef"
+                    }
+                ],
+                "primaryKey": [
+                    "regso",
                     "year"
                 ]
             }
@@ -1083,6 +1146,46 @@
             },
             {
                 "primaryKey": [
+                    "geo",
+                    "year"
+                ],
+                "value": "college_coef",
+                "resources": [
+                    "ddf--datapoints--college_coef--by--regso--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "regso",
+                    "year"
+                ],
+                "value": "college_coef",
+                "resources": [
+                    "ddf--datapoints--college_coef--by--regso--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geo",
+                    "year"
+                ],
+                "value": "high_school_coef",
+                "resources": [
+                    "ddf--datapoints--high_school_coef--by--regso--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "regso",
+                    "year"
+                ],
+                "value": "high_school_coef",
+                "resources": [
+                    "ddf--datapoints--high_school_coef--by--regso--year"
+                ]
+            },
+            {
+                "primaryKey": [
                     "deso",
                     "year"
                 ],
@@ -1327,6 +1430,26 @@
                 "value": "r_dispin_20_64",
                 "resources": [
                     "ddf--datapoints--r_dispin_20_64--by--kommun--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geo",
+                    "year"
+                ],
+                "value": "vocational_coef",
+                "resources": [
+                    "ddf--datapoints--vocational_coef--by--regso--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "regso",
+                    "year"
+                ],
+                "value": "vocational_coef",
+                "resources": [
+                    "ddf--datapoints--vocational_coef--by--regso--year"
                 ]
             }
         ],
