@@ -7,7 +7,7 @@
     "description": "",
     "author": "",
     "license": "",
-    "created": "2025-01-24T13:23:09.912425+00:00",
+    "created": "2025-01-27T12:02:44.159982+00:00",
     "resources": [
         {
             "name": "ddf--concepts",
@@ -78,27 +78,6 @@
             }
         },
         {
-            "name": "ddf--datapoints--antal--by--deso--year",
-            "path": "ddf--datapoints--antal--by--deso--year.csv",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "deso"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "antal"
-                    }
-                ],
-                "primaryKey": [
-                    "deso",
-                    "year"
-                ]
-            }
-        },
-        {
             "name": "ddf--datapoints--antal--by--kommun--year",
             "path": "ddf--datapoints--antal--by--kommun--year.csv",
             "schema": {
@@ -115,6 +94,27 @@
                 ],
                 "primaryKey": [
                     "kommun",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--antal--by--regso--year",
+            "path": "ddf--datapoints--antal--by--regso--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "regso"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "antal"
+                    }
+                ],
+                "primaryKey": [
+                    "regso",
                     "year"
                 ]
             }
@@ -162,27 +162,6 @@
             }
         },
         {
-            "name": "ddf--datapoints--m_alder--by--deso--year",
-            "path": "ddf--datapoints--m_alder--by--deso--year.csv",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "deso"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "m_alder"
-                    }
-                ],
-                "primaryKey": [
-                    "deso",
-                    "year"
-                ]
-            }
-        },
-        {
             "name": "ddf--datapoints--m_alder--by--kommun--year",
             "path": "ddf--datapoints--m_alder--by--kommun--year.csv",
             "schema": {
@@ -204,22 +183,22 @@
             }
         },
         {
-            "name": "ddf--datapoints--m_dispin_20_64--by--deso--year",
-            "path": "ddf--datapoints--m_dispin_20_64--by--deso--year.csv",
+            "name": "ddf--datapoints--m_alder--by--regso--year",
+            "path": "ddf--datapoints--m_alder--by--regso--year.csv",
             "schema": {
                 "fields": [
                     {
-                        "name": "deso"
+                        "name": "regso"
                     },
                     {
                         "name": "year"
                     },
                     {
-                        "name": "m_dispin_20_64"
+                        "name": "m_alder"
                     }
                 ],
                 "primaryKey": [
-                    "deso",
+                    "regso",
                     "year"
                 ]
             }
@@ -246,22 +225,22 @@
             }
         },
         {
-            "name": "ddf--datapoints--m_efterg_25_64--by--deso--year",
-            "path": "ddf--datapoints--m_efterg_25_64--by--deso--year.csv",
+            "name": "ddf--datapoints--m_dispin_20_64--by--regso--year",
+            "path": "ddf--datapoints--m_dispin_20_64--by--regso--year.csv",
             "schema": {
                 "fields": [
                     {
-                        "name": "deso"
+                        "name": "regso"
                     },
                     {
                         "name": "year"
                     },
                     {
-                        "name": "m_efterg_25_64"
+                        "name": "m_dispin_20_64"
                     }
                 ],
                 "primaryKey": [
-                    "deso",
+                    "regso",
                     "year"
                 ]
             }
@@ -288,22 +267,22 @@
             }
         },
         {
-            "name": "ddf--datapoints--m_invand--by--deso--year",
-            "path": "ddf--datapoints--m_invand--by--deso--year.csv",
+            "name": "ddf--datapoints--m_efterg_25_64--by--regso--year",
+            "path": "ddf--datapoints--m_efterg_25_64--by--regso--year.csv",
             "schema": {
                 "fields": [
                     {
-                        "name": "deso"
+                        "name": "regso"
                     },
                     {
                         "name": "year"
                     },
                     {
-                        "name": "m_invand"
+                        "name": "m_efterg_25_64"
                     }
                 ],
                 "primaryKey": [
-                    "deso",
+                    "regso",
                     "year"
                 ]
             }
@@ -330,22 +309,22 @@
             }
         },
         {
-            "name": "ddf--datapoints--m_invbak--by--deso--year",
-            "path": "ddf--datapoints--m_invbak--by--deso--year.csv",
+            "name": "ddf--datapoints--m_invand--by--regso--year",
+            "path": "ddf--datapoints--m_invand--by--regso--year.csv",
             "schema": {
                 "fields": [
                     {
-                        "name": "deso"
+                        "name": "regso"
                     },
                     {
                         "name": "year"
                     },
                     {
-                        "name": "m_invbak"
+                        "name": "m_invand"
                     }
                 ],
                 "primaryKey": [
-                    "deso",
+                    "regso",
                     "year"
                 ]
             }
@@ -372,22 +351,22 @@
             }
         },
         {
-            "name": "ddf--datapoints--m_kvinna--by--deso--year",
-            "path": "ddf--datapoints--m_kvinna--by--deso--year.csv",
+            "name": "ddf--datapoints--m_invbak--by--regso--year",
+            "path": "ddf--datapoints--m_invbak--by--regso--year.csv",
             "schema": {
                 "fields": [
                     {
-                        "name": "deso"
+                        "name": "regso"
                     },
                     {
                         "name": "year"
                     },
                     {
-                        "name": "m_kvinna"
+                        "name": "m_invbak"
                     }
                 ],
                 "primaryKey": [
-                    "deso",
+                    "regso",
                     "year"
                 ]
             }
@@ -414,22 +393,22 @@
             }
         },
         {
-            "name": "ddf--datapoints--md_dispin_20_64--by--deso--year",
-            "path": "ddf--datapoints--md_dispin_20_64--by--deso--year.csv",
+            "name": "ddf--datapoints--m_kvinna--by--regso--year",
+            "path": "ddf--datapoints--m_kvinna--by--regso--year.csv",
             "schema": {
                 "fields": [
                     {
-                        "name": "deso"
+                        "name": "regso"
                     },
                     {
                         "name": "year"
                     },
                     {
-                        "name": "md_dispin_20_64"
+                        "name": "m_kvinna"
                     }
                 ],
                 "primaryKey": [
-                    "deso",
+                    "regso",
                     "year"
                 ]
             }
@@ -456,22 +435,22 @@
             }
         },
         {
-            "name": "ddf--datapoints--r_dispin_20_64--by--deso--year",
-            "path": "ddf--datapoints--r_dispin_20_64--by--deso--year.csv",
+            "name": "ddf--datapoints--md_dispin_20_64--by--regso--year",
+            "path": "ddf--datapoints--md_dispin_20_64--by--regso--year.csv",
             "schema": {
                 "fields": [
                     {
-                        "name": "deso"
+                        "name": "regso"
                     },
                     {
                         "name": "year"
                     },
                     {
-                        "name": "r_dispin_20_64"
+                        "name": "md_dispin_20_64"
                     }
                 ],
                 "primaryKey": [
-                    "deso",
+                    "regso",
                     "year"
                 ]
             }
@@ -493,6 +472,27 @@
                 ],
                 "primaryKey": [
                     "kommun",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--r_dispin_20_64--by--regso--year",
+            "path": "ddf--datapoints--r_dispin_20_64--by--regso--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "regso"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "r_dispin_20_64"
+                    }
+                ],
+                "primaryKey": [
+                    "regso",
                     "year"
                 ]
             }
@@ -1115,23 +1115,13 @@
             },
             {
                 "primaryKey": [
-                    "deso",
-                    "year"
-                ],
-                "value": "antal",
-                "resources": [
-                    "ddf--datapoints--antal--by--deso--year"
-                ]
-            },
-            {
-                "primaryKey": [
                     "geo",
                     "year"
                 ],
                 "value": "antal",
                 "resources": [
-                    "ddf--datapoints--antal--by--deso--year",
-                    "ddf--datapoints--antal--by--kommun--year"
+                    "ddf--datapoints--antal--by--kommun--year",
+                    "ddf--datapoints--antal--by--regso--year"
                 ]
             },
             {
@@ -1142,6 +1132,16 @@
                 "value": "antal",
                 "resources": [
                     "ddf--datapoints--antal--by--kommun--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "regso",
+                    "year"
+                ],
+                "value": "antal",
+                "resources": [
+                    "ddf--datapoints--antal--by--regso--year"
                 ]
             },
             {
@@ -1186,23 +1186,13 @@
             },
             {
                 "primaryKey": [
-                    "deso",
-                    "year"
-                ],
-                "value": "m_alder",
-                "resources": [
-                    "ddf--datapoints--m_alder--by--deso--year"
-                ]
-            },
-            {
-                "primaryKey": [
                     "geo",
                     "year"
                 ],
                 "value": "m_alder",
                 "resources": [
-                    "ddf--datapoints--m_alder--by--deso--year",
-                    "ddf--datapoints--m_alder--by--kommun--year"
+                    "ddf--datapoints--m_alder--by--kommun--year",
+                    "ddf--datapoints--m_alder--by--regso--year"
                 ]
             },
             {
@@ -1217,12 +1207,12 @@
             },
             {
                 "primaryKey": [
-                    "deso",
+                    "regso",
                     "year"
                 ],
-                "value": "m_dispin_20_64",
+                "value": "m_alder",
                 "resources": [
-                    "ddf--datapoints--m_dispin_20_64--by--deso--year"
+                    "ddf--datapoints--m_alder--by--regso--year"
                 ]
             },
             {
@@ -1232,28 +1222,28 @@
                 ],
                 "value": "m_dispin_20_64",
                 "resources": [
-                    "ddf--datapoints--m_dispin_20_64--by--deso--year",
+                    "ddf--datapoints--m_dispin_20_64--by--kommun--year",
+                    "ddf--datapoints--m_dispin_20_64--by--regso--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "kommun",
+                    "year"
+                ],
+                "value": "m_dispin_20_64",
+                "resources": [
                     "ddf--datapoints--m_dispin_20_64--by--kommun--year"
                 ]
             },
             {
                 "primaryKey": [
-                    "kommun",
+                    "regso",
                     "year"
                 ],
                 "value": "m_dispin_20_64",
                 "resources": [
-                    "ddf--datapoints--m_dispin_20_64--by--kommun--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "deso",
-                    "year"
-                ],
-                "value": "m_efterg_25_64",
-                "resources": [
-                    "ddf--datapoints--m_efterg_25_64--by--deso--year"
+                    "ddf--datapoints--m_dispin_20_64--by--regso--year"
                 ]
             },
             {
@@ -1263,8 +1253,8 @@
                 ],
                 "value": "m_efterg_25_64",
                 "resources": [
-                    "ddf--datapoints--m_efterg_25_64--by--deso--year",
-                    "ddf--datapoints--m_efterg_25_64--by--kommun--year"
+                    "ddf--datapoints--m_efterg_25_64--by--kommun--year",
+                    "ddf--datapoints--m_efterg_25_64--by--regso--year"
                 ]
             },
             {
@@ -1279,12 +1269,12 @@
             },
             {
                 "primaryKey": [
-                    "deso",
+                    "regso",
                     "year"
                 ],
-                "value": "m_invand",
+                "value": "m_efterg_25_64",
                 "resources": [
-                    "ddf--datapoints--m_invand--by--deso--year"
+                    "ddf--datapoints--m_efterg_25_64--by--regso--year"
                 ]
             },
             {
@@ -1294,28 +1284,28 @@
                 ],
                 "value": "m_invand",
                 "resources": [
-                    "ddf--datapoints--m_invand--by--deso--year",
+                    "ddf--datapoints--m_invand--by--kommun--year",
+                    "ddf--datapoints--m_invand--by--regso--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "kommun",
+                    "year"
+                ],
+                "value": "m_invand",
+                "resources": [
                     "ddf--datapoints--m_invand--by--kommun--year"
                 ]
             },
             {
                 "primaryKey": [
-                    "kommun",
+                    "regso",
                     "year"
                 ],
                 "value": "m_invand",
                 "resources": [
-                    "ddf--datapoints--m_invand--by--kommun--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "deso",
-                    "year"
-                ],
-                "value": "m_invbak",
-                "resources": [
-                    "ddf--datapoints--m_invbak--by--deso--year"
+                    "ddf--datapoints--m_invand--by--regso--year"
                 ]
             },
             {
@@ -1325,8 +1315,8 @@
                 ],
                 "value": "m_invbak",
                 "resources": [
-                    "ddf--datapoints--m_invbak--by--deso--year",
-                    "ddf--datapoints--m_invbak--by--kommun--year"
+                    "ddf--datapoints--m_invbak--by--kommun--year",
+                    "ddf--datapoints--m_invbak--by--regso--year"
                 ]
             },
             {
@@ -1341,12 +1331,12 @@
             },
             {
                 "primaryKey": [
-                    "deso",
+                    "regso",
                     "year"
                 ],
-                "value": "m_kvinna",
+                "value": "m_invbak",
                 "resources": [
-                    "ddf--datapoints--m_kvinna--by--deso--year"
+                    "ddf--datapoints--m_invbak--by--regso--year"
                 ]
             },
             {
@@ -1356,8 +1346,8 @@
                 ],
                 "value": "m_kvinna",
                 "resources": [
-                    "ddf--datapoints--m_kvinna--by--deso--year",
-                    "ddf--datapoints--m_kvinna--by--kommun--year"
+                    "ddf--datapoints--m_kvinna--by--kommun--year",
+                    "ddf--datapoints--m_kvinna--by--regso--year"
                 ]
             },
             {
@@ -1372,12 +1362,12 @@
             },
             {
                 "primaryKey": [
-                    "deso",
+                    "regso",
                     "year"
                 ],
-                "value": "md_dispin_20_64",
+                "value": "m_kvinna",
                 "resources": [
-                    "ddf--datapoints--md_dispin_20_64--by--deso--year"
+                    "ddf--datapoints--m_kvinna--by--regso--year"
                 ]
             },
             {
@@ -1387,8 +1377,8 @@
                 ],
                 "value": "md_dispin_20_64",
                 "resources": [
-                    "ddf--datapoints--md_dispin_20_64--by--deso--year",
-                    "ddf--datapoints--md_dispin_20_64--by--kommun--year"
+                    "ddf--datapoints--md_dispin_20_64--by--kommun--year",
+                    "ddf--datapoints--md_dispin_20_64--by--regso--year"
                 ]
             },
             {
@@ -1403,12 +1393,12 @@
             },
             {
                 "primaryKey": [
-                    "deso",
+                    "regso",
                     "year"
                 ],
-                "value": "r_dispin_20_64",
+                "value": "md_dispin_20_64",
                 "resources": [
-                    "ddf--datapoints--r_dispin_20_64--by--deso--year"
+                    "ddf--datapoints--md_dispin_20_64--by--regso--year"
                 ]
             },
             {
@@ -1418,8 +1408,8 @@
                 ],
                 "value": "r_dispin_20_64",
                 "resources": [
-                    "ddf--datapoints--r_dispin_20_64--by--deso--year",
-                    "ddf--datapoints--r_dispin_20_64--by--kommun--year"
+                    "ddf--datapoints--r_dispin_20_64--by--kommun--year",
+                    "ddf--datapoints--r_dispin_20_64--by--regso--year"
                 ]
             },
             {
@@ -1430,6 +1420,16 @@
                 "value": "r_dispin_20_64",
                 "resources": [
                     "ddf--datapoints--r_dispin_20_64--by--kommun--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "regso",
+                    "year"
+                ],
+                "value": "r_dispin_20_64",
+                "resources": [
+                    "ddf--datapoints--r_dispin_20_64--by--regso--year"
                 ]
             },
             {
