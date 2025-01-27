@@ -19,16 +19,16 @@ name_short,string,,,,,,,,,,
 name_catalog,string,,,,,,,,,,
 format,string,,,,,,,,,,
 color,string,,,,,,,,,,
-m_alder,measure,,Medelålder,Medelålder i området.,,,Medelålder,Medelålder,"[""linear"", "" log""]",ibf,
-m_kvinna,measure,,Kvinnor,Andel kvinnor i området.,,,Kvinnor,Kvinnor,"[""linear"", "" log""]",ibf,share
-m_efterg_25_64,measure,,Eftergymnasial utbildning (25-64 år),Andel mellan 25-64 år med eftergymnasial utbildning i området.,,,Eftergymnasial utbildning ,Eftergymnasial utbildning,"[""linear"", "" log""]",ibf,share
-m_invand,measure,,Utrikesfödda,Andel utrikesfödda i området.,,,Utrikesfödda,Utrikesfödda,"[""linear"", "" log""]",ibf,share
-m_invbak,measure,,Utländsk bakgrund,Andel med utländsk bakgrund i området. Definierat som utrikesfödd eller med minst en utrikesfödd förälder.,,,Utländsk bakgrund,Utländsk bakgrund,"[""linear"", "" log""]",ibf,share
-m_dispin_20_64,measure,,"Disponibel årsinkomst (i 1000 SEK, 20-64 år)",Genomsnittlig disponibel årsinkomst i tusentals kronor för individer mellan 20-64 år i området. Disponibel inkomst definieras som inkomst efter skatter och transfereringar.,,,Disponibel årsinkomst ,Inkomst,"[""linear"", "" log""]",ibf,
-antal,measure,,Antal boende,Antal boende,,,Antal boende,Antal boende,"[""linear"", "" log""]",ibf,
-r_dispin_20_64,measure,,"Disponibel årsinkomst (rank, 20-64 år)",Områdets ranking i disponibel årsinkomst för individer mellan 20-64 år.,,,Disponibel årsinkomst,Inkomst (rank),"[""linear"", "" log""]",ibf_rank,
-md_dispin_20_64,measure,,"Disponibel årsinkomst (median, i 1000 SEK, 20-64 år)",Medianvärdet i disponibel årsinkomst i tusentals kronor för individer mellan 20-64 år i området.,,,Disponibel årsinkomst,Inkomst (median),"[""linear"", "" log""]",ibf_median,
-andel_vaccinerade,measure,,"Andel vaccinerade (Stockholm, år 2021, 20+ år)","Andel individer 20+ år som fått första dosen mot covid-19. Denna variabel är ett test och redovisas på veckonivå år 2021, enbart för Stockholm stad. FUNGERAR EJ I KOMBINATION MED ANDRA VARIABLER. För att se denna: välj univariat karta, zooma in på Stockholm och starta animationen. Efter denna variabel har använts behöver verktyget laddas om.)",,,Andel vaccinerade,Andel vaccinerade,"[""linear"", "" log""]",ibf_vaccin,share
-high_school_coef,measure,,Academic high school coefficient,Coefficient for returns to education of academic high school,,,Academic track,Academic track,"[""linear"", "" log""]",ibf_returns,
-college_coef,measure,,College coefficient,Coefficient for returns to education of college,,,College,College,"[""linear"", "" log""]",ibf_returns,
-vocational_coef,measure,,Vocational high school coefficient,Coefficient for returns to education of vocational high school,,,Vocational track,Vocational track,"[""linear"", "" log""]",ibf_returns,
+m_alder,measure,,Medelålder,Medelålder i området.,,,Medelålder,Medelålder,,ibf,
+m_kvinna,measure,,Kvinnor,Andel kvinnor i området.,,,Kvinnor,Kvinnor,,ibf,share
+m_efterg_25_64,measure,,Eftergymnasial utbildning (25-64 år),Andel mellan 25-64 år med eftergymnasial utbildning i området.,,,Eftergymnasial utbildning ,Eftergymnasial utbildning,,ibf,share
+m_invand,measure,,Utrikesfödda,Andel utrikesfödda i området.,,,Utrikesfödda,Utrikesfödda,,ibf,share
+m_invbak,measure,,Utländsk bakgrund,Andel med utländsk bakgrund i området. Definierat som utrikesfödd eller med minst en utrikesfödd förälder.,,,Utländsk bakgrund,Utländsk bakgrund,,ibf,share
+m_dispin_20_64,measure,,"Disponibel årsinkomst (i 1000 SEK, 20-64 år)",Genomsnittlig disponibel årsinkomst i tusentals kronor för individer mellan 20-64 år i området. Disponibel inkomst definieras som inkomst efter skatter och transfereringar.,,,Disponibel årsinkomst ,Inkomst,,ibf,
+antal,measure,,Antal boende,Antal boende,,,Antal boende,Antal boende,,ibf,
+r_dispin_20_64,measure,,"Disponibel årsinkomst (rank, 20-64 år)",Områdets ranking i disponibel årsinkomst för individer mellan 20-64 år.,,,Disponibel årsinkomst,Inkomst (rank),,ibf_rank,
+md_dispin_20_64,measure,,"Disponibel årsinkomst (median, i 1000 SEK, 20-64 år)",Medianvärdet i disponibel årsinkomst i tusentals kronor för individer mellan 20-64 år i området.,,,Disponibel årsinkomst,Inkomst (median),,ibf_median,
+andel_vaccinerade,measure,,"Andel vaccinerade (Stockholm, år 2021, 20+ år)","Andel individer 20+ år som fått första dosen mot covid-19. Denna variabel är ett test och redovisas på veckonivå år 2021, enbart för Stockholm stad. FUNGERAR EJ I KOMBINATION MED ANDRA VARIABLER. För att se denna: välj univariat karta, zooma in på Stockholm och starta animationen. Efter denna variabel har använts behöver verktyget laddas om.)",,,Andel vaccinerade,Andel vaccinerade,,ibf_vaccin,share
+high_school_coef,measure,,Academic high school coefficient,Coefficient for returns to education of academic high school,,,Academic track,Academic track,,ibf_returns,
+college_coef,measure,,College coefficient,Coefficient for returns to education of college,,,College,College,,ibf_returns,
+vocational_coef,measure,,Vocational high school coefficient,Coefficient for returns to education of vocational high school,,,Vocational track,Vocational track,,ibf_returns,
