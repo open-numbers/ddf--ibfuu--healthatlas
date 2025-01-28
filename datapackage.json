@@ -7,7 +7,7 @@
     "description": "",
     "author": "",
     "license": "",
-    "created": "2025-01-28T09:04:17.681455+00:00",
+    "created": "2025-01-28T10:19:17.321395+00:00",
     "resources": [
         {
             "name": "ddf--concepts",
@@ -153,6 +153,27 @@
                     },
                     {
                         "name": "high_school_coef"
+                    }
+                ],
+                "primaryKey": [
+                    "regso",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--individual_count--by--regso--year",
+            "path": "ddf--datapoints--individual_count--by--regso--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "regso"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "individual_count"
                     }
                 ],
                 "primaryKey": [
@@ -1182,6 +1203,26 @@
                 "value": "high_school_coef",
                 "resources": [
                     "ddf--datapoints--high_school_coef--by--regso--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geo",
+                    "year"
+                ],
+                "value": "individual_count",
+                "resources": [
+                    "ddf--datapoints--individual_count--by--regso--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "regso",
+                    "year"
+                ],
+                "value": "individual_count",
+                "resources": [
+                    "ddf--datapoints--individual_count--by--regso--year"
                 ]
             },
             {
