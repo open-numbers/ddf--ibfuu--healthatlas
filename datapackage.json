@@ -7,7 +7,7 @@
     "description": "",
     "author": "",
     "license": "",
-    "created": "2025-01-28T10:19:17.321395+00:00",
+    "created": "2025-02-24T13:51:27.033363+00:00",
     "resources": [
         {
             "name": "ddf--concepts",
@@ -309,6 +309,48 @@
             }
         },
         {
+            "name": "ddf--datapoints--m_hogskola_25_64--by--kommun--year",
+            "path": "ddf--datapoints--m_hogskola_25_64--by--kommun--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "kommun"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "m_hogskola_25_64"
+                    }
+                ],
+                "primaryKey": [
+                    "kommun",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--m_hogskola_25_64--by--regso--year",
+            "path": "ddf--datapoints--m_hogskola_25_64--by--regso--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "regso"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "m_hogskola_25_64"
+                    }
+                ],
+                "primaryKey": [
+                    "regso",
+                    "year"
+                ]
+            }
+        },
+        {
             "name": "ddf--datapoints--m_invand--by--kommun--year",
             "path": "ddf--datapoints--m_invand--by--kommun--year.csv",
             "schema": {
@@ -426,6 +468,48 @@
                     },
                     {
                         "name": "m_kvinna"
+                    }
+                ],
+                "primaryKey": [
+                    "regso",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--m_sysselsatt_25_64--by--kommun--year",
+            "path": "ddf--datapoints--m_sysselsatt_25_64--by--kommun--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "kommun"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "m_sysselsatt_25_64"
+                    }
+                ],
+                "primaryKey": [
+                    "kommun",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--m_sysselsatt_25_64--by--regso--year",
+            "path": "ddf--datapoints--m_sysselsatt_25_64--by--regso--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "regso"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "m_sysselsatt_25_64"
                     }
                 ],
                 "primaryKey": [
@@ -1323,6 +1407,37 @@
                     "geo",
                     "year"
                 ],
+                "value": "m_hogskola_25_64",
+                "resources": [
+                    "ddf--datapoints--m_hogskola_25_64--by--kommun--year",
+                    "ddf--datapoints--m_hogskola_25_64--by--regso--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "kommun",
+                    "year"
+                ],
+                "value": "m_hogskola_25_64",
+                "resources": [
+                    "ddf--datapoints--m_hogskola_25_64--by--kommun--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "regso",
+                    "year"
+                ],
+                "value": "m_hogskola_25_64",
+                "resources": [
+                    "ddf--datapoints--m_hogskola_25_64--by--regso--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geo",
+                    "year"
+                ],
                 "value": "m_invand",
                 "resources": [
                     "ddf--datapoints--m_invand--by--kommun--year",
@@ -1409,6 +1524,37 @@
                 "value": "m_kvinna",
                 "resources": [
                     "ddf--datapoints--m_kvinna--by--regso--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geo",
+                    "year"
+                ],
+                "value": "m_sysselsatt_25_64",
+                "resources": [
+                    "ddf--datapoints--m_sysselsatt_25_64--by--kommun--year",
+                    "ddf--datapoints--m_sysselsatt_25_64--by--regso--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "kommun",
+                    "year"
+                ],
+                "value": "m_sysselsatt_25_64",
+                "resources": [
+                    "ddf--datapoints--m_sysselsatt_25_64--by--kommun--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "regso",
+                    "year"
+                ],
+                "value": "m_sysselsatt_25_64",
+                "resources": [
+                    "ddf--datapoints--m_sysselsatt_25_64--by--regso--year"
                 ]
             },
             {

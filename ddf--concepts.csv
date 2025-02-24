@@ -21,7 +21,7 @@ format,string,,,,,,,,,,
 color,string,,,,,,,,,,
 m_alder,measure,,Medelålder,Medelålder i området.,,,Medelålder,Medelålder,,ibf,
 m_kvinna,measure,,Kvinnor,Andel kvinnor i området.,,,Kvinnor,Kvinnor,,ibf,share
-m_efterg_25_64,measure,,Eftergymnasial utbildning (25-64 år),Andel mellan 25-64 år med eftergymnasial utbildning i området.,,,Eftergymnasial utbildning ,Eftergymnasial utbildning,,ibf,share
+m_efterg_25_64,measure,,Eftergymnasial utbildning (25-64 år),Andel mellan 25-64 år med någon eftergymnasial utbildning i området.,,,Eftergymnasial utbildning ,Eftergymnasial utbildning,,ibf,share
 m_invand,measure,,Utrikesfödda,Andel utrikesfödda i området.,,,Utrikesfödda,Utrikesfödda,,ibf,share
 m_invbak,measure,,Utländsk bakgrund,Andel med utländsk bakgrund i området. Definierat som utrikesfödd eller med minst en utrikesfödd förälder.,,,Utländsk bakgrund,Utländsk bakgrund,,ibf,share
 m_dispin_20_64,measure,,"Disponibel årsinkomst (i 1000 SEK, 20-64 år)",Genomsnittlig disponibel årsinkomst i tusentals kronor för individer mellan 20-64 år i området. Disponibel inkomst definieras som inkomst efter skatter och transfereringar.,,,Disponibel årsinkomst ,Inkomst,,ibf,
@@ -33,3 +33,5 @@ high_school_coef,measure,,Academic high school coefficient,Coefficient for retur
 college_coef,measure,,College coefficient,Coefficient for returns to education of college,,,College,College,,ibf_returns,
 vocational_coef,measure,,Vocational high school coefficient,Coefficient for returns to education of vocational high school,,,Vocational track,Vocational track,,ibf_returns,
 individual_count,measure,,Observations (Returns to education),Number of observations for Returns to Education estimates,,,Observations (RtE),Observations (RtE),,ibf_returns,
+m_sysselsatt_25_64,measure,,Sysselsatta (25-64 år),"Andel sysselsatta mellan 25-64 år i området, mätt i november.",,,Sysselsatta,Sysselsatta,,ibf,share
+m_hogskola_25_64,measure,,"Eftergymnasial utbildning (3 år eller mer, 25-64 år)",Andel mellan 25-64 år med eftergymnasial utbildning minst 3 år i området.,,,Eftergymnasial utbildning,Eftergymnasial utbildning,,ibf,share
