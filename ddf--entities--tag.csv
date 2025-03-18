@@ -1,6 +1,7 @@
 tag,name,parent
-ibf,Data från IBF,
+ibf,SCB,
 ibf_gender,Kön,ibf
 ibf_demo,Demografi,ibf
 ibf_ekonomi,"Ekonomi, utbildning",ibf
 ibf_mobilitet,Flyttmönster,ibf
+ibf_fordon,Fordon,ibf
