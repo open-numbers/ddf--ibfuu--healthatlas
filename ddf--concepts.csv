@@ -1,6 +1,5 @@
 concept,concept_type,domain,name,description,drill_up,color,name_short,name_catalog,scales,tags,format
 geo,entity_domain,,Alla områden,,,,,,,,
-deso,entity_set,geo,DeSO,Demografiska statistikområden (DeSO) är en rikstäckande indelning som följer läns- och kommungränserna och som delar in Sverige i 5 984 områden.,"[""regso""]",,,,,,
 regso,entity_set,geo,RegSO,Regionala statistikområden (RegSO) delar in Sverige i 3 363 områden.,"[""kommun""]",,,,,,
 kommun,entity_set,geo,Kommun,Kommunnivå.,"[""region""]",,,,,,
 region,entity_set,geo,Region,Regionsnivå.,"[""rike""]","{""shades"":{""fill1"":0},""palette"":{""10"":""#01aeea"",""12"":""#c62b00"",""13"":""#7fffdc"",""14"":""#cf0067"",""17"":""#8ada6b"",""18"":""#ff5ec7"",""19"":""#406a3a"",""20"":""#fad1ff"",""21"":""#cc8600"",""22"":""#436386"",""23"":""#984b26"",""24"":""#008d8d"",""25"":""#7f517f"",""01"":""#e56eff"",""03"":""#6ee924"",""04"":""#e500f0"",""05"":""#00a527"",""06"":""#9b14cd"",""07"":""#8fb300"",""08"":""#005ce1"",""09"":""#f8c300""},""_default"":[""#333""],""selectable"":true}",,,,,
@@ -19,24 +18,26 @@ name_short,string,,,,,,,,,,
 name_catalog,string,,,,,,,,,,
 format,string,,,,,,,,,,
 color,string,,,,,,,,,,
-antal,measure,,Antal boende,Antal boende i området.,,,Antal boende,Antal boende,,ibf,
-mean_kvinna,measure,,Andel kvinnor,Andel kvinnor i området.,,,Andel kvinnor,Andel kvinnor,,ibf,share
-mean_invand,measure,,Utrikesfödda,Andel utrikesfödda i området.,,,Utrikesfödda,Utrikesfödda,,ibf,share
-mean_invbak,measure,,Utländsk bakgrund,Andel med utrikes bakgrund i området. Definierat som utrikesfödd eller med minst en utrikesfödd förälder.,,,Utländsk bakgrund,Utländsk bakgrund,,ibf,share
-mean_alder,measure,,Medelålder,Medelålder i området,,,Medelålder,Medelålder,,ibf,
-mean_dispink_20_64,measure,,"Disponibel årsinkomst (1000 SEK, 20-64 år)",Genomsnittlig disponibel årsinkomst i tusentals kronor för individer mellan 20-64 år i området. Disponibel inkomst definieras som inkomst efter skatter och transfereringar.,,,Disponibel årsinkomst,Disponibel årsinkomst,,ibf,
-mean_eftergym_25_64,measure,,Eftergymnasial utbildning (25-64 år),Andel mellan 25-64 år med någon eftergymnasial utbildning i området.,,,Eftergymnasial utbildning,Eftergymnasial utbildning,,ibf,share
-mean_sysselsatt_25_64,measure,,Sysselsatta (25-64 år),Andel sysselsatta mellan 25-64 år i området (novembermätning).,,,Sysselsatta,Sysselsatta,,ibf,share
-mean_hogskola_25_64,measure,,"Eftergymnasial utbildning (3+ år, 25-64 år)",Andel mellan 25-64 år med minst 3 års eftergymnasial utbildning i området.,,,Eftergymnasial utbildning (3+ år),Eftergymnasial utbildning (3+ år),,ibf,share
-mean_arsmodell_20_64,measure,,Genomsnittlig årsmodell bil (20-64 år),Genomsnittlig årsmodell av bilar i området.,,,Genomsnittlig årsmodell bil,Genomsnittlig årsmodell bil,,ibf,
-mean_korstracka_20_64,measure,,Genomsnittlig körsträcka bil (20-64 år),Genomsnittlig körsträcka av bilar i området.,,,Genomsnittlig körsträcka bil,Genomsnittlig körsträcka bil,,ibf,
-mean_bilalder_20_64,measure,,Genomsnittlig ålder bil (20-64 år),Genomsnittlig ålder på bilar i området.,,,Genomsnittlig ålder bil,Genomsnittlig ålder bil,,ibf,
-mean_antal_bilar_20_64,measure,,Genomsnittligt antal bilar (20-64 år),Genomsnittligt antal ägda bilar per individ i området.,,,Genomsnittligt antal bilar,Genomsnittligt antal bilar,,ibf,
-median_dispink_20_64,measure,,"Disponibel årsinkomst (median, i 1000 SEK, 20-64 år)",Medianvärdet i disponibel årsinkomst i tusentals kronor för individer mellan 20-64 år i området.,,,Disponibel årsinkomst,Disponibel årsinkomst (median),,ibf_median,
-rank_dispink_20_64,measure,,"Disponibel årsinkomst (rank, 20-64 år)",Områdets ranking i disponibel årsinkomst för individer mellan 20-64 år.,,,Disponibel årsinkomst,Disponibel årsinkomst (rank),,ibf_rank,
-high_school_coef,measure,,Academic high school coefficient,Coefficient for returns to education of academic high school,,,Academic track,Academic track,,ibf_returns,
-college_coef,measure,,College coefficient,Coefficient for returns to education of college,,,College,College,,ibf_returns,
-vocational_coef,measure,,Vocational high school coefficient,Coefficient for returns to education of vocational high school,,,Vocational track,Vocational track,,ibf_returns,
-individual_count,measure,,Observations (Returns to education),Number of observations for Returns to Education estimates,,,Observations (RtE),Observations (RtE),,ibf_returns,
-inmovers,measure,,Inflyttare,Andel inflyttade i området.,,,Inflyttare,Inflyttare,,ibf,share
-outmovers,measure,,Utflyttare,Andel utflyttade i området.,,,Utflyttare,Utflyttare,,ibf,share
+antal,measure,,Antal boende,Antal boende i området.,,,Antal boende,Antal boende,,ibf_mobilitet,
+mean_kvinna,measure,,Andel kvinnor,Andel kvinnor i området.,,,Andel kvinnor,Andel kvinnor,,ibf_demo,share
+mean_invand,measure,,Utrikesfödda,Andel utrikesfödda i området.,,,Utrikesfödda,Utrikesfödda,,ibf_demo,share
+mean_invbak,measure,,Utländsk bakgrund,Andel med utrikes bakgrund i området. Definierat som utrikesfödd eller med minst en utrikesfödd förälder.,,,Utländsk bakgrund,Utländsk bakgrund,,ibf_demo,share
+mean_alder,measure,,Medelålder,Medelålder i området,,,Medelålder,Medelålder,,ibf_demo,
+mean_dispink_20_64,measure,,"Disponibel årsinkomst (1000 SEK, 20-64 år)",Genomsnittlig disponibel årsinkomst i tusentals kronor för individer mellan 20-64 år i området. Disponibel inkomst definieras som inkomst efter skatter och transfereringar.,,,Disponibel årsinkomst,Disponibel årsinkomst,,ibf_ekonomi,
+mean_eftergym_25_64,measure,,Eftergymnasial utbildning (25-64 år),Andel mellan 25-64 år med någon eftergymnasial utbildning i området.,,,Eftergymnasial utbildning,Eftergymnasial utbildning,,ibf_ekonomi,share
+mean_sysselsatt_25_64,measure,,Sysselsatta (25-64 år),Andel sysselsatta mellan 25-64 år i området (novembermätning).,,,Sysselsatta,Sysselsatta,,ibf_ekonomi,share
+mean_hogskola_25_64,measure,,"Eftergymnasial utbildning (3+ år, 25-64 år)",Andel mellan 25-64 år med minst 3 års eftergymnasial utbildning i området.,,,Eftergymnasial utbildning (3+ år),Eftergymnasial utbildning (3+ år),,ibf_ekonomi,share
+mean_arsmodell_20_64,measure,,Genomsnittlig årsmodell bil (20-64 år),Genomsnittlig årsmodell av bilar i området.,,,Genomsnittlig årsmodell bil,Genomsnittlig årsmodell bil,,ibf_fordon,
+mean_korstracka_20_64,measure,,Genomsnittlig körsträcka bil (20-64 år),Genomsnittlig körsträcka av bilar i området.,,,Genomsnittlig körsträcka bil,Genomsnittlig körsträcka bil,,ibf_fordon,
+mean_bilalder_20_64,measure,,Genomsnittlig ålder bil (20-64 år),Genomsnittlig ålder på bilar i området.,,,Genomsnittlig ålder bil,Genomsnittlig ålder bil,,ibf_fordon,
+mean_antal_bilar_20_64,measure,,Genomsnittligt antal bilar (20-64 år),Genomsnittligt antal ägda bilar per individ i området.,,,Genomsnittligt antal bilar,Genomsnittligt antal bilar,,ibf_fordon,
+median_dispink_20_64,measure,,"Disponibel årsinkomst (median, i 1000 SEK, 20-64 år)",Medianvärdet i disponibel årsinkomst i tusentals kronor för individer mellan 20-64 år i området.,,,Disponibel årsinkomst,Disponibel årsinkomst (median),,ibf_ekonomi,
+rank_dispink_20_64,measure,,"Disponibel årsinkomst (rank, 20-64 år)",Områdets ranking i disponibel årsinkomst för individer mellan 20-64 år.,,,Disponibel årsinkomst,Disponibel årsinkomst (rank),,ibf_ekonomi,
+inmovers,measure,,Inflyttare,Andel inflyttade i området.,,,Inflyttare,Inflyttare,,ibf_mobilitet,share
+outmovers,measure,,Utflyttare,Andel utflyttade i området.,,,Utflyttare,Utflyttare,,ibf_mobilitet,share
+mean_dispink_20_64_man,measure,,"Disponibel årsinkomst (1000 SEK, 20-64 år, män)",Genomsnittlig disponibel årsinkomst i tusentals kronor för män mellan 20-64 år i området. Disponibel inkomst definieras som inkomst efter skatter och transfereringar.,,,Disponibel årsinkomst,Disponibel årsinkomst,,ibf_gender,
+mean_eftergym_25_64_man,measure,,"Eftergymnasial utbildning (25-64 år, män)",Andel män mellan 25-64 år med någon eftergymnasial utbildning i området.,,,Eftergymnasial utbildning,Eftergymnasial utbildning,,ibf_gender,share
+mean_sysselsatt_25_64_man,measure,,"Sysselsatta (25-64 år, män)",Andel män sysselsatta mellan 25-64 år i området (novembermätning).,,,Sysselsatta,Sysselsatta,,ibf_gender,share
+mean_dispink_20_64_kvinna,measure,,"Disponibel årsinkomst (1000 SEK, 20-64 år, kvinnor)",Genomsnittlig disponibel årsinkomst i tusentals kronor för kvinnor mellan 20-64 år i området. Disponibel inkomst definieras som inkomst efter skatter och transfereringar.,,,Disponibel årsinkomst,Disponibel årsinkomst,,ibf_gender,
+mean_eftergym_25_64_kvinna,measure,,"Eftergymnasial utbildning (25-64 år, kvinnor)",Andel kvinnor mellan 25-64 år med någon eftergymnasial utbildning i området.,,,Eftergymnasial utbildning,Eftergymnasial utbildning,,ibf_gender,share
+mean_sysselsatt_25_64_kvinna,measure,,"Sysselsatta (25-64 år, kvinnor)",Andel kvinnor sysselsatta mellan 25-64 år i området (novembermätning).,,,Sysselsatta,Sysselsatta,,ibf_gender,share
