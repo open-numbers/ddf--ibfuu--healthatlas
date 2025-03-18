@@ -1,5 +1,6 @@
 tag,name,parent
 ibf,Data från IBF,
-ibf_rank,Ranking,ibf
-ibf_median,Median,ibf
-ibf_returns,Returns to education,ibf
+ibf_gender,Kön,ibf
+ibf_demo,Demografi,ibf
+ibf_ekonomi,"Ekonomi, utbildning",ibf
+ibf_mobilitet,Flyttmönster,ibf
