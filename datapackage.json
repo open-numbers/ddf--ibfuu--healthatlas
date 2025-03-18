@@ -7,7 +7,7 @@
     "description": "",
     "author": "",
     "license": "",
-    "created": "2025-03-10T23:14:42.357520+00:00",
+    "created": "2025-03-18T19:51:30.095132+00:00",
     "resources": [
         {
             "name": "ddf--concepts",
@@ -153,6 +153,48 @@
                     },
                     {
                         "name": "individual_count"
+                    }
+                ],
+                "primaryKey": [
+                    "regso",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--inmovers--by--kommun--year",
+            "path": "ddf--datapoints--inmovers--by--kommun--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "kommun"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "inmovers"
+                    }
+                ],
+                "primaryKey": [
+                    "kommun",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--inmovers--by--regso--year",
+            "path": "ddf--datapoints--inmovers--by--regso--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "regso"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "inmovers"
                     }
                 ],
                 "primaryKey": [
@@ -699,6 +741,48 @@
                     },
                     {
                         "name": "median_dispink_20_64"
+                    }
+                ],
+                "primaryKey": [
+                    "regso",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--outmovers--by--kommun--year",
+            "path": "ddf--datapoints--outmovers--by--kommun--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "kommun"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "outmovers"
+                    }
+                ],
+                "primaryKey": [
+                    "kommun",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--outmovers--by--regso--year",
+            "path": "ddf--datapoints--outmovers--by--regso--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "regso"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "outmovers"
                     }
                 ],
                 "primaryKey": [
@@ -1441,6 +1525,37 @@
                     "geo",
                     "year"
                 ],
+                "value": "inmovers",
+                "resources": [
+                    "ddf--datapoints--inmovers--by--kommun--year",
+                    "ddf--datapoints--inmovers--by--regso--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "kommun",
+                    "year"
+                ],
+                "value": "inmovers",
+                "resources": [
+                    "ddf--datapoints--inmovers--by--kommun--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "regso",
+                    "year"
+                ],
+                "value": "inmovers",
+                "resources": [
+                    "ddf--datapoints--inmovers--by--regso--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geo",
+                    "year"
+                ],
                 "value": "mean_alder",
                 "resources": [
                     "ddf--datapoints--mean_alder--by--kommun--year",
@@ -1837,6 +1952,37 @@
                 "value": "median_dispink_20_64",
                 "resources": [
                     "ddf--datapoints--median_dispink_20_64--by--regso--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geo",
+                    "year"
+                ],
+                "value": "outmovers",
+                "resources": [
+                    "ddf--datapoints--outmovers--by--kommun--year",
+                    "ddf--datapoints--outmovers--by--regso--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "kommun",
+                    "year"
+                ],
+                "value": "outmovers",
+                "resources": [
+                    "ddf--datapoints--outmovers--by--kommun--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "regso",
+                    "year"
+                ],
+                "value": "outmovers",
+                "resources": [
+                    "ddf--datapoints--outmovers--by--regso--year"
                 ]
             },
             {
