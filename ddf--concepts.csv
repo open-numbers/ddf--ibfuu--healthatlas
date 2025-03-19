@@ -1,6 +1,6 @@
 concept,concept_type,domain,name,description,drill_up,color,name_short,name_catalog,scales,tags,format
 geo,entity_domain,,Område,Alla områden.,,,,,,,
-regso,entity_set,geo,RegSO,Regionala statistikområden (RegSO). Sverige är indelat i3 363 RegSO-områden.,"[""kommun""]",,,,,,
+regso,entity_set,geo,RegSO,Regionala statistikområden. Sverige är indelat i 3363 RegSO-områden.,"[""kommun""]",,,,,,
 kommun,entity_set,geo,Kommun,Kommunnivå. Sverige består sedan år 2003 av totalt 290 kommuner.,"[""region""]",,,,,,
 region,entity_set,geo,Region,Regionsnivå. Sverige är indelat i 21 regioner.,"[""rike""]","{""shades"":{""fill1"":0},""palette"":{""10"":""#01aeea"",""12"":""#c62b00"",""13"":""#7fffdc"",""14"":""#cf0067"",""17"":""#8ada6b"",""18"":""#ff5ec7"",""19"":""#406a3a"",""20"":""#fad1ff"",""21"":""#cc8600"",""22"":""#436386"",""23"":""#984b26"",""24"":""#008d8d"",""25"":""#7f517f"",""01"":""#e56eff"",""03"":""#6ee924"",""04"":""#e500f0"",""05"":""#00a527"",""06"":""#9b14cd"",""07"":""#8fb300"",""08"":""#005ce1"",""09"":""#f8c300""},""_default"":[""#333""],""selectable"":true}",,,,,
 rike,entity_set,geo,Riket,Hela Sverige.,,,,,,,
@@ -25,14 +25,13 @@ mean_alder,measure,,Medelålder,Medelålder i området.,,,Medelålder,Medelålde
 mean_dispink_20_64,measure,,"Disponibel årsinkomst (1000 SEK, 20-64 år)",Genomsnittlig disponibel årsinkomst i tusentals kronor för individer mellan 20-64 år i området. Disponibel inkomst definieras som inkomst efter skatter och transfereringar.,,,Disponibel årsinkomst,Inkomst,,ibf_ekonomi,
 mean_eftergym_25_64,measure,,Eftergymnasial utbildning (25-64 år),Andel mellan 25-64 år med eftergymnasial utbildning i området.,,,Eftergymnasial utbildning,Eftergymnasial utbildning,,ibf_ekonomi,share
 mean_sysselsatt_25_64,measure,,Sysselsättning (25-64 år),Andel sysselsatta mellan 25-64 år i området. Mätt som sysselsatt under november månad.,,,Sysselsättning,Sysselsättning,,ibf_ekonomi,share
-mean_arsmodell_20_64,measure,,Årsmodell (Bil),Genomsnittlig årsmodell av bilar i området hos ägare mellan 20-64 år.,,,Årsmodell,Årsmodell bil,,ibf_fordon,
-mean_korstracka_20_64,measure,,Körsträckor (Bil),Genomsnittlig körsträcka av bilar i området hos ägare mellan 20-64 år.,,,Körsträckor,Körsträckor bil,,ibf_fordon,
-mean_bilalder_20_64,measure,,Bilålder,Genomsnittlig ålder på bilar i området hos ägare mellan 20-64 år.,,,Bilålder,Bilålder,,ibf_fordon,
-mean_antal_bilar_20_64,measure,,Antal bilar,Genomsnittligt antal ägda bilar per individ i området.,,,Antal bilar,Antal bilar,,ibf_fordon,
+mean_arsmodell_20_64,measure,,Årsmodell (Personbilar),Genomsnittlig årsmodell av personbilar i området.,,,Årsmodell,Årsmodell (personbilar),,ibf_fordon,
+mean_korstracka_20_64,measure,,Körsträckor (Personbilar),Genomsnittlig körsträcka av personbilar i området.,,,Körsträckor,Körsträckor (personbilar),,ibf_fordon,
+mean_antal_bilar_20_64,measure,,Antal personbilar,Genomsnittligt antal ägda personbilar per individ i området.,,,Antal personbilar,Antal personbilar,,ibf_fordon,
 median_dispink_20_64,measure,,"Disponibel årsinkomst, median (1000 SEK, 20-64 år)",Medianvärdet i disponibel årsinkomst i tusentals kronor för individer mellan 20-64 år i området. Disponibel inkomst definieras som inkomst efter skatter och transfereringar.,,,"Disponibel årsinkomst, median",Inkomst (median),,ibf_ekonomi,
 rank_dispink_20_64,measure,,"Disponibel årsinkomst, rank (20-64 år)",Områdets ranking i disponibel årsinkomst för individer mellan 20-64 år. Disponibel inkomst definieras som inkomst efter skatter och transfereringar.,,,"Disponibel årsinkomst, rank",Inkomst (rank),,ibf_ekonomi,
-inmovers,measure,,Andel inflyttade,Andel inflyttade individer i området.,,,Andel inflyttade,Inflyttning,,ibf_mobilitet,share
-outmovers,measure,,Andel utflyttare,Andel utflyttade individer i området.,,,Andel utflyttare,Utflyttning,,ibf_mobilitet,share
+inmovers,measure,,Andel inflyttade,"Andel inflyttade individer i området, beräknat utifrån antalet som inte bodde i området året före.",,,Andel inflyttade,Inflyttning,,ibf_mobilitet,share
+outmovers,measure,,Andel utflyttare,"Andel utflyttade individer i området, beräknat utifrån antalet som inte bor i området året efter.",,,Andel utflyttare,Utflyttning,,ibf_mobilitet,share
 mean_dispink_20_64_man,measure,,"Disponibel årsinkomst, män (1000 SEK, 20-64 år)",Genomsnittlig disponibel årsinkomst i tusentals kronor för män mellan 20-64 år i området. Disponibel inkomst definieras som inkomst efter skatter och transfereringar.,,,"Disponibel årsinkomst, män",Inkomst (män),,ibf_ekonomi,
 mean_eftergym_25_64_man,measure,,"Eftergymnasial utbildning, män (25-64 år)",Andel män mellan 25-64 år med eftergymnasial utbildning i området.,,,"Eftergymnasial utbildning, män",Eftergymnasial utbildning (män),,ibf_ekonomi,share
 mean_sysselsatt_25_64_man,measure,,"Sysselsättning, män (25-64 år)",Andel sysselsatta män mellan 25-64 år i området. Mätt som sysselsatt under november månad.,,,"Sysselsättning, män",Sysselsättning (män),,ibf_ekonomi,share

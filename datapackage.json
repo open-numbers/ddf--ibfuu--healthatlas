@@ -7,7 +7,7 @@
     "description": "",
     "author": "",
     "license": "",
-    "created": "2025-03-19T14:44:32.638034+00:00",
+    "created": "2025-03-19T15:05:50.429105+00:00",
     "resources": [
         {
             "name": "ddf--concepts",
@@ -258,48 +258,6 @@
                     },
                     {
                         "name": "mean_arsmodell_20_64"
-                    }
-                ],
-                "primaryKey": [
-                    "regso",
-                    "year"
-                ]
-            }
-        },
-        {
-            "name": "ddf--datapoints--mean_bilalder_20_64--by--kommun--year",
-            "path": "ddf--datapoints--mean_bilalder_20_64--by--kommun--year.csv",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "kommun"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "mean_bilalder_20_64"
-                    }
-                ],
-                "primaryKey": [
-                    "kommun",
-                    "year"
-                ]
-            }
-        },
-        {
-            "name": "ddf--datapoints--mean_bilalder_20_64--by--regso--year",
-            "path": "ddf--datapoints--mean_bilalder_20_64--by--regso--year.csv",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "regso"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "mean_bilalder_20_64"
                     }
                 ],
                 "primaryKey": [
@@ -1579,37 +1537,6 @@
                 "value": "mean_arsmodell_20_64",
                 "resources": [
                     "ddf--datapoints--mean_arsmodell_20_64--by--regso--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "geo",
-                    "year"
-                ],
-                "value": "mean_bilalder_20_64",
-                "resources": [
-                    "ddf--datapoints--mean_bilalder_20_64--by--kommun--year",
-                    "ddf--datapoints--mean_bilalder_20_64--by--regso--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "kommun",
-                    "year"
-                ],
-                "value": "mean_bilalder_20_64",
-                "resources": [
-                    "ddf--datapoints--mean_bilalder_20_64--by--kommun--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "regso",
-                    "year"
-                ],
-                "value": "mean_bilalder_20_64",
-                "resources": [
-                    "ddf--datapoints--mean_bilalder_20_64--by--regso--year"
                 ]
             },
             {
