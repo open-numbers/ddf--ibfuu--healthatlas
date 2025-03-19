@@ -1,6 +1,5 @@
 tag,name,parent
-ibf,SCB,
-ibf_demo,Demografi,ibf
-ibf_ekonomi,"Ekonomi, utbildning",ibf
-ibf_mobilitet,Flyttmönster,ibf
-ibf_fordon,Fordon,ibf
+ibf_demo,Demografi,
+ibf_ekonomi,"Ekonomi, utbildning",
+ibf_mobilitet,Flyttmönster,
+ibf_fordon,Fordon,
