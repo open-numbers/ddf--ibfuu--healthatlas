@@ -7,7 +7,7 @@
     "description": "",
     "author": "",
     "license": "",
-    "created": "2025-03-18T23:40:49.800017+00:00",
+    "created": "2025-03-19T00:08:09.359510+00:00",
     "resources": [
         {
             "name": "ddf--concepts",
@@ -552,48 +552,6 @@
                     },
                     {
                         "name": "mean_eftergym_25_64_man"
-                    }
-                ],
-                "primaryKey": [
-                    "regso",
-                    "year"
-                ]
-            }
-        },
-        {
-            "name": "ddf--datapoints--mean_hogskola_25_64--by--kommun--year",
-            "path": "ddf--datapoints--mean_hogskola_25_64--by--kommun--year.csv",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "kommun"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "mean_hogskola_25_64"
-                    }
-                ],
-                "primaryKey": [
-                    "kommun",
-                    "year"
-                ]
-            }
-        },
-        {
-            "name": "ddf--datapoints--mean_hogskola_25_64--by--regso--year",
-            "path": "ddf--datapoints--mean_hogskola_25_64--by--regso--year.csv",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "regso"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "mean_hogskola_25_64"
                     }
                 ],
                 "primaryKey": [
@@ -1838,37 +1796,6 @@
                 "value": "mean_eftergym_25_64_man",
                 "resources": [
                     "ddf--datapoints--mean_eftergym_25_64_man--by--regso--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "geo",
-                    "year"
-                ],
-                "value": "mean_hogskola_25_64",
-                "resources": [
-                    "ddf--datapoints--mean_hogskola_25_64--by--kommun--year",
-                    "ddf--datapoints--mean_hogskola_25_64--by--regso--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "kommun",
-                    "year"
-                ],
-                "value": "mean_hogskola_25_64",
-                "resources": [
-                    "ddf--datapoints--mean_hogskola_25_64--by--kommun--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "regso",
-                    "year"
-                ],
-                "value": "mean_hogskola_25_64",
-                "resources": [
-                    "ddf--datapoints--mean_hogskola_25_64--by--regso--year"
                 ]
             },
             {
