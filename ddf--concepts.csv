@@ -1,10 +1,12 @@
 concept,concept_type,domain,name,description,drill_up,color,name_short,name_catalog,scales,tags,format
 geo,entity_domain,,Område,Alla områden.,,,,,,,
+deso,entity_set,geo,DeSO,Demografiska statistikområden (DeSO) är en rikstäckande indelning som följer läns- och kommungränserna och som delar in Sverige i 5 984 områden.,"[""regso""]",,,,,,
 regso,entity_set,geo,RegSO,Regionala statistikområden. Sverige är indelat i 3363 RegSO-områden.,"[""kommun""]",,,,,,
 kommun,entity_set,geo,Kommun,Kommunnivå. Sverige består sedan år 2003 av totalt 290 kommuner.,"[""region""]",,,,,,
 region,entity_set,geo,Region,Regionsnivå. Sverige är indelat i 21 regioner.,"[""rike""]","{""shades"":{""fill1"":0},""palette"":{""10"":""#01aeea"",""12"":""#c62b00"",""13"":""#7fffdc"",""14"":""#cf0067"",""17"":""#8ada6b"",""18"":""#ff5ec7"",""19"":""#406a3a"",""20"":""#fad1ff"",""21"":""#cc8600"",""22"":""#436386"",""23"":""#984b26"",""24"":""#008d8d"",""25"":""#7f517f"",""01"":""#e56eff"",""03"":""#6ee924"",""04"":""#e500f0"",""05"":""#00a527"",""06"":""#9b14cd"",""07"":""#8fb300"",""08"":""#005ce1"",""09"":""#f8c300""},""_default"":[""#333""],""selectable"":true}",,,,,
 rike,entity_set,geo,Riket,Hela Sverige.,,,,,,,
 name,string,,Namn,,,,,,,,
+deso_type,string,,Områdestyp,,,,,,,,
 year,time,,År,Årsnivå.,,,,,,,
 domain,string,,,,,,,,,,
 description,string,,,,,,,,,,
