@@ -7,7 +7,7 @@
     "description": "",
     "author": "",
     "license": "",
-    "created": "2025-03-20T22:25:12.220542+00:00",
+    "created": "2025-03-20T22:31:22.054875+00:00",
     "resources": [
         {
             "name": "ddf--concepts",
@@ -30,6 +30,9 @@
                         "name": "description"
                     },
                     {
+                        "name": "tags"
+                    },
+                    {
                         "name": "drill_up"
                     },
                     {
@@ -43,9 +46,6 @@
                     },
                     {
                         "name": "scales"
-                    },
-                    {
-                        "name": "tags"
                     },
                     {
                         "name": "format"
@@ -1149,6 +1149,41 @@
             }
         },
         {
+            "name": "ddf--entities--geo--deso",
+            "path": "ddf--entities--geo--deso.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "deso"
+                    },
+                    {
+                        "name": "name"
+                    },
+                    {
+                        "name": "kommun"
+                    },
+                    {
+                        "name": "region"
+                    },
+                    {
+                        "name": "rike"
+                    },
+                    {
+                        "name": "deso_type"
+                    },
+                    {
+                        "name": "regso"
+                    },
+                    {
+                        "name": "is--deso"
+                    }
+                ],
+                "primaryKey": [
+                    "deso"
+                ]
+            }
+        },
+        {
             "name": "ddf--entities--geo--kommun",
             "path": "ddf--entities--geo--kommun.csv",
             "schema": {
@@ -1372,6 +1407,42 @@
         "entities": [
             {
                 "primaryKey": [
+                    "deso"
+                ],
+                "value": "deso_type",
+                "resources": [
+                    "ddf--entities--geo--deso"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geo"
+                ],
+                "value": "deso_type",
+                "resources": [
+                    "ddf--entities--geo--deso"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "deso"
+                ],
+                "value": "is--deso",
+                "resources": [
+                    "ddf--entities--geo--deso"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geo"
+                ],
+                "value": "is--deso",
+                "resources": [
+                    "ddf--entities--geo--deso"
+                ]
+            },
+            {
+                "primaryKey": [
                     "geo"
                 ],
                 "value": "is--kommun",
@@ -1444,10 +1515,20 @@
             },
             {
                 "primaryKey": [
+                    "deso"
+                ],
+                "value": "kommun",
+                "resources": [
+                    "ddf--entities--geo--deso"
+                ]
+            },
+            {
+                "primaryKey": [
                     "geo"
                 ],
                 "value": "kommun",
                 "resources": [
+                    "ddf--entities--geo--deso",
                     "ddf--entities--geo--regso"
                 ]
             },
@@ -1462,10 +1543,20 @@
             },
             {
                 "primaryKey": [
+                    "deso"
+                ],
+                "value": "name",
+                "resources": [
+                    "ddf--entities--geo--deso"
+                ]
+            },
+            {
+                "primaryKey": [
                     "geo"
                 ],
                 "value": "name",
                 "resources": [
+                    "ddf--entities--geo--deso",
                     "ddf--entities--geo--kommun",
                     "ddf--entities--geo--region",
                     "ddf--entities--geo--regso",
@@ -1528,10 +1619,20 @@
             },
             {
                 "primaryKey": [
+                    "deso"
+                ],
+                "value": "region",
+                "resources": [
+                    "ddf--entities--geo--deso"
+                ]
+            },
+            {
+                "primaryKey": [
                     "geo"
                 ],
                 "value": "region",
                 "resources": [
+                    "ddf--entities--geo--deso",
                     "ddf--entities--geo--kommun",
                     "ddf--entities--geo--regso"
                 ]
@@ -1556,10 +1657,38 @@
             },
             {
                 "primaryKey": [
+                    "deso"
+                ],
+                "value": "regso",
+                "resources": [
+                    "ddf--entities--geo--deso"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geo"
+                ],
+                "value": "regso",
+                "resources": [
+                    "ddf--entities--geo--deso"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "deso"
+                ],
+                "value": "rike",
+                "resources": [
+                    "ddf--entities--geo--deso"
+                ]
+            },
+            {
+                "primaryKey": [
                     "geo"
                 ],
                 "value": "rike",
                 "resources": [
+                    "ddf--entities--geo--deso",
                     "ddf--entities--geo--kommun",
                     "ddf--entities--geo--region",
                     "ddf--entities--geo--regso"
