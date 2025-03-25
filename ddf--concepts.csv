@@ -1,12 +1,12 @@
 concept,concept_type,domain,name,description,tags,drill_up,color,name_short,name_catalog,scales,format
 geo,entity_domain,,Område,Alla områden.,,,,,,,
 deso,entity_set,geo,DeSO,Demografiska statistikområden (DeSO) är en rikstäckande indelning som följer läns- och kommungränserna och som delar in Sverige i 5 984 områden.,_none,"[""regso""]",,,,,
-regso,entity_set,geo,RegSO,Regionala statistikområden. Sverige är indelat i 3363 RegSO-områden.,,"[""kommun""]",,,,,
+regso,entity_set,geo,RegSO,Regionala statistikområden (RegSO) är en rikstäckande indelning som följer läns- och kommungränserna och som delar in Sverige i 3 363 områden.,,"[""kommun""]",,,,,
 kommun,entity_set,geo,Kommun,Kommunnivå. Sverige består sedan år 2003 av totalt 290 kommuner.,,"[""region""]",,,,,
 region,entity_set,geo,Region,Regionsnivå. Sverige är indelat i 21 regioner.,,"[""rike""]","{""shades"":{""fill1"":0},""palette"":{""10"":""#01aeea"",""12"":""#c62b00"",""13"":""#7fffdc"",""14"":""#cf0067"",""17"":""#8ada6b"",""18"":""#ff5ec7"",""19"":""#406a3a"",""20"":""#fad1ff"",""21"":""#cc8600"",""22"":""#436386"",""23"":""#984b26"",""24"":""#008d8d"",""25"":""#7f517f"",""01"":""#e56eff"",""03"":""#6ee924"",""04"":""#e500f0"",""05"":""#00a527"",""06"":""#9b14cd"",""07"":""#8fb300"",""08"":""#005ce1"",""09"":""#f8c300""},""_default"":[""#333""],""selectable"":true}",,,,
-rike,entity_set,geo,Riket,Hela Sverige,,,,,,,
+rike,entity_set,geo,Riket,Hela Sverige.,,,,,,,
 name,string,,Namn,,,,,,,,
-deso_type,string,,Områdestyp,"Centrum, Tätort eller Omland",_none,,,,,,
+deso_type,string,,Områdestyp,"Centrum, tätort eller omland.",_none,,,,,,
 year,time,,År,Årsnivå.,,,,,,,
 domain,string,,,,,,,,,,
 description,string,,,,,,,,,,
@@ -21,27 +21,27 @@ format,string,,,,,,,,,,
 color,string,,,,,,,,,,
 antal,measure,,Antal invånare,Antal invånare i området.,ibf_demo,,,Antal invånare,Invånare,,
 mean_kvinna,measure,,Andel kvinnor,Andel kvinnor i området.,ibf_demo,,,Andel kvinnor,Kvinnor,,share
+mean_man,measure,,Andel män,Andel män i området.,ibf_demo,,,Andel män,Män,,share
 mean_invand,measure,,Utrikesfödda,Andel utrikesfödda i området.,ibf_demo,,,Utrikesfödda,Utrikesfödda,,share
 mean_invbak,measure,,Utländsk bakgrund,"Andel med utrikes bakgrund i området, definierat som utrikesfödd eller med minst en utrikesfödd förälder.",ibf_demo,,,Utländsk bakgrund,Utländsk bakgrund,,share
+mean_barn,measure,,Andel barn (under 18 år),Andel barn (under 18 års ålder) i området.,ibf_demo,,,Andel barn,Barn,,share
+mean_pensionar,measure,,Andel 65+ år,Andel 65+ års ålder i området.,ibf_demo,,,65+ år,65+ år,,share
 mean_alder,measure,,Medelålder,Medelålder i området.,ibf_demo,,,Medelålder,Medelålder,,
 mean_dispink_20_64,measure,,"Disponibel årsinkomst (1000 SEK, 20-64 år)",Genomsnittlig disponibel årsinkomst i tusentals kronor för individer mellan 20-64 år i området. Disponibel inkomst definieras som inkomst efter skatter och transfereringar.,ibf_ekonomi,,,Disponibel årsinkomst,Inkomst,,
 mean_eftergym_25_64,measure,,Eftergymnasial utbildning (25-64 år),Andel mellan 25-64 år med eftergymnasial utbildning i området.,ibf_ekonomi,,,Eftergymnasial utbildning,Eftergymnasial utbildning,,share
 mean_sysselsatt_25_64,measure,,Sysselsättning (25-64 år),Andel sysselsatta mellan 25-64 år i området. Mätt som sysselsatt under november månad.,ibf_ekonomi,,,Sysselsättning,Sysselsättning,,share
-mean_arsmodell,measure,,Årsmodell (Personbilar),Genomsnittlig årsmodell av personbilar i området.,ibf_fordon,,,Årsmodell,Årsmodell (personbilar),,
-mean_korstracka,measure,,Körsträckor (Personbilar),Genomsnittlig körsträcka av personbilar i området.,ibf_fordon,,,Körsträckor,Körsträckor (personbilar),,
-mean_antal_bilar,measure,,Antal personbilar,Genomsnittligt antal ägda personbilar per individ i området.,ibf_fordon,,,Antal personbilar,Antal personbilar,,
 median_dispink_20_64,measure,,"Disponibel årsinkomst, median (1000 SEK, 20-64 år)",Medianvärdet i disponibel årsinkomst i tusentals kronor för individer mellan 20-64 år i området. Disponibel inkomst definieras som inkomst efter skatter och transfereringar.,ibf_ekonomi,,,"Disponibel årsinkomst, median",Inkomst (median),,
 rank_dispink_20_64,measure,,"Disponibel årsinkomst, rank (20-64 år)",Områdets ranking i disponibel årsinkomst för individer mellan 20-64 år. Disponibel inkomst definieras som inkomst efter skatter och transfereringar.,ibf_ekonomi,,,"Disponibel årsinkomst, rank",Inkomst (rank),,
-inmovers,measure,,Andel inflyttade,"Andel inflyttade individer i området, beräknat utifrån antalet som inte bodde i området året före.",ibf_mobilitet,,,Andel inflyttade,Inflyttning,,share
-outmovers,measure,,Andel utflyttare,"Andel utflyttade individer i området, beräknat utifrån antalet som inte bor i området året efter.",ibf_mobilitet,,,Andel utflyttare,Utflyttning,,share
 mean_dispink_20_64_man,measure,,"Disponibel årsinkomst, män (1000 SEK, 20-64 år)",Genomsnittlig disponibel årsinkomst i tusentals kronor för män mellan 20-64 år i området. Disponibel inkomst definieras som inkomst efter skatter och transfereringar.,ibf_ekonomi,,,"Disponibel årsinkomst, män",Inkomst (män),,
 mean_eftergym_25_64_man,measure,,"Eftergymnasial utbildning, män (25-64 år)",Andel män mellan 25-64 år med eftergymnasial utbildning i området.,ibf_ekonomi,,,"Eftergymnasial utbildning, män",Eftergymnasial utbildning (män),,share
 mean_sysselsatt_25_64_man,measure,,"Sysselsättning, män (25-64 år)",Andel sysselsatta män mellan 25-64 år i området. Mätt som sysselsatt under november månad.,ibf_ekonomi,,,"Sysselsättning, män",Sysselsättning (män),,share
 mean_dispink_20_64_kvinna,measure,,"Disponibel årsinkomst, kvinnor (1000 SEK, 20-64 år)",Genomsnittlig disponibel årsinkomst i tusentals kronor för kvinnor mellan 20-64 år i området. Disponibel inkomst definieras som inkomst efter skatter och transfereringar.,ibf_ekonomi,,,"Disponibel årsinkomst, kvinnor",Inkomst (kvinnor),,
 mean_eftergym_25_64_kvinna,measure,,"Eftergymnasial utbildning, kvinnor (25-64 år)",Andel kvinnor mellan 25-64 år med eftergymnasial utbildning i området.,ibf_ekonomi,,,"Eftergymnasial utbildning, kvinnor",Eftergymnasial utbildning (kvinnor),,share
 mean_sysselsatt_25_64_kvinna,measure,,"Sysselsättning, kvinnor (25-64 år)",Andel sysselsatta kvinnor mellan 25-64 år i området. Mätt som sysselsatt under november månad.,ibf_ekonomi,,,"Sysselsättning, kvinnor",Sysselsättning (kvinnor),,share
-mean_barn,measure,,Andel barn (under 18 år),Andel barn (under 18 års ålder) i området.,ibf_demo,,,Andel barn,Barn,,share
-mean_pensionar,measure,,Andel 65+ år,Andel 65+ års ålder i området.,ibf_demo,,,65+ år,65+ år,,share
 mean_ekonbist,measure,,Ekonomiskt bistånd,Andel individer boende i ett hushåll med ekonomiskt bistånd i området.,ibf_ekonomi,,,Ekonomiskt bistånd,Ekonomiskt bistånd,,share
-mean_gymnasium,measure,,Gymnasieutbildning,Andel individer med gymnasieutbildning (men inte eftergymnasial utbildning) i området.,ibf_ekonomi,,,Gymnasieutbildning,Gymnasieutbildning,,share
-mean_man,measure,,Andel män,Andel män i området.,ibf_demo,,,Andel män,Män,,share
+mean_gymnasium,measure,,Gymnasieutbildning,"Andel individer med gymnasieutbildning, men som saknar eftergymnasial utbildning, i området.",ibf_ekonomi,,,Gymnasieutbildning,Gymnasieutbildning,,share
+mean_arsmodell,measure,,Årsmodell (Personbilar),Genomsnittlig årsmodell av personbilar i området.,ibf_fordon,,,Årsmodell,Årsmodell (personbilar),,
+mean_korstracka,measure,,Körsträckor (Personbilar),Genomsnittlig körsträcka av personbilar i området. Värden för åren 1999-2022.,ibf_fordon,,,Körsträckor,Körsträckor (personbilar),,
+mean_antal_bilar,measure,,Antal personbilar,Genomsnittligt antal ägda personbilar per individ i området.,ibf_fordon,,,Antal personbilar,Antal personbilar,,
+inmovers,measure,,Andel inflyttade,"Andel inflyttade individer i området, beräknat utifrån antalet som inte bodde i området året före. Värden för åren 1991-2022.",ibf_mobilitet,,,Andel inflyttade,Inflyttning,,share
+outmovers,measure,,Andel utflyttare,"Andel utflyttade individer i området, beräknat utifrån antalet som inte bor i området året efter. Värden för åren 1990-2021.",ibf_mobilitet,,,Andel utflyttare,Utflyttning,,share
