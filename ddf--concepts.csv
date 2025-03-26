@@ -19,17 +19,17 @@ name_short,string,,,,,,,,,,
 name_catalog,string,,,,,,,,,,
 format,string,,,,,,,,,,
 color,string,,,,,,,,,,
-antal,measure,,Antal invånare,Antal invånare i området.,"ibf_demo, _none",,,Antal invånare,Invånare,,
+antal,measure,,Antal invånare,Antal invånare i området.,"ibf_demo, _root",,,Antal invånare,Invånare,,
 mean_kvinna,measure,,Andel kvinnor,Andel kvinnor i området.,ibf_demo,,,Andel kvinnor,Kvinnor,,share
 mean_man,measure,,Andel män,Andel män i området.,ibf_demo,,,Andel män,Män,,share
-mean_invand,measure,,Utrikesfödda,Andel utrikesfödda i området.,"ibf_demo, _none",,,Utrikesfödda,Utrikesfödda,,share
+mean_invand,measure,,Utrikesfödda,Andel utrikesfödda i området.,"ibf_demo, _root",,,Utrikesfödda,Utrikesfödda,,share
 mean_invbak,measure,,Utländsk bakgrund,"Andel med utrikes bakgrund i området, definierat som utrikesfödd eller med minst en utrikesfödd förälder.",ibf_demo,,,Utländsk bakgrund,Utländsk bakgrund,,share
 mean_barn,measure,,Andel barn (under 18 år),Andel barn (under 18 års ålder) i området.,ibf_demo,,,Andel barn,Barn,,share
 mean_pensionar,measure,,Andel 65+ år,Andel 65+ års ålder i området.,ibf_demo,,,65+ år,65+ år,,share
 mean_alder,measure,,Medelålder,Medelålder i området.,ibf_demo,,,Medelålder,Medelålder,,
-mean_dispink_20_64,measure,,"Disponibel årsinkomst (1000 SEK, 20-64 år)",Genomsnittlig disponibel årsinkomst i tusentals kronor för individer mellan 20-64 år i området. Disponibel inkomst definieras som inkomst efter skatter och transfereringar.,"ibf_ekonomi, _none",,,Disponibel årsinkomst,Inkomst,,
-mean_eftergym_25_64,measure,,Eftergymnasial utbildning (25-64 år),Andel mellan 25-64 år med eftergymnasial utbildning i området.,"ibf_ekonomi, _none",,,Eftergymnasial utbildning,Eftergymnasial utbildning,,share
-mean_sysselsatt_25_64,measure,,Sysselsättning (25-64 år),Andel sysselsatta mellan 25-64 år i området. Mätt som sysselsatt under november månad.,"ibf_ekonomi, _none",,,Sysselsättning,Sysselsättning,,share
+mean_dispink_20_64,measure,,"Disponibel årsinkomst (1000 SEK, 20-64 år)",Genomsnittlig disponibel årsinkomst i tusentals kronor för individer mellan 20-64 år i området. Disponibel inkomst definieras som inkomst efter skatter och transfereringar.,"ibf_ekonomi, _root",,,Disponibel årsinkomst,Inkomst,,
+mean_eftergym_25_64,measure,,Eftergymnasial utbildning (25-64 år),Andel mellan 25-64 år med eftergymnasial utbildning i området.,"ibf_ekonomi, _root",,,Eftergymnasial utbildning,Eftergymnasial utbildning,,share
+mean_sysselsatt_25_64,measure,,Sysselsättning (25-64 år),Andel sysselsatta mellan 25-64 år i området. Mätt som sysselsatt under november månad.,"ibf_ekonomi, _root",,,Sysselsättning,Sysselsättning,,share
 median_dispink_20_64,measure,,"Disponibel årsinkomst, median (1000 SEK, 20-64 år)",Medianvärdet i disponibel årsinkomst i tusentals kronor för individer mellan 20-64 år i området. Disponibel inkomst definieras som inkomst efter skatter och transfereringar.,ibf_ekonomi,,,"Disponibel årsinkomst, median",Inkomst (median),,
 rank_dispink_20_64,measure,,"Disponibel årsinkomst, rank (20-64 år)",Områdets ranking i disponibel årsinkomst för individer mellan 20-64 år. Disponibel inkomst definieras som inkomst efter skatter och transfereringar.,ibf_ekonomi,,,"Disponibel årsinkomst, rank",Inkomst (rank),,
 mean_dispink_20_64_man,measure,,"Disponibel årsinkomst, män (1000 SEK, 20-64 år)",Genomsnittlig disponibel årsinkomst i tusentals kronor för män mellan 20-64 år i området. Disponibel inkomst definieras som inkomst efter skatter och transfereringar.,ibf_ekonomi,,,"Disponibel årsinkomst, män",Inkomst (män),,
@@ -38,10 +38,10 @@ mean_sysselsatt_25_64_man,measure,,"Sysselsättning, män (25-64 år)",Andel sys
 mean_dispink_20_64_kvinna,measure,,"Disponibel årsinkomst, kvinnor (1000 SEK, 20-64 år)",Genomsnittlig disponibel årsinkomst i tusentals kronor för kvinnor mellan 20-64 år i området. Disponibel inkomst definieras som inkomst efter skatter och transfereringar.,ibf_ekonomi,,,"Disponibel årsinkomst, kvinnor",Inkomst (kvinnor),,
 mean_eftergym_25_64_kvinna,measure,,"Eftergymnasial utbildning, kvinnor (25-64 år)",Andel kvinnor mellan 25-64 år med eftergymnasial utbildning i området.,ibf_ekonomi,,,"Eftergymnasial utbildning, kvinnor",Eftergymnasial utbildning (kvinnor),,share
 mean_sysselsatt_25_64_kvinna,measure,,"Sysselsättning, kvinnor (25-64 år)",Andel sysselsatta kvinnor mellan 25-64 år i området. Mätt som sysselsatt under november månad.,ibf_ekonomi,,,"Sysselsättning, kvinnor",Sysselsättning (kvinnor),,share
-mean_ekonbist,measure,,Ekonomiskt bistånd,Andel individer boende i ett hushåll med ekonomiskt bistånd i området.,"ibf_ekonomi, _none",,,Ekonomiskt bistånd,Ekonomiskt bistånd,,share
-mean_gymnasium,measure,,Gymnasieutbildning,"Andel individer med gymnasieutbildning, men som saknar eftergymnasial utbildning, i området.","ibf_ekonomi, _none",,,Gymnasieutbildning,Gymnasieutbildning,,share
+mean_ekonbist,measure,,Ekonomiskt bistånd,Andel individer boende i ett hushåll med ekonomiskt bistånd i området.,"ibf_ekonomi, _root",,,Ekonomiskt bistånd,Ekonomiskt bistånd,,share
+mean_gymnasium,measure,,Gymnasieutbildning,"Andel individer med gymnasieutbildning, men som saknar eftergymnasial utbildning, i området.","ibf_ekonomi, _root",,,Gymnasieutbildning,Gymnasieutbildning,,share
 mean_arsmodell,measure,,Årsmodell (Personbilar),Genomsnittlig årsmodell av personbilar i området.,ibf_fordon,,,Årsmodell,Årsmodell (personbilar),,
-mean_korstracka,measure,,Körsträckor (Personbilar),Genomsnittlig körsträcka av personbilar i området. Värden för åren 1999-2022.,ibf_fordon,,,Körsträckor,Körsträckor (personbilar),,
-mean_antal_bilar,measure,,Antal personbilar,Genomsnittligt antal ägda personbilar per individ i området.,ibf_fordon,,,Antal personbilar,Antal personbilar,,
+mean_korstracka,measure,,Körsträckor (Personbilar),Genomsnittlig körsträcka för personbilar i området. Värden för åren 1999-2022.,ibf_fordon,,,Körsträckor,Körsträckor (personbilar),,
+mean_antal_bilar,measure,,Antal personbilar,Antal personbilar per individ i området.,ibf_fordon,,,Antal personbilar,Antal personbilar,,
 inmovers,measure,,Andel inflyttade,"Andel inflyttade individer i området, beräknat utifrån antalet som inte bodde i området året före. Värden för åren 1991-2022.",ibf_mobilitet,,,Andel inflyttade,Inflyttning,,share
 outmovers,measure,,Andel utflyttare,"Andel utflyttade individer i området, beräknat utifrån antalet som inte bor i området året efter. Värden för åren 1990-2021.",ibf_mobilitet,,,Andel utflyttare,Utflyttning,,share
