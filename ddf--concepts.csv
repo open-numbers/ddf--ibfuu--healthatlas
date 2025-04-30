@@ -42,6 +42,6 @@ mean_ekonbist,measure,,Ekonomiskt bistånd,Andel individer boende i ett hushåll
 mean_gymnasium,measure,,Gymnasieutbildning,"Andel individer med gymnasieutbildning, men som saknar eftergymnasial utbildning, i området.","ibf_ekonomi, _root",,,Gymnasieutbildning,Gymnasieutbildning,,share
 mean_arsmodell,measure,,Årsmodell (Personbilar),Genomsnittlig årsmodell av personbilar i området.,ibf_fordon,,,Årsmodell,Årsmodell (personbilar),,
 mean_korstracka,measure,,Körsträckor (Personbilar),Genomsnittlig körsträcka för personbilar i området. Värden för åren 1999-2022.,ibf_fordon,,,Körsträckor,Körsträckor (personbilar),,
-mean_antal_bilar,measure,,Antal personbilar,Antal personbilar per individ i området.,ibf_fordon,,,Antal personbilar,Antal personbilar,,
+mean_antal_bilar,measure,,Antal personbilar,Antal personbilar per individ i området,ibf_fordon,,,Antal personbilar,Antal personbilar,,
 inmovers,measure,,Andel inflyttade,"Andel inflyttade individer i området, beräknat utifrån antalet som inte bodde i området året före. Värden för åren 1991-2022.",ibf_mobilitet,,,Andel inflyttade,Inflyttning,,share
 outmovers,measure,,Andel utflyttare,"Andel utflyttade individer i området, beräknat utifrån antalet som inte bor i området året efter. Värden för åren 1990-2021.",ibf_mobilitet,,,Andel utflyttare,Utflyttning,,share
