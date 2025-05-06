@@ -27,3 +27,6 @@ mean_invbak,measure,,Utländsk bakgrund,"Andel med utrikes bakgrund i området, 
 mean_barn,measure,,Andel barn (under 18 år),Andel barn (under 18 års ålder) i området.,ibf_demo,,,Andel barn,Barn,,share
 mean_pensionar,measure,,Andel 65+ år,Andel 65+ års ålder i området.,ibf_demo,,,65+ år,65+ år,,share
 mean_alder,measure,,Medelålder,Medelålder i området.,ibf_demo,,,Medelålder,Medelålder,,
+andel_vaccinerade,measure,,Andel vaccinerade,Andel vaccinerade.,ibf_covid,,,Andel vaccinerade,Andel vaccinerade,,share
+sjuk,measure,,Andel sjukhusbesök,Andel sjukhusbesök.,ibf_health,,,Andel sjukhusbesök,Andel sjukhusbesök,,share
+dod,measure,,Andel döda,Andel döda.,ibf_health,,,Andel döda,Andel döda,,share

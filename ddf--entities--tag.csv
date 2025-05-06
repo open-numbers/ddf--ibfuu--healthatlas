@@ -1,2 +1,4 @@
 tag,name,parent
 ibf_demo,Demografi,
+ibf_health,Hälsa,
+ibf_covid,Covidvaccination,

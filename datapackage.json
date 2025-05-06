@@ -7,7 +7,7 @@
     "description": "",
     "author": "",
     "license": "",
-    "created": "2025-05-05T19:24:55.997402+00:00",
+    "created": "2025-05-06T17:28:44.643811+00:00",
     "resources": [
         {
             "name": "ddf--concepts",
@@ -57,6 +57,27 @@
             }
         },
         {
+            "name": "ddf--datapoints--andel_vaccinerade--by--regso--year",
+            "path": "ddf--datapoints--andel_vaccinerade--by--regso--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "regso"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "andel_vaccinerade"
+                    }
+                ],
+                "primaryKey": [
+                    "regso",
+                    "year"
+                ]
+            }
+        },
+        {
             "name": "ddf--datapoints--antal--by--kommun--year",
             "path": "ddf--datapoints--antal--by--kommun--year.csv",
             "schema": {
@@ -90,6 +111,48 @@
                     },
                     {
                         "name": "antal"
+                    }
+                ],
+                "primaryKey": [
+                    "regso",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--dod--by--kommun--year",
+            "path": "ddf--datapoints--dod--by--kommun--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "kommun"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "dod"
+                    }
+                ],
+                "primaryKey": [
+                    "kommun",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--dod--by--regso--year",
+            "path": "ddf--datapoints--dod--by--regso--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "regso"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "dod"
                     }
                 ],
                 "primaryKey": [
@@ -384,6 +447,48 @@
                     },
                     {
                         "name": "mean_pensionar"
+                    }
+                ],
+                "primaryKey": [
+                    "regso",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--sjuk--by--kommun--year",
+            "path": "ddf--datapoints--sjuk--by--kommun--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "kommun"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "sjuk"
+                    }
+                ],
+                "primaryKey": [
+                    "kommun",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--sjuk--by--regso--year",
+            "path": "ddf--datapoints--sjuk--by--regso--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "regso"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "sjuk"
                     }
                 ],
                 "primaryKey": [
@@ -972,6 +1077,26 @@
                     "geo",
                     "year"
                 ],
+                "value": "andel_vaccinerade",
+                "resources": [
+                    "ddf--datapoints--andel_vaccinerade--by--regso--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "regso",
+                    "year"
+                ],
+                "value": "andel_vaccinerade",
+                "resources": [
+                    "ddf--datapoints--andel_vaccinerade--by--regso--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geo",
+                    "year"
+                ],
                 "value": "antal",
                 "resources": [
                     "ddf--datapoints--antal--by--kommun--year",
@@ -996,6 +1121,37 @@
                 "value": "antal",
                 "resources": [
                     "ddf--datapoints--antal--by--regso--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geo",
+                    "year"
+                ],
+                "value": "dod",
+                "resources": [
+                    "ddf--datapoints--dod--by--kommun--year",
+                    "ddf--datapoints--dod--by--regso--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "kommun",
+                    "year"
+                ],
+                "value": "dod",
+                "resources": [
+                    "ddf--datapoints--dod--by--kommun--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "regso",
+                    "year"
+                ],
+                "value": "dod",
+                "resources": [
+                    "ddf--datapoints--dod--by--regso--year"
                 ]
             },
             {
@@ -1213,6 +1369,37 @@
                 "value": "mean_pensionar",
                 "resources": [
                     "ddf--datapoints--mean_pensionar--by--regso--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geo",
+                    "year"
+                ],
+                "value": "sjuk",
+                "resources": [
+                    "ddf--datapoints--sjuk--by--kommun--year",
+                    "ddf--datapoints--sjuk--by--regso--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "kommun",
+                    "year"
+                ],
+                "value": "sjuk",
+                "resources": [
+                    "ddf--datapoints--sjuk--by--kommun--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "regso",
+                    "year"
+                ],
+                "value": "sjuk",
+                "resources": [
+                    "ddf--datapoints--sjuk--by--regso--year"
                 ]
             }
         ],
