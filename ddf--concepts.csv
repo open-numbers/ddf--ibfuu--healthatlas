@@ -29,4 +29,4 @@ mean_pensionar,measure,,Andel 65+ år,Andel 65+ års ålder i området.,ibf_demo
 mean_alder,measure,,Medelålder,Medelålder i området.,ibf_demo,,,Medelålder,Medelålder,,
 andel_vaccinerade,measure,,Andel vaccinerade,Andel vaccinerade. 18+ år,ibf_covid,,,Andel vaccinerade,Andel vaccinerade,,share
 sjuk,measure,,Andel sjukhusbesök,Andel sjukhusbesök.,ibf_health,,,Andel sjukhusbesök,Andel sjukhusbesök,,share
-dod,measure,,Andel döda,Andel döda per 1000 invånare.,ibf_health,,,Andel döda,Andel döda,,share
+dod,measure,,Antal döda,Antal döda per 1000 invånare.,ibf_health,,,Antal döda,Antal döda,,
