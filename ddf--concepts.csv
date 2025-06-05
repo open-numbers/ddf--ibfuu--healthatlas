@@ -30,3 +30,4 @@ mean_alder,measure,,Medelålder,Medelålder i området.,ibf_demo,,,Medelålder,M
 andel_vaccinerade,measure,,Andel vaccinerade,Andel vaccinerade. 18+ år,ibf_covid,,,Andel vaccinerade,Andel vaccinerade,,share
 sjuk,measure,,Andel sjukhusbesök,Andel sjukhusbesök.,ibf_health,,,Andel sjukhusbesök,Andel sjukhusbesök,,share
 dod,measure,,Antal döda,Antal döda per 1000 invånare.,ibf_health,,,Antal döda,Antal döda,,
+andel_vaccinerade_50,measure,,"Andel vaccinerade, 50+ år",Andel vaccinerade. 50+ år,ibf_covid,,,"Andel vaccinerade, 50+ år","Andel vaccinerade, 50+ år",,share
