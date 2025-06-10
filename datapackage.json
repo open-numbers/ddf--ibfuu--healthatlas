@@ -7,7 +7,7 @@
     "description": "",
     "author": "",
     "license": "",
-    "created": "2025-06-05T12:43:23.538071+00:00",
+    "created": "2025-06-10T10:56:39.024518+00:00",
     "resources": [
         {
             "name": "ddf--concepts",
@@ -57,8 +57,29 @@
             }
         },
         {
-            "name": "ddf--datapoints--andel_vaccinerade--by--regso--year",
-            "path": "ddf--datapoints--andel_vaccinerade--by--regso--year.csv",
+            "name": "ddf--datapoints--andel_vaccinerade_18--by--kommun--year",
+            "path": "ddf--datapoints--andel_vaccinerade_18--by--kommun--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "kommun"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "andel_vaccinerade_18"
+                    }
+                ],
+                "primaryKey": [
+                    "kommun",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--andel_vaccinerade_18--by--regso--year",
+            "path": "ddf--datapoints--andel_vaccinerade_18--by--regso--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -68,7 +89,49 @@
                         "name": "year"
                     },
                     {
-                        "name": "andel_vaccinerade"
+                        "name": "andel_vaccinerade_18"
+                    }
+                ],
+                "primaryKey": [
+                    "regso",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--andel_vaccinerade_18_49--by--kommun--year",
+            "path": "ddf--datapoints--andel_vaccinerade_18_49--by--kommun--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "kommun"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "andel_vaccinerade_18_49"
+                    }
+                ],
+                "primaryKey": [
+                    "kommun",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--andel_vaccinerade_18_49--by--regso--year",
+            "path": "ddf--datapoints--andel_vaccinerade_18_49--by--regso--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "regso"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "andel_vaccinerade_18_49"
                     }
                 ],
                 "primaryKey": [
@@ -1119,9 +1182,20 @@
                     "geo",
                     "year"
                 ],
-                "value": "andel_vaccinerade",
+                "value": "andel_vaccinerade_18",
                 "resources": [
-                    "ddf--datapoints--andel_vaccinerade--by--regso--year"
+                    "ddf--datapoints--andel_vaccinerade_18--by--kommun--year",
+                    "ddf--datapoints--andel_vaccinerade_18--by--regso--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "kommun",
+                    "year"
+                ],
+                "value": "andel_vaccinerade_18",
+                "resources": [
+                    "ddf--datapoints--andel_vaccinerade_18--by--kommun--year"
                 ]
             },
             {
@@ -1129,9 +1203,40 @@
                     "regso",
                     "year"
                 ],
-                "value": "andel_vaccinerade",
+                "value": "andel_vaccinerade_18",
                 "resources": [
-                    "ddf--datapoints--andel_vaccinerade--by--regso--year"
+                    "ddf--datapoints--andel_vaccinerade_18--by--regso--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geo",
+                    "year"
+                ],
+                "value": "andel_vaccinerade_18_49",
+                "resources": [
+                    "ddf--datapoints--andel_vaccinerade_18_49--by--kommun--year",
+                    "ddf--datapoints--andel_vaccinerade_18_49--by--regso--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "kommun",
+                    "year"
+                ],
+                "value": "andel_vaccinerade_18_49",
+                "resources": [
+                    "ddf--datapoints--andel_vaccinerade_18_49--by--kommun--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "regso",
+                    "year"
+                ],
+                "value": "andel_vaccinerade_18_49",
+                "resources": [
+                    "ddf--datapoints--andel_vaccinerade_18_49--by--regso--year"
                 ]
             },
             {
