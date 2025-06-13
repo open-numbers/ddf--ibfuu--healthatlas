@@ -32,3 +32,5 @@ dod,measure,,Antal döda,Antal döda per 1000 invånare.,ibf_health,,,Antal död
 andel_vaccinerade_18,measure,,"Andel vaccinerade, 18+ år","Andel vaccinerade i området, 18+ år.",ibf_covid,,,"Andel vaccinerade, 18+ år","Andel vaccinerade, 18+ år",,share
 andel_vaccinerade_50,measure,,"Andel vaccinerade, 50+ år","Andel vaccinerade i området, 50+ år.",ibf_covid,,,"Andel vaccinerade, 50+ år","Andel vaccinerade, 50+ år",,share
 andel_vaccinerade_18_49,measure,,"Andel vaccinerade, 18-49 år","Andel vaccinerade i området, 18-49 år.",ibf_covid,,,"Andel vaccinerade, 18-49 år","Andel vaccinerade, 18-49 år",,share
+andel_antidepp,measure,,Andel antidepressiva,Andel antidepressiva,ibf_health,,,Andel antidepressiva,Andel antidepressiva,,share
+andel_adhd,measure,,Andel ADHD,Andel ADHD,ibf_health,,,Andel ADHD,Andel ADHD,,share
