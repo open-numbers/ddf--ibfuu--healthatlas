@@ -7,7 +7,7 @@
     "description": "",
     "author": "",
     "license": "",
-    "created": "2025-06-13T11:29:31.713623+00:00",
+    "created": "2025-06-13T13:24:28.110510+00:00",
     "resources": [
         {
             "name": "ddf--concepts",
@@ -57,8 +57,8 @@
             }
         },
         {
-            "name": "ddf--datapoints--andel_adhd--by--kommun--year",
-            "path": "ddf--datapoints--andel_adhd--by--kommun--year.csv",
+            "name": "ddf--datapoints--andel_adhd_8_64--by--kommun--year",
+            "path": "ddf--datapoints--andel_adhd_8_64--by--kommun--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -68,7 +68,7 @@
                         "name": "year"
                     },
                     {
-                        "name": "andel_adhd"
+                        "name": "andel_adhd_8_64"
                     }
                 ],
                 "primaryKey": [
@@ -78,8 +78,8 @@
             }
         },
         {
-            "name": "ddf--datapoints--andel_adhd--by--regso--year",
-            "path": "ddf--datapoints--andel_adhd--by--regso--year.csv",
+            "name": "ddf--datapoints--andel_adhd_8_64--by--regso--year",
+            "path": "ddf--datapoints--andel_adhd_8_64--by--regso--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -89,7 +89,7 @@
                         "name": "year"
                     },
                     {
-                        "name": "andel_adhd"
+                        "name": "andel_adhd_8_64"
                     }
                 ],
                 "primaryKey": [
@@ -99,8 +99,8 @@
             }
         },
         {
-            "name": "ddf--datapoints--andel_antidepp--by--kommun--year",
-            "path": "ddf--datapoints--andel_antidepp--by--kommun--year.csv",
+            "name": "ddf--datapoints--andel_antidepp_8_64--by--kommun--year",
+            "path": "ddf--datapoints--andel_antidepp_8_64--by--kommun--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -110,7 +110,7 @@
                         "name": "year"
                     },
                     {
-                        "name": "andel_antidepp"
+                        "name": "andel_antidepp_8_64"
                     }
                 ],
                 "primaryKey": [
@@ -120,8 +120,8 @@
             }
         },
         {
-            "name": "ddf--datapoints--andel_antidepp--by--regso--year",
-            "path": "ddf--datapoints--andel_antidepp--by--regso--year.csv",
+            "name": "ddf--datapoints--andel_antidepp_8_64--by--regso--year",
+            "path": "ddf--datapoints--andel_antidepp_8_64--by--regso--year.csv",
             "schema": {
                 "fields": [
                     {
@@ -131,7 +131,7 @@
                         "name": "year"
                     },
                     {
-                        "name": "andel_antidepp"
+                        "name": "andel_antidepp_8_64"
                     }
                 ],
                 "primaryKey": [
@@ -435,6 +435,90 @@
             }
         },
         {
+            "name": "ddf--datapoints--mean_dispink_20_64--by--kommun--year",
+            "path": "ddf--datapoints--mean_dispink_20_64--by--kommun--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "kommun"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "mean_dispink_20_64"
+                    }
+                ],
+                "primaryKey": [
+                    "kommun",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--mean_dispink_20_64--by--regso--year",
+            "path": "ddf--datapoints--mean_dispink_20_64--by--regso--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "regso"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "mean_dispink_20_64"
+                    }
+                ],
+                "primaryKey": [
+                    "regso",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--mean_eftergym_25_64--by--kommun--year",
+            "path": "ddf--datapoints--mean_eftergym_25_64--by--kommun--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "kommun"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "mean_eftergym_25_64"
+                    }
+                ],
+                "primaryKey": [
+                    "kommun",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--mean_eftergym_25_64--by--regso--year",
+            "path": "ddf--datapoints--mean_eftergym_25_64--by--regso--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "regso"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "mean_eftergym_25_64"
+                    }
+                ],
+                "primaryKey": [
+                    "regso",
+                    "year"
+                ]
+            }
+        },
+        {
             "name": "ddf--datapoints--mean_invand--by--kommun--year",
             "path": "ddf--datapoints--mean_invand--by--kommun--year.csv",
             "schema": {
@@ -636,6 +720,48 @@
                     },
                     {
                         "name": "mean_pensionar"
+                    }
+                ],
+                "primaryKey": [
+                    "regso",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--mean_sysselsatt_25_64--by--kommun--year",
+            "path": "ddf--datapoints--mean_sysselsatt_25_64--by--kommun--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "kommun"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "mean_sysselsatt_25_64"
+                    }
+                ],
+                "primaryKey": [
+                    "kommun",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--mean_sysselsatt_25_64--by--regso--year",
+            "path": "ddf--datapoints--mean_sysselsatt_25_64--by--regso--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "regso"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "mean_sysselsatt_25_64"
                     }
                 ],
                 "primaryKey": [
@@ -1266,10 +1392,10 @@
                     "geo",
                     "year"
                 ],
-                "value": "andel_adhd",
+                "value": "andel_adhd_8_64",
                 "resources": [
-                    "ddf--datapoints--andel_adhd--by--kommun--year",
-                    "ddf--datapoints--andel_adhd--by--regso--year"
+                    "ddf--datapoints--andel_adhd_8_64--by--kommun--year",
+                    "ddf--datapoints--andel_adhd_8_64--by--regso--year"
                 ]
             },
             {
@@ -1277,9 +1403,9 @@
                     "kommun",
                     "year"
                 ],
-                "value": "andel_adhd",
+                "value": "andel_adhd_8_64",
                 "resources": [
-                    "ddf--datapoints--andel_adhd--by--kommun--year"
+                    "ddf--datapoints--andel_adhd_8_64--by--kommun--year"
                 ]
             },
             {
@@ -1287,9 +1413,9 @@
                     "regso",
                     "year"
                 ],
-                "value": "andel_adhd",
+                "value": "andel_adhd_8_64",
                 "resources": [
-                    "ddf--datapoints--andel_adhd--by--regso--year"
+                    "ddf--datapoints--andel_adhd_8_64--by--regso--year"
                 ]
             },
             {
@@ -1297,10 +1423,10 @@
                     "geo",
                     "year"
                 ],
-                "value": "andel_antidepp",
+                "value": "andel_antidepp_8_64",
                 "resources": [
-                    "ddf--datapoints--andel_antidepp--by--kommun--year",
-                    "ddf--datapoints--andel_antidepp--by--regso--year"
+                    "ddf--datapoints--andel_antidepp_8_64--by--kommun--year",
+                    "ddf--datapoints--andel_antidepp_8_64--by--regso--year"
                 ]
             },
             {
@@ -1308,9 +1434,9 @@
                     "kommun",
                     "year"
                 ],
-                "value": "andel_antidepp",
+                "value": "andel_antidepp_8_64",
                 "resources": [
-                    "ddf--datapoints--andel_antidepp--by--kommun--year"
+                    "ddf--datapoints--andel_antidepp_8_64--by--kommun--year"
                 ]
             },
             {
@@ -1318,9 +1444,9 @@
                     "regso",
                     "year"
                 ],
-                "value": "andel_antidepp",
+                "value": "andel_antidepp_8_64",
                 "resources": [
-                    "ddf--datapoints--andel_antidepp--by--regso--year"
+                    "ddf--datapoints--andel_antidepp_8_64--by--regso--year"
                 ]
             },
             {
@@ -1545,6 +1671,68 @@
                     "geo",
                     "year"
                 ],
+                "value": "mean_dispink_20_64",
+                "resources": [
+                    "ddf--datapoints--mean_dispink_20_64--by--kommun--year",
+                    "ddf--datapoints--mean_dispink_20_64--by--regso--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "kommun",
+                    "year"
+                ],
+                "value": "mean_dispink_20_64",
+                "resources": [
+                    "ddf--datapoints--mean_dispink_20_64--by--kommun--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "regso",
+                    "year"
+                ],
+                "value": "mean_dispink_20_64",
+                "resources": [
+                    "ddf--datapoints--mean_dispink_20_64--by--regso--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geo",
+                    "year"
+                ],
+                "value": "mean_eftergym_25_64",
+                "resources": [
+                    "ddf--datapoints--mean_eftergym_25_64--by--kommun--year",
+                    "ddf--datapoints--mean_eftergym_25_64--by--regso--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "kommun",
+                    "year"
+                ],
+                "value": "mean_eftergym_25_64",
+                "resources": [
+                    "ddf--datapoints--mean_eftergym_25_64--by--kommun--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "regso",
+                    "year"
+                ],
+                "value": "mean_eftergym_25_64",
+                "resources": [
+                    "ddf--datapoints--mean_eftergym_25_64--by--regso--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geo",
+                    "year"
+                ],
                 "value": "mean_invand",
                 "resources": [
                     "ddf--datapoints--mean_invand--by--kommun--year",
@@ -1693,6 +1881,37 @@
                 "value": "mean_pensionar",
                 "resources": [
                     "ddf--datapoints--mean_pensionar--by--regso--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geo",
+                    "year"
+                ],
+                "value": "mean_sysselsatt_25_64",
+                "resources": [
+                    "ddf--datapoints--mean_sysselsatt_25_64--by--kommun--year",
+                    "ddf--datapoints--mean_sysselsatt_25_64--by--regso--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "kommun",
+                    "year"
+                ],
+                "value": "mean_sysselsatt_25_64",
+                "resources": [
+                    "ddf--datapoints--mean_sysselsatt_25_64--by--kommun--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "regso",
+                    "year"
+                ],
+                "value": "mean_sysselsatt_25_64",
+                "resources": [
+                    "ddf--datapoints--mean_sysselsatt_25_64--by--regso--year"
                 ]
             },
             {
