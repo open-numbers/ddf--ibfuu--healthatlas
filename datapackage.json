@@ -7,7 +7,7 @@
     "description": "",
     "author": "",
     "license": "",
-    "created": "2025-06-13T13:24:28.110510+00:00",
+    "created": "2025-06-19T16:52:55.658929+00:00",
     "resources": [
         {
             "name": "ddf--concepts",
@@ -225,6 +225,48 @@
             }
         },
         {
+            "name": "ddf--datapoints--andel_vaccinerade_25_35--by--kommun--year",
+            "path": "ddf--datapoints--andel_vaccinerade_25_35--by--kommun--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "kommun"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "andel_vaccinerade_25_35"
+                    }
+                ],
+                "primaryKey": [
+                    "kommun",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--andel_vaccinerade_25_35--by--regso--year",
+            "path": "ddf--datapoints--andel_vaccinerade_25_35--by--regso--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "regso"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "andel_vaccinerade_25_35"
+                    }
+                ],
+                "primaryKey": [
+                    "regso",
+                    "year"
+                ]
+            }
+        },
+        {
             "name": "ddf--datapoints--andel_vaccinerade_50--by--kommun--year",
             "path": "ddf--datapoints--andel_vaccinerade_50--by--kommun--year.csv",
             "schema": {
@@ -300,48 +342,6 @@
                     },
                     {
                         "name": "antal"
-                    }
-                ],
-                "primaryKey": [
-                    "regso",
-                    "year"
-                ]
-            }
-        },
-        {
-            "name": "ddf--datapoints--dod--by--kommun--year",
-            "path": "ddf--datapoints--dod--by--kommun--year.csv",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "kommun"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "dod"
-                    }
-                ],
-                "primaryKey": [
-                    "kommun",
-                    "year"
-                ]
-            }
-        },
-        {
-            "name": "ddf--datapoints--dod--by--regso--year",
-            "path": "ddf--datapoints--dod--by--regso--year.csv",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "regso"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "dod"
                     }
                 ],
                 "primaryKey": [
@@ -771,6 +771,48 @@
             }
         },
         {
+            "name": "ddf--datapoints--oppen--by--kommun--year",
+            "path": "ddf--datapoints--oppen--by--kommun--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "kommun"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "oppen"
+                    }
+                ],
+                "primaryKey": [
+                    "kommun",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--oppen--by--regso--year",
+            "path": "ddf--datapoints--oppen--by--regso--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "regso"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "oppen"
+                    }
+                ],
+                "primaryKey": [
+                    "regso",
+                    "year"
+                ]
+            }
+        },
+        {
             "name": "ddf--datapoints--sjuk--by--kommun--year",
             "path": "ddf--datapoints--sjuk--by--kommun--year.csv",
             "schema": {
@@ -804,6 +846,48 @@
                     },
                     {
                         "name": "sjuk"
+                    }
+                ],
+                "primaryKey": [
+                    "regso",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--sluten--by--kommun--year",
+            "path": "ddf--datapoints--sluten--by--kommun--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "kommun"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "sluten"
+                    }
+                ],
+                "primaryKey": [
+                    "kommun",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--sluten--by--regso--year",
+            "path": "ddf--datapoints--sluten--by--regso--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "regso"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "sluten"
                     }
                 ],
                 "primaryKey": [
@@ -1516,6 +1600,37 @@
                     "geo",
                     "year"
                 ],
+                "value": "andel_vaccinerade_25_35",
+                "resources": [
+                    "ddf--datapoints--andel_vaccinerade_25_35--by--kommun--year",
+                    "ddf--datapoints--andel_vaccinerade_25_35--by--regso--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "kommun",
+                    "year"
+                ],
+                "value": "andel_vaccinerade_25_35",
+                "resources": [
+                    "ddf--datapoints--andel_vaccinerade_25_35--by--kommun--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "regso",
+                    "year"
+                ],
+                "value": "andel_vaccinerade_25_35",
+                "resources": [
+                    "ddf--datapoints--andel_vaccinerade_25_35--by--regso--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geo",
+                    "year"
+                ],
                 "value": "andel_vaccinerade_50",
                 "resources": [
                     "ddf--datapoints--andel_vaccinerade_50--by--kommun--year",
@@ -1571,37 +1686,6 @@
                 "value": "antal",
                 "resources": [
                     "ddf--datapoints--antal--by--regso--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "geo",
-                    "year"
-                ],
-                "value": "dod",
-                "resources": [
-                    "ddf--datapoints--dod--by--kommun--year",
-                    "ddf--datapoints--dod--by--regso--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "kommun",
-                    "year"
-                ],
-                "value": "dod",
-                "resources": [
-                    "ddf--datapoints--dod--by--kommun--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "regso",
-                    "year"
-                ],
-                "value": "dod",
-                "resources": [
-                    "ddf--datapoints--dod--by--regso--year"
                 ]
             },
             {
@@ -1919,6 +2003,37 @@
                     "geo",
                     "year"
                 ],
+                "value": "oppen",
+                "resources": [
+                    "ddf--datapoints--oppen--by--kommun--year",
+                    "ddf--datapoints--oppen--by--regso--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "kommun",
+                    "year"
+                ],
+                "value": "oppen",
+                "resources": [
+                    "ddf--datapoints--oppen--by--kommun--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "regso",
+                    "year"
+                ],
+                "value": "oppen",
+                "resources": [
+                    "ddf--datapoints--oppen--by--regso--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geo",
+                    "year"
+                ],
                 "value": "sjuk",
                 "resources": [
                     "ddf--datapoints--sjuk--by--kommun--year",
@@ -1943,6 +2058,37 @@
                 "value": "sjuk",
                 "resources": [
                     "ddf--datapoints--sjuk--by--regso--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geo",
+                    "year"
+                ],
+                "value": "sluten",
+                "resources": [
+                    "ddf--datapoints--sluten--by--kommun--year",
+                    "ddf--datapoints--sluten--by--regso--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "kommun",
+                    "year"
+                ],
+                "value": "sluten",
+                "resources": [
+                    "ddf--datapoints--sluten--by--kommun--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "regso",
+                    "year"
+                ],
+                "value": "sluten",
+                "resources": [
+                    "ddf--datapoints--sluten--by--regso--year"
                 ]
             }
         ],
