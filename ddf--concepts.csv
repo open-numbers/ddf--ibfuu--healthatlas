@@ -19,23 +19,23 @@ name_short,string,,,,,,,,,,
 name_catalog,string,,,,,,,,,,
 format,string,,,,,,,,,,
 color,string,,,,,,,,,,
-antal,measure,,Antal invånare,Antal invånare i området.,"ibf_demo, _root",,,Antal invånare,Invånare,,
+antal,measure,,Antal invånare,Antal invånare i området.,ibf_demo,,,Antal invånare,Antal invånare,,
 mean_kvinna,measure,,Andel kvinnor,Andel kvinnor i området.,ibf_demo,,,Andel kvinnor,Kvinnor,,share
 mean_man,measure,,Andel män,Andel män i området.,ibf_demo,,,Andel män,Män,,share
-mean_invand,measure,,Utrikesfödda,Andel utrikesfödda i området.,"ibf_demo, _root",,,Utrikesfödda,Utrikesfödda,,share
-mean_invbak,measure,,Utländsk bakgrund,"Andel med utrikes bakgrund i området, definierat som utrikesfödd eller med minst en utrikesfödd förälder.",ibf_demo,,,Utländsk bakgrund,Utländsk bakgrund,,share
-mean_barn,measure,,Andel barn (under 18 år),Andel barn (under 18 års ålder) i området.,ibf_demo,,,Andel barn,Andel barn,,share
-mean_pensionar,measure,,Andel 65+ år,Andel 65+ års ålder i området.,ibf_demo,,,Andel 65+ år,Andel 65+ år,,share
-mean_alder,measure,,Medelålder,Medelålder i området.,ibf_demo,,,Medelålder,Medelålder,,
-mean_dispink_20_64,measure,,"Disponibel årsinkomst (1000 SEK, 20-64 år)",Genomsnittlig disponibel årsinkomst i tusentals kronor för individer mellan 20-64 år i området. Disponibel inkomst definieras som inkomst efter skatter och transfereringar. Inflationsjusterat med år 2022 som bas.,ibf_demo,,,Disponibel årsinkomst,Inkomst,,
-mean_eftergym_25_64,measure,,Eftergymnasial utbildning (25-64 år),Andel mellan 25-64 år med eftergymnasial utbildning i området.,ibf_demo,,,Eftergymnasial utbildning,Eftergymnasial utbildning,,share
-mean_sysselsatt_25_64,measure,,Sysselsättning (25-64 år),Andel sysselsatta mellan 25-64 år i området. Mätt som sysselsatt under november månad.,ibf_demo,,,Sysselsättning,Sysselsättning,,share
-andel_vaccinerade_18,measure,,"Andel vaccinerade, 18+ år","Andel vaccinerade i området, 18+ år.",ibf_covid,,,"Andel vaccinerade, 18+ år","Andel vaccinerade, 18+ år",,share
-andel_vaccinerade_50,measure,,"Andel vaccinerade, 50+ år","Andel vaccinerade i området, 50+ år.",ibf_covid,,,"Andel vaccinerade, 50+ år","Andel vaccinerade, 50+ år",,share
-andel_vaccinerade_18_49,measure,,"Andel vaccinerade, 18-49 år","Andel vaccinerade i området, 18-49 år.",ibf_covid,,,"Andel vaccinerade, 18-49 år","Andel vaccinerade, 18-49 år",,share
-andel_vaccinerade_25_35,measure,,"Andel vaccinerade, 25-35 år","Andel vaccinerade i området, 25-35 år.",ibf_health,,,"Andel vaccinerade, 25-35 år","Andel vaccinerade, 25-35 år",,share
-andel_antidepp_8_64,measure,,"Andel antidepressiva, 8-64 år","Andel med antidepressiv medicin i området, 8-64 år.",ibf_health,,,"Andel antidepressiva, 8-64 år","Andel antidepressiva, 8-64 år",,share
-andel_adhd_8_64,measure,,"Andel ADHD, 8-64 år","Andel med ADHD-medicin, 8-64 år.",ibf_health,,,"Andel ADHD, 8-64 år","Andel ADHD, 8-64 år",,share
-sjuk,measure,,Andel sjukhusbesök,Andel sjukhusbesök.,ibf_health,,,Andel sjukhusbesök,Andel sjukhusbesök,,share
-sluten,measure,,Andel sjukhusbesök (slutenvård),Andel sjukhusbesök (slutenvård).,ibf_health,,,Andel sjukhusbesök,"Andel sjukhusbesök, slutenvård",,share
-oppen,measure,,Andel sjukhusbesök (öppenvård),Andel sjukhusbesök (öppenvård).,ibf_health,,,Andel sjukhusbesök,"Andel sjukhusbesök, öppenvård",,share
+mean_invand,measure,,Utrikesfödda,Andel utrikesfödda individer i området.,ibf_demo,,,Utrikesfödda,Utrikesfödda,,share
+mean_invbak,measure,,Utländsk bakgrund,"Andel individer med utrikes bakgrund i området, definierat som utrikesfödd eller med minst en utrikesfödd förälder.",ibf_demo,,,Utländsk bakgrund,Utländsk bakgrund,,share
+mean_barn,measure,,Andel barn (under 18 år),Andel individer 18 år eller yngre i området.,ibf_demo,,,Andel barn,Andel barn,,share
+mean_pensionar,measure,,Andel 65+ år,Andel individer 65 år eller äldre i området.,ibf_demo,,,Andel 65+ år,Andel 65+ år,,share
+mean_alder,measure,,Medelålder,Genomsnittlig ålder i området.,"ibf_demo, _root",,,Medelålder,Medelålder,,
+mean_dispink_20_64,measure,,"Disponibel årsinkomst (1000 SEK, 20-64 år)",Genomsnittlig disponibel årsinkomst i tusentals kronor för individer mellan 20-64 år i området. Disponibel inkomst definieras som inkomst efter skatter och transfereringar. Inflationsjusterat med år 2022 som bas.,"ibf_demo, _root",,,Disponibel årsinkomst,Inkomst,,
+mean_eftergym_25_64,measure,,Eftergymnasial utbildning (25-64 år),Andel individer mellan 25-64 år med eftergymnasial utbildning i området.,"ibf_demo, _root",,,Eftergymnasial utbildning,Eftergymnasial utbildning,,share
+mean_sysselsatt_25_64,measure,,Sysselsättning (25-64 år),Andel sysselsatta individer mellan 25-64 år i området. Mätt som sysselsatt under november månad.,"ibf_demo, _root",,,Sysselsättning,Sysselsättning,,share
+andel_vaccinerade_18,measure,,"Andel vaccinerade, 18+ år",Andel individer 18 år och äldre i området med minst en dos Covid-19-vaccination år 2021.,ibf_covid,,,"Andel vaccinerade, 18+ år","Andel vaccinerade, 18+ år",,share
+andel_vaccinerade_50,measure,,"Andel vaccinerade, 50+ år",Andel individer 50 år och äldre i området med minst en dos Covid-19-vaccination år 2021.,"ibf_covid, _root",,,"Andel vaccinerade, 50+ år","Andel vaccinerade, 50+ år",,share
+andel_vaccinerade_18_49,measure,,"Andel vaccinerade, 18-49 år",Andel individer mellan 18-49 år i området med minst en dos Covid-19-vaccination år 2021.,ibf_covid,,,"Andel vaccinerade, 18-49 år","Andel vaccinerade, 18-49 år",,share
+andel_vaccinerade_25_35,measure,,"Andel vaccinerade, 25-35 år",Andel individer mellan 25-35 år i området med minst en dos Covid-19-vaccination år 2021.,ibf_covid,,,"Andel vaccinerade, 25-35 år","Andel vaccinerade, 25-35 år",,share
+andel_antidepp_8_64,measure,,"Andel antidepressiva, 8-64 år",Andel individer mellan 8-64 år i området som förskrivits antidepressiv medicin.,"ibf_health, _root",,,"Andel antidepressiva, 8-64 år","Andel antidepressiva, 8-64 år",,share
+andel_adhd_8_64,measure,,"Andel ADHD, 8-64 år",Andel individer mellan 8-64 år i området som förskrivits ADHD-medicin.,"ibf_health, _root",,,"Andel ADHD, 8-64 år","Andel ADHD, 8-64 år",,share
+sjuk,measure,,Andel sjukhusbesök,Andel individer i området med sjukhusbesök.,"ibf_health, _root",,,Andel sjukhusbesök,Andel sjukhusbesök,,share
+sluten,measure,,"Andel sjukhusbesök, slutenvård",Andel individer i området med sjukhusbesök i slutenvården.,"ibf_health, _root",,,"Andel sjukhusbesök, slutenvård","Andel sjukhusbesök, slutenvård",,share
+oppen,measure,,"Andel sjukhusbesök, öppenvård",Andel individer i området med sjukhusbesök i öppenvården.,"ibf_health, _root",,,"Andel sjukhusbesök, öppenvård","Andel sjukhusbesök, öppenvård",,share
