@@ -39,3 +39,4 @@ andel_adhd_8_64,measure,,"Andel ADHD, 8-64 år",Andel individer mellan 8-64 år 
 sjuk,measure,,Andel sjukhusbesök,Andel individer i området med sjukhusbesök.,ibf_health _root,,,Andel sjukhusbesök,Andel sjukhusbesök,,share
 sluten,measure,,"Andel sjukhusbesök, slutenvård",Andel individer i området med sjukhusbesök i slutenvården.,ibf_health _root,,,"Andel sjukhusbesök, slutenvård","Andel sjukhusbesök, slutenvård",,share
 oppen,measure,,"Andel sjukhusbesök, öppenvård",Andel individer i området med sjukhusbesök i öppenvården.,ibf_health _root,,,"Andel sjukhusbesök, öppenvård","Andel sjukhusbesök, öppenvård",,share
+andel_antidepp_12_20,measure,,"Andel antidepressiva, 12-20 år",Andel individer mellan 12-20 år i området som förskrivits antidepressiv medicin.,ibf_health _root,,,"Andel antidepressiva, 12-20 år","Andel antidepressiva, 12-20 år",,share

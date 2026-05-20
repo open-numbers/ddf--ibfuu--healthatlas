@@ -7,7 +7,7 @@
     "description": "",
     "author": "",
     "license": "",
-    "created": "2026-05-02T14:35:31.777501+00:00",
+    "created": "2026-05-20T21:23:27.628530+00:00",
     "resources": [
         {
             "name": "ddf--concepts",
@@ -90,6 +90,48 @@
                     },
                     {
                         "name": "andel_adhd_8_64"
+                    }
+                ],
+                "primaryKey": [
+                    "regso",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--andel_antidepp_12_20--by--kommun--year",
+            "path": "ddf--datapoints--andel_antidepp_12_20--by--kommun--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "kommun"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "andel_antidepp_12_20"
+                    }
+                ],
+                "primaryKey": [
+                    "kommun",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--andel_antidepp_12_20--by--regso--year",
+            "path": "ddf--datapoints--andel_antidepp_12_20--by--regso--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "regso"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "andel_antidepp_12_20"
                     }
                 ],
                 "primaryKey": [
@@ -1500,6 +1542,37 @@
                 "value": "andel_adhd_8_64",
                 "resources": [
                     "ddf--datapoints--andel_adhd_8_64--by--regso--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geo",
+                    "year"
+                ],
+                "value": "andel_antidepp_12_20",
+                "resources": [
+                    "ddf--datapoints--andel_antidepp_12_20--by--kommun--year",
+                    "ddf--datapoints--andel_antidepp_12_20--by--regso--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "kommun",
+                    "year"
+                ],
+                "value": "andel_antidepp_12_20",
+                "resources": [
+                    "ddf--datapoints--andel_antidepp_12_20--by--kommun--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "regso",
+                    "year"
+                ],
+                "value": "andel_antidepp_12_20",
+                "resources": [
+                    "ddf--datapoints--andel_antidepp_12_20--by--regso--year"
                 ]
             },
             {
