@@ -19,29 +19,193 @@ name_short,string,,,,,,,,,,
 name_catalog,string,,,,,,,,,,
 format,string,,,,,,,,,,
 color,string,,,,,,,,,,
-befolkning,measure,,Antal invånare,Antal folkbokförda invånare.,ibf_demo,,,Antal invånare,Antal invånare,,
-andel_kvinnor,measure,,Kvinnor,Andel kvinnor.,ibf_demo,,,Kvinnor,Kvinnor,,share
-andel_invand,measure,,Utrikesfödda,Andel utrikesfödda.,ibf_demo,,,Utrikesfödda,Utrikesfödda,,share
-andel_invbak,measure,,Utländsk bakgrund,"Andel med utrikes bakgrund i området, definierat som utrikesfödd eller med minst en utrikesfödd förälder.",ibf_demo,,,Utländsk bakgrund,Utländsk bakgrund,,share
-andel_antidepressiv,measure,,Antidepressiva läkemedel,Andel med uttag av antidepressiva läkemedel.,ibf_health,,,Antidepressiva läkemedel,Antidepressiva läkemedel,,share
-andel_adhd_lakemedel,measure,,ADHD-läkemedel,Andel med uttag av ADHD-läkemedel.,ibf_health,,,ADHD-läkemedel,ADHD-läkemedel,,share
-andel_oppenvard,measure,,Specialiserad öppenvård,Andel som besökt specialiserad öppenvård.,ibf_health,,,Specialiserad öppenvård,Specialiserad öppenvård,,share
-andel_slutenvard,measure,,Slutenvård,Andel som besök slutenvård.,ibf_health,,,Slutenvård,Slutenvård,,share
-medelalder,measure,,Medelålder,Medelålder.,ibf_demo,,,Medelålder,Medelålder,,
-andel_0_17,measure,,Andel 0-17 år,Andel invånare mellan 0-17 år.,ibf_demo,,,Andel 0-17 år,Andel 0-17 år,,share
-andel_65_plus,measure,,Andel 65+ år,Andel invånare 65 år och äldre.,ibf_demo,,,Andel 65+ år,Andel 65+ år,,share
-andel_antidepressiv_kvinnor,measure,,Antidepressiva läkemedel (kvinnor),Andel kvinnor med uttag av antidepressiva läkemedel.,ibf_health,,,Antidepressiva läkemedel,Antidepressiva läkemedel (kvinnor),,share
-andel_adhd_lakemedel_kvinnor,measure,,ADHD-läkemedel (kvinnor),Andel kvinnor med uttag av ADHD-läkemedel.,ibf_health,,,ADHD-läkemedel,ADHD-läkemedel (kvinnor),,share
-andel_oppenvard_kvinnor,measure,,Specialiserad öppenvård (kvinnor),Andel kvinnor som besökt specialiserad öppenvård.,ibf_health,,,Specialiserad öppenvård,Specialiserad öppenvård (kvinnor),,share
-andel_slutenvard_kvinnor,measure,,Slutenvård (kvinnor),Andel kvinnor som besök slutenvård.,ibf_health,,,Slutenvård,Slutenvård (kvinnor),,share
-andel_antidepressiv_man,measure,,Antidepressiva läkemedel (män),Andel män med uttag av antidepressiva läkemedel.,ibf_health,,,Antidepressiva läkemedel,Antidepressiva läkemedel (män),,share
-andel_adhd_lakemedel_man,measure,,ADHD-läkemedel (män),Andel män med uttag av ADHD-läkemedel.,ibf_health,,,ADHD-läkemedel,ADHD-läkemedel (män),,share
-andel_oppenvard_man,measure,,Specialiserad öppenvård (män),Andel män som besökt specialiserad öppenvård.,ibf_health,,,Specialiserad öppenvård,Specialiserad öppenvård (män),,share
-andel_slutenvard_man,measure,,Slutenvård (män),Andel män som besök slutenvård.,ibf_health,,,Slutenvård,Slutenvård (män),,share
-andel_sysselsatta_20_64,measure,,Sysselsättning (20-64 år),Andel sysselsatta invånare mellan 20-64 år.,ibf_socio,,,Sysselsättning,Sysselsättning,,share
-medel_inkomst_real2024_20_64,measure,,"Genomsnittlig förvärvsinkomst (20-64 år, tkr, 2024 års priser)",Genomsnittlig förvärvsinkomst i 1000-tals kronor för invånare mellan 20-64 år i 2024 års priser.,ibf_socio,,,Genomsnittlig förvärvsinkomst,Genomsnittlig förvärvsinkomst,,
-median_inkomst_real2024_20_64,measure,,"Median förvärvsinkomst (20-64 år, tkr, 2024 års priser)",Median förvärvsinkomst i 1000-tals kronor för invånare mellan 20-64 år i 2024 års priser.,ibf_socio,,,Median förvärvsinkomst,Median förvärvsinkomst,,
-medel_dispink_real2024_20_64,measure,,"Genomsnittlig disponibel inkomst (20-64 år, tkr, 2024 års priser)",Genomsnittlig disponibel inkomst i 1000-tals kronor för invånare mellan 20-64 år i 2024 års priser. Disponibel inkomst definieras som inkomst efter skatter och transfereringar.,ibf_socio,,,Genomsnittlig disponibel inkomst,Genomsnittlig disponibel inkomst,,
-median_dispink_real2024_20_64,measure,,"Median disponibel inkomst (20-64 år, tkr, 2024 års priser)",Median disponibel inkomst i 1000-tals kronor för invånare mellan 20-64 år i 2024 års priser. Disponibel inkomst definieras som inkomst efter skatter och transfereringar.,ibf_socio,,,Median disponibel inkomst,Median disponibel inkomst,,
-andel_eftergymnasial_25_64,measure,,Eftergymnasial utbildning (25-64 år),Andel invånare mellan 25-64 år med eftergymnasial utbildning.,ibf_socio,,,Eftergymnasial utbildning,Eftergymnasial utbildning,,share
-dodlighet,measure,,Dödlighet,Andel invånare vid slutet av föregående år som avlider under kalenderåret.,ibf_health,,,Dödlighet,Dödlighet,,share
+antal,measure,,Antal personer,"Antal personer i områdets befolkning.
+
+Personer i den årsvisa folkbokförda befolkningen räknas inom området. Varje person räknas en gång.
+
+Källa: SCB, Registret över totalbefolkningen (RTB); gruppindelning med personuppgifter.",ibf_demo,,,Antal personer,Antal personer,,
+mean_kvinna,measure,,Kvinnor,"Andel kvinnor i områdets befolkning.
+
+Antalet personer med registrerat kön kvinna divideras med antalet personer med känd könsuppgift.
+
+Källa: SCB, personuppgifter kopplade till RTB-populationen.",ibf_demo,,,Kvinnor,Kvinnor,,share
+mean_invand,measure,,Utrikes födda,"Andel utrikes födda i områdets befolkning.
+
+Antalet utrikes födda divideras med antalet personer med känd bakgrundsuppgift. Indelningen följer SCB:s klassificering av svensk och utländsk bakgrund.
+
+Källa: SCB, bakgrundsuppgifter från LISA.",ibf_demo,,,Utrikes födda,Utrikes födda,,share
+mean_invbak,measure,,Utrikes bakgrund,"Andel personer som är utrikes födda eller födda i Sverige med minst en utrikes född förälder.
+
+Antalet personer i dessa grupper divideras med antalet med känd bakgrundsuppgift. Indelningen följer SCB:s bakgrundsklassificering. Måttet är bredare än SCB:s standarddefinition av utländsk bakgrund.
+
+Källa: SCB, bakgrundsuppgifter från LISA.",ibf_demo,,,Utrikes bakgrund,Utrikes bakgrund,,share
+mean_antidepressiv,measure,,Antidepressiva läkemedel,"Andel av hela befolkningen i området som har minst ett registrerat uttag av antidepressiva läkemedel under kalenderåret.
+
+Antalet personer med minst en sådan registrering under året divideras med antalet personer med giltig uppgift i områdets årsbefolkning. Varje person räknas en gång. Alla ATC-koder som börjar med N06A ingår. Ingen depressionsdiagnos krävs.
+
+Källa: Socialstyrelsen, Läkemedelsregistret.",ibf_health,,,Antidepressiva läkemedel,Antidepressiva läkemedel,,share
+mean_adhd,measure,,ADHD-läkemedel,"Andel av hela befolkningen i området som har minst ett registrerat uttag av ADHD-läkemedel under kalenderåret.
+
+Antalet personer med minst en sådan registrering under året divideras med antalet personer med giltig uppgift i områdets årsbefolkning. Varje person räknas en gång. Ingår: ATC N06BA01, N06BA02, N06BA04, N06BA09, N06BA12 och C02AC02. Ingen ADHD-diagnos krävs.
+
+Källa: Socialstyrelsen, Läkemedelsregistret.",ibf_health,,,ADHD-läkemedel,ADHD-läkemedel,,share
+mean_oppen,measure,,Specialiserad öppenvård,"Andel av hela befolkningen i området som har minst en registrerad kontakt i specialiserad öppenvård under kalenderåret.
+
+Antalet personer med minst en sådan registrering under året divideras med antalet personer med giltig uppgift i områdets årsbefolkning. Varje person räknas en gång. Alla registrerade kontakter i den levererade specialiserade öppenvården ingår, utan ytterligare diagnos- eller specialitetsurval. Primärvård ingår inte.
+
+Källa: Socialstyrelsen, Patientregistret, specialiserad öppenvård.",ibf_health,,,Specialiserad öppenvård,Specialiserad öppenvård,,share
+mean_sluten,measure,,Slutenvård,"Andel av hela befolkningen i området som har minst ett registrerat slutenvårdstillfälle under kalenderåret.
+
+Antalet personer med minst en sådan registrering under året divideras med antalet personer med giltig uppgift i områdets årsbefolkning. Varje person räknas en gång. Alla registrerade slutenvårdstillfällen i leveransen ingår, oavsett diagnos och specialitet. Måttet avser personer, inte antal vårdtillfällen eller vårddygn.
+
+Källa: Socialstyrelsen, Patientregistret, slutenvård.",ibf_health,,,Slutenvård,Slutenvård,,share
+mean_alder,measure,,Medelålder,"Genomsnittlig ålder i områdets befolkning, uttryckt i år.
+
+Ålder beräknas som kalenderår minus födelseår. Medelvärdet beräknas bland personer med känd och giltig ålder. Avser den ålder personen uppnår under året.
+
+Källa: SCB, födelseår kopplat till RTB-populationen.",ibf_demo,,,Medelålder,Medelålder,,
+mean_alder_0_17,measure,,Barn och unga 0-17 år,"Andel av områdets befolkning som är 0–17 år.
+
+Antalet personer 0–17 år divideras med antalet personer med känd ålder. Ålder beräknas som kalenderår minus födelseår.
+
+Källa: SCB, födelseår kopplat till RTB-populationen.",ibf_demo,,,Barn och unga 0-17 år,Barn och unga 0-17 år,,share
+mean_alder_65_plus,measure,,Personer 65 år eller äldre,"Andel av områdets befolkning som är 65 år eller äldre.
+
+Antalet personer 65 år eller äldre divideras med antalet personer med känd ålder. Ålder beräknas som kalenderår minus födelseår.
+
+Källa: SCB, födelseår kopplat till RTB-populationen.",ibf_demo,,,Personer 65 år eller äldre,Personer 65 år eller äldre,,share
+mean_antidepressiv_kvinna,measure,,Antidepressiva läkemedel (kvinnor),"Andel av kvinnor i området som har minst ett registrerat uttag av antidepressiva läkemedel under kalenderåret.
+
+Antalet kvinnor med minst en sådan registrering under året divideras med antalet kvinnor med giltig uppgift i områdets årsbefolkning. Varje person räknas en gång. Alla ATC-koder som börjar med N06A ingår. Ingen depressionsdiagnos krävs.
+
+Källa: Socialstyrelsen, Läkemedelsregistret.",ibf_health,,,Antidepressiva läkemedel,Antidepressiva läkemedel (kvinnor),,share
+mean_adhd_kvinna,measure,,ADHD-läkemedel (kvinnor),"Andel av kvinnor i området som har minst ett registrerat uttag av ADHD-läkemedel under kalenderåret.
+
+Antalet kvinnor med minst en sådan registrering under året divideras med antalet kvinnor med giltig uppgift i områdets årsbefolkning. Varje person räknas en gång. Ingår: ATC N06BA01, N06BA02, N06BA04, N06BA09, N06BA12 och C02AC02. Ingen ADHD-diagnos krävs.
+
+Källa: Socialstyrelsen, Läkemedelsregistret.",ibf_health,,,ADHD-läkemedel,ADHD-läkemedel,,share
+mean_oppen_kvinna,measure,,Specialiserad öppenvård (kvinnor),"Andel av kvinnor i området som har minst en registrerad kontakt i specialiserad öppenvård under kalenderåret.
+
+Antalet kvinnor med minst en sådan registrering under året divideras med antalet kvinnor med giltig uppgift i områdets årsbefolkning. Varje person räknas en gång. Alla registrerade kontakter i den levererade specialiserade öppenvården ingår, utan ytterligare diagnos- eller specialitetsurval. Primärvård ingår inte.
+
+Källa: Socialstyrelsen, Patientregistret, specialiserad öppenvård.",ibf_health,,,Specialiserad öppenvård,Specialiserad öppenvård (kvinnor),,share
+mean_sluten_kvinna,measure,,Slutenvård (kvinnor),"Andel av kvinnor i området som har minst ett registrerat slutenvårdstillfälle under kalenderåret.
+
+Antalet kvinnor med minst en sådan registrering under året divideras med antalet kvinnor med giltig uppgift i områdets årsbefolkning. Varje person räknas en gång. Alla registrerade slutenvårdstillfällen i leveransen ingår, oavsett diagnos och specialitet. Måttet avser personer, inte antal vårdtillfällen eller vårddygn.
+
+Källa: Socialstyrelsen, Patientregistret, slutenvård.",ibf_health,,,Slutenvård,Slutenvård,,share
+mean_antidepressiv_man,measure,,Antidepressiva läkemedel (män),"Andel av män i området som har minst ett registrerat uttag av antidepressiva läkemedel under kalenderåret.
+
+Antalet män med minst en sådan registrering under året divideras med antalet män med giltig uppgift i områdets årsbefolkning. Varje person räknas en gång. Alla ATC-koder som börjar med N06A ingår. Ingen depressionsdiagnos krävs.
+
+Källa: Socialstyrelsen, Läkemedelsregistret.",ibf_health,,,Antidepressiva läkemedel,Antidepressiva läkemedel (män),,share
+mean_adhd_man,measure,,ADHD-läkemedel (män),"Andel av män i området som har minst ett registrerat uttag av ADHD-läkemedel under kalenderåret.
+
+Antalet män med minst en sådan registrering under året divideras med antalet män med giltig uppgift i områdets årsbefolkning. Varje person räknas en gång. Ingår: ATC N06BA01, N06BA02, N06BA04, N06BA09, N06BA12 och C02AC02. Ingen ADHD-diagnos krävs.
+
+Källa: Socialstyrelsen, Läkemedelsregistret.",ibf_health,,,ADHD-läkemedel,ADHD-läkemedel,,share
+mean_oppen_man,measure,,Specialiserad öppenvård (män),"Andel av män i området som har minst en registrerad kontakt i specialiserad öppenvård under kalenderåret.
+
+Antalet män med minst en sådan registrering under året divideras med antalet män med giltig uppgift i områdets årsbefolkning. Varje person räknas en gång. Alla registrerade kontakter i den levererade specialiserade öppenvården ingår, utan ytterligare diagnos- eller specialitetsurval. Primärvård ingår inte.
+
+Källa: Socialstyrelsen, Patientregistret, specialiserad öppenvård.",ibf_health,,,Specialiserad öppenvård,Specialiserad öppenvård (män),,share
+mean_sluten_man,measure,,Slutenvård (män),"Andel av män i området som har minst ett registrerat slutenvårdstillfälle under kalenderåret.
+
+Antalet män med minst en sådan registrering under året divideras med antalet män med giltig uppgift i områdets årsbefolkning. Varje person räknas en gång. Alla registrerade slutenvårdstillfällen i leveransen ingår, oavsett diagnos och specialitet. Måttet avser personer, inte antal vårdtillfällen eller vårddygn.
+
+Källa: Socialstyrelsen, Patientregistret, slutenvård.",ibf_health,,,Slutenvård,Slutenvård,,share
+mean_antidepressiv_0_17,measure,,Antidepressiva läkemedel (0-17 år),"Andel av personer 0–17 år i området som har minst ett registrerat uttag av antidepressiva läkemedel under kalenderåret.
+
+Antalet personer 0–17 år med minst en sådan registrering under året divideras med antalet personer 0–17 år med giltig uppgift i områdets årsbefolkning. Varje person räknas en gång. Alla ATC-koder som börjar med N06A ingår. Ingen depressionsdiagnos krävs.
+
+Källa: Socialstyrelsen, Läkemedelsregistret.",ibf_health,,,Antidepressiva läkemedel,Antidepressiva läkemedel (0-17 år),,share
+mean_adhd_0_17,measure,,ADHD-läkemedel (0-17 år),"Andel av personer 0–17 år i området som har minst ett registrerat uttag av ADHD-läkemedel under kalenderåret.
+
+Antalet personer 0–17 år med minst en sådan registrering under året divideras med antalet personer 0–17 år med giltig uppgift i områdets årsbefolkning. Varje person räknas en gång. Ingår: ATC N06BA01, N06BA02, N06BA04, N06BA09, N06BA12 och C02AC02. Ingen ADHD-diagnos krävs.
+
+Källa: Socialstyrelsen, Läkemedelsregistret.",ibf_health,,,ADHD-läkemedel,ADHD-läkemedel (0-17 år),,share
+mean_oppen_0_17,measure,,Specialiserad öppenvård (0-17 år),"Andel av personer 0–17 år i området som har minst en registrerad kontakt i specialiserad öppenvård under kalenderåret.
+
+Antalet personer 0–17 år med minst en sådan registrering under året divideras med antalet personer 0–17 år med giltig uppgift i områdets årsbefolkning. Varje person räknas en gång. Alla registrerade kontakter i den levererade specialiserade öppenvården ingår, utan ytterligare diagnos- eller specialitetsurval. Primärvård ingår inte.
+
+Källa: Socialstyrelsen, Patientregistret, specialiserad öppenvård.",ibf_health,,,Specialiserad öppenvård,Specialiserad öppenvård (0-17 år),,share
+mean_sluten_0_17,measure,,Slutenvård (0-17 år),"Andel av personer 0–17 år i området som har minst ett registrerat slutenvårdstillfälle under kalenderåret.
+
+Antalet personer 0–17 år med minst en sådan registrering under året divideras med antalet personer 0–17 år med giltig uppgift i områdets årsbefolkning. Varje person räknas en gång. Alla registrerade slutenvårdstillfällen i leveransen ingår, oavsett diagnos och specialitet. Måttet avser personer, inte antal vårdtillfällen eller vårddygn.
+
+Källa: Socialstyrelsen, Patientregistret, slutenvård.",ibf_health,,,Slutenvård,Slutenvård (0-17 år),,share
+mean_antidepressiv_18_64,measure,,Antidepressiva läkemedel (18-64 år),"Andel av personer 18–64 år i området som har minst ett registrerat uttag av antidepressiva läkemedel under kalenderåret.
+
+Antalet personer 18–64 år med minst en sådan registrering under året divideras med antalet personer 18–64 år med giltig uppgift i områdets årsbefolkning. Varje person räknas en gång. Alla ATC-koder som börjar med N06A ingår. Ingen depressionsdiagnos krävs.
+
+Källa: Socialstyrelsen, Läkemedelsregistret.",ibf_health,,,Antidepressiva läkemedel,Antidepressiva läkemedel (18-64 år),,share
+mean_adhd_18_64,measure,,ADHD-läkemedel (18-64 år),"Andel av personer 18–64 år i området som har minst ett registrerat uttag av ADHD-läkemedel under kalenderåret.
+
+Antalet personer 18–64 år med minst en sådan registrering under året divideras med antalet personer 18–64 år med giltig uppgift i områdets årsbefolkning. Varje person räknas en gång. Ingår: ATC N06BA01, N06BA02, N06BA04, N06BA09, N06BA12 och C02AC02. Ingen ADHD-diagnos krävs.
+
+Källa: Socialstyrelsen, Läkemedelsregistret.",ibf_health,,,ADHD-läkemedel,ADHD-läkemedel (18-64 år),,share
+mean_oppen_18_64,measure,,Specialiserad öppenvård (18-64 år),"Andel av personer 18–64 år i området som har minst en registrerad kontakt i specialiserad öppenvård under kalenderåret.
+
+Antalet personer 18–64 år med minst en sådan registrering under året divideras med antalet personer 18–64 år med giltig uppgift i områdets årsbefolkning. Varje person räknas en gång. Alla registrerade kontakter i den levererade specialiserade öppenvården ingår, utan ytterligare diagnos- eller specialitetsurval. Primärvård ingår inte.
+
+Källa: Socialstyrelsen, Patientregistret, specialiserad öppenvård.",ibf_health,,,Specialiserad öppenvård,Specialiserad öppenvård (18-64 år),,share
+mean_sluten_18_64,measure,,Slutenvård (18-64 år),"Andel av personer 18–64 år i området som har minst ett registrerat slutenvårdstillfälle under kalenderåret.
+
+Antalet personer 18–64 år med minst en sådan registrering under året divideras med antalet personer 18–64 år med giltig uppgift i områdets årsbefolkning. Varje person räknas en gång. Alla registrerade slutenvårdstillfällen i leveransen ingår, oavsett diagnos och specialitet. Måttet avser personer, inte antal vårdtillfällen eller vårddygn.
+
+Källa: Socialstyrelsen, Patientregistret, slutenvård.",ibf_health,,,Slutenvård,Slutenvård (18-64 år),,share
+mean_antidepressiv_65_plus,measure,,Antidepressiva läkemedel (65 år eller äldre),"Andel av personer 65 år eller äldre i området som har minst ett registrerat uttag av antidepressiva läkemedel under kalenderåret.
+
+Antalet personer 65 år eller äldre med minst en sådan registrering under året divideras med antalet personer 65 år eller äldre med giltig uppgift i områdets årsbefolkning. Varje person räknas en gång. Alla ATC-koder som börjar med N06A ingår. Ingen depressionsdiagnos krävs.
+
+Källa: Socialstyrelsen, Läkemedelsregistret.",ibf_health,,,Antidepressiva läkemedel,Antidepressiva läkemedel (65 år eller äldre),,share
+mean_adhd_65_plus,measure,,ADHD-läkemedel (65 år eller äldre),"Andel av personer 65 år eller äldre i området som har minst ett registrerat uttag av ADHD-läkemedel under kalenderåret.
+
+Antalet personer 65 år eller äldre med minst en sådan registrering under året divideras med antalet personer 65 år eller äldre med giltig uppgift i områdets årsbefolkning. Varje person räknas en gång. Ingår: ATC N06BA01, N06BA02, N06BA04, N06BA09, N06BA12 och C02AC02. Ingen ADHD-diagnos krävs.
+
+Källa: Socialstyrelsen, Läkemedelsregistret.",ibf_health,,,ADHD-läkemedel,ADHD-läkemedel (65 år eller äldre),,share
+mean_oppen_65_plus,measure,,Specialiserad öppenvård (65 år eller äldre),"Andel av personer 65 år eller äldre i området som har minst en registrerad kontakt i specialiserad öppenvård under kalenderåret.
+
+Antalet personer 65 år eller äldre med minst en sådan registrering under året divideras med antalet personer 65 år eller äldre med giltig uppgift i områdets årsbefolkning. Varje person räknas en gång. Alla registrerade kontakter i den levererade specialiserade öppenvården ingår, utan ytterligare diagnos- eller specialitetsurval. Primärvård ingår inte.
+
+Källa: Socialstyrelsen, Patientregistret, specialiserad öppenvård.",ibf_health,,,Specialiserad öppenvård,Specialiserad öppenvård (65 år eller äldre),,share
+mean_sluten_65_plus,measure,,Slutenvård (65 år eller äldre),"Andel av personer 65 år eller äldre i området som har minst ett registrerat slutenvårdstillfälle under kalenderåret.
+
+Antalet personer 65 år eller äldre med minst en sådan registrering under året divideras med antalet personer 65 år eller äldre med giltig uppgift i områdets årsbefolkning. Varje person räknas en gång. Alla registrerade slutenvårdstillfällen i leveransen ingår, oavsett diagnos och specialitet. Måttet avser personer, inte antal vårdtillfällen eller vårddygn.
+
+Källa: Socialstyrelsen, Patientregistret, slutenvård.",ibf_health,,,Slutenvård,Slutenvård (65 år eller äldre),,share
+mean_sysselsatt_20_64,measure,,Sysselsatta (20-64 år),"Andel sysselsatta bland personer 20–64 år i området.
+
+Antalet personer 20–64 år som klassificeras som sysselsatta divideras med antalet i samma ålder med känd sysselsättningsstatus. Klassificeringen bygger på respektive års registeruppgift.
+
+Källa: SCB, LISA, uppgifter om sysselsättningsstatus.",ibf_socio,,,Sysselsatta,Sysselsatta (20-64 år),,share
+mean_inkomst_20_64,measure,,"Genomsnittlig förvärvsersättning (20-64 år, tkr)","Genomsnittlig årlig förvärvsersättning bland personer 20–64 år i området, uttryckt i tusentals kronor i löpande priser.
+
+Summan av årlig förvärvsersättning divideras med antalet personer 20–64 år med giltig inkomstuppgift. Beloppen anges i tusentals kronor i löpande priser.
+
+Källa: SCB, LISA, förvärvsersättning (ForvErs).",ibf_socio,,,Genomsnittlig förvärvsersättning,Genomsnittlig förvärvsersättning (20-64 år),,
+mean_dispink_20_64,measure,,"Genomsnittlig disponibel inkomst (20-64 år, tkr)","Genomsnittlig årlig disponibel inkomst bland personer 20–64 år i området, uttryckt i tusentals kronor i löpande priser.
+
+Disponibel inkomst hämtas från Inkomst- och taxeringsregistret. Saknade individuppgifter ersätts med LISA:s disponibla inkomst. Summan divideras med antalet personer 20–64 år med giltig uppgift. Beloppen anges i tusentals kronor i löpande priser.
+
+Källa: SCB, Inkomst- och taxeringsregistret och LISA.",ibf_socio,,,Genomsnittlig disponibel inkomst,Genomsnittlig disponibel inkomst (20-64 år),,
+median_inkomst_real_20_64,measure,,"Median förvärvsersättning (20-64 år, tkr, 2024 års priser)","Medianen för årlig förvärvsersättning bland personer 20–64 år i området, i tusentals kronor i 2024 års priser.
+
+Årlig förvärvsersättning räknas om till tusentals kronor i 2024 års priser. Medianen beräknas bland personer 20–64 år med giltig inkomstuppgift: det mittersta värdet, eller medelvärdet av de två mittersta vid jämnt antal.
+
+Källa: SCB, LISA, förvärvsersättning (ForvErs). Prisjustering: projektets inflationsunderlag.",ibf_socio,,,Median förvärvsersättning,Median förvärvsersättning (20-64 år),,
+median_dispink_real_20_64,measure,,"Median disponibel inkomst (20-64 år, tkr, 2024 års priser)","Medianen för årlig disponibel inkomst bland personer 20–64 år i området, i tusentals kronor i 2024 års priser.
+
+Disponibel inkomst hämtas från Inkomst- och taxeringsregistret. Saknade individuppgifter ersätts med LISA:s disponibla inkomst. Beloppen räknas om till tusentals kronor i 2024 års priser. Medianen beräknas bland personer 20–64 år med giltig uppgift.
+
+Källa: SCB, Inkomst- och taxeringsregistret och LISA. Prisjustering: projektets inflationsunderlag.",ibf_socio,,,Median disponibel inkomst,Median disponibel inkomst (20-64 år),,
+mean_eftergymnasial_25_64,measure,,Eftergymnasial utbildning (25-64 år),"Andel med eftergymnasial utbildning bland personer 25–64 år i området.
+
+Antalet personer 25–64 år med eftergymnasial utbildning, inklusive forskarutbildning, divideras med antalet i samma ålder med känd utbildningsnivå. Historiska utbildningskoder har harmoniserats.
+
+Källa: SCB, LISA, uppgifter om högsta utbildningsnivå.",ibf_socio,,,Eftergymnasial utbildning,Eftergymnasial utbildning (25-64 år),,share
+mean_dod_65_plus,measure,,Dödlighet (65 år eller äldre),"Andel av personer 65 år eller äldre som bodde i området vid slutet av föregående år och som avlider under det redovisade kalenderåret.
+
+Antalet dödsfall under år t bland personer 65 år eller äldre i populationen vid slutet av t−1 divideras med antalet med giltig dödsfallsuppgift i samma riskpopulation. Område och grupp bestäms vid t−1. Måttet är inte åldersstandardiserat.
+
+Källa: SCB, Registret över totalbefolkningen (RTB), samt projektets levererade dödsfallsuppgifter.",ibf_health,,,Dödlighet,Dödlighet (65 år eller äldre),,share
