@@ -19,11 +19,7 @@ name_short,string,,,,,,,,,,
 name_catalog,string,,,,,,,,,,
 format,string,,,,,,,,,,
 color,string,,,,,,,,,,
-antal,measure,,Antal personer,"Antal personer i områdets befolkning.
-
-Personer i den årsvisa folkbokförda befolkningen räknas inom området. Varje person räknas en gång.
-
-Källa: SCB, Registret över totalbefolkningen (RTB); gruppindelning med personuppgifter.",ibf_demo,,,Antal personer,Antal personer,,
+antal,measure,,Antal personer,"Antal personer i områdets befolkning. <br><br> Personer i den årsvisa folkbokförda befolkningen räknas inom området. Varje person räknas en gång. <br><br> Källa: SCB, Registret över totalbefolkningen (RTB).",ibf_demo,,,Antal personer,Antal personer,,
 mean_kvinna,measure,,Kvinnor,"Andel kvinnor i områdets befolkning.
 
 Antalet personer med registrerat kön kvinna divideras med antalet personer med känd könsuppgift.
